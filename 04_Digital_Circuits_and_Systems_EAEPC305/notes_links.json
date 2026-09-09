@@ -1,0 +1,22 @@
+[
+  {
+    "unit": "Unit 1: Number Systems, Boolean Algebra, Logic Gates, Canonical Forms & K-Map Minimization",
+    "drive_link": "https://drive.google.com/drive/folders/1ox2iJ5T6moGePmuF-048GKJzKSEsONmN?usp=sharing"
+  },
+  {
+    "unit": "Unit 2: Combinational Logic Design: Adders, Subtractors, Decoders, Encoders, Multiplexers, De-MUX, Comparators",
+    "drive_link": "https://drive.google.com/drive/folders/1S_RjSvnt-yrqSu4LcVXZw3pfQ2TLwkIJ?usp=sharing"
+  },
+  {
+    "unit": "Unit 3: Sequential Logic: Latches, Flip-Flops (SR, JK, D, T), Master-Slave Operation, Race-around Condition",
+    "drive_link": "https://drive.google.com/drive/folders/1J7GWFMhjJAnb5AWNm0jFJZqz_RVVsYT5?usp=sharing"
+  },
+  {
+    "unit": "Unit 4: Registers, Synchronous & Asynchronous Counters, Finite State Machine (FSM) Design (Mealy & Moore)",
+    "drive_link": "https://drive.google.com/drive/folders/14A61k_fcYX9bB9tAnOLFaGzygPSXsdbH?usp=sharing"
+  },
+  {
+    "unit": "Unit 5: Logic Families (TTL, CMOS), Semiconductor Memories (ROM, RAM, SRAM, DRAM, PLA, PAL, FPGA Intro)",
+    "drive_link": "https://drive.google.com/drive/folders/1zWX7_h4MSv6iN7g0IQnzIbfKjpQ7f8Rp?usp=drive_link"
+  }
+]

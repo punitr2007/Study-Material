@@ -1,0 +1,22 @@
+[
+  {
+    "unit": "Unit 1: Introduction to Signals and Systems, Signal Classification, Transformations",
+    "drive_link": "https://drive.google.com/drive/folders/1DMxnu0Q-sM9A8ORVSoUZS4TJ5mmh45HZ?usp=sharing"
+  },
+  {
+    "unit": "Unit 2: Linear Time-Invariant (LTI) Systems, Convolution Integral & Sum, Impulse Response",
+    "drive_link": "https://drive.google.com/drive/folders/1qrRthY1bCZwGhVc_4MwomG3NPm0cfh8j?usp=sharing"
+  },
+  {
+    "unit": "Unit 3: Continuous & Discrete-Time Fourier Series & Transforms (CTFS, CTFT, DTFS, DTFT)",
+    "drive_link": "https://drive.google.com/drive/folders/1pZTsxoBwUAGcEKHrPJFYYBrzIq1R-XoG?usp=sharing"
+  },
+  {
+    "unit": "Unit 4: Laplace Transform, ROC, Inverse Laplace, System Function H(s), Stability",
+    "drive_link": "https://drive.google.com/drive/folders/1u5J4GEzCKjoU1IFg4ODwdaKeprBsEPjC?usp=sharing"
+  },
+  {
+    "unit": "Unit 5: Z-Transform, ROC Analysis, Inverse Z-Transform, DT System Analysis, Sampling Theorem",
+    "drive_link": "https://drive.google.com/drive/folders/1dzz2INq7vK0BfHwq1g8hSjzvS3w6rTOM?usp=sharing"
+  }
+]

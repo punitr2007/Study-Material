@@ -1,0 +1,22 @@
+[
+  {
+    "unit": "Unit 1: Semiconductor Device Modeling, MOSFET & BJT Characteristics, Biasing Techniques",
+    "drive_link": "https://drive.google.com/drive/folders/1mQl3nJT1VBWk1gt0xZn5S2jZGHCcWLTa?usp=sharing"
+  },
+  {
+    "unit": "Unit 2: Small-Signal Single Stage Amplifiers (CS, CG, CD / CE, CB, CC), Gain & Impedance Calculations",
+    "drive_link": "https://drive.google.com/drive/folders/1C870mqBaG5zNzkH7pxf6pfmp0qjOkAsW?usp=sharing"
+  },
+  {
+    "unit": "Unit 3: Frequency Response of Amplifiers, Miller Effect, High-Frequency Models, Bandwidth Analysis",
+    "drive_link": "https://drive.google.com/drive/folders/1y6jlmBUXSjWCKYJzpOtqAFKPNQ4i88rp?usp=sharing"
+  },
+  {
+    "unit": "Unit 4: Current Mirrors, Active Loads, Differential Amplifiers (CM & DM Analysis, CMRR)",
+    "drive_link": "https://drive.google.com/drive/folders/1QfisVDYsDd_rLp62HKqoKJpLwtRmGMaz?usp=sharing"
+  },
+  {
+    "unit": "Unit 5: Feedback Amplifiers, Stability, Nyquist Criterion, Output Stages & Op-Amp Circuit Architecture",
+    "drive_link": "https://drive.google.com/drive/folders/1-pC9j9-RLThi0yKv1SkOZr_UloHy87BW?usp=sharing"
+  }
+]

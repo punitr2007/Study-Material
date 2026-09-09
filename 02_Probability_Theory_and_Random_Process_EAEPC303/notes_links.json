@@ -1,0 +1,22 @@
+[
+  {
+    "unit": "Unit 1: Probability Foundations, Conditional Probability, Bayes Rule, 1D Random Variables & CDF/PDF",
+    "drive_link": "https://drive.google.com/drive/folders/1-Djw5apcmUNCAO7518XQRIzQFSsxbMDw?usp=drive_link"
+  },
+  {
+    "unit": "Unit 2: Multiple Random Variables, Joint Distributions, Marginal PDFs, Independence, Covariance & Correlation",
+    "drive_link": "https://drive.google.com/drive/folders/1AyQkSWxFuXbpF7OMOgMY8ZGo4KG5KmkS?usp=drive_link"
+  },
+  {
+    "unit": "Unit 3: Expectation, Moments, Characteristic Functions, Central Limit Theorem (CLT), Chebychev Inequality",
+    "drive_link": "https://drive.google.com/drive/folders/1V2s0C0iJn64Y9fSw0fTaE9eAERZTOyEa?usp=drive_link"
+  },
+  {
+    "unit": "Unit 4: Random Processes, Classification (Stationary, Ergodic, WSS), Autocorrelation & Cross-correlation Functions",
+    "drive_link": "https://drive.google.com/drive/folders/1tBwbo_xC2gNqvwTCjEj6RYmrggwBCv7L?usp=drive_link"
+  },
+  {
+    "unit": "Unit 5: Power Spectral Density (PSD), Wiener-Khinchin Theorem, Linear Filtering of Random Processes, White Noise",
+    "drive_link": "https://drive.google.com/drive/folders/1qDGl2Ty_jL8LgvgoeYEJYjcIPTc0jVA6?usp=drive_link"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "unit": "Unit 1: Linear Algebra: Vector Spaces, Subspaces, Linear Independence, Basis, Rank, Projections & Inner Products",
+    "drive_link": "https://drive.google.com/drive/folders/1pe_Rklze_2jYjpJHpyQ4zM-anaUUGIjq?usp=sharing"
+  },
+  {
+    "unit": "Unit 2: Matrix Decompositions: Eigendecomposition, Diagonalization, Singular Value Decomposition (SVD), Matrix Approximations",
+    "drive_link": "https://drive.google.com/drive/folders/1KwkAaCQskQL7463WaXTWccKxq_F7TN7C?usp=sharing"
+  },
+  {
+    "unit": "Unit 3: Vector & Matrix Calculus: Gradients, Directional Derivatives, Jacobian, Hessian, Chain Rule, Backpropagation Theory",
+    "drive_link": "https://drive.google.com/drive/folders/1SolYoJNU6WVaUcselahHdfLLm5rggeA1?usp=sharing"
+  },
+  {
+    "unit": "Unit 4: Continuous Optimization: Gradient Descent, Stochastic GD, Momentum, Newton-Raphson, Convex Optimization, KKT Conditions",
+    "drive_link": "https://drive.google.com/drive/folders/1oLXD8yD9if3DoBW1lLW5fUIPYN1EwbZC?usp=sharing"
+  },
+  {
+    "unit": "Unit 5: Dimensionality Reduction & Probabilistic Modeling: Principal Component Analysis (PCA), MLE, MAP & Density Estimation",
+    "drive_link": "https://drive.google.com/drive/folders/1NSvdjE3KdrtxXR5-AGdTw_u2Q2ro0dQv?usp=sharing"
+  }
+]

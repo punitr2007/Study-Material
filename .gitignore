@@ -1,0 +1,16 @@
+# Python virtual environments & bytecode
+.venv/
+.myenv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OCR model data
+tessdata/
+*.png
+*.tmp
+
+# OS & Editor
+.DS_Store
+.vscode/
+.idea/
