@@ -438,6 +438,7 @@ def main():
         try:
             subprocess.run([sys.executable, str(BASE_DIR / "sort_pyqs_by_semester.py")], check=True)
             subprocess.run([sys.executable, str(BASE_DIR / "generate_readmes.py")], check=True)
+            subprocess.run([sys.executable, str(BASE_DIR / "generate_catalog.py")], check=True)
         except Exception as e:
             print(f"[!] Warning during post-sync indexing: {e}")
 

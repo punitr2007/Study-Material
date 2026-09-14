@@ -131,10 +131,11 @@ main() {
 
     if [[ "$1" == "--index-only" ]]; then
         show_banner
-        echo -e "${BLUE}[*] Re-generating Subject READMEs & Master Index...${NC}"
+        echo -e "${BLUE}[*] Re-generating Subject READMEs, Master Index & Web Catalog...${NC}"
         "$PYTHON_EXEC" "$SCRIPT_DIR/sort_pyqs_by_semester.py"
         "$PYTHON_EXEC" "$SCRIPT_DIR/generate_readmes.py"
-        echo -e "${GREEN}[✓] Documentation index rebuilt successfully!${NC}"
+        "$PYTHON_EXEC" "$SCRIPT_DIR/generate_catalog.py"
+        echo -e "${GREEN}[✓] Documentation index & Web catalog rebuilt successfully!${NC}"
         if [ "$no_push" = false ]; then
             git_push_changes
         fi

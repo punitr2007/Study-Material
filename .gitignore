@@ -15,6 +15,10 @@ ocr_slice_tmp*
 # OCR model data
 tessdata/
 
+# Node dependencies & web build artifacts
+web/node_modules/
+web/dist/
+
 # OS & Editor
 .DS_Store
 .vscode/
