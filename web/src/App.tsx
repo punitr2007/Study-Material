@@ -8,6 +8,7 @@ import { DocumentCard } from './components/DocumentCard';
 import { PdfViewerModal } from './components/PdfViewerModal';
 import { EmptyState } from './components/EmptyState';
 import { Search, X, Loader2 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 export function App() {
   const [catalog, setCatalog] = useState<CatalogData | null>(null);
@@ -261,6 +262,7 @@ export function App() {
           </p>
         </footer>
       </div>
+      <Analytics />
     </>
   );
 }
