@@ -79,11 +79,11 @@ def classify_paper(filename, text):
     # 1. Exam Type Detection
     exam_type = "End_Semester" # default
 
-    if any(k in combined for k in ["MID SEM", "MID-SEM", "MIDTERM", "MID TERM", "MID-TERM", "MIDSEMESTER", "MINOR EXAM", "TEST-I", "TEST-II"]):
+    if any(k in combined for k in ["MID SEM", "MID-SEM", "MID_SEM", "MIDSEM", "MSE", "MIDTERM", "MID TERM", "MID-TERM", "MIDSEMESTER", "MINOR EXAM", "TEST-I", "TEST-II"]):
         exam_type = "Mid_Semester"
     elif any(k in combined for k in ["SUMMER", "SUPPLEMENTARY", "SPECIAL"]):
         exam_type = "Summer_Semester"
-    elif any(k in combined for k in ["END SEM", "END-SEM", "ENDTERM", "END TERM", "END-TERM", "ENDSEMESTER", "MAJOR EXAM", "ANNUAL"]):
+    elif any(k in combined for k in ["END SEM", "END-SEM", "END_SEM", "ENDSEM", "ESE", "ENDTERM", "END TERM", "END-TERM", "ENDSEMESTER", "MAJOR EXAM", "ANNUAL"]):
         exam_type = "End_Semester"
     else:
         # Check marks or duration clues

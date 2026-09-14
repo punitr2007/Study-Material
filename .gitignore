@@ -5,10 +5,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# OCR model data
-tessdata/
+# Temporary sync caches & OCR temp files
+.bundle_cache/
+ocr_tmp*
+ocr_slice_tmp*
 *.png
 *.tmp
+
+# OCR model data
+tessdata/
 
 # OS & Editor
 .DS_Store

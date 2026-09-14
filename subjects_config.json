@@ -1,0 +1,144 @@
+{
+  "drive_sources": {
+    "individual_pyqs_folder": {
+      "folder_id": "16Zbjd822kq96vjIAKmoQr2xxGih0XoyE",
+      "name": "NSUT Question Papers Repository (Single Subjects)"
+    },
+    "merged_pyqs_folder": {
+      "folder_id": "1DIM8iOiTn7B2HRmvaJ_SLJPwcBVFAXAO",
+      "name": "NSUT Whole-Semester Merged Examination Bundles"
+    }
+  },
+  "subjects": {
+    "01_Signals_and_Systems_EAEPC302": {
+      "name": "Signals and Systems",
+      "primary_code": "EAEPC302",
+      "code_aliases": [
+        "EAEPC302",
+        "EAEPC05",
+        "ECECC302",
+        "ECECC05",
+        "EEEEC03",
+        "CGECC302",
+        "VTECC302",
+        "EIECC05",
+        "EIECE302",
+        "EC205"
+      ],
+      "title_keywords": [
+        "SIGNALS AND SYSTEMS",
+        "SIGNALS & SYSTEMS",
+        "SIGNAL AND SYSTEM",
+        "CONTINUOUS AND DISCRETE TIME SIGNALS"
+      ],
+      "excluded_keywords": [
+        "Digital_Signal_Processing",
+        "DIGITAL SIGNAL PROCESSING",
+        "DSP",
+        "Image Processing"
+      ]
+    },
+    "02_Probability_Theory_and_Random_Process_EAEPC303": {
+      "name": "Probability Theory and Random Process",
+      "primary_code": "EAEPC303",
+      "code_aliases": [
+        "EAEPC303",
+        "ECECC303",
+        "ECECC06",
+        "EIECC303",
+        "EIECC06",
+        "EC207",
+        "VTECC303",
+        "EAPTRP"
+      ],
+      "title_keywords": [
+        "PROBABILITY THEORY",
+        "RANDOM PROCESS",
+        "PROBABILITY AND RANDOM PROCESSES",
+        "PROBABILITY, RANDOM PROCESSES",
+        "STOCHASTIC PROCESSES",
+        "PTRP"
+      ],
+      "excluded_keywords": []
+    },
+    "03_Microelectronics_Circuits_and_Applications_EAEPC304": {
+      "name": "Microelectronics Circuits and Applications",
+      "primary_code": "EAEPC304",
+      "code_aliases": [
+        "EAEPC304",
+        "ECECC304",
+        "ECECC07",
+        "EIECC304",
+        "EIECC07",
+        "EC201",
+        "EC203",
+        "VTECC304",
+        "MCA"
+      ],
+      "title_keywords": [
+        "MICROELECTRONICS CIRCUITS",
+        "MICROELECTRONIC CIRCUITS",
+        "MICROELECTRONICS",
+        "ANALOG ELECTRONICS",
+        "ANALOG INTEGRATED CIRCUITS",
+        "SOLID STATE DEVICES"
+      ],
+      "excluded_keywords": [
+        "MICROPROCESSOR",
+        "MICROCONTROLLER"
+      ]
+    },
+    "04_Digital_Circuits_and_Systems_EAEPC305": {
+      "name": "Digital Circuits and Systems",
+      "primary_code": "EAEPC305",
+      "code_aliases": [
+        "EAEPC305",
+        "ECECC305",
+        "ECECC08",
+        "EIECC305",
+        "EIECC08",
+        "EC202",
+        "EC204",
+        "VTECC305",
+        "DCS"
+      ],
+      "title_keywords": [
+        "DIGITAL CIRCUITS",
+        "DIGITAL CIRCUITS AND SYSTEMS",
+        "DIGITAL ELECTRONICS",
+        "DIGITAL LOGIC DESIGN",
+        "SWITCHING THEORY AND LOGIC DESIGN"
+      ],
+      "excluded_keywords": [
+        "Digital_Signal_Processing",
+        "Digital_Forensics",
+        "Digital-Image-Processing",
+        "Digital-Communication",
+        "DIGITAL COMMUNICATION",
+        "DIGITAL IMAGE PROCESSING"
+      ]
+    },
+    "05_Mathematics_For_Machine_Learning_EPMTC301": {
+      "name": "Mathematics for Machine Learning",
+      "primary_code": "EPMTC301",
+      "code_aliases": [
+        "EPMTC301",
+        "MAC301",
+        "MML301",
+        "MA301",
+        "EAMTC301",
+        "ECCPC301",
+        "EIMTC301",
+        "MML"
+      ],
+      "title_keywords": [
+        "MATHEMATICS FOR MACHINE LEARNING",
+        "MATHEMATICS FOR ML",
+        "LINEAR ALGEBRA AND OPTIMIZATION",
+        "OPTIMIZATION TECHNIQUES",
+        "APPLIED MATHEMATICS FOR ML"
+      ],
+      "excluded_keywords": []
+    }
+  }
+}
