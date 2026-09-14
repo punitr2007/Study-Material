@@ -1,0 +1,56 @@
+name: Daily Academic Drive Sync & Auto-Archive
+
+on:
+  schedule:
+    # Runs at 00:00 UTC (05:30 AM IST) daily
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System Dependencies (Tesseract & Poppler)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-eng poppler-utils qpdf
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Incremental Google Drive Sync & OCR Slicer
+        run: |
+          python sync_drive_pyqs.py
+
+      - name: Re-classify and Re-generate Indexes
+        run: |
+          python sort_pyqs_by_semester.py
+          python generate_readmes.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No new documents or changes detected."
+          else
+            git commit -m "chore(sync): automated daily academic drive sync [skip ci]"
+            git push origin main
+          fi

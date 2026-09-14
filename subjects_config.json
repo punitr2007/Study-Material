@@ -1,4 +1,8 @@
 {
+  "settings": {
+    "auto_git_push": true,
+    "git_branch": "main"
+  },
   "drive_sources": {
     "individual_pyqs_folder": {
       "folder_id": "16Zbjd822kq96vjIAKmoQr2xxGih0XoyE",
