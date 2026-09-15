@@ -5,7 +5,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 ## Table of Contents
 
 - [Assignments and Tutorials](#assignments-and-tutorials)
-- [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
 
 ---
@@ -15,30 +14,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [Linear_algebra_schaum_outlines_problemsheet2_ques.pdf](Assignments_and_Tutorials/Linear_algebra_schaum_outlines_problemsheet2_ques.pdf) | `PDF` | 343.9 KB |
-
----
-
-## downloaded notes
-
-### Unit 1
-
-_No files currently._
-
-### Unit 2
-
-_No files currently._
-
-### Unit 3
-
-_No files currently._
-
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
 
 ---
 

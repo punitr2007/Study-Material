@@ -95,14 +95,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [Copy of 15 Flip Flop.pdf](downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf) | `PDF` | 5.63 MB |
 
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
-
 ---
 
 ## downloaded pyqs
