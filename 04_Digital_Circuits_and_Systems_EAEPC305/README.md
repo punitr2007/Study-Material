@@ -111,9 +111,7 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
-| [2025_End_Semester_DIGITALCIRCUITS_Pages_15_15.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_DIGITALCIRCUITS_Pages_15_15.pdf) | `PDF` | 290.3 KB |
-| [2025_End_Semester_DIGITALLOGICDESIGN_Pages_104_104.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_DIGITALLOGICDESIGN_Pages_104_104.pdf) | `PDF` | 624.6 KB |
-| [2025_End_Semester_DIGITALLOGICDESIGN_Pages_99_99.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_DIGITALLOGICDESIGN_Pages_99_99.pdf) | `PDF` | 595.2 KB |
+| [2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 290.3 KB |
 | [DCS Endsem 2025 (Nov-Dec).jpeg](downloaded_pyqs/End_Semester/DCS%20Endsem%202025%20%28Nov-Dec%29.jpeg) | `JPEG` | 430.0 KB |
 | [EAEPC305_2024.pdf](downloaded_pyqs/End_Semester/EAEPC305_2024.pdf) | `PDF` | 281.5 KB |
 | [ECECC08-EIECC08-ICECC08.pdf](downloaded_pyqs/End_Semester/ECECC08-EIECC08-ICECC08.pdf) | `PDF` | 286.9 KB |
@@ -132,11 +130,8 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
-| [2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf) | `PDF` | 368.2 KB |
-| [2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_72_72.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_72_72.pdf) | `PDF` | 448.2 KB |
-| [2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_74_74.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_74_74.pdf) | `PDF` | 470.9 KB |
-| [2025_Mid_Semester_EAEPC305_Pages_15_15.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Pages_15_15.pdf) | `PDF` | 426.3 KB |
-| [2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf) | `PDF` | 976.6 KB |
+| [2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf) | `PDF` | 368.2 KB |
+| [2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 426.3 KB |
 | [DCS Midsem 2025 (sept).jpeg](downloaded_pyqs/Mid_Semester/DCS%20Midsem%202025%20%28sept%29.jpeg) | `JPEG` | 170.7 KB |
 | [DCS midsem (2020,2021,2022,2023).pdf](downloaded_pyqs/Mid_Semester/DCS%20midsem%20%282020%2C2021%2C2022%2C2023%29.pdf) | `PDF` | 2.31 MB |
 | [ECECC08_EIECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf) | `PDF` | 18.4 KB |

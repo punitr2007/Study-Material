@@ -48,7 +48,7 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
-| [2025_End_Semester_EPMTC301_Pages_18_18.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Pages_18_18.pdf) | `PDF` | 325.8 KB |
+| [2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 325.8 KB |
 | [ECMTC301.pdf](downloaded_pyqs/End_Semester/ECMTC301.pdf) | `PDF` | 86.8 KB |
 | [ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf) | `PDF` | 108.2 KB |
 | [ITMTC301_INMTC301_EIMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301_INMTC301_EIMTC301.pdf) | `PDF` | 104.5 KB |
@@ -57,8 +57,8 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
-| [2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf) | `PDF` | 448.3 KB |
-| [2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf) | `PDF` | 894.7 KB |
+| [2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf) | `PDF` | 894.7 KB |
+| [2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 448.2 KB |
 | [EAMTC04_2023.pdf](downloaded_pyqs/Mid_Semester/EAMTC04_2023.pdf) | `PDF` | 19.0 KB |
 | [EAMTC04_2024.pdf](downloaded_pyqs/Mid_Semester/EAMTC04_2024.pdf) | `PDF` | 26.3 KB |
 | [ECMTC301_2024.pdf](downloaded_pyqs/Mid_Semester/ECMTC301_2024.pdf) | `PDF` | 26.6 KB |
