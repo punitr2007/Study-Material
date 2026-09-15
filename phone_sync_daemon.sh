@@ -14,8 +14,10 @@ WORKSPACE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$WORKSPACE_DIR"
 
 LOG_FILE="$WORKSPACE_DIR/.automation_worker.log"
-mkdir -p /tmp
-LOCK_FILE="/tmp/study_material_sync.lock"
+TMP_DIR="${TMPDIR:-${PREFIX:-/tmp}/tmp}"
+mkdir -p "$TMP_DIR" 2>/dev/null || TMP_DIR="$WORKSPACE_DIR/.tmp"
+mkdir -p "$TMP_DIR"
+LOCK_FILE="$TMP_DIR/study_material_sync.lock"
 
 log() {
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
