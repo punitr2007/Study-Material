@@ -133,26 +133,40 @@
       "primary_code": "EPMTC301",
       "code_aliases": [
         "EPMTC301",
+        "EAMTC301",
+        "EAMTC04",
+        "ECMTC301",
+        "ECMTC04",
+        "CMMTC13",
+        "CMMTC303",
+        "CMMTC04",
+        "ITMTC301",
+        "ITMTC04",
+        "EIMTC301",
+        "EIMTC04",
+        "INMTC301",
+        "INMTC04",
+        "ICMTC301",
+        "ICMTC04",
+        "EEMTC301",
+        "EEMTC04",
+        "CMMTC301",
         "MAC301",
         "MML301",
         "MA301",
-        "EAMTC301",
-        "ECCPC301",
-        "EIMTC301",
         "MML"
       ],
       "title_keywords": [
         "MATHEMATICS FOR MACHINE LEARNING",
         "MATHEMATICS FOR ML",
         "LINEAR ALGEBRA AND OPTIMIZATION",
-        "APPLIED MATHEMATICS FOR ML"
+        "APPLIED LINEAR ALGEBRA",
+        "APPLIED MATHEMATICS FOR ML",
+        "MATHEMATICS FOR COMMUNICATION",
+        "MATHEMATICS FOR SIGNAL PROCESSING",
+        "OPTIMIZATION PRINCIPLES"
       ],
-      "excluded_keywords": [
-        "OPTIMIZATION TECHNIQUES",
-        "Optimization Techniques",
-        "Mathematics for Communication",
-        "Mathematics-for-Communication"
-      ]
+      "excluded_keywords": []
     }
   }
 }
