@@ -1,0 +1,955 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-15",
+    "curator": "Antigravity Academic Engine",
+    "historical_data_span": "2021-2026 (Past 5 Years)",
+    "total_subjects": 5
+  },
+  "subjects": {
+    "01_Signals_and_Systems_EAEPC302": {
+      "subject_id": "01_Signals_and_Systems_EAEPC302",
+      "primary_code": "EAEPC302",
+      "aliased_codes": [
+        "EAEPC302",
+        "ECECC302",
+        "EAEPC05",
+        "ECECC05",
+        "EIECC302",
+        "VTECC302",
+        "EEEEC03",
+        "CGECC302"
+      ],
+      "name": "Signals and Systems",
+      "structure": "3-1-0",
+      "credits": 4,
+      "course_outcomes": [
+        "CO1: To understand the concept of signals and systems and their classifications.",
+        "CO2: To understand the concept of convolution and its applications.",
+        "CO3: To analyze the spectral characteristics of continuous-time and discrete-time periodic and aperiodic signals using Fourier analysis.",
+        "CO4: To analyze continuous-time LTI systems in the time domain and s-domain.",
+        "CO5: To analyze discrete-time LTI systems in the time domain and z-domain."
+      ],
+      "textbooks": [
+        "Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab, 'Signals and Systems', Prentice Hall India, 2nd Edition.",
+        "Simon Haykin and Barry Van Veen, 'Signals and Systems', John Wiley & Sons, 2nd Edition.",
+        "Tarun Kumar Rawat, 'Signals and Systems', Oxford University Press, 1st Edition."
+      ],
+      "units": [
+        {
+          "unit_num": 1,
+          "title": "Signal & System Fundamentals",
+          "topics": [
+            "Concept definition & classification of signals (Continuous-time and Discrete-time)",
+            "Standard signals (Unit Step, Ramp, Rectangular Pulse, Impulse, Real and Complex Exponentials, Sinusoids)",
+            "Properties of unit impulse in continuous and discrete domain (Sifting property, Scaling property)",
+            "Concept of orthogonality of signals",
+            "Transformation of independent variables (Time shifting, Time scaling, Time reversal)",
+            "Classification of systems & properties (Linearity, Time-Invariance, Causality, Stability, Memory/Memoryless, Invertibility)",
+            "Waveform synthesis"
+          ]
+        },
+        {
+          "unit_num": 2,
+          "title": "LTI Systems & Convolution",
+          "topics": [
+            "Continuous-time Convolution integral and its algebraic properties",
+            "Properties of Linear Time-Invariant (LTI) Systems",
+            "Impulse response h(t) and Step response s(t)",
+            "Discrete-time Convolution sum and its properties",
+            "Graphical method of convolution for continuous and discrete signals",
+            "Interconnections of LTI systems (Cascade, Parallel)"
+          ]
+        },
+        {
+          "unit_num": 3,
+          "title": "Fourier Analysis (CTFS, DTFS, CTFT, DTFT)",
+          "topics": [
+            "Continuous-Time Fourier Series (CTFS) representation of periodic signals and properties",
+            "Discrete-Time Fourier Series (DTFS) and its properties",
+            "Magnitude and Phase spectrum of periodic signals",
+            "Continuous-Time Fourier Transform (CTFT) and its properties (Duality, Time shifting, Frequency shifting, Parseval's relation)",
+            "Discrete-Time Fourier Transform (DTFT) and its properties",
+            "Magnitude and Phase representations of frequency response H(j\u03c9) of LTI systems",
+            "Introduction to Low-Pass (LP), Band-Pass (BP), High-Pass (HP), and All-Pass systems",
+            "Sampling Theorem and relationship between discrete-time signals and sampled continuous-time signals"
+          ]
+        },
+        {
+          "unit_num": 4,
+          "title": "Laplace Transform & Continuous LTI Systems",
+          "topics": [
+            "Laplace Transform definition and Region of Convergence (ROC) properties",
+            "Inverse Laplace Transform (Partial Fraction Expansion method)",
+            "Unilateral Laplace Transform and its algebraic/calculus properties",
+            "Computation of impulse response, transfer function H(s), and differential equation solutions",
+            "Total system response (Zero-State Response ZSR and Zero-Input Response ZIR)",
+            "Stability and causality analysis of continuous-time LTI systems using pole-zero plots"
+          ]
+        },
+        {
+          "unit_num": 5,
+          "title": "Z-Transform & Discrete LTI Systems",
+          "topics": [
+            "Z-Transform definition, Region of Convergence (ROC) and its properties",
+            "Inverse Z-Transform (Power series expansion, Partial fraction expansion, Contour integration)",
+            "Relationships between Z-Transform, Fourier Transform, and Laplace Transform",
+            "Stability and causality analysis of discrete-time LTI systems based on unit circle pole locations",
+            "Unilateral Z-Transform and difference equation solutions",
+            "Computation of discrete impulse response, transfer function H(z), Zero-State & Zero-Input responses"
+          ]
+        }
+      ],
+      "unit_weightage_midsem": {
+        "Unit 1": 45,
+        "Unit 2": 45,
+        "Unit 3": 10,
+        "Unit 4": 0,
+        "Unit 5": 0
+      },
+      "unit_weightage_endsem": {
+        "Unit 1": 15,
+        "Unit 2": 20,
+        "Unit 3": 25,
+        "Unit 4": 20,
+        "Unit 5": 20
+      },
+      "topic_metrics": [
+        {
+          "unit": 1,
+          "topic": "Properties of Systems (Linearity, Time-Invariance, Causality, Stability, Memory)",
+          "recurrence_rate": 96,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 6.5,
+          "exam_frequency_trend": "In Every Mid-Sem & End-Sem",
+          "core_concepts": [
+            "Linearity testing via superposition",
+            "Time-invariance shifting check",
+            "Causality (t vs t0)",
+            "BIBO stability"
+          ]
+        },
+        {
+          "unit": 1,
+          "topic": "Transformation of Independent Variables & Signal Operations (Shifting, Scaling, Inversion)",
+          "recurrence_rate": 88,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 5.0,
+          "exam_frequency_trend": "Frequent Mid-Sem & End-Sem",
+          "core_concepts": [
+            "x(at + b) sketching",
+            "Even and Odd signal decomposition",
+            "Sifting property of unit impulse \u03b4(t)"
+          ]
+        },
+        {
+          "unit": 2,
+          "topic": "Continuous & Discrete Convolution (Analytical & Graphical Method)",
+          "recurrence_rate": 94,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 8.0,
+          "exam_frequency_trend": "Guaranteed 8-10 marks in End-Sem / 5-8 marks in Mid-Sem",
+          "core_concepts": [
+            "Graphical convolution steps",
+            "y[n] = x[n] * h[n] convolution sum",
+            "Cascade system impulse response h1(t) * h2(t)"
+          ]
+        },
+        {
+          "unit": 3,
+          "topic": "Fourier Transform (CTFT & DTFT) Properties & Frequency Response H(j\u03c9)",
+          "recurrence_rate": 86,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 9.5,
+          "exam_frequency_trend": "Major End-Sem Weightage",
+          "core_concepts": [
+            "Duality & Frequency shift properties",
+            "Parseval's energy theorem",
+            "Magnitude/Phase response of LTI filters",
+            "Sampling Theorem"
+          ]
+        },
+        {
+          "unit": 4,
+          "topic": "Laplace Transform: Region of Convergence (ROC) & System Transfer Function H(s)",
+          "recurrence_rate": 92,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 10.0,
+          "exam_frequency_trend": "Guaranteed End-Sem Question",
+          "core_concepts": [
+            "ROC properties for right-sided/left-sided/two-sided signals",
+            "Pole-zero stability criterion (poles in LH s-plane)",
+            "Total response = ZSR + ZIR"
+          ]
+        },
+        {
+          "unit": 5,
+          "topic": "Z-Transform: Inverse Z-Transform & Difference Equation Solution",
+          "recurrence_rate": 90,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 10.0,
+          "exam_frequency_trend": "Guaranteed End-Sem Question",
+          "core_concepts": [
+            "Partial fraction expansion for Inverse ZT",
+            "Unit circle pole stability analysis",
+            "Transfer function H(z) from difference equation"
+          ]
+        }
+      ],
+      "exam_strategy": {
+        "midsem_focus": "Master system property proofs (Linear, Time-Invariant, Causal, Stable) and Graphical Convolution. Ensure high speed on unit impulse sifting integrals.",
+        "endsem_focus": "Unit 4 (Laplace) and Unit 5 (Z-Transform) together constitute 40% of marks. Practice partial fractions and ROC deduction thoroughly."
+      }
+    },
+    "02_Probability_Theory_and_Random_Process_EAEPC303": {
+      "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
+      "primary_code": "EAEPC303",
+      "aliased_codes": [
+        "EAEPC303",
+        "ECECC303",
+        "EAEPC06",
+        "ECECC06",
+        "VTECC303"
+      ],
+      "name": "Probability Theory and Random Process",
+      "structure": "3-1-0",
+      "credits": 4,
+      "course_outcomes": [
+        "CO1: To understand probability theory and random variables for the analysis of random phenomena.",
+        "CO2: To characterize probability models and functions of random variables based on single & multiple random variables.",
+        "CO3: To evaluate and apply moments & characteristic functions and understand the concept of inequalities.",
+        "CO4: To understand the concept of random processes and determine covariance and spectral density of stationary random processes.",
+        "CO5: To understand representation of low pass and band pass noise models."
+      ],
+      "textbooks": [
+        "H. Stark and J. W. Woods, 'Probability and Random Processes with Applications to Signal Processing', 3rd Edition, Prentice Hall.",
+        "Athanasios Papoulis and S. Unnikrishna Pillai, 'Probability, Random Variables and Stochastic Processes', 4th Edition, McGraw-Hill.",
+        "P. Z. Peebles, 'Probability, Random Variables and Random Signals', 4th Edition, TMH."
+      ],
+      "units": [
+        {
+          "unit_num": 1,
+          "title": "Single Random Variables & Distributions",
+          "topics": [
+            "Probability axioms, Conditional probability, Bayes' Theorem, Total Probability Rule",
+            "Cumulative Distribution Function (CDF) and Probability Density Function (PDF) properties",
+            "Discrete, Continuous, and Mixed Random Variables",
+            "Standard Distributions: Uniform, Exponential, Normal (Gaussian), Rayleigh, Nakagami-m, Chi-Square",
+            "Discrete Distributions: Bernoulli, Binomial, Geometric, Poisson distribution",
+            "Mathematical Expectation, Variance, Standard Deviation, Raw and Central Moments",
+            "Moment Generating Function (MGF) and Characteristic Functions"
+          ]
+        },
+        {
+          "unit_num": 2,
+          "title": "Joint Random Variables & Random Vectors",
+          "topics": [
+            "Bivariate & Joint CDF and Joint PDF",
+            "Marginal and Conditional distributions and Conditional Expectation",
+            "Statistical Independence, Uncorrelatedness, and Orthogonality of Random Variables",
+            "Covariance matrix, Correlation coefficient \u03c1, Cross-Moments",
+            "Joint Characteristic Functions and Joint MGF",
+            "Multidimensional Gaussian Law (Multivariate Normal Distribution, Covariance Matrix properties)"
+          ]
+        },
+        {
+          "unit_num": 3,
+          "title": "Functions of Random Variables & Inequalities",
+          "topics": [
+            "Transformations of Single Random Variable Y = g(X)",
+            "Transformations of Joint Random Variables Z = g(X,Y), W = h(X,Y) and Jacobian determinant method",
+            "Sum of independent random variables and Convolution of PDFs",
+            "Chebyshev Inequality and Markov Inequality",
+            "Cauchy-Schwarz Inequality and Chernoff Bounds",
+            "Central Limit Theorem (CLT) and Laws of Large Numbers (Weak & Strong)"
+          ]
+        },
+        {
+          "unit_num": 4,
+          "title": "Random Processes & Stationarity",
+          "topics": [
+            "Definition and Classification of Random (Stochastic) Processes",
+            "First-order and Second-order stationary processes",
+            "Wide-Sense Stationary (WSS) and Strict-Sense Stationary (SSS) processes",
+            "Time averages, Ensemble averages, and Ergodicity (Mean Ergodic and Correlation Ergodic processes)",
+            "Autocorrelation Function R_XX(\u03c4) and its properties (Even symmetry, Maximum at zero lag, Periodic components)",
+            "Cross-Correlation Function R_XY(\u03c4) and its properties",
+            "Autocovariance and Cross-Covariance functions",
+            "Discrete-time random processes and Markov chains"
+          ]
+        },
+        {
+          "unit_num": 5,
+          "title": "Spectral Density & LTI Systems with Random Inputs",
+          "topics": [
+            "Power Spectral Density (PSD) S_XX(\u03c9) and its physical interpretation/properties",
+            "Wiener-Khinchine Theorem (Fourier Transform relationship between R_XX(\u03c4) and S_XX(\u03c9))",
+            "Cross Power Spectral Density S_XY(\u03c9)",
+            "Transmission of Random Processes through Linear Time-Invariant (LTI) Systems",
+            "Output autocorrelation R_YY(\u03c4) and output PSD S_YY(\u03c9) = |H(\u03c9)|\u00b2 S_XX(\u03c9)",
+            "White Noise process, Thermal noise, and Band-limited White Noise",
+            "Gaussian Random Processes and Narrowband Noise representation"
+          ]
+        }
+      ],
+      "unit_weightage_midsem": {
+        "Unit 1": 50,
+        "Unit 2": 35,
+        "Unit 3": 15,
+        "Unit 4": 0,
+        "Unit 5": 0
+      },
+      "unit_weightage_endsem": {
+        "Unit 1": 15,
+        "Unit 2": 15,
+        "Unit 3": 15,
+        "Unit 4": 30,
+        "Unit 5": 25
+      },
+      "topic_metrics": [
+        {
+          "unit": 1,
+          "topic": "Standard Continuous & Discrete Distributions (Gaussian, Exponential, Rayleigh, Poisson, Binomial)",
+          "recurrence_rate": 92,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 7.0,
+          "exam_frequency_trend": "Universal across all semesters",
+          "core_concepts": [
+            "PDF & CDF integration",
+            "Mean & Variance derivation using MGF",
+            "Memoryless property of Exponential distribution"
+          ]
+        },
+        {
+          "unit": 2,
+          "topic": "Joint Random Variables, Marginal PDFs & Independence Criteria",
+          "recurrence_rate": 88,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 8.0,
+          "exam_frequency_trend": "Core Mid-Sem & End-Sem topic",
+          "core_concepts": [
+            "Double integral over triangular/rectangular regions",
+            "Covariance Cov(X,Y) and correlation coefficient \u03c1",
+            "Conditional expectation E[Y|X]"
+          ]
+        },
+        {
+          "unit": 3,
+          "topic": "Transformations of Random Variables (Jacobian Method) & Inequalities",
+          "recurrence_rate": 82,
+          "yield_category": "HIGH",
+          "avg_marks_per_exam": 6.5,
+          "exam_frequency_trend": "Frequent 6-8 mark question",
+          "core_concepts": [
+            "Bivariate transformation Z=g(X,Y) via Jacobian determinant",
+            "Chebyshev & Markov inequality bounds",
+            "Central Limit Theorem"
+          ]
+        },
+        {
+          "unit": 4,
+          "topic": "Wide-Sense Stationarity (WSS), Ergodicity & Autocorrelation R_XX(\u03c4) Properties",
+          "recurrence_rate": 96,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 12.0,
+          "exam_frequency_trend": "Highest yield in End-Sem",
+          "core_concepts": [
+            "Proof of WSS: Constant mean and R_XX(t1,t2) = R_XX(t1-t2)",
+            "R_XX(0) = Average Power",
+            "Even symmetry R_XX(\u03c4) = R_XX(-\u03c4)",
+            "Cross-correlation R_XY(\u03c4)"
+          ]
+        },
+        {
+          "unit": 5,
+          "topic": "Power Spectral Density (PSD), Wiener-Khinchine Theorem & LTI Transmission of Noise",
+          "recurrence_rate": 94,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 12.0,
+          "exam_frequency_trend": "Essential End-Sem Long Question",
+          "core_concepts": [
+            "Wiener-Khinchine FT pair R_XX(\u03c4) \u2194 S_XX(\u03c9)",
+            "Output PSD S_YY(\u03c9) = |H(\u03c9)|\u00b2 S_XX(\u03c9)",
+            "White Noise filtering through RC/ideal low-pass filters"
+          ]
+        }
+      ],
+      "exam_strategy": {
+        "midsem_focus": "Master joint PDF boundary limits and conditional expectation integrals. Practice normalization constants finding for 2D PDFs.",
+        "endsem_focus": "Unit 4 (Stationarity & Autocorrelation) and Unit 5 (PSD & Wiener-Khinchine) form >50% of the entire paper. Learn LTI random response derivations."
+      }
+    },
+    "03_Microelectronics_Circuits_and_Applications_EAEPC304": {
+      "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
+      "primary_code": "EAEPC304",
+      "aliased_codes": [
+        "EAEPC304",
+        "ECECC304",
+        "ECECC07",
+        "EIECC304",
+        "VTECC304"
+      ],
+      "name": "Microelectronics Circuits and Applications",
+      "structure": "3-0-2",
+      "credits": 4,
+      "course_outcomes": [
+        "CO1: Describe the small signal high frequency models of BJT and MOS transistors and use them in the frequency analysis of single-stage amplifiers.",
+        "CO2: Analyze differential and multi-stage amplifiers involving BJTs and MOSFETs.",
+        "CO3: Understand and describe linear and nonlinear applications of op-amps and OTAs including filters and linear impedances.",
+        "CO4: Elaborate the importance of negative feedback amplifier topologies and positive feedback in sinusoidal oscillators.",
+        "CO5: Understand and describe power amplifiers and their realization involving power BJTs and power MOSFETs."
+      ],
+      "textbooks": [
+        "Adel S. Sedra and Kenneth C. Smith, 'Microelectronic Circuits', Oxford University Press, 7th/8th Edition.",
+        "Paul R. Gray, Paul J. Hurst, Stephen H. Lewis, Robert G. Meyer, 'Analysis and Design of Analog Integrated Circuits', 5th Edition, Wiley.",
+        "Behzad Razavi, 'Design of Analog CMOS Integrated Circuits', McGraw-Hill."
+      ],
+      "units": [
+        {
+          "unit_num": 1,
+          "title": "Transistor Models & Frequency Response",
+          "topics": [
+            "Review of Large-signal (DC) and Small-signal (AC) \u03c0-models and T-models for BJTs and MOSFETs",
+            "High-frequency hybrid-\u03c0 models of BJT (C_\u03c0, C_\u03bc, r_x, f_T) and MOSFET (C_gs, C_gd, f_T)",
+            "Biasing techniques in integrated circuit (IC) amplifiers: Simple current mirror, Wilson current mirror, Widlar current source",
+            "High-frequency response of Common-Source (CS) and Common-Emitter (CE) amplifiers (Miller effect, dominant pole)",
+            "High-frequency response of Common-Gate (CG) and Common-Base (CB) amplifiers with active loads",
+            "CS and CE amplifiers with source/emitter degeneration resistance",
+            "Source follower (CD) and Emitter follower (CC) frequency response",
+            "Low-frequency response of CE, CB, CC, CS, CG, CD amplifiers due to coupling/bypass capacitors"
+          ]
+        },
+        {
+          "unit_num": 2,
+          "title": "Multi-Stage & Differential Amplifiers",
+          "topics": [
+            "Multi-stage amplifier configurations using MOSFETs and BJTs, Interstage coupling",
+            "Cascode amplifier topology (CS-CG, CE-CB), Output resistance boost, Gain-bandwidth product",
+            "Darlington pair configuration and CC-CE cascade",
+            "MOS Differential Pair: Large-signal DC transfer characteristics, Small-signal differential gain A_d, Common-mode gain A_cm, and CMRR",
+            "BJT Differential Pair: Large-signal operation, Differential and Common-mode analysis, Input resistance",
+            "Ideal and Non-ideal characteristics of differential amplifiers (Input offset voltage, offset current, temperature drift)",
+            "Differential amplifiers with active current mirror load (Single-ended conversion, A_d calculation)"
+          ]
+        },
+        {
+          "unit_num": 3,
+          "title": "Op-Amp & OTA Linear Applications",
+          "topics": [
+            "Internal block diagram of general-purpose Operational Amplifier (Input stage, Gain stage, Level shifter, Output stage)",
+            "Operational Transconductance Amplifier (OTA) architecture and transconductance parameter g_m control",
+            "Linear Op-Amp circuits: Inverting amplifier, Non-inverting amplifier, Voltage follower, Difference amplifier, Instrumentation Amplifier",
+            "Mathematical operations: Summing amplifier, Subtractor, Practical Integrator (with DC stabilization), Differentiator (with high-frequency compensation)",
+            "Active Filters: First-order and Second-order Low-Pass, High-Pass, Band-Pass, and Band-Reject Butterworth filters (Sallen-Key topology)",
+            "Impedance synthesis and generalized impedance converters (GIC)",
+            "Linear applications of OTA (Voltage-controlled amplifiers, OTA-based filters)"
+          ]
+        },
+        {
+          "unit_num": 4,
+          "title": "Non-Linear Op-Amp Circuits, Timers & PLL",
+          "topics": [
+            "Non-linear Op-Amp circuits: Logarithmic and Anti-logarithmic amplifiers using BJTs/diodes, Multipliers and Dividers",
+            "Analog Squarer and Square-rooter circuits, Precision half-wave and full-wave rectifiers, Peak detector",
+            "Waveform generators: Astable multivibrator, Monostable multivibrator, Bistable multivibrator (Schmitt Trigger with hysteresis)",
+            "Triangular and Sawtooth waveform generators using op-amp integrator and comparator loops",
+            "555 Timer IC: Internal architecture, Operation in Astable multivibrator mode (frequency and duty cycle design) and Monostable mode (pulse width)",
+            "Phase-Locked Loop (PLL 565): Block diagram, Phase detector, Loop filter, Voltage Controlled Oscillator (VCO 566), Lock range and Capture range",
+            "Function generator ICs (IC 8038 / XR2206 principles)"
+          ]
+        },
+        {
+          "unit_num": 5,
+          "title": "Feedback Topologies, Oscillators & Power Amplifiers",
+          "topics": [
+            "General feedback concept: Advantages of negative feedback (Gain stabilization, Bandwidth extension, Noise reduction, Distortion reduction, Input/Output impedance modification)",
+            "Four basic feedback topologies: Voltage-Series (Series-Shunt), Voltage-Shunt (Shunt-Shunt), Current-Series (Series-Series), Current-Shunt (Shunt-Series)",
+            "Loop gain, Return ratio, Nyquist criterion, Gain Margin (GM) and Phase Margin (PM), Stability problem and Frequency compensation",
+            "Sinusoidal Oscillators: Barkhausen criterion for oscillation (Loop gain magnitude and phase condition)",
+            "RC Oscillators: RC Phase-shift oscillator and Wien-Bridge oscillator (Derivation of oscillation frequency and gain requirements)",
+            "LC Oscillators: Hartley oscillator, Colpitts oscillator, and Quartz Crystal oscillator (Piezoelectric effect, Series/Parallel resonance)",
+            "Power Amplifiers: Classification of output stages (Class A, Class B push-pull, Class AB complementary, Class C)",
+            "Efficiency, Maximum power dissipation, Crossover distortion and thermal runaway in Class B/AB stages",
+            "Power MOSFETs vs Power BJTs (Safe Operating Area SOA, Heat sinks, Discrete and IC power amplifiers)"
+          ]
+        }
+      ],
+      "unit_weightage_midsem": {
+        "Unit 1": 45,
+        "Unit 2": 40,
+        "Unit 3": 15,
+        "Unit 4": 0,
+        "Unit 5": 0
+      },
+      "unit_weightage_endsem": {
+        "Unit 1": 15,
+        "Unit 2": 20,
+        "Unit 3": 20,
+        "Unit 4": 20,
+        "Unit 5": 25
+      },
+      "topic_metrics": [
+        {
+          "unit": 1,
+          "topic": "MOSFET & BJT High-Frequency Small-Signal Models & Miller Effect",
+          "recurrence_rate": 90,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 7.5,
+          "exam_frequency_trend": "Guaranteed Mid-Sem & End-Sem",
+          "core_concepts": [
+            "Miller capacitance C_M = C(1 - A_v)",
+            "Dominant high-frequency pole calculation",
+            "Transconductance gm = 2Id/(Vgs - Vth)"
+          ]
+        },
+        {
+          "unit": 2,
+          "topic": "MOS & BJT Differential Pairs: Differential Gain A_d, Common-Mode Gain A_cm & CMRR",
+          "recurrence_rate": 96,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 10.0,
+          "exam_frequency_trend": "Universal core question",
+          "core_concepts": [
+            "Half-circuit analysis for differential & common mode",
+            "CMRR = |Ad/Acm| calculation in dB",
+            "Active current mirror load gain boost",
+            "Cascode amplifier output resistance"
+          ]
+        },
+        {
+          "unit": 3,
+          "topic": "Op-Amp Linear Applications: Inverting/Non-inverting, Integrators & Active Filters",
+          "recurrence_rate": 88,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 8.0,
+          "exam_frequency_trend": "Regular 8-mark numerical",
+          "core_concepts": [
+            "Practical integrator DC stabilization resistance",
+            "Instrumentation amplifier derivation",
+            "Sallen-Key 2nd order active filter transfer function"
+          ]
+        },
+        {
+          "unit": 4,
+          "topic": "Non-Linear Op-Amp Circuits: Precision Rectifiers, Schmitt Trigger & 555 Timer",
+          "recurrence_rate": 86,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 8.5,
+          "exam_frequency_trend": "Essential End-Sem Question",
+          "core_concepts": [
+            "Schmitt Trigger upper/lower threshold voltages (V_UT, V_LT) & hysteresis",
+            "555 Astable frequency f = 1.44/((R_A + 2R_B)C)",
+            "Logarithmic amplifier using BJT in feedback"
+          ]
+        },
+        {
+          "unit": 5,
+          "topic": "Negative Feedback Topologies (4 Configurations) & Sinusoidal Oscillators (Wien Bridge, RC Phase Shift)",
+          "recurrence_rate": 94,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 12.0,
+          "exam_frequency_trend": "Top yield in End-Sem",
+          "core_concepts": [
+            "Voltage-Series, Voltage-Shunt, Current-Series, Current-Shunt identification & effects on Zin/Zout",
+            "Barkhausen criterion |A\u03b2| = 1, \u2220A\u03b2 = 0\u00b0",
+            "Wien Bridge oscillator f0 = 1/(2\u03c0RC), minimum gain = 3",
+            "Class B push-pull efficiency (78.5%) & crossover distortion"
+          ]
+        }
+      ],
+      "exam_strategy": {
+        "midsem_focus": "Master half-circuit analysis for differential pairs and high-frequency hybrid-\u03c0 small-signal parameters. Understand Miller theorem.",
+        "endsem_focus": "Feedback amplifier 4-topology identification tables and Wien Bridge / RC Phase Shift derivations are guaranteed 10-mark questions."
+      }
+    },
+    "04_Digital_Circuits_and_Systems_EAEPC305": {
+      "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
+      "primary_code": "EAEPC305",
+      "aliased_codes": [
+        "EAEPC305",
+        "ECECC305",
+        "EEECC08",
+        "ICECC305",
+        "VTECC305"
+      ],
+      "name": "Digital Circuits and Systems",
+      "structure": "3-0-2",
+      "credits": 4,
+      "course_outcomes": [
+        "CO1: To get familiarized with number systems, codes, logic gates, logic families and Boolean algebra.",
+        "CO2: To analyze and understand the design process associated with combinational circuits.",
+        "CO3: To analyze and understand the design process associated with sequential circuits.",
+        "CO4: To understand fundamental concepts of VHDL modeling for basic digital circuits.",
+        "CO5: To develop basic understanding of programmable logic devices and converters."
+      ],
+      "textbooks": [
+        "M. Morris Mano and Michael D. Ciletti, 'Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog', 5th/6th Edition, Pearson.",
+        "R. P. Jain, 'Modern Digital Electronics', 4th Edition, McGraw-Hill.",
+        "J. Bhasker, 'A VHDL Primer', 3rd Edition, Prentice Hall."
+      ],
+      "units": [
+        {
+          "unit_num": 1,
+          "title": "Number Systems, Boolean Algebra & Logic Families",
+          "topics": [
+            "Digital design representations: Truth tables, Boolean equations, Schematic diagrams",
+            "Codes and properties: Weighted vs non-weighted codes, BCD (8421), Gray code (Binary-Gray conversion), Excess-3, Parity bits",
+            "Signed and unsigned binary numbers: Sign-magnitude, 1's complement, 2's complement arithmetic and overflow detection",
+            "Boolean algebra theorems: De Morgan's laws, Duality principle, Consensus theorem",
+            "Standard forms: Sum of Products (SOP), Product of Sums (POS), Canonical minterms (m) and maxterms (M)",
+            "Universal logic gates (NAND and NOR) and two-level NAND-NAND, NOR-NOR implementations",
+            "Logic Families: TTL and CMOS characteristics (V_IH, V_IL, V_OH, V_OL, Propagation delay, Noise Margin high/low, Fan-in, Fan-out, Power dissipation)",
+            "Interfacing: TTL driving CMOS and CMOS driving TTL with pull-up resistor calculation"
+          ]
+        },
+        {
+          "unit_num": 2,
+          "title": "Combinational Logic Design",
+          "topics": [
+            "Karnaugh Maps (K-Maps) simplification up to 5 variables, Prime Implicants, Essential Prime Implicants, Don't Care conditions (d)",
+            "Tabulation Method (Quine-McCluskey Method) and Prime Implicant Chart reduction",
+            "Arithmetic circuits: Half Adder, Full Adder (using logic gates, NAND gates), Half Subtractor, Full Subtractor, Ripple Carry Adder, Look-Ahead Carry Adder",
+            "BCD Adder circuit design with correction logic (adding 6 when sum > 9 or carry generated)",
+            "Multiplexers (2:1, 4:1, 8:1, 16:1) and Boolean function implementation using Multiplexers",
+            "Demultiplexers and Decoders (2:4, 3:8, BCD to Decimal, BCD to 7-Segment decoder/driver)",
+            "Encoders and 8-to-3 Priority Encoders with valid bit",
+            "Magnitude Comparators (1-bit, 2-bit, 4-bit IC 7485 cascade)",
+            "Code converters (Binary to Gray, Gray to Binary, BCD to Excess-3)",
+            "Introduction to Programmable Read-Only Memory (PROM) for implementing arbitrary combinational logic"
+          ]
+        },
+        {
+          "unit_num": 3,
+          "title": "Sequential Logic Design & Finite State Machines",
+          "topics": [
+            "Latches vs Flip-Flops: SR Latch (NOR/NAND gates), Gated SR Latch, D Latch, Race-around condition and Master-Slave JK Flip-Flop",
+            "Flip-Flop types: JK Flip-Flop, D Flip-Flop, T Flip-Flop, Truth tables, Characteristic equations, Excitation tables",
+            "Flip-Flop conversions (SR to JK, JK to D, D to T, etc.)",
+            "Registers and Shift Registers: Serial-In Serial-Out (SISO), Serial-In Parallel-Out (SIPO), Parallel-In Serial-Out (PISO), Parallel-In Parallel-Out (PIPO), Bidirectional Universal Shift Register",
+            "Asynchronous (Ripple) Counters: Modulo-N ripple counter, Up/Down ripple counters using T/JK flip-flops, Propagation delay limitation",
+            "Synchronous Counters: Modulo-N synchronous counter design, Arbitrary sequence counter design with self-starting analysis",
+            "Ring Counter and Johnson (Twisted Ring) Counter",
+            "Finite State Machine (FSM) models: Mealy Machine vs Moore Machine comparison",
+            "Synchronous Sequential Circuit Design: State diagram, State table, State reduction (Row elimination, Implication table), State assignment, Excitation & Output equations, Circuit realization"
+          ]
+        },
+        {
+          "unit_num": 4,
+          "title": "Hardware Description Language (VHDL)",
+          "topics": [
+            "Motivation and methodology of modern digital hardware design using HDLs",
+            "VHDL Basic Structure: Entity declaration (port clause, modes: in, out, inout, buffer) and Architecture body",
+            "VHDL Libraries and packages (IEEE standard library, std_logic_1164, numeric_std)",
+            "Data types and objects: Signals, Variables, Constants, bit, std_logic, std_logic_vector, boolean, integer",
+            "VHDL Modeling Styles: Dataflow modeling (concurrent signal assignment, when-else, with-select-when), Structural modeling (component declaration, component instantiation, port map), Behavioral modeling (process statement, sensitivity list, if-then-else, case-when)",
+            "VHDL design implementations: Logic gates, 2:1 and 4:1 Multiplexers, Full Adder, 3:8 Decoder, D Flip-Flop with asynchronous/synchronous reset, 4-bit binary counter, Shift registers",
+            "Testbenches and simulation concepts"
+          ]
+        },
+        {
+          "unit_num": 5,
+          "title": "CMOS Gates, Data Converters & PLDs",
+          "topics": [
+            "Transistor-level CMOS schematics: CMOS Inverter (voltage transfer characteristics, static power), CMOS NAND, CMOS NOR, CMOS Compound gates (AOI/OAI)",
+            "Digital-to-Analog Converters (DAC): Binary Weighted Resistor DAC, R-2R Ladder DAC (Inverted/Non-inverted), Resolution, Accuracy, Linearity, Settling time",
+            "Analog-to-Digital Converters (ADC): Flash (Simultaneous) ADC, Successive Approximation Register (SAR) ADC, Dual-Slope Integrating ADC, Counter-type ADC",
+            "Digital System Design using Algorithmic State Machine (ASM) charts and Datapath/Controller partitioning",
+            "Elements of CPU: ALU datapath, Register File, Control Unit logic",
+            "Programmable Logic Devices: Programmable Array Logic (PAL with fixed OR, programmable AND), Programmable Logic Array (PLA with programmable AND & OR), Generic Array Logic (GAL)",
+            "Complex Programmable Logic Devices (CPLD) and Field Programmable Gate Arrays (FPGA) architecture (CLB, IOB, Programmable interconnects, Look-Up Tables LUT)"
+          ]
+        }
+      ],
+      "unit_weightage_midsem": {
+        "Unit 1": 40,
+        "Unit 2": 45,
+        "Unit 3": 15,
+        "Unit 4": 0,
+        "Unit 5": 0
+      },
+      "unit_weightage_endsem": {
+        "Unit 1": 15,
+        "Unit 2": 20,
+        "Unit 3": 30,
+        "Unit 4": 20,
+        "Unit 5": 15
+      },
+      "topic_metrics": [
+        {
+          "unit": 1,
+          "topic": "Logic Families Characteristics (Noise Margin, Fan-out, Propagation Delay) & 2's Complement",
+          "recurrence_rate": 88,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 6.0,
+          "exam_frequency_trend": "Standard Section A/B Question",
+          "core_concepts": [
+            "Noise margin calculation NM_H = V_OH - V_IH, NM_L = V_IL - V_OL",
+            "Fan-out = min(I_OH/I_IH, I_OL/I_IL)",
+            "Universal logic implementation (NAND-NAND / NOR-NOR)"
+          ]
+        },
+        {
+          "unit": 2,
+          "topic": "K-Map Minimization (up to 5 variables) & Quine-McCluskey Tabulation Method",
+          "recurrence_rate": 96,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 9.0,
+          "exam_frequency_trend": "In Every Single Exam",
+          "core_concepts": [
+            "K-map grouping with Don't Care (d)",
+            "Quine-McCluskey Prime Implicant chart reduction",
+            "Full Adder & BCD Adder design (add 0110 logic)"
+          ]
+        },
+        {
+          "unit": 2,
+          "topic": "Multiplexers (4:1, 8:1, 16:1) & Decoder Logic Realization",
+          "recurrence_rate": 92,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 8.0,
+          "exam_frequency_trend": "Universal Mid-Sem & End-Sem",
+          "core_concepts": [
+            "Implementing Boolean functions using MUX without external gates",
+            "Priority Encoder (8-to-3) with valid output",
+            "BCD to 7-segment decoder"
+          ]
+        },
+        {
+          "unit": 3,
+          "topic": "Flip-Flops (JK, D, T), Conversions, Master-Slave & Race-Around Condition",
+          "recurrence_rate": 94,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 8.0,
+          "exam_frequency_trend": "Core Sequential Foundation",
+          "core_concepts": [
+            "Race-around condition elimination via Master-Slave structure",
+            "Flip-flop conversion using excitation tables",
+            "Characteristic equations (Q_next = J Q' + K' Q)"
+          ]
+        },
+        {
+          "unit": 3,
+          "topic": "Synchronous & Asynchronous Counter Design & Finite State Machines (FSM Mealy/Moore)",
+          "recurrence_rate": 98,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 12.0,
+          "exam_frequency_trend": "Highest Weightage in End-Sem",
+          "core_concepts": [
+            "Design of Modulo-N synchronous counter with lock-out/self-starting check",
+            "Sequence detector FSM (e.g. 1011 overlapping/non-overlapping)",
+            "State reduction via Implication Table",
+            "Mealy vs Moore comparison"
+          ]
+        },
+        {
+          "unit": 4,
+          "topic": "VHDL Hardware Modeling (Entity, Architecture, Concurrent & Sequential Statements)",
+          "recurrence_rate": 90,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 10.0,
+          "exam_frequency_trend": "Guaranteed 8-10 mark End-Sem question",
+          "core_concepts": [
+            "VHDL code for 8:1 MUX (with-select / case-when)",
+            "VHDL code for D-FF with asynchronous reset",
+            "Structural vs Behavioral modeling styles"
+          ]
+        },
+        {
+          "unit": 5,
+          "topic": "CMOS Transistor Gates & Programmable Logic Devices (PLA, PAL, CPLD, FPGA)",
+          "recurrence_rate": 84,
+          "yield_category": "HIGH",
+          "avg_marks_per_exam": 7.0,
+          "exam_frequency_trend": "Standard End-Sem Question",
+          "core_concepts": [
+            "CMOS transistor-level schematic for compound AOI/OAI logic gates",
+            "PLA (programmable AND & OR) vs PAL (programmable AND, fixed OR)",
+            "R-2R Ladder DAC resolution"
+          ]
+        }
+      ],
+      "exam_strategy": {
+        "midsem_focus": "Master 4-variable and 5-variable K-maps with don't-cares, and MUX realization tables. Tabulation method is frequently tested.",
+        "endsem_focus": "FSM Sequence Detectors, Synchronous Counter design tables, and VHDL code writing form over 45% of End-Sem marks."
+      }
+    },
+    "05_Mathematics_For_Machine_Learning_EPMTC301": {
+      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
+      "primary_code": "EPMTC301",
+      "aliased_codes": [
+        "EPMTC301",
+        "MAC301",
+        "MML301"
+      ],
+      "name": "Mathematics for Machine Learning",
+      "structure": "3-1-0",
+      "credits": 4,
+      "course_outcomes": [
+        "CO1: To understand the vector space and linear transformation.",
+        "CO2: To know the concept of inner product spaces and norms.",
+        "CO3: To know concept of matrix decomposition.",
+        "CO4: To know concept of vector calculus.",
+        "CO5: To know concept of optimization techniques."
+      ],
+      "textbooks": [
+        "Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong, 'Mathematics for Machine Learning', Cambridge University Press, 2020.",
+        "Manaranjan Pradhan and U. Dinesh Kumar, 'Machine Learning using Python', Wiley, 2019.",
+        "Gilbert Strang, 'Linear Algebra and Its Applications', 4th Edition, Cengage Learning."
+      ],
+      "units": [
+        {
+          "unit_num": 1,
+          "title": "Linear Algebra & Linear Transformations",
+          "topics": [
+            "Vector Spaces and Subspaces: Definition, Closure properties, Span of vectors",
+            "Linear Independence, Linear Dependence, and Linear Combinations",
+            "Basis of a vector space, Coordinates with respect to a basis, Dimension of a vector space",
+            "Linear Transformations: Definition, Properties, Kernel (Null Space) and Range (Column Space / Image)",
+            "Rank-Nullity Theorem (Fundamental Theorem of Linear Maps) and dimension calculations",
+            "Matrix representation of Linear Transformations with respect to standard and non-standard bases",
+            "Change of basis matrix and Similarity transformations"
+          ]
+        },
+        {
+          "unit_num": 2,
+          "title": "Matrix Theory, Inner Products & Eigenvalues",
+          "topics": [
+            "Inner Product Spaces: Definition, Inner product axioms, Length/Norm of vectors, Angle and Orthogonality",
+            "Vector norms (L1, L2, L-infinity) and Matrix norms (Frobenius norm, Spectral norm)",
+            "Orthogonal Projections onto subspaces and Projection matrices",
+            "Gram-Schmidt Orthogonalization Process and QR Decomposition",
+            "Eigenvalues and Eigenvectors: Characteristic polynomial, Algebraic and Geometric Multiplicities",
+            "Diagonalization of square matrices, Spectral Theorem for Symmetric Matrices",
+            "Orthogonal Matrices, Symmetric and Skew-Symmetric Matrices",
+            "Quadratic Forms: Matrix representation x^T A x, Canonical form, Principal Axis Theorem",
+            "Definiteness: Positive Definite, Positive Semi-Definite, Negative Definite, and Indefinite matrices (Sylvester's Criterion, Eigenvalue test)"
+          ]
+        },
+        {
+          "unit_num": 3,
+          "title": "Matrix Decomposition & Dimensionality Reduction",
+          "topics": [
+            "Singular Value Decomposition (SVD): Geometric interpretation, Full and Compact SVD, Left singular vectors U, Singular values \u03a3, Right singular vectors V",
+            "Properties of Singular Values: Relationship to eigenvalues of A^T A and A A^T",
+            "Moore-Penrose Pseudo-Inverse A^+ and Minimum-norm Least Squares solutions",
+            "Low-Rank Matrix Approximations: Eckart-Young-Mirsky Theorem, Frobenius norm error of truncated SVD",
+            "Principal Component Analysis (PCA) derivation via SVD and Maximum Variance formulation",
+            "Polar Decomposition: Right Polar Decomposition (A = U P) and Left Polar Decomposition (A = P' U) where U is orthogonal and P is positive semi-definite"
+          ]
+        },
+        {
+          "unit_num": 4,
+          "title": "Vector Calculus & Integral Theorems",
+          "topics": [
+            "Scalar and Vector functions in multiple dimensions, Contour lines and Level surfaces",
+            "Gradient vector \u2207f: Geometric meaning as direction of steepest ascent, Directional Derivatives along unit vector u",
+            "Divergence \u2207\u00b7F and Curl \u2207\u00d7F of vector fields, Physical interpretation in solenoidal and irrotational fields",
+            "Jacobian Matrix for vector-valued functions and Chain Rule in multivariable calculus",
+            "Hessian Matrix \u2207\u00b2f and Taylor Series expansion in multiple variables",
+            "Convex Sets and Convex Functions: Definition, Epigraph, First-order and Second-order convexity conditions (Positive semi-definite Hessian)",
+            "Line Integrals: Work done, Conservative vector fields, Potential functions and Fundamental Theorem of Line Integrals",
+            "Surface Integrals and Volume Integrals",
+            "Integral Theorems: Green's Theorem in the plane, Stokes' Theorem in space, and Gauss Divergence Theorem (statements and applications)"
+          ]
+        },
+        {
+          "unit_num": 5,
+          "title": "Optimization Techniques & Support Vector Machines",
+          "topics": [
+            "Unconstrained Optimization: First-Order Necessary Conditions (\u2207f(x*) = 0), Second-Order Sufficient Conditions (Hessian positive definite)",
+            "Iterative Optimization Methods: Gradient Descent, Steepest Descent, Learning rate / step size selection, Newton's Method, Quasi-Newton methods (BFGS)",
+            "Constrained Optimization: Equality constraints and Lagrange Multiplier formulation",
+            "Inequality constraints and Karush-Kuhn-Tucker (KKT) Optimality Conditions (Primal feasibility, Dual feasibility, Complementary slackness, Stationarity)",
+            "Convex Optimization Problems and Duality Theory: Primal problem, Lagrangian Dual function, Weak and Strong Duality (Slater's condition)",
+            "Quadratic Programming (QP) problem formulation",
+            "Support Vector Machines (SVM): Maximum margin hyperplane formulation for linearly separable binary classification, Primal QP problem, Dual SVM derivation, Support vectors, Soft-margin C-SVM and Kernel trick introduction"
+          ]
+        }
+      ],
+      "unit_weightage_midsem": {
+        "Unit 1": 45,
+        "Unit 2": 45,
+        "Unit 3": 10,
+        "Unit 4": 0,
+        "Unit 5": 0
+      },
+      "unit_weightage_endsem": {
+        "Unit 1": 20,
+        "Unit 2": 20,
+        "Unit 3": 20,
+        "Unit 4": 20,
+        "Unit 5": 20
+      },
+      "topic_metrics": [
+        {
+          "unit": 1,
+          "topic": "Vector Spaces, Linear Independence, Basis, Dimension & Rank-Nullity Theorem",
+          "recurrence_rate": 96,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 8.0,
+          "exam_frequency_trend": "Universal in every exam",
+          "core_concepts": [
+            "Linear independence testing via determinant / Gaussian elimination",
+            "Finding basis and dimension of Ker(T) and Im(T)",
+            "Rank(T) + Nullity(T) = dim(V) verification"
+          ]
+        },
+        {
+          "unit": 2,
+          "topic": "Gram-Schmidt Orthogonalization, Eigenvalues/Eigenvectors & Quadratic Form Definiteness",
+          "recurrence_rate": 98,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 10.0,
+          "exam_frequency_trend": "In Every Single Mid-Sem & End-Sem",
+          "core_concepts": [
+            "Gram-Schmidt orthonormal basis construction",
+            "Diagonalization P^(-1) A P = D",
+            "Sylvester's criterion for Positive Definiteness of x^T A x"
+          ]
+        },
+        {
+          "unit": 3,
+          "topic": "Singular Value Decomposition (SVD), Moore-Penrose Pseudo-Inverse & Low-Rank Approx",
+          "recurrence_rate": 92,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 10.0,
+          "exam_frequency_trend": "Core ML Foundation Question",
+          "core_concepts": [
+            "Computing SVD: A = U \u03a3 V^T step-by-step",
+            "Moore-Penrose Pseudo-inverse A^+ = V \u03a3^+ U^T",
+            "Low-rank approximation error ||A - A_k||_F"
+          ]
+        },
+        {
+          "unit": 4,
+          "topic": "Vector Calculus: Gradient, Directional Derivatives, Hessian Matrix & Integral Theorems",
+          "recurrence_rate": 88,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 9.0,
+          "exam_frequency_trend": "Standard End-Sem Section",
+          "core_concepts": [
+            "Directional derivative along unit vector u: D_u f = \u2207f \u00b7 u",
+            "Hessian matrix \u2207\u00b2f and convexity test (Hessian positive semi-definite)",
+            "Conservative vector field work done & Green's/Stokes' theorem"
+          ]
+        },
+        {
+          "unit": 5,
+          "topic": "Optimization: Karush-Kuhn-Tucker (KKT) Conditions, Gradient Descent & SVM Formulation",
+          "recurrence_rate": 90,
+          "yield_category": "CRITICAL",
+          "avg_marks_per_exam": 10.0,
+          "exam_frequency_trend": "Major End-Sem Optimization Question",
+          "core_concepts": [
+            "Formulating and solving KKT conditions for constrained optimization",
+            "Gradient Descent update rule x_{k+1} = x_k - \u03b1 \u2207f(x_k)",
+            "Support Vector Machine maximum margin hyperplane derivation (Primal & Dual)"
+          ]
+        }
+      ],
+      "exam_strategy": {
+        "midsem_focus": "Gram-Schmidt orthogonalization steps and Rank-Nullity theorem proofs are guaranteed. Master eigenvalue/eigenvector computation.",
+        "endsem_focus": "SVD calculation A = U \u03a3 V^T, KKT condition systems, and Directional Derivative computations form the bulk of the 50-mark End-Sem exam."
+      }
+    }
+  }
+}
