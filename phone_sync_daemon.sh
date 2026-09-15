@@ -1,66 +1,82 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# NSUT Study Material — Mi A2 Background Automation Worker
+# NSUT Study Material — Dedicated Background Synchronization Worker
 # ==============================================================================
-# Device: Xiaomi Mi A2 (SD660 / 4GB RAM / Rooted Android 10)
-# Role: Dedicated Background Compute & Synchronization Worker (Cron Worker)
-#
-# Features:
-# 1. Zero Inbound Exposure: Safe background orchestration, no exposed ports.
-# 2. Automated Repo Synchronization: Syncs latest papers & updates static catalogs.
-# 3. Deterministic Incremental Runs: Analyzes weightages & preserves SHA-256 solution caches.
-# 4. Git Push Trigger: Pushes updates to origin/main triggering instant Vercel redeploy.
+# Target: Background Worker (Mi A2 / Termux / reTerminal / Cron)
+# Security: Unprivileged execution (No root/su required)
+# Authentication: Scoped Fine-Grained GitHub Personal Access Token (PAT)
+# Concurrency: Protected with flock file locking
 # ==============================================================================
 
-set -e
+set -eo pipefail
 
 WORKSPACE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$WORKSPACE_DIR"
 
 LOG_FILE="$WORKSPACE_DIR/.automation_worker.log"
+LOCK_FILE="${TMPDIR:-/tmp}/study_material_sync.lock"
 
 log() {
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
 }
 
+# ------------------------------------------------------------------------------
+# 0. Concurrency Protection (Prevent overlapping cron & manual runs)
+# ------------------------------------------------------------------------------
+exec 200>"$LOCK_FILE"
+if ! flock -n 200; then
+  log "Notice: Another sync job is currently running. Exiting cleanly to prevent race conditions."
+  exit 0
+fi
+
 log "========================================================"
-log "Starting Mi A2 Background Automation Worker Run..."
+log "Starting Study Material Background Worker Run..."
 log "Working Directory: $WORKSPACE_DIR"
 
-# 1. Pull latest git changes to stay in sync
+# ------------------------------------------------------------------------------
+# 1. Pull latest git changes to stay synchronized with host workstation
+# ------------------------------------------------------------------------------
 log "Step 1: Pulling latest changes from GitHub..."
 git pull --rebase origin main || {
-  log "Warning: Git pull failed or offline. Proceeding with local files."
+  log "Warning: Git pull encountered an issue or device is offline. Continuing with local files."
 }
 
+# ------------------------------------------------------------------------------
 # 2. Check for newly downloaded Drive PYQs and classify them
+# ------------------------------------------------------------------------------
 if [ -f "sync_drive_pyqs.py" ]; then
-  log "Step 2: Scanning & synchronizing Drive PYQ downloads..."
+  log "Step 2: Scanning & organizing newly downloaded question papers..."
   python3 sync_drive_pyqs.py || log "Drive sync script finished with notice."
 fi
 
-# 3. Generate updated academic catalog manifest
+# ------------------------------------------------------------------------------
+# 3. Compile updated academic catalog manifest (Zero-LLM, static metadata)
+# ------------------------------------------------------------------------------
 log "Step 3: Compiling catalog.json..."
 python3 generate_catalog.py
 
-# 4. Compile 5-year syllabus coverage & exam weightage analytics
+# ------------------------------------------------------------------------------
+# 4. Compile 5-year syllabus coverage & exam weightage analytics (Static rules)
+# ------------------------------------------------------------------------------
 log "Step 4: Compiling analytics.json..."
 python3 analyze_syllabus_weightage.py
 
-# 5. Compile textbook-grounded solutions (cached via SHA-256 hashes)
-log "Step 5: Updating solutions.json..."
-python3 generate_solutions.py
+# NOTE: LLM-based solution generation (generate_solutions.py) is intentionally
+# EXCLUDED from the phone worker. Solution generation runs on the host RTX 3050
+# workstation with Qwen LLM, and solutions.json is pulled via Git.
 
-# 6. Check for git modifications and auto-commit + push
+# ------------------------------------------------------------------------------
+# 5. Check for git modifications and auto-commit + push via Fine-Grained PAT
+# ------------------------------------------------------------------------------
 if [[ -n $(git status --porcelain) ]]; then
-  log "Step 6: Detected new documents or analytics updates. Committing & pushing..."
+  log "Step 5: Detected catalog/analytics updates. Committing & pushing to GitHub..."
   git add .
-  git commit -m "AutoSync: Update academic catalog, syllabus analytics, and solutions [$(date '+%Y-%m-%d %H:%M')]"
+  git commit -m "AutoSync: Update academic catalog and syllabus analytics [$(date '+%Y-%m-%d %H:%M')]"
   git push origin main
   log "✓ Successfully pushed updates to GitHub! Vercel redeployment triggered."
 else
-  log "Step 6: Everything is up to date. No changes to commit."
+  log "Step 5: Everything is up to date. No changes to commit."
 fi
 
-log "Mi A2 Automation Worker Run Finished Successfully."
+log "Background Worker Run Finished Successfully."
 log "========================================================"
