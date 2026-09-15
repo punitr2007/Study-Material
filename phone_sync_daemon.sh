@@ -14,8 +14,15 @@ WORKSPACE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$WORKSPACE_DIR"
 
 LOG_FILE="$WORKSPACE_DIR/.automation_worker.log"
-TMP_DIR="${TMPDIR:-${PREFIX:-/tmp}/tmp}"
-mkdir -p "$TMP_DIR" 2>/dev/null || TMP_DIR="$WORKSPACE_DIR/.tmp"
+if [ -n "$PREFIX" ] && [ -d "$PREFIX/tmp" ]; then
+  TMP_DIR="$PREFIX/tmp"
+elif [ -n "$TMPDIR" ] && [ -w "$TMPDIR" ]; then
+  TMP_DIR="$TMPDIR"
+elif [ -d "/tmp" ] && [ -w "/tmp" ]; then
+  TMP_DIR="/tmp"
+else
+  TMP_DIR="$WORKSPACE_DIR/.tmp"
+fi
 mkdir -p "$TMP_DIR"
 LOCK_FILE="$TMP_DIR/study_material_sync.lock"
 
