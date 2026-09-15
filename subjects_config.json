@@ -119,7 +119,13 @@
         "Digital-Image-Processing",
         "Digital-Communication",
         "DIGITAL COMMUNICATION",
-        "DIGITAL IMAGE PROCESSING"
+        "DIGITAL IMAGE PROCESSING",
+        "CMOS",
+        "Digital Integrated Circuits",
+        "Analog and Digital Communication",
+        "Analog & Digital Communication",
+        "Basics of Analog and Digital",
+        "Basics-of-Analog-and-Digital"
       ]
     },
     "05_Mathematics_For_Machine_Learning_EPMTC301": {
@@ -139,10 +145,14 @@
         "MATHEMATICS FOR MACHINE LEARNING",
         "MATHEMATICS FOR ML",
         "LINEAR ALGEBRA AND OPTIMIZATION",
-        "OPTIMIZATION TECHNIQUES",
         "APPLIED MATHEMATICS FOR ML"
       ],
-      "excluded_keywords": []
+      "excluded_keywords": [
+        "OPTIMIZATION TECHNIQUES",
+        "Optimization Techniques",
+        "Mathematics for Communication",
+        "Mathematics-for-Communication"
+      ]
     }
   }
 }

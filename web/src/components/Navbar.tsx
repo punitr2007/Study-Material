@@ -1,13 +1,21 @@
 import React from 'react';
-import { BookOpen, Moon, Sun, ExternalLink } from 'lucide-react';
+import { BookOpen, Moon, Sun, ExternalLink, RefreshCw } from 'lucide-react';
 
 interface NavbarProps {
   theme: 'dark' | 'light';
   toggleTheme: () => void;
   totalDocuments: number;
+  onOpenSyncModal: () => void;
+  isRefreshing?: boolean;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, totalDocuments }) => {
+export const Navbar: React.FC<NavbarProps> = ({
+  theme,
+  toggleTheme,
+  totalDocuments,
+  onOpenSyncModal,
+  isRefreshing
+}) => {
   return (
     <header className="navbar">
       <a href="#" className="brand-group">
@@ -23,6 +31,16 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, totalDocumen
       </a>
 
       <div className="nav-actions">
+        <button
+          className="btn-github"
+          onClick={onOpenSyncModal}
+          style={{ padding: '7px 12px', fontSize: '0.82rem' }}
+          title="AutoSync & Live Refresh"
+        >
+          <RefreshCw size={15} className={isRefreshing ? 'spin-animation' : ''} style={{ color: 'var(--accent-primary)' }} />
+          <span>Sync & Refresh</span>
+        </button>
+
         <button
           className="btn-icon"
           onClick={toggleTheme}

@@ -95,6 +95,14 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [Copy of 15 Flip Flop.pdf](downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf) | `PDF` | 5.63 MB |
 
+### Unit 4
+
+_No files currently._
+
+### Unit 5
+
+_No files currently._
+
 ---
 
 ## downloaded pyqs
@@ -117,7 +125,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ECECC305-EIECC305-ICECC305-VTECC305.pdf](downloaded_pyqs/End_Semester/ECECC305-EIECC305-ICECC305-VTECC305.pdf) | `PDF` | 122.2 KB |
 | [ECECC305_EIECC305_ICECC305_2024.pdf](downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_2024.pdf) | `PDF` | 46.4 KB |
 | [ECECC305_EIECC305_ICECC305_VTECC305.pdf](downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_VTECC305.pdf) | `PDF` | 75.3 KB |
-| [ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf](downloaded_pyqs/End_Semester/ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf) | `PDF` | 154.0 KB |
 | [END SEM 2018.pdf](downloaded_pyqs/End_Semester/END%20SEM%202018.pdf) | `PDF` | 574.2 KB |
 | [END SEM 2019.pdf](downloaded_pyqs/End_Semester/END%20SEM%202019.pdf) | `PDF` | 269.0 KB |
 
@@ -146,7 +153,5 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [EEECC203_Analog_and_Digital_Electronics.pdf](downloaded_pyqs/Summer_Semester/EEECC203_Analog_and_Digital_Electronics.pdf) | `PDF` | 129.3 KB |
 | [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Summer_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 47.7 KB |
-| [FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf](downloaded_pyqs/Summer_Semester/FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf) | `PDF` | 130.3 KB |
-| [ITECC405_EIECC405_Analog_and_Digital_Communication.pdf](downloaded_pyqs/Summer_Semester/ITECC405_EIECC405_Analog_and_Digital_Communication.pdf) | `PDF` | 118.5 KB |
 
 ---

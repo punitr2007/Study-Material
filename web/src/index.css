@@ -778,6 +778,15 @@ body {
   to { opacity: 1; transform: scale(1); }
 }
 
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin-animation {
+  animation: spin 1s linear infinite;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
   .hero-title {

@@ -1,8 +1,8 @@
 {
   "repository": "punitr2007/Study-Material",
   "branch": "main",
-  "generated_at": "2026-09-15T02:02:19.631588",
-  "total_documents": 319,
+  "generated_at": "2026-09-15T07:52:47.120657",
+  "total_documents": 306,
   "total_subjects": 5,
   "subjects": [
     {
@@ -35,7 +35,7 @@
       "code": "EAEPC305",
       "name": "Digital Circuits and Systems",
       "title": "Digital Circuits and Systems (EAEPC305 / ECECC305)",
-      "document_count": 72
+      "document_count": 69
     },
     {
       "id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -43,7 +43,7 @@
       "code": "EPMTC301",
       "name": "Mathematics For Machine Learning",
       "title": "Mathematics for Machine Learning (EPMTC301)",
-      "document_count": 23
+      "document_count": 13
     }
   ],
   "documents": [
@@ -4999,24 +4999,6 @@
     },
     {
       "id": "EAEPC305_276",
-      "filename": "ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf",
-      "title": "ECEVE07 ECECE07 CMOS Digital Integrated Circuits",
-      "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
-      "subject_name": "Digital Circuits and Systems",
-      "subject_code": "EAEPC305",
-      "category": "downloaded_pyqs",
-      "category_label": "End-Semester PYQ",
-      "sub_category": "End_Semester",
-      "relative_path": "04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf",
-      "size_bytes": 157658,
-      "size_formatted": "154.0 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf"
-    },
-    {
-      "id": "EAEPC305_277",
       "filename": "END SEM 2018.pdf",
       "title": "END SEM 2018",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5034,7 +5016,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/END%20SEM%202018.pdf"
     },
     {
-      "id": "EAEPC305_278",
+      "id": "EAEPC305_277",
       "filename": "END SEM 2019.pdf",
       "title": "END SEM 2019",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5052,7 +5034,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/END%20SEM%202019.pdf"
     },
     {
-      "id": "EAEPC305_279",
+      "id": "EAEPC305_278",
       "filename": "2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf",
       "title": "2025 Mid Semester DIGITALCIRCUITS Pages 43 43",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5070,7 +5052,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf"
     },
     {
-      "id": "EAEPC305_280",
+      "id": "EAEPC305_279",
       "filename": "2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_72_72.pdf",
       "title": "2025 Mid Semester DIGITALLOGICDESIGN Pages 72 72",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5088,7 +5070,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_72_72.pdf"
     },
     {
-      "id": "EAEPC305_281",
+      "id": "EAEPC305_280",
       "filename": "2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_74_74.pdf",
       "title": "2025 Mid Semester DIGITALLOGICDESIGN Pages 74 74",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5106,7 +5088,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_74_74.pdf"
     },
     {
-      "id": "EAEPC305_282",
+      "id": "EAEPC305_281",
       "filename": "2025_Mid_Semester_EAEPC305_Pages_15_15.pdf",
       "title": "2025 Mid Semester EAEPC305 Pages 15 15",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5124,7 +5106,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Pages_15_15.pdf"
     },
     {
-      "id": "EAEPC305_283",
+      "id": "EAEPC305_282",
       "filename": "2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf",
       "title": "2026 Mid Semester DIGITALLOGICDESIGN Pages 49 50",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5142,7 +5124,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf"
     },
     {
-      "id": "EAEPC305_284",
+      "id": "EAEPC305_283",
       "filename": "DCS Midsem 2025 (sept).jpeg",
       "title": "DCS Midsem 2025 (sept)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5160,7 +5142,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/DCS%20Midsem%202025%20%28sept%29.jpeg"
     },
     {
-      "id": "EAEPC305_285",
+      "id": "EAEPC305_284",
       "filename": "DCS midsem (2020,2021,2022,2023).pdf",
       "title": "DCS midsem (2020,2021,2022,2023)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5178,7 +5160,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/DCS%20midsem%20%282020%2C2021%2C2022%2C2023%29.pdf"
     },
     {
-      "id": "EAEPC305_286",
+      "id": "EAEPC305_285",
       "filename": "ECECC08_EIECC08_2023.pdf",
       "title": "ECECC08 EIECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5196,7 +5178,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_287",
+      "id": "EAEPC305_286",
       "filename": "ECECC08_EIECC08_2024.pdf",
       "title": "ECECC08 EIECC08 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5214,7 +5196,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2024.pdf"
     },
     {
-      "id": "EAEPC305_288",
+      "id": "EAEPC305_287",
       "filename": "EIECC08_ECECC08_INECC01_2024.pdf",
       "title": "EIECC08 ECECC08 INECC01 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5232,7 +5214,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf"
     },
     {
-      "id": "EAEPC305_289",
+      "id": "EAEPC305_288",
       "filename": "ICECC08_EEECC08_2023.pdf",
       "title": "ICECC08 EEECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5250,7 +5232,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_290",
+      "id": "EAEPC305_289",
       "filename": "ICECC08_EEECC08_2024.pdf",
       "title": "ICECC08 EEECC08 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5268,7 +5250,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2024.pdf"
     },
     {
-      "id": "EAEPC305_291",
+      "id": "EAEPC305_290",
       "filename": "MID SEM 2021.pdf",
       "title": "MID SEM 2021",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5286,7 +5268,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/MID%20SEM%202021.pdf"
     },
     {
-      "id": "EAEPC305_292",
+      "id": "EAEPC305_291",
       "filename": "Mid sem 2022.pdf",
       "title": "Mid sem 2022",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5304,7 +5286,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/Mid%20sem%202022.pdf"
     },
     {
-      "id": "EAEPC305_293",
+      "id": "EAEPC305_292",
       "filename": "EEECC203_Analog_and_Digital_Electronics.pdf",
       "title": "EEECC203 Analog and Digital Electronics",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5322,7 +5304,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/EEECC203_Analog_and_Digital_Electronics.pdf"
     },
     {
-      "id": "EAEPC305_294",
+      "id": "EAEPC305_293",
       "filename": "EIECC08_ECECC08_INECC01_2024.pdf",
       "title": "EIECC08 ECECC08 INECC01 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5340,43 +5322,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/EIECC08_ECECC08_INECC01_2024.pdf"
     },
     {
-      "id": "EAEPC305_295",
-      "filename": "FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf",
-      "title": "FCEC0116 Basics of Analog and Digital Electronics EndSem BTech CourseWork Summer2026",
-      "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
-      "subject_name": "Digital Circuits and Systems",
-      "subject_code": "EAEPC305",
-      "category": "downloaded_pyqs",
-      "category_label": "Summer / Special Exam",
-      "sub_category": "Summer_Semester",
-      "relative_path": "04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf",
-      "size_bytes": 133391,
-      "size_formatted": "130.3 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf"
-    },
-    {
-      "id": "EAEPC305_296",
-      "filename": "ITECC405_EIECC405_Analog_and_Digital_Communication.pdf",
-      "title": "ITECC405 EIECC405 Analog and Digital Communication",
-      "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
-      "subject_name": "Digital Circuits and Systems",
-      "subject_code": "EAEPC305",
-      "category": "downloaded_pyqs",
-      "category_label": "Summer / Special Exam",
-      "sub_category": "Summer_Semester",
-      "relative_path": "04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/ITECC405_EIECC405_Analog_and_Digital_Communication.pdf",
-      "size_bytes": 121366,
-      "size_formatted": "118.5 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/ITECC405_EIECC405_Analog_and_Digital_Communication.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/ITECC405_EIECC405_Analog_and_Digital_Communication.pdf"
-    },
-    {
-      "id": "EPMTC301_297",
+      "id": "EPMTC301_294",
       "filename": "Linear_algebra_schaum_outlines_problemsheet2_ques.pdf",
       "title": "Linear algebra schaum outlines problemsheet2 ques",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5394,7 +5340,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Assignments_and_Tutorials/Linear_algebra_schaum_outlines_problemsheet2_ques.pdf"
     },
     {
-      "id": "EPMTC301_298",
+      "id": "EPMTC301_295",
       "filename": "2025_End_Semester_EPMTC301_Pages_18_18.pdf",
       "title": "2025 End Semester EPMTC301 Pages 18 18",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5412,115 +5358,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Pages_18_18.pdf"
     },
     {
-      "id": "EPMTC301_299",
-      "filename": "2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_33_34.pdf",
-      "title": "2025 End Semester OPTIMIZATIONTECHNIQUES Pages 33 34",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "End-Semester PYQ",
-      "sub_category": "End_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_33_34.pdf",
-      "size_bytes": 932838,
-      "size_formatted": "911.0 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_33_34.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_33_34.pdf"
-    },
-    {
-      "id": "EPMTC301_300",
-      "filename": "2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_97_97.pdf",
-      "title": "2025 End Semester OPTIMIZATIONTECHNIQUES Pages 97 97",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "End-Semester PYQ",
-      "sub_category": "End_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_97_97.pdf",
-      "size_bytes": 697962,
-      "size_formatted": "681.6 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_97_97.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_97_97.pdf"
-    },
-    {
-      "id": "EPMTC301_301",
-      "filename": "2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf",
-      "title": "2026 End Semester OPTIMIZATIONTECHNIQUES Pages 20 20",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "End-Semester PYQ",
-      "sub_category": "End_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf",
-      "size_bytes": 732112,
-      "size_formatted": "715.0 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf"
-    },
-    {
-      "id": "EPMTC301_302",
-      "filename": "2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_22_22.pdf",
-      "title": "2026 End Semester OPTIMIZATIONTECHNIQUES Pages 22 22",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "End-Semester PYQ",
-      "sub_category": "End_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_22_22.pdf",
-      "size_bytes": 788897,
-      "size_formatted": "770.4 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_22_22.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_22_22.pdf"
-    },
-    {
-      "id": "EPMTC301_303",
-      "filename": "2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_2_2.pdf",
-      "title": "2026 End Semester OPTIMIZATIONTECHNIQUES Pages 2 2",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "End-Semester PYQ",
-      "sub_category": "End_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_2_2.pdf",
-      "size_bytes": 781229,
-      "size_formatted": "762.9 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_2_2.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_2_2.pdf"
-    },
-    {
-      "id": "EPMTC301_304",
-      "filename": "2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_5_5.pdf",
-      "title": "2026 End Semester OPTIMIZATIONTECHNIQUES Pages 5 5",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "End-Semester PYQ",
-      "sub_category": "End_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_5_5.pdf",
-      "size_bytes": 762404,
-      "size_formatted": "744.5 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_5_5.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2026_End_Semester_OPTIMIZATIONTECHNIQUES_Pages_5_5.pdf"
-    },
-    {
-      "id": "EPMTC301_305",
+      "id": "EPMTC301_296",
       "filename": "ECMTC301.pdf",
       "title": "ECMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5538,7 +5376,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC301.pdf"
     },
     {
-      "id": "EPMTC301_306",
+      "id": "EPMTC301_297",
       "filename": "ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf",
       "title": "ITMTC301 INMTC301 ITMTC301 EIMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5556,7 +5394,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_307",
+      "id": "EPMTC301_298",
       "filename": "ITMTC301_INMTC301_EIMTC301.pdf",
       "title": "ITMTC301 INMTC301 EIMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5574,7 +5412,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301_INMTC301_EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_308",
+      "id": "EPMTC301_299",
       "filename": "2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf",
       "title": "2025 Mid Semester MATHEMATICSFORMACHINELEARNING Pages 20 20",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5592,7 +5430,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf"
     },
     {
-      "id": "EPMTC301_309",
+      "id": "EPMTC301_300",
       "filename": "2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf",
       "title": "2025 Mid Semester MATHEMATICSFORMACHINELEARNING Pages 62 63",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5610,61 +5448,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf"
     },
     {
-      "id": "EPMTC301_310",
-      "filename": "2025_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_78_78.pdf",
-      "title": "2025 Mid Semester OPTIMIZATIONTECHNIQUES Pages 78 78",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "Mid-Semester PYQ",
-      "sub_category": "Mid_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_78_78.pdf",
-      "size_bytes": 435741,
-      "size_formatted": "425.5 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_78_78.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_78_78.pdf"
-    },
-    {
-      "id": "EPMTC301_311",
-      "filename": "2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf",
-      "title": "2026 Mid Semester OPTIMIZATIONTECHNIQUES Pages 20 20",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "Mid-Semester PYQ",
-      "sub_category": "Mid_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf",
-      "size_bytes": 626272,
-      "size_formatted": "611.6 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_20_20.pdf"
-    },
-    {
-      "id": "EPMTC301_312",
-      "filename": "2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_37_38.pdf",
-      "title": "2026 Mid Semester OPTIMIZATIONTECHNIQUES Pages 37 38",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "Mid-Semester PYQ",
-      "sub_category": "Mid_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_37_38.pdf",
-      "size_bytes": 959696,
-      "size_formatted": "937.2 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_37_38.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_OPTIMIZATIONTECHNIQUES_Pages_37_38.pdf"
-    },
-    {
-      "id": "EPMTC301_313",
+      "id": "EPMTC301_301",
       "filename": "EAMTC04_2023.pdf",
       "title": "EAMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5682,7 +5466,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EAMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_314",
+      "id": "EPMTC301_302",
       "filename": "EAMTC04_2024.pdf",
       "title": "EAMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5700,7 +5484,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EAMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_315",
+      "id": "EPMTC301_303",
       "filename": "ECMTC301_2024.pdf",
       "title": "ECMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5718,7 +5502,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ECMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_316",
+      "id": "EPMTC301_304",
       "filename": "EIMTC301_ITMTC301_INMTC301_2024.pdf",
       "title": "EIMTC301 ITMTC301 INMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5736,7 +5520,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC301_ITMTC301_INMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_317",
+      "id": "EPMTC301_305",
       "filename": "EPMTC301_2024.pdf",
       "title": "EPMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5754,25 +5538,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EPMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_318",
-      "filename": "ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf",
-      "title": "ECMTC301 Mathematics for Communication and Signal Processing",
-      "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
-      "subject_name": "Mathematics For Machine Learning",
-      "subject_code": "EPMTC301",
-      "category": "downloaded_pyqs",
-      "category_label": "Summer / Special Exam",
-      "sub_category": "Summer_Semester",
-      "relative_path": "05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf",
-      "size_bytes": 116453,
-      "size_formatted": "113.7 KB",
-      "file_type": "PDF",
-      "year": "",
-      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf",
-      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf"
-    },
-    {
-      "id": "EPMTC301_319",
+      "id": "EPMTC301_306",
       "filename": "ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf",
       "title": "ITMTC04 EIMTC04 ITMTC301 EIMTC301 INMTC04 INMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",

@@ -6,6 +6,7 @@ import { SubjectTabs } from './components/SubjectTabs';
 import { CategoryFilterBar } from './components/CategoryFilter';
 import { DocumentCard } from './components/DocumentCard';
 import { PdfViewerModal } from './components/PdfViewerModal';
+import { SyncModal } from './components/SyncModal';
 import { EmptyState } from './components/EmptyState';
 import { Search, X, Loader2 } from 'lucide-react';
 
@@ -22,6 +23,9 @@ export function App() {
   const [selectedSubject, setSelectedSubject] = useState<string>('ALL');
   const [activeCategory, setActiveCategory] = useState<CategoryFilter>('ALL');
   const [activePreviewDoc, setActivePreviewDoc] = useState<CatalogDocument | null>(null);
+
+  const [isSyncModalOpen, setIsSyncModalOpen] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
 
@@ -50,24 +54,30 @@ export function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  // Fetch catalog.json
-  useEffect(() => {
-    fetch('/catalog.json')
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`Failed to load catalog (${res.status} ${res.statusText})`);
-        }
-        return res.json();
-      })
-      .then((data: CatalogData) => {
-        setCatalog(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error('Catalog fetch error:', err);
+  // Fetch catalog function with cache-busting
+  const fetchCatalogData = async (showRefreshState = false) => {
+    if (showRefreshState) setIsRefreshing(true);
+    try {
+      const res = await fetch(`/catalog.json?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) {
+        throw new Error(`Failed to load catalog (${res.status} ${res.statusText})`);
+      }
+      const data: CatalogData = await res.json();
+      setCatalog(data);
+      setError(null);
+    } catch (err: any) {
+      console.error('Catalog fetch error:', err);
+      if (!catalog) {
         setError(err.message);
-        setLoading(false);
-      });
+      }
+    } finally {
+      setLoading(false);
+      if (showRefreshState) setIsRefreshing(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchCatalogData(false);
   }, []);
 
   // Filtered documents calculation
@@ -142,7 +152,7 @@ export function App() {
         <div className="empty-state" style={{ maxWidth: '500px' }}>
           <h2 style={{ color: 'var(--accent-rose)', marginBottom: '8px' }}>Failed to Load Catalog</h2>
           <p style={{ color: 'var(--text-muted)' }}>{error || 'Unable to load course data.'}</p>
-          <button className="btn-preview" style={{ marginTop: '16px' }} onClick={() => window.location.reload()}>
+          <button className="btn-preview" style={{ marginTop: '16px' }} onClick={() => fetchCatalogData(false)}>
             Retry
           </button>
         </div>
@@ -156,7 +166,13 @@ export function App() {
 
       <div className="app-container">
         {/* Navigation */}
-        <Navbar theme={theme} toggleTheme={toggleTheme} totalDocuments={catalog.total_documents} />
+        <Navbar
+          theme={theme}
+          toggleTheme={toggleTheme}
+          totalDocuments={catalog.total_documents}
+          onOpenSyncModal={() => setIsSyncModalOpen(true)}
+          isRefreshing={isRefreshing}
+        />
 
         {/* Hero Section */}
         <Hero catalog={catalog} />
@@ -243,6 +259,15 @@ export function App() {
           onClose={() => setActivePreviewDoc(null)}
         />
 
+        {/* Sync & Live Refresh Modal */}
+        <SyncModal
+          isOpen={isSyncModalOpen}
+          onClose={() => setIsSyncModalOpen(false)}
+          onRefreshLocal={() => fetchCatalogData(true)}
+          isRefreshing={isRefreshing}
+          totalDocs={catalog.total_documents}
+        />
+
         {/* Footer */}
         <footer className="app-footer">
           <p>
@@ -257,7 +282,7 @@ export function App() {
             </a>
           </p>
           <p style={{ fontSize: '0.78rem', marginTop: '6px', color: 'var(--text-muted)' }}>
-            Catalog auto-synchronized with GitHub repository. Streaming PDF documents via jsDelivr CDN.
+            Catalog auto-synchronized with Google Drive & GitHub. Streaming PDF documents via jsDelivr CDN.
           </p>
         </footer>
       </div>
