@@ -70,6 +70,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf](downloaded_pyqs/End_Semester/COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf) | `PDF` | 89.2 KB |
 | [EAEPC303_EAEPC06_2024.pdf](downloaded_pyqs/End_Semester/EAEPC303_EAEPC06_2024.pdf) | `PDF` | 61.1 KB |
 | [ECECC06.pdf](downloaded_pyqs/End_Semester/ECECC06.pdf) | `PDF` | 59.7 KB |
+| [ECECC06_EIECC06_2023.pdf](downloaded_pyqs/End_Semester/ECECC06_EIECC06_2023.pdf) | `PDF` | 57.4 KB |
 | [ECECC06_EIECC06_ECECC303_EIECC303_2024.pdf](downloaded_pyqs/End_Semester/ECECC06_EIECC06_ECECC303_EIECC303_2024.pdf) | `PDF` | 64.0 KB |
 | [ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf](downloaded_pyqs/End_Semester/ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf) | `PDF` | 115.9 KB |
 | [ECECC303_EIECC303_ECECC06_EIECC06.pdf](downloaded_pyqs/End_Semester/ECECC303_EIECC303_ECECC06_EIECC06.pdf) | `PDF` | 76.8 KB |
@@ -88,11 +89,14 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [COMTC13_2024.pdf](downloaded_pyqs/Mid_Semester/COMTC13_2024.pdf) | `PDF` | 32.0 KB |
 | [EAEPC303_EAEPC06_2024.pdf](downloaded_pyqs/Mid_Semester/EAEPC303_EAEPC06_2024.pdf) | `PDF` | 32.6 KB |
 | [EAEPC303__25_EAEPC06_2024.pdf](downloaded_pyqs/Mid_Semester/EAEPC303__25_EAEPC06_2024.pdf) | `PDF` | 29.9 KB |
+| [ECECC06.pdf](downloaded_pyqs/Mid_Semester/ECECC06.pdf) | `PDF` | 59.7 KB |
 | [ECECC06_EIECC06_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2023.pdf) | `PDF` | 26.1 KB |
 | [ECECC06_EIECC06_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2024.pdf) | `PDF` | 29.2 KB |
 | [ECECC303-EIECC303-VTEC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTEC303.pdf) | `PDF` | 64.3 KB |
 | [ECECC303-EIECC303-VTECC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTECC303.pdf) | `PDF` | 70.3 KB |
 | [ECECC303_EIECC303_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_2024.pdf) | `PDF` | 29.1 KB |
+| [ECECC303_EIECC303_ECECC06_EIECC06.pdf](downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_ECECC06_EIECC06.pdf) | `PDF` | 76.8 KB |
+| [ECECC303_EIECC303_ECECC06_EIECC06_VTECC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_ECECC06_EIECC06_VTECC303.pdf) | `PDF` | 85.0 KB |
 | [INECC305-ITECC305.pdf](downloaded_pyqs/Mid_Semester/INECC305-ITECC305.pdf) | `PDF` | 62.3 KB |
 | [INECC305_ITECC305_2024.pdf](downloaded_pyqs/Mid_Semester/INECC305_ITECC305_2024.pdf) | `PDF` | 34.4 KB |
 | [INECC305_ITECC305_INECC06_ITECC06_2024.pdf](downloaded_pyqs/Mid_Semester/INECC305_ITECC305_INECC06_ITECC06_2024.pdf) | `PDF` | 37.9 KB |
@@ -102,6 +106,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf](downloaded_pyqs/Summer_Semester/COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf) | `PDF` | 286.9 KB |
+| [ECECC06_EIECC06_2024.pdf](downloaded_pyqs/Summer_Semester/ECECC06_EIECC06_2024.pdf) | `PDF` | 44.4 KB |
 | [ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf](downloaded_pyqs/Summer_Semester/ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf) | `PDF` | 256.9 KB |
 | [ECECG303-EIE_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy2.pdf](downloaded_pyqs/Summer_Semester/ECECG303-EIE_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy2.pdf) | `PDF` | 304.3 KB |
 | [ITECC06_Probability-and-Stochastic-Process_EndSem_BTech_Summer2026_copy3.pdf](downloaded_pyqs/Summer_Semester/ITECC06_Probability-and-Stochastic-Process_EndSem_BTech_Summer2026_copy3.pdf) | `PDF` | 291.0 KB |

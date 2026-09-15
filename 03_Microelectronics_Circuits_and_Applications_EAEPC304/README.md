@@ -124,6 +124,14 @@ _No files currently._
 | [ECECC07_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC07_2024.pdf) | `PDF` | 36.7 KB |
 | [ECECC304-EIECC07.pdf](downloaded_pyqs/Mid_Semester/ECECC304-EIECC07.pdf) | `PDF` | 108.7 KB |
 | [ECECC304_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC304_2024.pdf) | `PDF` | 29.1 KB |
+| [ECECC304_EIECC304.pdf](downloaded_pyqs/Mid_Semester/ECECC304_EIECC304.pdf) | `PDF` | 89.4 KB |
 | [EIECC304_2024.pdf](downloaded_pyqs/Mid_Semester/EIECC304_2024.pdf) | `PDF` | 263.1 KB |
+
+### Summer Semester
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [ECECC07_VTECC304_Microelectronics.pdf](downloaded_pyqs/Summer_Semester/ECECC07_VTECC304_Microelectronics.pdf) | `PDF` | 150.2 KB |
+| [ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf](downloaded_pyqs/Summer_Semester/ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf) | `PDF` | 154.5 KB |
 
 ---
