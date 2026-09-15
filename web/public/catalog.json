@@ -1,8 +1,8 @@
 {
   "repository": "punitr2007/Study-Material",
   "branch": "main",
-  "generated_at": "2026-09-15T09:33:55.894045",
-  "total_documents": 297,
+  "generated_at": "2026-09-15T09:44:43.653591",
+  "total_documents": 298,
   "total_subjects": 5,
   "subjects": [
     {
@@ -11,7 +11,7 @@
       "code": "EAEPC302",
       "name": "Signals and Systems",
       "title": "Signals and Systems (EAEPC302 / ECECC302)",
-      "document_count": 124
+      "document_count": 125
     },
     {
       "id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -1957,6 +1957,24 @@
     },
     {
       "id": "EAEPC302_107",
+      "filename": "2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf",
+      "title": "2025 Mid Semester EAEPC302 Signals and Systems",
+      "subject_id": "01_Signals_and_Systems_EAEPC302",
+      "subject_name": "Signals and Systems",
+      "subject_code": "EAEPC302",
+      "category": "downloaded_pyqs",
+      "category_label": "Mid-Semester PYQ",
+      "sub_category": "Mid_Semester",
+      "relative_path": "01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf",
+      "size_bytes": 73986,
+      "size_formatted": "72.3 KB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf"
+    },
+    {
+      "id": "EAEPC302_108",
       "filename": "EAEPC302_2024.pdf",
       "title": "EAEPC302 2024",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -1974,7 +1992,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EAEPC302_2024.pdf"
     },
     {
-      "id": "EAEPC302_108",
+      "id": "EAEPC302_109",
       "filename": "ECECC05.pdf",
       "title": "ECECC05",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -1992,7 +2010,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ECECC05.pdf"
     },
     {
-      "id": "EAEPC302_109",
+      "id": "EAEPC302_110",
       "filename": "ECECC05_EIECC05.pdf",
       "title": "ECECC05 EIECC05",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2010,7 +2028,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ECECC05_EIECC05.pdf"
     },
     {
-      "id": "EAEPC302_110",
+      "id": "EAEPC302_111",
       "filename": "ECECC05_EIECC05_2023.pdf",
       "title": "ECECC05 EIECC05 2023",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2028,7 +2046,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ECECC05_EIECC05_2023.pdf"
     },
     {
-      "id": "EAEPC302_111",
+      "id": "EAEPC302_112",
       "filename": "ECECC302-EIECC302-VTECC302.pdf",
       "title": "ECECC302 EIECC302 VTECC302",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2046,7 +2064,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ECECC302-EIECC302-VTECC302.pdf"
     },
     {
-      "id": "EAEPC302_112",
+      "id": "EAEPC302_113",
       "filename": "EEEEC03.pdf",
       "title": "EEEEC03",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2064,7 +2082,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EEEEC03.pdf"
     },
     {
-      "id": "EAEPC302_113",
+      "id": "EAEPC302_114",
       "filename": "EEEEC03_2023.pdf",
       "title": "EEEEC03 2023",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2082,7 +2100,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EEEEC03_2023.pdf"
     },
     {
-      "id": "EAEPC302_114",
+      "id": "EAEPC302_115",
       "filename": "EEEEC03_2024.pdf",
       "title": "EEEEC03 2024",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2100,7 +2118,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EEEEC03_2024.pdf"
     },
     {
-      "id": "EAEPC302_115",
+      "id": "EAEPC302_116",
       "filename": "ICICC03_ECECC05_2023.pdf",
       "title": "ICICC03 ECECC05 2023",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2118,7 +2136,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ICICC03_ECECC05_2023.pdf"
     },
     {
-      "id": "EAEPC302_116",
+      "id": "EAEPC302_117",
       "filename": "ICICC03_EEEEC03_2022.pdf",
       "title": "ICICC03 EEEEC03 2022",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2136,7 +2154,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ICICC03_EEEEC03_2022.pdf"
     },
     {
-      "id": "EAEPC302_117",
+      "id": "EAEPC302_118",
       "filename": "MIDSEM-2024.pdf",
       "title": "MIDSEM 2024",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2154,7 +2172,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/MIDSEM-2024.pdf"
     },
     {
-      "id": "EAEPC302_118",
+      "id": "EAEPC302_119",
       "filename": "MIS SEM 2021.pdf",
       "title": "MIS SEM 2021",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2172,7 +2190,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/MIS%20SEM%202021.pdf"
     },
     {
-      "id": "EAEPC302_119",
+      "id": "EAEPC302_120",
       "filename": "MSE 2023.pdf",
       "title": "MSE 2023",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2190,7 +2208,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/MSE%202023.pdf"
     },
     {
-      "id": "EAEPC302_120",
+      "id": "EAEPC302_121",
       "filename": "Mid Sem 2022 ECE .pdf",
       "title": "Mid Sem 2022 ECE",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2208,7 +2226,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Mid%20Sem%202022%20ECE%20.pdf"
     },
     {
-      "id": "EAEPC302_121",
+      "id": "EAEPC302_122",
       "filename": "Mid Sem 2022 ECE.pdf",
       "title": "Mid Sem 2022 ECE",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2226,7 +2244,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Mid%20Sem%202022%20ECE.pdf"
     },
     {
-      "id": "EAEPC302_122",
+      "id": "EAEPC302_123",
       "filename": "Signal and system 2025 (Sept).jpeg",
       "title": "Signal and system 2025 (Sept)",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2244,7 +2262,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signal%20and%20system%202025%20%28Sept%29.jpeg"
     },
     {
-      "id": "EAEPC302_123",
+      "id": "EAEPC302_124",
       "filename": "EEEEC03_ICICC03_ECECC05_2023.pdf",
       "title": "EEEEC03 ICICC03 ECECC05 2023",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2262,7 +2280,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Summer_Semester/EEEEC03_ICICC03_ECECC05_2023.pdf"
     },
     {
-      "id": "EAEPC302_124",
+      "id": "EAEPC302_125",
       "filename": "EEEEC03_Signal_and_Systems.pdf",
       "title": "EEEEC03 Signal and Systems",
       "subject_id": "01_Signals_and_Systems_EAEPC302",
@@ -2280,7 +2298,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Summer_Semester/EEEEC03_Signal_and_Systems.pdf"
     },
     {
-      "id": "EAEPC303_125",
+      "id": "EAEPC303_126",
       "filename": "Probability_Random_Variables_and_Stochastic_Processes_Papoulis.pdf",
       "title": "Probability Random Variables and Stochastic Processes Papoulis",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2298,7 +2316,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/Textbooks/Probability_Random_Variables_and_Stochastic_Processes_Papoulis.pdf"
     },
     {
-      "id": "EAEPC303_126",
+      "id": "EAEPC303_127",
       "filename": "Probability_Unit-1.pdf",
       "title": "Probability Unit 1",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2316,7 +2334,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_1/Probability_Unit-1.pdf"
     },
     {
-      "id": "EAEPC303_127",
+      "id": "EAEPC303_128",
       "filename": "Karan probability unit 2.pdf",
       "title": "Karan probability unit 2",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2334,7 +2352,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_2/Karan%20probability%20unit%202.pdf"
     },
     {
-      "id": "EAEPC303_128",
+      "id": "EAEPC303_129",
       "filename": "Uni2.pdf",
       "title": "Uni2",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2352,7 +2370,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_2/Uni2.pdf"
     },
     {
-      "id": "EAEPC303_129",
+      "id": "EAEPC303_130",
       "filename": "Unit-3 Probability.pdf",
       "title": "Unit 3 Probability",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2370,7 +2388,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_3/Unit-3%20Probability.pdf"
     },
     {
-      "id": "EAEPC303_130",
+      "id": "EAEPC303_131",
       "filename": "fuctions_2randomvariables.pdf.crdownload.pdf",
       "title": "fuctions 2randomvariables.pdf.crdownload",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2388,7 +2406,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_3/fuctions_2randomvariables.pdf.crdownload.pdf"
     },
     {
-      "id": "EAEPC303_131",
+      "id": "EAEPC303_132",
       "filename": "ptrp4.pdf",
       "title": "ptrp4",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2406,7 +2424,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_4/ptrp4.pdf"
     },
     {
-      "id": "EAEPC303_132",
+      "id": "EAEPC303_133",
       "filename": "ptrp5.pdf",
       "title": "ptrp5",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2424,7 +2442,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_5/ptrp5.pdf"
     },
     {
-      "id": "EAEPC303_133",
+      "id": "EAEPC303_134",
       "filename": "unit-5.pdf",
       "title": "unit 5",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2442,7 +2460,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_notes/Unit_5/unit-5.pdf"
     },
     {
-      "id": "EAEPC303_134",
+      "id": "EAEPC303_135",
       "filename": "2025_End_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf",
       "title": "2025 End Semester EAEPC303 Probability Theory and Random Process",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2460,7 +2478,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf"
     },
     {
-      "id": "EAEPC303_135",
+      "id": "EAEPC303_136",
       "filename": "CAMTC13-COMTC13_Probability-and-Stochastic-Processes_EndSem_BTech-CourseWork_June2026_copy5.pdf",
       "title": "CAMTC13 COMTC13 Probability and Stochastic Processes EndSem BTech CourseWork June2026 copy5",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2478,7 +2496,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/CAMTC13-COMTC13_Probability-and-Stochastic-Processes_EndSem_BTech-CourseWork_June2026_copy5.pdf"
     },
     {
-      "id": "EAEPC303_136",
+      "id": "EAEPC303_137",
       "filename": "CAMTC13_COMTC13.pdf",
       "title": "CAMTC13 COMTC13",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2496,7 +2514,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/CAMTC13_COMTC13.pdf"
     },
     {
-      "id": "EAEPC303_137",
+      "id": "EAEPC303_138",
       "filename": "COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf",
       "title": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CMMTC13",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2514,7 +2532,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf"
     },
     {
-      "id": "EAEPC303_138",
+      "id": "EAEPC303_139",
       "filename": "COMTC13.pdf",
       "title": "COMTC13",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2532,7 +2550,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/COMTC13.pdf"
     },
     {
-      "id": "EAEPC303_139",
+      "id": "EAEPC303_140",
       "filename": "COMTC13_CAMTC13_CBMTC13_CDMTC13_CIMTC13_2024.pdf",
       "title": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CIMTC13 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2550,7 +2568,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/COMTC13_CAMTC13_CBMTC13_CDMTC13_CIMTC13_2024.pdf"
     },
     {
-      "id": "EAEPC303_140",
+      "id": "EAEPC303_141",
       "filename": "COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf",
       "title": "COMTC13 CAMTC13 CMMTC13 CDMTC13",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2568,7 +2586,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf"
     },
     {
-      "id": "EAEPC303_141",
+      "id": "EAEPC303_142",
       "filename": "EAEPC303_EAEPC06_2024.pdf",
       "title": "EAEPC303 EAEPC06 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2586,7 +2604,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/EAEPC303_EAEPC06_2024.pdf"
     },
     {
-      "id": "EAEPC303_142",
+      "id": "EAEPC303_143",
       "filename": "ECECC06.pdf",
       "title": "ECECC06",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2604,7 +2622,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC06.pdf"
     },
     {
-      "id": "EAEPC303_143",
+      "id": "EAEPC303_144",
       "filename": "ECECC06_EIECC06_ECECC303_EIECC303_2024.pdf",
       "title": "ECECC06 EIECC06 ECECC303 EIECC303 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2622,7 +2640,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC06_EIECC06_ECECC303_EIECC303_2024.pdf"
     },
     {
-      "id": "EAEPC303_144",
+      "id": "EAEPC303_145",
       "filename": "ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf",
       "title": "ECECC303 VTECC303 ECECC06 EIECC06 EIECC303",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2640,7 +2658,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf"
     },
     {
-      "id": "EAEPC303_145",
+      "id": "EAEPC303_146",
       "filename": "ECECC303_EIECC303_ECECC06_EIECC06.pdf",
       "title": "ECECC303 EIECC303 ECECC06 EIECC06",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2658,7 +2676,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC303_EIECC303_ECECC06_EIECC06.pdf"
     },
     {
-      "id": "EAEPC303_146",
+      "id": "EAEPC303_147",
       "filename": "ECECC303_EIECC303_ECECC06_EIECC06_VTECC303.pdf",
       "title": "ECECC303 EIECC303 ECECC06 EIECC06 VTECC303",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2676,7 +2694,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC303_EIECC303_ECECC06_EIECC06_VTECC303.pdf"
     },
     {
-      "id": "EAEPC303_147",
+      "id": "EAEPC303_148",
       "filename": "INECC305-ITECC305-INECC06-ITECC06.pdf",
       "title": "INECC305 ITECC305 INECC06 ITECC06",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2694,7 +2712,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/INECC305-ITECC305-INECC06-ITECC06.pdf"
     },
     {
-      "id": "EAEPC303_148",
+      "id": "EAEPC303_149",
       "filename": "INECC305-ITECC305_Probability-and-Stochastic-Process_EndSem_BTech-Sem3_June2026_copy4.pdf",
       "title": "INECC305 ITECC305 Probability and Stochastic Process EndSem BTech Sem3 June2026 copy4",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2712,7 +2730,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/INECC305-ITECC305_Probability-and-Stochastic-Process_EndSem_BTech-Sem3_June2026_copy4.pdf"
     },
     {
-      "id": "EAEPC303_149",
+      "id": "EAEPC303_150",
       "filename": "INECC305_ITECC305.pdf",
       "title": "INECC305 ITECC305",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2730,7 +2748,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/INECC305_ITECC305.pdf"
     },
     {
-      "id": "EAEPC303_150",
+      "id": "EAEPC303_151",
       "filename": "ITECC305_INECC305_ITECC06_INECC06_2024.pdf",
       "title": "ITECC305 INECC305 ITECC06 INECC06 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2748,7 +2766,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ITECC305_INECC305_ITECC06_INECC06_2024.pdf"
     },
     {
-      "id": "EAEPC303_151",
+      "id": "EAEPC303_152",
       "filename": "2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf",
       "title": "2025 Mid Semester EAEPC303 Probability Theory and Random Process",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2766,7 +2784,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf"
     },
     {
-      "id": "EAEPC303_152",
+      "id": "EAEPC303_153",
       "filename": "CAMTC13-COMTC13.pdf",
       "title": "CAMTC13 COMTC13",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2784,7 +2802,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/CAMTC13-COMTC13.pdf"
     },
     {
-      "id": "EAEPC303_153",
+      "id": "EAEPC303_154",
       "filename": "COMTC13_2024.pdf",
       "title": "COMTC13 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2802,7 +2820,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/COMTC13_2024.pdf"
     },
     {
-      "id": "EAEPC303_154",
+      "id": "EAEPC303_155",
       "filename": "EAEPC303_EAEPC06_2024.pdf",
       "title": "EAEPC303 EAEPC06 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2820,7 +2838,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/EAEPC303_EAEPC06_2024.pdf"
     },
     {
-      "id": "EAEPC303_155",
+      "id": "EAEPC303_156",
       "filename": "EAEPC303__25_EAEPC06_2024.pdf",
       "title": "EAEPC303 25 EAEPC06 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2838,7 +2856,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/EAEPC303__25_EAEPC06_2024.pdf"
     },
     {
-      "id": "EAEPC303_156",
+      "id": "EAEPC303_157",
       "filename": "ECECC06_EIECC06_2023.pdf",
       "title": "ECECC06 EIECC06 2023",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2856,7 +2874,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2023.pdf"
     },
     {
-      "id": "EAEPC303_157",
+      "id": "EAEPC303_158",
       "filename": "ECECC06_EIECC06_2024.pdf",
       "title": "ECECC06 EIECC06 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2874,7 +2892,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2024.pdf"
     },
     {
-      "id": "EAEPC303_158",
+      "id": "EAEPC303_159",
       "filename": "ECECC303-EIECC303-VTEC303.pdf",
       "title": "ECECC303 EIECC303 VTEC303",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2892,7 +2910,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTEC303.pdf"
     },
     {
-      "id": "EAEPC303_159",
+      "id": "EAEPC303_160",
       "filename": "ECECC303-EIECC303-VTECC303.pdf",
       "title": "ECECC303 EIECC303 VTECC303",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2910,7 +2928,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTECC303.pdf"
     },
     {
-      "id": "EAEPC303_160",
+      "id": "EAEPC303_161",
       "filename": "ECECC303_EIECC303_2024.pdf",
       "title": "ECECC303 EIECC303 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2928,7 +2946,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_2024.pdf"
     },
     {
-      "id": "EAEPC303_161",
+      "id": "EAEPC303_162",
       "filename": "INECC305-ITECC305.pdf",
       "title": "INECC305 ITECC305",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2946,7 +2964,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/INECC305-ITECC305.pdf"
     },
     {
-      "id": "EAEPC303_162",
+      "id": "EAEPC303_163",
       "filename": "INECC305_ITECC305_2024.pdf",
       "title": "INECC305 ITECC305 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2964,7 +2982,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/INECC305_ITECC305_2024.pdf"
     },
     {
-      "id": "EAEPC303_163",
+      "id": "EAEPC303_164",
       "filename": "INECC305_ITECC305_INECC06_ITECC06_2024.pdf",
       "title": "INECC305 ITECC305 INECC06 ITECC06 2024",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -2982,7 +3000,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/INECC305_ITECC305_INECC06_ITECC06_2024.pdf"
     },
     {
-      "id": "EAEPC303_164",
+      "id": "EAEPC303_165",
       "filename": "COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf",
       "title": "COMTC305 CAMTC305 CMMTC305 CDMTC305 Probability and Statistics EndSem BTech CourseWork June2026",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -3000,7 +3018,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf"
     },
     {
-      "id": "EAEPC303_165",
+      "id": "EAEPC303_166",
       "filename": "ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf",
       "title": "ECECC06 Probability Theory and Random Process EndSem BTech Summer2026 copy1",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -3018,7 +3036,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf"
     },
     {
-      "id": "EAEPC303_166",
+      "id": "EAEPC303_167",
       "filename": "ECECG303-EIE_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy2.pdf",
       "title": "ECECG303 EIE Probability Theory and Random Process EndSem BTech Summer2026 copy2",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -3036,7 +3054,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECG303-EIE_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy2.pdf"
     },
     {
-      "id": "EAEPC303_167",
+      "id": "EAEPC303_168",
       "filename": "ITECC06_Probability-and-Stochastic-Process_EndSem_BTech_Summer2026_copy3.pdf",
       "title": "ITECC06 Probability and Stochastic Process EndSem BTech Summer2026 copy3",
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -3054,7 +3072,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ITECC06_Probability-and-Stochastic-Process_EndSem_BTech_Summer2026_copy3.pdf"
     },
     {
-      "id": "EAEPC304_168",
+      "id": "EAEPC304_169",
       "filename": "MCA_Assignment.pdf",
       "title": "MCA Assignment",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3072,7 +3090,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Assignments/MCA_Assignment.pdf"
     },
     {
-      "id": "EAEPC304_169",
+      "id": "EAEPC304_170",
       "filename": "MCA_Lab_Experiments_Manual.pdf",
       "title": "MCA Lab Experiments Manual",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3090,7 +3108,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lab_Manuals_and_Experiments/MCA_Lab_Experiments_Manual.pdf"
     },
     {
-      "id": "EAEPC304_170",
+      "id": "EAEPC304_171",
       "filename": "Lec 1-2.pdf",
       "title": "Lec 1 2",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3108,7 +3126,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec%201-2.pdf"
     },
     {
-      "id": "EAEPC304_171",
+      "id": "EAEPC304_172",
       "filename": "Lec 3-5.pdf",
       "title": "Lec 3 5",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3126,7 +3144,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec%203-5.pdf"
     },
     {
-      "id": "EAEPC304_172",
+      "id": "EAEPC304_173",
       "filename": "Lec 6.pdf",
       "title": "Lec 6",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3144,7 +3162,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec%206.pdf"
     },
     {
-      "id": "EAEPC304_173",
+      "id": "EAEPC304_174",
       "filename": "Lec 7-8.pdf",
       "title": "Lec 7 8",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3162,7 +3180,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec%207-8.pdf"
     },
     {
-      "id": "EAEPC304_174",
+      "id": "EAEPC304_175",
       "filename": "Lec 9-12.pdf",
       "title": "Lec 9 12",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3180,7 +3198,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec%209-12.pdf"
     },
     {
-      "id": "EAEPC304_175",
+      "id": "EAEPC304_176",
       "filename": "Lec- 16-17 Large & small signal operation & model.pdf",
       "title": "Lec 16 17 Large & small signal operation & model",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3198,7 +3216,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-%2016-17%20Large%20%26%20small%20signal%20operation%20%26%20model.pdf"
     },
     {
-      "id": "EAEPC304_176",
+      "id": "EAEPC304_177",
       "filename": "Lec-13 BJT Structure & Operation.pdf",
       "title": "Lec 13 BJT Structure & Operation",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3216,7 +3234,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-13%20BJT%20Structure%20%26%20Operation.pdf"
     },
     {
-      "id": "EAEPC304_177",
+      "id": "EAEPC304_178",
       "filename": "Lec-14-15 BJT Characteristics & Biasing.pdf",
       "title": "Lec 14 15 BJT Characteristics & Biasing",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3234,7 +3252,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-14-15%20BJT%20Characteristics%20%26%20Biasing.pdf"
     },
     {
-      "id": "EAEPC304_178",
+      "id": "EAEPC304_179",
       "filename": "Lec-18-19 PNP Transistor & Amplifier Evolution.pdf",
       "title": "Lec 18 19 PNP Transistor & Amplifier Evolution",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3252,7 +3270,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-18-19%20PNP%20Transistor%20%26%20Amplifier%20Evolution.pdf"
     },
     {
-      "id": "EAEPC304_179",
+      "id": "EAEPC304_180",
       "filename": "Lec-20-21 Common emitter stage & input output impedance.pdf",
       "title": "Lec 20 21 Common emitter stage & input output impedance",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3270,7 +3288,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-20-21%20Common%20emitter%20stage%20%26%20input%20output%20impedance.pdf"
     },
     {
-      "id": "EAEPC304_180",
+      "id": "EAEPC304_181",
       "filename": "Lec-22-23 CE Stage & Emitter degeneration.pdf",
       "title": "Lec 22 23 CE Stage & Emitter degeneration",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3288,7 +3306,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-22-23%20CE%20Stage%20%26%20Emitter%20degeneration.pdf"
     },
     {
-      "id": "EAEPC304_181",
+      "id": "EAEPC304_182",
       "filename": "Lec-24-25 Biasing Technique.pdf",
       "title": "Lec 24 25 Biasing Technique",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3306,7 +3324,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-24-25%20Biasing%20Technique.pdf"
     },
     {
-      "id": "EAEPC304_182",
+      "id": "EAEPC304_183",
       "filename": "Lec-26,27,28.pdf",
       "title": "Lec 26,27,28",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3324,7 +3342,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-26%2C27%2C28.pdf"
     },
     {
-      "id": "EAEPC304_183",
+      "id": "EAEPC304_184",
       "filename": "Lec-29&30.pdf",
       "title": "Lec 29&30",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3342,7 +3360,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-29%2630.pdf"
     },
     {
-      "id": "EAEPC304_184",
+      "id": "EAEPC304_185",
       "filename": "Lec-31,32&33.pdf",
       "title": "Lec 31,32&33",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3360,7 +3378,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-31%2C32%2633.pdf"
     },
     {
-      "id": "EAEPC304_185",
+      "id": "EAEPC304_186",
       "filename": "Lec-34,35,36.pdf",
       "title": "Lec 34,35,36",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3378,7 +3396,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-34%2C35%2C36.pdf"
     },
     {
-      "id": "EAEPC304_186",
+      "id": "EAEPC304_187",
       "filename": "Lec-37&38.pdf",
       "title": "Lec 37&38",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3396,7 +3414,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-37%2638.pdf"
     },
     {
-      "id": "EAEPC304_187",
+      "id": "EAEPC304_188",
       "filename": "Lec-39,40,41.pdf",
       "title": "Lec 39,40,41",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3414,7 +3432,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-39%2C40%2C41.pdf"
     },
     {
-      "id": "EAEPC304_188",
+      "id": "EAEPC304_189",
       "filename": "Lec-42&43.pdf",
       "title": "Lec 42&43",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3432,7 +3450,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-42%2643.pdf"
     },
     {
-      "id": "EAEPC304_189",
+      "id": "EAEPC304_190",
       "filename": "Lec-44 & 45.pdf",
       "title": "Lec 44 & 45",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3450,7 +3468,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lec-44%20%26%2045.pdf"
     },
     {
-      "id": "EAEPC304_190",
+      "id": "EAEPC304_191",
       "filename": "Lecture18_MOSFET_Amplifiers.pdf",
       "title": "Lecture18 MOSFET Amplifiers",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3468,7 +3486,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/Lecture_Slides_Prof_Razavi/Lecture18_MOSFET_Amplifiers.pdf"
     },
     {
-      "id": "EAEPC304_191",
+      "id": "EAEPC304_192",
       "filename": "mecs Ankit part ,3.pdf",
       "title": "mecs Ankit part ,3",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3486,7 +3504,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_notes/Unit_1/mecs%20Ankit%20part%20%2C3.pdf"
     },
     {
-      "id": "EAEPC304_192",
+      "id": "EAEPC304_193",
       "filename": "mecs Ankit part 2.pdf",
       "title": "mecs Ankit part 2",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3504,7 +3522,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_notes/Unit_1/mecs%20Ankit%20part%202.pdf"
     },
     {
-      "id": "EAEPC304_193",
+      "id": "EAEPC304_194",
       "filename": "ankit goyal mecs parts.pdf",
       "title": "ankit goyal mecs parts",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3522,7 +3540,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_notes/Unit_2/ankit%20goyal%20mecs%20parts.pdf"
     },
     {
-      "id": "EAEPC304_194",
+      "id": "EAEPC304_195",
       "filename": "Operational amplifier.pdf",
       "title": "Operational amplifier",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3540,7 +3558,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_notes/Unit_3/Operational%20amplifier.pdf"
     },
     {
-      "id": "EAEPC304_195",
+      "id": "EAEPC304_196",
       "filename": "op amp full chapter.pdf",
       "title": "op amp full chapter",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3558,7 +3576,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_notes/Unit_3/op%20amp%20full%20chapter.pdf"
     },
     {
-      "id": "EAEPC304_196",
+      "id": "EAEPC304_197",
       "filename": "feedback amplifier 1.pdf",
       "title": "feedback amplifier 1",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3576,7 +3594,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_notes/Unit_4/feedback%20amplifier%201.pdf"
     },
     {
-      "id": "EAEPC304_197",
+      "id": "EAEPC304_198",
       "filename": "feedback amplifier 2.pdf",
       "title": "feedback amplifier 2",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3594,7 +3612,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_notes/Unit_4/feedback%20amplifier%202.pdf"
     },
     {
-      "id": "EAEPC304_198",
+      "id": "EAEPC304_199",
       "filename": "2025_End_Semester_EAEPC07_Microelectronics_Reappear.pdf",
       "title": "2025 End Semester EAEPC07 Microelectronics Reappear",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3612,7 +3630,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC07_Microelectronics_Reappear.pdf"
     },
     {
-      "id": "EAEPC304_199",
+      "id": "EAEPC304_200",
       "filename": "2025_End_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf",
       "title": "2025 End Semester EAEPC304 Microelectronics Circuits and Applications",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3630,7 +3648,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf"
     },
     {
-      "id": "EAEPC304_200",
+      "id": "EAEPC304_201",
       "filename": "EAEPC304_2024.pdf",
       "title": "EAEPC304 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3648,7 +3666,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EAEPC304_2024.pdf"
     },
     {
-      "id": "EAEPC304_201",
+      "id": "EAEPC304_202",
       "filename": "ECECC07-EIECC07-.pdf",
       "title": "ECECC07 EIECC07",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3666,7 +3684,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07-EIECC07-.pdf"
     },
     {
-      "id": "EAEPC304_202",
+      "id": "EAEPC304_203",
       "filename": "ECECC07.pdf",
       "title": "ECECC07",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3684,7 +3702,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07.pdf"
     },
     {
-      "id": "EAEPC304_203",
+      "id": "EAEPC304_204",
       "filename": "ECECC07_2024.pdf",
       "title": "ECECC07 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3702,7 +3720,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2024.pdf"
     },
     {
-      "id": "EAEPC304_204",
+      "id": "EAEPC304_205",
       "filename": "ECECC07_VTECC304_Microelectronics.pdf",
       "title": "ECECC07 VTECC304 Microelectronics",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3720,7 +3738,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_VTECC304_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_205",
+      "id": "EAEPC304_206",
       "filename": "ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf",
       "title": "ECECC304 EIECC07 Microelectronics Circuits and Application EndSem BTech Sem3 July2026",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3738,7 +3756,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf"
     },
     {
-      "id": "EAEPC304_206",
+      "id": "EAEPC304_207",
       "filename": "ECECC304-EIECC304.pdf",
       "title": "ECECC304 EIECC304",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3756,7 +3774,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304-EIECC304.pdf"
     },
     {
-      "id": "EAEPC304_207",
+      "id": "EAEPC304_208",
       "filename": "ECECC304_2024.pdf",
       "title": "ECECC304 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3774,7 +3792,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304_2024.pdf"
     },
     {
-      "id": "EAEPC304_208",
+      "id": "EAEPC304_209",
       "filename": "ECECC304_EIECC304.pdf",
       "title": "ECECC304 EIECC304",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3792,7 +3810,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304_EIECC304.pdf"
     },
     {
-      "id": "EAEPC304_209",
+      "id": "EAEPC304_210",
       "filename": "EIECC07_2023.pdf",
       "title": "EIECC07 2023",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3810,7 +3828,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC07_2023.pdf"
     },
     {
-      "id": "EAEPC304_210",
+      "id": "EAEPC304_211",
       "filename": "EIECC304_2024.pdf",
       "title": "EIECC304 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3828,7 +3846,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC304_2024.pdf"
     },
     {
-      "id": "EAEPC304_211",
+      "id": "EAEPC304_212",
       "filename": "VTECC304.pdf",
       "title": "VTECC304",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3846,7 +3864,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/VTECC304.pdf"
     },
     {
-      "id": "EAEPC304_212",
+      "id": "EAEPC304_213",
       "filename": "2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf",
       "title": "2025 Mid Semester EAEPC07 Microelectronics Reappear",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3864,7 +3882,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf"
     },
     {
-      "id": "EAEPC304_213",
+      "id": "EAEPC304_214",
       "filename": "2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf",
       "title": "2025 Mid Semester EAEPC304 Microelectronics Circuits and Applications",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3882,7 +3900,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf"
     },
     {
-      "id": "EAEPC304_214",
+      "id": "EAEPC304_215",
       "filename": "EAEPC304_2024.pdf",
       "title": "EAEPC304 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3900,7 +3918,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/EAEPC304_2024.pdf"
     },
     {
-      "id": "EAEPC304_215",
+      "id": "EAEPC304_216",
       "filename": "ECECC07-VTECC304.pdf",
       "title": "ECECC07 VTECC304",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3918,7 +3936,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC07-VTECC304.pdf"
     },
     {
-      "id": "EAEPC304_216",
+      "id": "EAEPC304_217",
       "filename": "ECECC07_2023.pdf",
       "title": "ECECC07 2023",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3936,7 +3954,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC07_2023.pdf"
     },
     {
-      "id": "EAEPC304_217",
+      "id": "EAEPC304_218",
       "filename": "ECECC07_2024.pdf",
       "title": "ECECC07 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3954,7 +3972,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC07_2024.pdf"
     },
     {
-      "id": "EAEPC304_218",
+      "id": "EAEPC304_219",
       "filename": "ECECC304-EIECC07.pdf",
       "title": "ECECC304 EIECC07",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3972,7 +3990,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC304-EIECC07.pdf"
     },
     {
-      "id": "EAEPC304_219",
+      "id": "EAEPC304_220",
       "filename": "ECECC304_2024.pdf",
       "title": "ECECC304 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -3990,7 +4008,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC304_2024.pdf"
     },
     {
-      "id": "EAEPC304_220",
+      "id": "EAEPC304_221",
       "filename": "EIECC304_2024.pdf",
       "title": "EIECC304 2024",
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -4008,7 +4026,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/EIECC304_2024.pdf"
     },
     {
-      "id": "EAEPC305_221",
+      "id": "EAEPC305_222",
       "filename": "DLD Assignment-1.pdf",
       "title": "DLD Assignment 1",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4026,7 +4044,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/DLD%20Assignment-1.pdf"
     },
     {
-      "id": "EAEPC305_222",
+      "id": "EAEPC305_223",
       "filename": "TUTORIAL SHEET 1 SOLUTIONS.pdf",
       "title": "TUTORIAL SHEET 1 SOLUTIONS",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4044,7 +4062,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/TUTORIAL%20SHEET%201%20SOLUTIONS.pdf"
     },
     {
-      "id": "EAEPC305_223",
+      "id": "EAEPC305_224",
       "filename": "TUTORIAL SHEET 2 Solution.pdf",
       "title": "TUTORIAL SHEET 2 Solution",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4062,7 +4080,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/TUTORIAL%20SHEET%202%20Solution.pdf"
     },
     {
-      "id": "EAEPC305_224",
+      "id": "EAEPC305_225",
       "filename": "TUTORIAL_SHEET 1.pdf",
       "title": "TUTORIAL SHEET 1",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4080,7 +4098,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/TUTORIAL_SHEET%201.pdf"
     },
     {
-      "id": "EAEPC305_225",
+      "id": "EAEPC305_226",
       "filename": "Tutorial Sheet 2.pdf",
       "title": "Tutorial Sheet 2",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4098,7 +4116,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/Tutorial%20Sheet%202.pdf"
     },
     {
-      "id": "EAEPC305_226",
+      "id": "EAEPC305_227",
       "filename": "Verilog questions.docx",
       "title": "Verilog questions",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4116,7 +4134,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/Verilog%20questions.docx"
     },
     {
-      "id": "EAEPC305_227",
+      "id": "EAEPC305_228",
       "filename": "DCS HANDWRITTEN NOTES-2.pdf",
       "title": "DCS HANDWRITTEN NOTES 2",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4134,7 +4152,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/DCS%20HANDWRITTEN%20NOTES-2.pdf"
     },
     {
-      "id": "EAEPC305_228",
+      "id": "EAEPC305_229",
       "filename": "DCS HANDWRITTEN NOTES.pdf",
       "title": "DCS HANDWRITTEN NOTES",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4152,7 +4170,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/DCS%20HANDWRITTEN%20NOTES.pdf"
     },
     {
-      "id": "EAEPC305_229",
+      "id": "EAEPC305_230",
       "filename": "GSK_Notes_on_PLD_in_VLSI_design.pdf",
       "title": "GSK Notes on PLD in VLSI design",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4170,7 +4188,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/GSK_Notes_on_PLD_in_VLSI_design.pdf"
     },
     {
-      "id": "EAEPC305_230",
+      "id": "EAEPC305_231",
       "filename": "MUX AND DECODER.pdf",
       "title": "MUX AND DECODER",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4188,7 +4206,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/MUX%20AND%20DECODER.pdf"
     },
     {
-      "id": "EAEPC305_231",
+      "id": "EAEPC305_232",
       "filename": "TOPPER NOTES ALL IN ONE (BY ADITYA GUPTA).pdf",
       "title": "TOPPER NOTES ALL IN ONE (BY ADITYA GUPTA)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4206,7 +4224,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/TOPPER%20NOTES%20ALL%20IN%20ONE%20%28BY%20ADITYA%20GUPTA%29.pdf"
     },
     {
-      "id": "EAEPC305_232",
+      "id": "EAEPC305_233",
       "filename": "Unit 4.pdf",
       "title": "Unit 4",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4224,7 +4242,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/Unit%204.pdf"
     },
     {
-      "id": "EAEPC305_233",
+      "id": "EAEPC305_234",
       "filename": "Verilog intro.pdf",
       "title": "Verilog intro",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4242,7 +4260,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/Verilog%20intro.pdf"
     },
     {
-      "id": "EAEPC305_234",
+      "id": "EAEPC305_235",
       "filename": "Verilog_Sequential.pdf",
       "title": "Verilog Sequential",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4260,7 +4278,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/Verilog_Sequential.pdf"
     },
     {
-      "id": "EAEPC305_235",
+      "id": "EAEPC305_236",
       "filename": "counter.pdf",
       "title": "counter",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4278,7 +4296,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/counter.pdf"
     },
     {
-      "id": "EAEPC305_236",
+      "id": "EAEPC305_237",
       "filename": "register.pdf",
       "title": "register",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4296,7 +4314,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/register.pdf"
     },
     {
-      "id": "EAEPC305_237",
+      "id": "EAEPC305_238",
       "filename": "sync counter prob.pdf",
       "title": "sync counter prob",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4314,7 +4332,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/sync%20counter%20prob.pdf"
     },
     {
-      "id": "EAEPC305_238",
+      "id": "EAEPC305_239",
       "filename": "unit-3 flip flop notes.pdf",
       "title": "unit 3 flip flop notes",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4332,7 +4350,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/unit-3%20flip%20flop%20notes.pdf"
     },
     {
-      "id": "EAEPC305_239",
+      "id": "EAEPC305_240",
       "filename": "DCS_Syllabus.pdf",
       "title": "DCS Syllabus",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4350,7 +4368,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Syllabus/DCS_Syllabus.pdf"
     },
     {
-      "id": "EAEPC305_240",
+      "id": "EAEPC305_241",
       "filename": "A VHDL Primer - Jayaram Bhasker-1.pdf",
       "title": "A VHDL Primer Jayaram Bhasker 1",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4368,7 +4386,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/A%20VHDL%20Primer%20-%20Jayaram%20Bhasker-1.pdf"
     },
     {
-      "id": "EAEPC305_241",
+      "id": "EAEPC305_242",
       "filename": "Digital Design (Morris Mano).pdf",
       "title": "Digital Design (Morris Mano)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4386,7 +4404,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Digital%20Design%20%28Morris%20Mano%29.pdf"
     },
     {
-      "id": "EAEPC305_242",
+      "id": "EAEPC305_243",
       "filename": "Digital Logic And Computer Design By M. Morris Mano (2nd Edition).pdf",
       "title": "Digital Logic And Computer Design By M. Morris Mano (2nd Edition)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4404,7 +4422,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Digital%20Logic%20And%20Computer%20Design%20By%20M.%20Morris%20Mano%20%282nd%20Edition%29.pdf"
     },
     {
-      "id": "EAEPC305_243",
+      "id": "EAEPC305_244",
       "filename": "Morris Mano- Digital logic Design.pdf",
       "title": "Morris Mano Digital logic Design",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4422,7 +4440,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Morris%20Mano-%20Digital%20logic%20Design.pdf"
     },
     {
-      "id": "EAEPC305_244",
+      "id": "EAEPC305_245",
       "filename": "logic family.pdf",
       "title": "logic family",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4440,7 +4458,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/logic%20family.pdf"
     },
     {
-      "id": "EAEPC305_245",
+      "id": "EAEPC305_246",
       "filename": "Copy of 01 Number System.pdf",
       "title": "Copy of 01 Number System",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4458,7 +4476,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2001%20Number%20System.pdf"
     },
     {
-      "id": "EAEPC305_246",
+      "id": "EAEPC305_247",
       "filename": "Copy of 02 Binary Codes.pdf",
       "title": "Copy of 02 Binary Codes",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4476,7 +4494,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2002%20Binary%20Codes.pdf"
     },
     {
-      "id": "EAEPC305_247",
+      "id": "EAEPC305_248",
       "filename": "Copy of 03 Binary Arithmetic.pdf",
       "title": "Copy of 03 Binary Arithmetic",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4494,7 +4512,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2003%20Binary%20Arithmetic.pdf"
     },
     {
-      "id": "EAEPC305_248",
+      "id": "EAEPC305_249",
       "filename": "Copy of 04 Boolean Algebra.pdf",
       "title": "Copy of 04 Boolean Algebra",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4512,7 +4530,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2004%20Boolean%20Algebra.pdf"
     },
     {
-      "id": "EAEPC305_249",
+      "id": "EAEPC305_250",
       "filename": "Copy of 05 SOP and POS Form.pdf",
       "title": "Copy of 05 SOP and POS Form",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4530,7 +4548,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2005%20SOP%20and%20POS%20Form.pdf"
     },
     {
-      "id": "EAEPC305_250",
+      "id": "EAEPC305_251",
       "filename": "Copy of 06 Logic Gates and its Implementation.pdf",
       "title": "Copy of 06 Logic Gates and its Implementation",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4548,7 +4566,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2006%20Logic%20Gates%20and%20its%20Implementation.pdf"
     },
     {
-      "id": "EAEPC305_251",
+      "id": "EAEPC305_252",
       "filename": "Copy of 07 Karnaugh Map(K-map) Simplification of an Boolean expression.pdf",
       "title": "Copy of 07 Karnaugh Map(K map) Simplification of an Boolean expression",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4566,7 +4584,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2007%20Karnaugh%20Map%28K-map%29%20Simplification%20of%20an%20Boolean%20expression.pdf"
     },
     {
-      "id": "EAEPC305_252",
+      "id": "EAEPC305_253",
       "filename": "Copy of 07a Quine McCluskey Method - Tabulation Method - Solved Problem # 02 - Edited.pdf",
       "title": "Copy of 07a Quine McCluskey Method Tabulation Method Solved Problem # 02 Edited",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4584,7 +4602,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2007a%20Quine%20McCluskey%20Method%20-%20Tabulation%20Method%20-%20Solved%20Problem%20%23%2002%20-%20Edited.pdf"
     },
     {
-      "id": "EAEPC305_253",
+      "id": "EAEPC305_254",
       "filename": "Copy of 08 Digital Adders and Digital Subtractors.pdf",
       "title": "Copy of 08 Digital Adders and Digital Subtractors",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4602,7 +4620,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2008%20Digital%20Adders%20and%20Digital%20Subtractors.pdf"
     },
     {
-      "id": "EAEPC305_254",
+      "id": "EAEPC305_255",
       "filename": "Copy of 09 Digital Comparators.pdf",
       "title": "Copy of 09 Digital Comparators",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4620,7 +4638,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2009%20Digital%20Comparators.pdf"
     },
     {
-      "id": "EAEPC305_255",
+      "id": "EAEPC305_256",
       "filename": "Copy of 10 Digital Converters.pdf",
       "title": "Copy of 10 Digital Converters",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4638,7 +4656,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2010%20Digital%20Converters.pdf"
     },
     {
-      "id": "EAEPC305_256",
+      "id": "EAEPC305_257",
       "filename": "Copy of 11 Multiplexers.pdf",
       "title": "Copy of 11 Multiplexers",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4656,7 +4674,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2011%20Multiplexers.pdf"
     },
     {
-      "id": "EAEPC305_257",
+      "id": "EAEPC305_258",
       "filename": "Copy of 15 Flip Flop.pdf",
       "title": "Copy of 15 Flip Flop",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4674,7 +4692,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf"
     },
     {
-      "id": "EAEPC305_258",
+      "id": "EAEPC305_259",
       "filename": "2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "title": "2025 End Semester EAEPC305 Digital Circuits and Systems",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4692,7 +4710,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_259",
+      "id": "EAEPC305_260",
       "filename": "DCS Endsem 2025 (Nov-Dec).jpeg",
       "title": "DCS Endsem 2025 (Nov Dec)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4710,7 +4728,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/DCS%20Endsem%202025%20%28Nov-Dec%29.jpeg"
     },
     {
-      "id": "EAEPC305_260",
+      "id": "EAEPC305_261",
       "filename": "EAEPC305_2024.pdf",
       "title": "EAEPC305 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4728,7 +4746,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/EAEPC305_2024.pdf"
     },
     {
-      "id": "EAEPC305_261",
+      "id": "EAEPC305_262",
       "filename": "ECECC08-EIECC08-ICECC08.pdf",
       "title": "ECECC08 EIECC08 ICECC08",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4746,7 +4764,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08-EIECC08-ICECC08.pdf"
     },
     {
-      "id": "EAEPC305_262",
+      "id": "EAEPC305_263",
       "filename": "ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf",
       "title": "ECECC08 ECECC305 ICECC305 VTECC305 copy1",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4764,7 +4782,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf"
     },
     {
-      "id": "EAEPC305_263",
+      "id": "EAEPC305_264",
       "filename": "ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf",
       "title": "ECECC08 ECECC305 ICECC305 VTECC305 copy2",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4782,7 +4800,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf"
     },
     {
-      "id": "EAEPC305_264",
+      "id": "EAEPC305_265",
       "filename": "ECECC08_EIECC08_2023.pdf",
       "title": "ECECC08 EIECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4800,7 +4818,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_265",
+      "id": "EAEPC305_266",
       "filename": "ECECC08_EIECC08_2024.pdf",
       "title": "ECECC08 EIECC08 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4818,7 +4836,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_2024.pdf"
     },
     {
-      "id": "EAEPC305_266",
+      "id": "EAEPC305_267",
       "filename": "ECECC08_EIECC08_ICECC08.pdf",
       "title": "ECECC08 EIECC08 ICECC08",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4836,7 +4854,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_ICECC08.pdf"
     },
     {
-      "id": "EAEPC305_267",
+      "id": "EAEPC305_268",
       "filename": "ECECC305-EIECC305-ICECC305-VTECC305.pdf",
       "title": "ECECC305 EIECC305 ICECC305 VTECC305",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4854,7 +4872,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305-EIECC305-ICECC305-VTECC305.pdf"
     },
     {
-      "id": "EAEPC305_268",
+      "id": "EAEPC305_269",
       "filename": "ECECC305_EIECC305_ICECC305_2024.pdf",
       "title": "ECECC305 EIECC305 ICECC305 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4872,7 +4890,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_2024.pdf"
     },
     {
-      "id": "EAEPC305_269",
+      "id": "EAEPC305_270",
       "filename": "ECECC305_EIECC305_ICECC305_VTECC305.pdf",
       "title": "ECECC305 EIECC305 ICECC305 VTECC305",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4890,7 +4908,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_VTECC305.pdf"
     },
     {
-      "id": "EAEPC305_270",
+      "id": "EAEPC305_271",
       "filename": "END SEM 2018.pdf",
       "title": "END SEM 2018",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4908,7 +4926,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/END%20SEM%202018.pdf"
     },
     {
-      "id": "EAEPC305_271",
+      "id": "EAEPC305_272",
       "filename": "END SEM 2019.pdf",
       "title": "END SEM 2019",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4926,7 +4944,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/END%20SEM%202019.pdf"
     },
     {
-      "id": "EAEPC305_272",
+      "id": "EAEPC305_273",
       "filename": "2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf",
       "title": "2025 Mid Semester EAEPC08 Digital Circuits and Systems Reappear",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4944,7 +4962,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf"
     },
     {
-      "id": "EAEPC305_273",
+      "id": "EAEPC305_274",
       "filename": "2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "title": "2025 Mid Semester EAEPC305 Digital Circuits and Systems",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4962,7 +4980,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_274",
+      "id": "EAEPC305_275",
       "filename": "DCS Midsem 2025 (sept).jpeg",
       "title": "DCS Midsem 2025 (sept)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4980,7 +4998,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/DCS%20Midsem%202025%20%28sept%29.jpeg"
     },
     {
-      "id": "EAEPC305_275",
+      "id": "EAEPC305_276",
       "filename": "DCS midsem (2020,2021,2022,2023).pdf",
       "title": "DCS midsem (2020,2021,2022,2023)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4998,7 +5016,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/DCS%20midsem%20%282020%2C2021%2C2022%2C2023%29.pdf"
     },
     {
-      "id": "EAEPC305_276",
+      "id": "EAEPC305_277",
       "filename": "ECECC08_EIECC08_2023.pdf",
       "title": "ECECC08 EIECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5016,7 +5034,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_277",
+      "id": "EAEPC305_278",
       "filename": "ECECC08_EIECC08_2024.pdf",
       "title": "ECECC08 EIECC08 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5034,7 +5052,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2024.pdf"
     },
     {
-      "id": "EAEPC305_278",
+      "id": "EAEPC305_279",
       "filename": "EIECC08_ECECC08_INECC01_2024.pdf",
       "title": "EIECC08 ECECC08 INECC01 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5052,7 +5070,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf"
     },
     {
-      "id": "EAEPC305_279",
+      "id": "EAEPC305_280",
       "filename": "ICECC08_EEECC08_2023.pdf",
       "title": "ICECC08 EEECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5070,7 +5088,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_280",
+      "id": "EAEPC305_281",
       "filename": "ICECC08_EEECC08_2024.pdf",
       "title": "ICECC08 EEECC08 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5088,7 +5106,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2024.pdf"
     },
     {
-      "id": "EAEPC305_281",
+      "id": "EAEPC305_282",
       "filename": "MID SEM 2021.pdf",
       "title": "MID SEM 2021",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5106,7 +5124,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/MID%20SEM%202021.pdf"
     },
     {
-      "id": "EAEPC305_282",
+      "id": "EAEPC305_283",
       "filename": "Mid sem 2022.pdf",
       "title": "Mid sem 2022",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5124,7 +5142,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/Mid%20sem%202022.pdf"
     },
     {
-      "id": "EAEPC305_283",
+      "id": "EAEPC305_284",
       "filename": "EEECC203_Analog_and_Digital_Electronics.pdf",
       "title": "EEECC203 Analog and Digital Electronics",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5142,7 +5160,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/EEECC203_Analog_and_Digital_Electronics.pdf"
     },
     {
-      "id": "EAEPC305_284",
+      "id": "EAEPC305_285",
       "filename": "EIECC08_ECECC08_INECC01_2024.pdf",
       "title": "EIECC08 ECECC08 INECC01 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5160,7 +5178,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/EIECC08_ECECC08_INECC01_2024.pdf"
     },
     {
-      "id": "EPMTC301_285",
+      "id": "EPMTC301_286",
       "filename": "Linear_algebra_schaum_outlines_problemsheet2_ques.pdf",
       "title": "Linear algebra schaum outlines problemsheet2 ques",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5178,7 +5196,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Assignments_and_Tutorials/Linear_algebra_schaum_outlines_problemsheet2_ques.pdf"
     },
     {
-      "id": "EPMTC301_286",
+      "id": "EPMTC301_287",
       "filename": "2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "title": "2025 End Semester EPMTC301 Mathematics for Machine Learning",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5196,7 +5214,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf"
     },
     {
-      "id": "EPMTC301_287",
+      "id": "EPMTC301_288",
       "filename": "ECMTC301.pdf",
       "title": "ECMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5214,7 +5232,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC301.pdf"
     },
     {
-      "id": "EPMTC301_288",
+      "id": "EPMTC301_289",
       "filename": "ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf",
       "title": "ITMTC301 INMTC301 ITMTC301 EIMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5232,7 +5250,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_289",
+      "id": "EPMTC301_290",
       "filename": "ITMTC301_INMTC301_EIMTC301.pdf",
       "title": "ITMTC301 INMTC301 EIMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5250,7 +5268,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301_INMTC301_EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_290",
+      "id": "EPMTC301_291",
       "filename": "2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf",
       "title": "2025 Mid Semester EAMTC04 Mathematics for Machine Learning Backlog",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5268,7 +5286,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf"
     },
     {
-      "id": "EPMTC301_291",
+      "id": "EPMTC301_292",
       "filename": "2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "title": "2025 Mid Semester EPMTC301 Mathematics for Machine Learning",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5286,7 +5304,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf"
     },
     {
-      "id": "EPMTC301_292",
+      "id": "EPMTC301_293",
       "filename": "EAMTC04_2023.pdf",
       "title": "EAMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5304,7 +5322,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EAMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_293",
+      "id": "EPMTC301_294",
       "filename": "EAMTC04_2024.pdf",
       "title": "EAMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5322,7 +5340,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EAMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_294",
+      "id": "EPMTC301_295",
       "filename": "ECMTC301_2024.pdf",
       "title": "ECMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5340,7 +5358,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ECMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_295",
+      "id": "EPMTC301_296",
       "filename": "EIMTC301_ITMTC301_INMTC301_2024.pdf",
       "title": "EIMTC301 ITMTC301 INMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5358,7 +5376,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC301_ITMTC301_INMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_296",
+      "id": "EPMTC301_297",
       "filename": "EPMTC301_2024.pdf",
       "title": "EPMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5376,7 +5394,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EPMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_297",
+      "id": "EPMTC301_298",
       "filename": "ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf",
       "title": "ITMTC04 EIMTC04 ITMTC301 EIMTC301 INMTC04 INMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
