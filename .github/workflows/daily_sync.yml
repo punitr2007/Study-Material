@@ -64,7 +64,6 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add -A
           if git diff --staged --quiet; then
             echo "No new documents or analytics changes detected."
@@ -73,4 +72,3 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
-
