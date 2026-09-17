@@ -5,6 +5,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 ## Table of Contents
 
 - [Assignments and Tutorials](#assignments-and-tutorials)
+- [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
 
 ---
@@ -17,6 +18,30 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 ---
 
+## downloaded notes
+
+### Unit 1
+
+_No files currently._
+
+### Unit 2
+
+_No files currently._
+
+### Unit 3
+
+_No files currently._
+
+### Unit 4
+
+_No files currently._
+
+### Unit 5
+
+_No files currently._
+
+---
+
 ## downloaded pyqs
 
 ### End Semester
@@ -26,6 +51,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 325.8 KB |
 | [CMMTC04_2023.pdf](downloaded_pyqs/End_Semester/CMMTC04_2023.pdf) | `PDF` | 38.5 KB |
 | [CMMTC04_2024.pdf](downloaded_pyqs/End_Semester/CMMTC04_2024.pdf) | `PDF` | 42.7 KB |
+| [CMMTC13.pdf](downloaded_pyqs/End_Semester/CMMTC13.pdf) | `PDF` | 100.3 KB |
 | [CMMTC13_2024.pdf](downloaded_pyqs/End_Semester/CMMTC13_2024.pdf) | `PDF` | 53.1 KB |
 | [CMMTC303.pdf](downloaded_pyqs/End_Semester/CMMTC303.pdf) | `PDF` | 80.7 KB |
 | [CMMTC303_2024.pdf](downloaded_pyqs/End_Semester/CMMTC303_2024.pdf) | `PDF` | 57.2 KB |
@@ -34,6 +60,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [EAMTC04_2023.pdf](downloaded_pyqs/End_Semester/EAMTC04_2023.pdf) | `PDF` | 31.0 KB |
 | [EAMTC04_2024.pdf](downloaded_pyqs/End_Semester/EAMTC04_2024.pdf) | `PDF` | 41.7 KB |
 | [ECMTC04.pdf](downloaded_pyqs/End_Semester/ECMTC04.pdf) | `PDF` | 70.1 KB |
+| [ECMTC04_2023.pdf](downloaded_pyqs/End_Semester/ECMTC04_2023.pdf) | `PDF` | 43.4 KB |
 | [ECMTC04_2024.pdf](downloaded_pyqs/End_Semester/ECMTC04_2024.pdf) | `PDF` | 48.0 KB |
 | [ECMTC301.pdf](downloaded_pyqs/End_Semester/ECMTC301.pdf) | `PDF` | 86.8 KB |
 | [ECMTC301_2024.pdf](downloaded_pyqs/End_Semester/ECMTC301_2024.pdf) | `PDF` | 53.3 KB |

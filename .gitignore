@@ -23,6 +23,9 @@ web/dist/
 *.log
 .automation_worker.log
 
+# Large local reference books / temp
+*#*
+
 # OS & Editor
 .DS_Store
 .vscode/

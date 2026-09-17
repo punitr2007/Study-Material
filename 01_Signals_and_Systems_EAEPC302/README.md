@@ -175,6 +175,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ECECC302_BIECC302_VTECC302_Signals_and_Systems.pdf](downloaded_pyqs/End_Semester/ECECC302_BIECC302_VTECC302_Signals_and_Systems.pdf) | `PDF` | 302.5 KB |
 | [ECECC302_EIECC302_2024.pdf](downloaded_pyqs/End_Semester/ECECC302_EIECC302_2024.pdf) | `PDF` | 62.2 KB |
 | [ECECC302_VTECC302_EIECE302.pdf](downloaded_pyqs/End_Semester/ECECC302_VTECC302_EIECE302.pdf) | `PDF` | 77.2 KB |
+| [EEEEC03.pdf](downloaded_pyqs/End_Semester/EEEEC03.pdf) | `PDF` | 168.7 KB |
 | [EEEEC03_2024.pdf](downloaded_pyqs/End_Semester/EEEEC03_2024.pdf) | `PDF` | 47.9 KB |
 | [END SEM 2017.pdf](downloaded_pyqs/End_Semester/END%20SEM%202017.pdf) | `PDF` | 635.8 KB |
 | [END SEM 2018.pdf](downloaded_pyqs/End_Semester/END%20SEM%202018.pdf) | `PDF` | 205.9 KB |
@@ -193,6 +194,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ECECC302-EIECC302-VTECC302.pdf](downloaded_pyqs/Mid_Semester/ECECC302-EIECC302-VTECC302.pdf) | `PDF` | 58.8 KB |
 | [EEEEC03.pdf](downloaded_pyqs/Mid_Semester/EEEEC03.pdf) | `PDF` | 31.5 KB |
 | [EEEEC03_2023.pdf](downloaded_pyqs/Mid_Semester/EEEEC03_2023.pdf) | `PDF` | 30.7 KB |
+| [EEEEC03_2024.pdf](downloaded_pyqs/Mid_Semester/EEEEC03_2024.pdf) | `PDF` | 22.3 KB |
 | [ICICC03_ECECC05_2023.pdf](downloaded_pyqs/Mid_Semester/ICICC03_ECECC05_2023.pdf) | `PDF` | 21.0 KB |
 | [ICICC03_EEEEC03_2022.pdf](downloaded_pyqs/Mid_Semester/ICICC03_EEEEC03_2022.pdf) | `PDF` | 28.0 KB |
 | [MIDSEM-2024.pdf](downloaded_pyqs/Mid_Semester/MIDSEM-2024.pdf) | `PDF` | 41.7 KB |
