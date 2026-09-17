@@ -5,7 +5,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 ## Table of Contents
 
 - [Assignments and Tutorials](#assignments-and-tutorials)
-- [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
 
 ---
@@ -18,30 +17,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 ---
 
-## downloaded notes
-
-### Unit 1
-
-_No files currently._
-
-### Unit 2
-
-_No files currently._
-
-### Unit 3
-
-_No files currently._
-
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
-
----
-
 ## downloaded pyqs
 
 ### End Semester
@@ -51,6 +26,7 @@ _No files currently._
 | [2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 325.8 KB |
 | [CMMTC04_2023.pdf](downloaded_pyqs/End_Semester/CMMTC04_2023.pdf) | `PDF` | 38.5 KB |
 | [CMMTC04_2024.pdf](downloaded_pyqs/End_Semester/CMMTC04_2024.pdf) | `PDF` | 42.7 KB |
+| [CMMTC13_2024.pdf](downloaded_pyqs/End_Semester/CMMTC13_2024.pdf) | `PDF` | 53.1 KB |
 | [CMMTC303.pdf](downloaded_pyqs/End_Semester/CMMTC303.pdf) | `PDF` | 80.7 KB |
 | [CMMTC303_2024.pdf](downloaded_pyqs/End_Semester/CMMTC303_2024.pdf) | `PDF` | 57.2 KB |
 | [COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf](downloaded_pyqs/End_Semester/COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf) | `PDF` | 70.7 KB |
@@ -63,6 +39,7 @@ _No files currently._
 | [ECMTC301_2024.pdf](downloaded_pyqs/End_Semester/ECMTC301_2024.pdf) | `PDF` | 53.3 KB |
 | [EEMTC04-ICMTC04.pdf](downloaded_pyqs/End_Semester/EEMTC04-ICMTC04.pdf) | `PDF` | 67.6 KB |
 | [EEMTC04_ICMTC04.pdf](downloaded_pyqs/End_Semester/EEMTC04_ICMTC04.pdf) | `PDF` | 69.1 KB |
+| [ICMTC04_EEMTC04_2023.pdf](downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2023.pdf) | `PDF` | 35.8 KB |
 | [ICMTC04_EEMTC04_2024.pdf](downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2024.pdf) | `PDF` | 48.6 KB |
 | [ICMTC301-EEMTC301-CMMTC301.pdf](downloaded_pyqs/End_Semester/ICMTC301-EEMTC301-CMMTC301.pdf) | `PDF` | 76.7 KB |
 | [ICMTC301_EEMTC301_CMMTC301.pdf](downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301.pdf) | `PDF` | 87.1 KB |

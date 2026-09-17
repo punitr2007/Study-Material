@@ -191,7 +191,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ECECC05.pdf](downloaded_pyqs/Mid_Semester/ECECC05.pdf) | `PDF` | 60.8 KB |
 | [ECECC05_EIECC05.pdf](downloaded_pyqs/Mid_Semester/ECECC05_EIECC05.pdf) | `PDF` | 78.9 KB |
 | [ECECC302-EIECC302-VTECC302.pdf](downloaded_pyqs/Mid_Semester/ECECC302-EIECC302-VTECC302.pdf) | `PDF` | 58.8 KB |
-| [EEEEC03.pdf](downloaded_pyqs/Mid_Semester/EEEEC03.pdf) | `PDF` | 78.4 KB |
+| [EEEEC03.pdf](downloaded_pyqs/Mid_Semester/EEEEC03.pdf) | `PDF` | 31.5 KB |
 | [EEEEC03_2023.pdf](downloaded_pyqs/Mid_Semester/EEEEC03_2023.pdf) | `PDF` | 30.7 KB |
 | [ICICC03_ECECC05_2023.pdf](downloaded_pyqs/Mid_Semester/ICICC03_ECECC05_2023.pdf) | `PDF` | 21.0 KB |
 | [ICICC03_EEEEC03_2022.pdf](downloaded_pyqs/Mid_Semester/ICICC03_EEEEC03_2022.pdf) | `PDF` | 28.0 KB |
