@@ -6,6 +6,7 @@ import { Navbar, type ActiveNavView } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { SubjectTabs } from './components/SubjectTabs';
 import { CategoryFilterBar } from './components/CategoryFilter';
+import { YearFilterBar } from './components/YearFilter';
 import { DocumentCard } from './components/DocumentCard';
 import { PdfViewerModal } from './components/PdfViewerModal';
 import { SyncModal } from './components/SyncModal';
@@ -31,6 +32,7 @@ export function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSubject, setSelectedSubject] = useState<string>('ALL');
   const [activeCategory, setActiveCategory] = useState<CategoryFilter>('ALL');
+  const [selectedYear, setSelectedYear] = useState<string>('ALL');
   const [activePreviewDoc, setActivePreviewDoc] = useState<CatalogDocument | null>(null);
   const [activeSolutionModal, setActiveSolutionModal] = useState<QuestionSolution | null>(null);
 
@@ -108,6 +110,44 @@ export function App() {
     fetchAllData(false);
   }, []);
 
+  // Calculate available years and document counts per year
+  const { availableYears, yearCounts } = useMemo(() => {
+    if (!catalog) return { availableYears: [], yearCounts: {} };
+    const counts: Record<string, number> = {};
+    const allKnownYears = new Set<string>();
+
+    catalog.documents.forEach((doc) => {
+      if (doc.year) {
+        allKnownYears.add(doc.year);
+        // Track count considering subject and category filters
+        if (selectedSubject !== 'ALL' && doc.subject_id !== selectedSubject) return;
+        if (activeCategory !== 'ALL') {
+          if (
+            activeCategory === 'Mid_Semester' ||
+            activeCategory === 'End_Semester' ||
+            activeCategory === 'Summer_Semester'
+          ) {
+            if (doc.category !== activeCategory && doc.sub_category !== activeCategory) {
+              return;
+            }
+          } else if (activeCategory === 'downloaded_notes') {
+            if (doc.category !== 'downloaded_notes' && !(doc.sub_category && doc.sub_category.startsWith('Unit_'))) {
+              return;
+            }
+          } else {
+            if (doc.category !== activeCategory && doc.sub_category !== activeCategory) {
+              return;
+            }
+          }
+        }
+        counts[doc.year] = (counts[doc.year] || 0) + 1;
+      }
+    });
+
+    const sortedYears = Array.from(allKnownYears).sort((a, b) => b.localeCompare(a));
+    return { availableYears: sortedYears, yearCounts: counts };
+  }, [catalog, selectedSubject, activeCategory]);
+
   // Filtered documents calculation for Materials View
   const filteredDocuments = useMemo(() => {
     if (!catalog) return [];
@@ -139,7 +179,12 @@ export function App() {
         }
       }
 
-      // 3. Search query filter
+      // 3. Year filter
+      if (selectedYear !== 'ALL' && doc.year !== selectedYear) {
+        return false;
+      }
+
+      // 4. Search query filter
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
         const matchTitle = doc.title.toLowerCase().includes(q);
@@ -155,12 +200,13 @@ export function App() {
 
       return true;
     });
-  }, [catalog, selectedSubject, activeCategory, searchQuery]);
+  }, [catalog, selectedSubject, activeCategory, selectedYear, searchQuery]);
 
   const handleClearFilters = () => {
     setSearchQuery('');
     setSelectedSubject('ALL');
     setActiveCategory('ALL');
+    setSelectedYear('ALL');
   };
 
   if (loading) {
@@ -248,6 +294,14 @@ export function App() {
                 activeCategory={activeCategory}
                 onSelectCategory={setActiveCategory}
               />
+
+              {/* Year Filter Pills */}
+              <YearFilterBar
+                availableYears={availableYears}
+                selectedYear={selectedYear}
+                onSelectYear={setSelectedYear}
+                yearCounts={yearCounts}
+              />
             </section>
 
             {/* Results Header */}
@@ -256,9 +310,10 @@ export function App() {
                 Showing <strong>{filteredDocuments.length}</strong> of <strong>{catalog.total_documents}</strong> documents
                 {selectedSubject !== 'ALL' && ` in ${catalog.subjects.find((s) => s.id === selectedSubject)?.name}`}
                 {activeCategory !== 'ALL' && ` (${activeCategory.replace('_', ' ')})`}
+                {selectedYear !== 'ALL' && ` • Year ${selectedYear}`}
               </div>
 
-              {(selectedSubject !== 'ALL' || activeCategory !== 'ALL' || searchQuery) && (
+              {(selectedSubject !== 'ALL' || activeCategory !== 'ALL' || selectedYear !== 'ALL' || searchQuery) && (
                 <button
                   onClick={handleClearFilters}
                   style={{

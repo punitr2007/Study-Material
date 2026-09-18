@@ -468,6 +468,74 @@ body {
   border-color: var(--accent-primary);
 }
 
+/* Year Filter Bar */
+.year-filter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 4px 4px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.year-filter-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.year-pills-scroll {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.year-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+}
+
+.year-pill-btn:hover {
+  background: var(--bg-glass-hover);
+  color: var(--text-primary);
+  border-color: var(--accent-amber);
+}
+
+.year-pill-btn.active {
+  background: rgba(245, 158, 11, 0.18);
+  color: var(--accent-amber);
+  border-color: var(--accent-amber);
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.25);
+}
+
+.year-count-badge {
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-full);
+  color: inherit;
+}
+
 /* ==========================================
    Results & Document Grid
    ========================================== */

@@ -1,9 +1,9 @@
 {
   "repository": "punitr2007/Study-Material",
   "branch": "main",
-  "generated_at": "2026-09-18T02:00:10.968649",
-  "total_documents": 357,
+  "generated_at": "2026-09-18T11:15:59.854300",
   "total_subjects": 5,
+  "total_documents": 359,
   "subjects": [
     {
       "id": "01_Signals_and_Systems_EAEPC302",
@@ -35,7 +35,7 @@
       "code": "EAEPC305",
       "name": "Digital Circuits and Systems",
       "title": "Digital Circuits and Systems (EAEPC305 / ECECC305)",
-      "document_count": 66
+      "document_count": 68
     },
     {
       "id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -1627,7 +1627,7 @@
       "size_bytes": 233069,
       "size_formatted": "227.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC302_Signals_and_Systems.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC302_Signals_and_Systems.pdf"
     },
@@ -1645,7 +1645,7 @@
       "size_bytes": 233083,
       "size_formatted": "227.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/2025_End_Semester_SIGNALANDSYSTEM_Pages_17_17.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/2025_End_Semester_SIGNALANDSYSTEM_Pages_17_17.pdf"
     },
@@ -1663,7 +1663,7 @@
       "size_bytes": 54878,
       "size_formatted": "53.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/CGECC302_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/CGECC302_2024.pdf"
     },
@@ -1681,7 +1681,7 @@
       "size_bytes": 34298,
       "size_formatted": "33.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EAEPC05_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EAEPC05_2023.pdf"
     },
@@ -1699,7 +1699,7 @@
       "size_bytes": 27622,
       "size_formatted": "27.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EAEPC05_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EAEPC05_2024.pdf"
     },
@@ -1717,7 +1717,7 @@
       "size_bytes": 37710,
       "size_formatted": "36.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EAEPC302_EAEPC05_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EAEPC302_EAEPC05_2024.pdf"
     },
@@ -1735,7 +1735,7 @@
       "size_bytes": 52660,
       "size_formatted": "51.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/ECECC05_EIECC05_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/ECECC05_EIECC05_2023.pdf"
     },
@@ -1753,7 +1753,7 @@
       "size_bytes": 61524,
       "size_formatted": "60.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/ECECC05_EIECC05_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/ECECC05_EIECC05_2024.pdf"
     },
@@ -1825,7 +1825,7 @@
       "size_bytes": 63656,
       "size_formatted": "62.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/ECECC302_EIECC302_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/ECECC302_EIECC302_2024.pdf"
     },
@@ -1879,7 +1879,7 @@
       "size_bytes": 49069,
       "size_formatted": "47.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EEEEC03_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/EEEEC03_2024.pdf"
     },
@@ -1987,7 +1987,7 @@
       "size_bytes": 73986,
       "size_formatted": "72.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf"
     },
@@ -2005,7 +2005,7 @@
       "size_bytes": 26292,
       "size_formatted": "25.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EAEPC302_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EAEPC302_2024.pdf"
     },
@@ -2095,7 +2095,7 @@
       "size_bytes": 31458,
       "size_formatted": "30.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EEEEC03_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EEEEC03_2023.pdf"
     },
@@ -2113,7 +2113,7 @@
       "size_bytes": 22874,
       "size_formatted": "22.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EEEEC03_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/EEEEC03_2024.pdf"
     },
@@ -2131,7 +2131,7 @@
       "size_bytes": 21549,
       "size_formatted": "21.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ICICC03_ECECC05_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ICICC03_ECECC05_2023.pdf"
     },
@@ -2149,7 +2149,7 @@
       "size_bytes": 28648,
       "size_formatted": "28.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2022",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ICICC03_EEEEC03_2022.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/ICICC03_EEEEC03_2022.pdf"
     },
@@ -2275,7 +2275,7 @@
       "size_bytes": 43081,
       "size_formatted": "42.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Summer_Semester/EEEEC03_ICICC03_ECECC05_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Summer_Semester/EEEEC03_ICICC03_ECECC05_2023.pdf"
     },
@@ -2473,7 +2473,7 @@
       "size_bytes": 1126543,
       "size_formatted": "1.07 MB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC303_Pages_20_21.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC303_Pages_20_21.pdf"
     },
@@ -2491,7 +2491,7 @@
       "size_bytes": 726062,
       "size_formatted": "709.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf"
     },
@@ -2509,7 +2509,7 @@
       "size_bytes": 850494,
       "size_formatted": "830.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_PROBABILITYTHEORY_Pages_26_27.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_PROBABILITYTHEORY_Pages_26_27.pdf"
     },
@@ -2527,7 +2527,7 @@
       "size_bytes": 2296074,
       "size_formatted": "2.19 MB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_STOCHASTICPROCESSES_Pages_83_86.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/2025_End_Semester_STOCHASTICPROCESSES_Pages_83_86.pdf"
     },
@@ -2545,7 +2545,7 @@
       "size_bytes": 167985,
       "size_formatted": "164.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/CAMTC13-COMTC13_Probability-and-Stochastic-Processes_EndSem_BTech-CourseWork_June2026_copy5.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/CAMTC13-COMTC13_Probability-and-Stochastic-Processes_EndSem_BTech-CourseWork_June2026_copy5.pdf"
     },
@@ -2617,7 +2617,7 @@
       "size_bytes": 97954,
       "size_formatted": "95.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/COMTC13_CAMTC13_CBMTC13_CDMTC13_CIMTC13_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/COMTC13_CAMTC13_CBMTC13_CDMTC13_CIMTC13_2024.pdf"
     },
@@ -2653,7 +2653,7 @@
       "size_bytes": 62532,
       "size_formatted": "61.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/EAEPC303_EAEPC06_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/EAEPC303_EAEPC06_2024.pdf"
     },
@@ -2689,7 +2689,7 @@
       "size_bytes": 58731,
       "size_formatted": "57.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC06_EIECC06_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC06_EIECC06_2023.pdf"
     },
@@ -2707,7 +2707,7 @@
       "size_bytes": 65513,
       "size_formatted": "64.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC06_EIECC06_ECECC303_EIECC303_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ECECC06_EIECC06_ECECC303_EIECC303_2024.pdf"
     },
@@ -2797,7 +2797,7 @@
       "size_bytes": 303762,
       "size_formatted": "296.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/INECC305-ITECC305_Probability-and-Stochastic-Process_EndSem_BTech-Sem3_June2026_copy4.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/INECC305-ITECC305_Probability-and-Stochastic-Process_EndSem_BTech-Sem3_June2026_copy4.pdf"
     },
@@ -2833,7 +2833,7 @@
       "size_bytes": 475524,
       "size_formatted": "464.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ITECC305_INECC305_ITECC06_INECC06_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/ITECC305_INECC305_ITECC06_INECC06_2024.pdf"
     },
@@ -2851,7 +2851,7 @@
       "size_bytes": 511464,
       "size_formatted": "499.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf"
     },
@@ -2869,7 +2869,7 @@
       "size_bytes": 550627,
       "size_formatted": "537.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_63_63.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_63_63.pdf"
     },
@@ -2887,7 +2887,7 @@
       "size_bytes": 511480,
       "size_formatted": "499.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_9_9.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_9_9.pdf"
     },
@@ -2905,7 +2905,7 @@
       "size_bytes": 567523,
       "size_formatted": "554.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_STOCHASTICPROCESSES_Pages_7_7.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_STOCHASTICPROCESSES_Pages_7_7.pdf"
     },
@@ -2941,7 +2941,7 @@
       "size_bytes": 32758,
       "size_formatted": "32.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/COMTC13_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/COMTC13_2024.pdf"
     },
@@ -2959,7 +2959,7 @@
       "size_bytes": 30594,
       "size_formatted": "29.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/EAEPC303__25_EAEPC06_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/EAEPC303__25_EAEPC06_2024.pdf"
     },
@@ -2977,7 +2977,7 @@
       "size_bytes": 29850,
       "size_formatted": "29.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2024.pdf"
     },
@@ -3031,7 +3031,7 @@
       "size_bytes": 29800,
       "size_formatted": "29.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_2024.pdf"
     },
@@ -3067,7 +3067,7 @@
       "size_bytes": 35226,
       "size_formatted": "34.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/INECC305_ITECC305_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/INECC305_ITECC305_2024.pdf"
     },
@@ -3085,7 +3085,7 @@
       "size_bytes": 38812,
       "size_formatted": "37.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/INECC305_ITECC305_INECC06_ITECC06_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/INECC305_ITECC305_INECC06_ITECC06_2024.pdf"
     },
@@ -3103,7 +3103,7 @@
       "size_bytes": 293828,
       "size_formatted": "286.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf"
     },
@@ -3121,7 +3121,7 @@
       "size_bytes": 45468,
       "size_formatted": "44.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECC06_EIECC06_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECC06_EIECC06_2024.pdf"
     },
@@ -3139,7 +3139,7 @@
       "size_bytes": 263026,
       "size_formatted": "256.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf"
     },
@@ -3157,7 +3157,7 @@
       "size_bytes": 311654,
       "size_formatted": "304.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECG303-EIE_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy2.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ECECG303-EIE_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy2.pdf"
     },
@@ -3175,7 +3175,7 @@
       "size_bytes": 297956,
       "size_formatted": "291.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ITECC06_Probability-and-Stochastic-Process_EndSem_BTech_Summer2026_copy3.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Summer_Semester/ITECC06_Probability-and-Stochastic-Process_EndSem_BTech_Summer2026_copy3.pdf"
     },
@@ -3733,7 +3733,7 @@
       "size_bytes": 748883,
       "size_formatted": "731.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC07_Microelectronics_Reappear.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC07_Microelectronics_Reappear.pdf"
     },
@@ -3751,7 +3751,7 @@
       "size_bytes": 2057220,
       "size_formatted": "1.96 MB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf"
     },
@@ -3769,7 +3769,7 @@
       "size_bytes": 526078,
       "size_formatted": "513.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_ELECTRONICDEVICESANDCIRCUITS_Pages_91_91.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_ELECTRONICDEVICESANDCIRCUITS_Pages_91_91.pdf"
     },
@@ -3787,7 +3787,7 @@
       "size_bytes": 748919,
       "size_formatted": "731.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_MICROELECTRONICS_Pages_38_39.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/2025_End_Semester_MICROELECTRONICS_Pages_38_39.pdf"
     },
@@ -3805,7 +3805,7 @@
       "size_bytes": 55124,
       "size_formatted": "53.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EAEPC07_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EAEPC07_2023.pdf"
     },
@@ -3823,7 +3823,7 @@
       "size_bytes": 69858,
       "size_formatted": "68.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EAEPC07_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EAEPC07_2024.pdf"
     },
@@ -3841,7 +3841,7 @@
       "size_bytes": 65615,
       "size_formatted": "64.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EAEPC304_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EAEPC304_2024.pdf"
     },
@@ -3913,7 +3913,7 @@
       "size_bytes": 53898,
       "size_formatted": "52.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2023.pdf"
     },
@@ -3931,7 +3931,7 @@
       "size_bytes": 63394,
       "size_formatted": "61.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2024.pdf"
     },
@@ -3967,7 +3967,7 @@
       "size_bytes": 63285,
       "size_formatted": "61.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC202_ICECC202_EIECC202_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC202_ICECC202_EIECC202_2024.pdf"
     },
@@ -3985,7 +3985,7 @@
       "size_bytes": 158246,
       "size_formatted": "154.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf"
     },
@@ -4021,7 +4021,7 @@
       "size_bytes": 65863,
       "size_formatted": "64.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304_2024.pdf"
     },
@@ -4057,7 +4057,7 @@
       "size_bytes": 59956,
       "size_formatted": "58.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC07_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC07_2023.pdf"
     },
@@ -4075,7 +4075,7 @@
       "size_bytes": 64089,
       "size_formatted": "62.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC304_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC304_2024.pdf"
     },
@@ -4111,7 +4111,7 @@
       "size_bytes": 883314,
       "size_formatted": "862.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf"
     },
@@ -4129,7 +4129,7 @@
       "size_bytes": 742739,
       "size_formatted": "725.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf"
     },
@@ -4147,7 +4147,7 @@
       "size_bytes": 516567,
       "size_formatted": "504.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ELECTRONICDEVICESANDCIRCUITS_Pages_64_64.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ELECTRONICDEVICESANDCIRCUITS_Pages_64_64.pdf"
     },
@@ -4165,7 +4165,7 @@
       "size_bytes": 2313827,
       "size_formatted": "2.21 MB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ELECTRONICDEVICESANDCIRCUITS_Pages_66_69.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ELECTRONICDEVICESANDCIRCUITS_Pages_66_69.pdf"
     },
@@ -4183,7 +4183,7 @@
       "size_bytes": 742778,
       "size_formatted": "725.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MICROELECTRONICSCIRCUITS_Pages_11_12.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MICROELECTRONICSCIRCUITS_Pages_11_12.pdf"
     },
@@ -4201,7 +4201,7 @@
       "size_bytes": 883348,
       "size_formatted": "862.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MICROELECTRONICS_Pages_40_41.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MICROELECTRONICS_Pages_40_41.pdf"
     },
@@ -4291,7 +4291,7 @@
       "size_bytes": 37752,
       "size_formatted": "36.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC202_EIECC202_ICECC202_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC202_EIECC202_ICECC202_2024.pdf"
     },
@@ -4675,6 +4675,42 @@
     },
     {
       "id": "EAEPC305_258",
+      "filename": "#AnandKumar_Digital_CIrcuits-flat.pdf",
+      "title": "#AnandKumar Digital CIrcuits flat",
+      "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
+      "subject_name": "Digital Circuits and Systems",
+      "subject_code": "EAEPC305",
+      "category": "Textbooks",
+      "category_label": "Textbooks & References",
+      "sub_category": null,
+      "relative_path": "04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/#AnandKumar_Digital_CIrcuits-flat.pdf",
+      "size_bytes": 162177889,
+      "size_formatted": "154.66 MB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/%23AnandKumar_Digital_CIrcuits-flat.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/%23AnandKumar_Digital_CIrcuits-flat.pdf"
+    },
+    {
+      "id": "EAEPC305_259",
+      "filename": "#Digital-Electronics-R P Jain.pdf",
+      "title": "#Digital Electronics R P Jain",
+      "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
+      "subject_name": "Digital Circuits and Systems",
+      "subject_code": "EAEPC305",
+      "category": "Textbooks",
+      "category_label": "Textbooks & References",
+      "sub_category": null,
+      "relative_path": "04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/#Digital-Electronics-R P Jain.pdf",
+      "size_bytes": 53321363,
+      "size_formatted": "50.85 MB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/%23Digital-Electronics-R%20P%20Jain.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/%23Digital-Electronics-R%20P%20Jain.pdf"
+    },
+    {
+      "id": "EAEPC305_260",
       "filename": "A VHDL Primer - Jayaram Bhasker-1.pdf",
       "title": "A VHDL Primer Jayaram Bhasker 1",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4692,7 +4728,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/A%20VHDL%20Primer%20-%20Jayaram%20Bhasker-1.pdf"
     },
     {
-      "id": "EAEPC305_259",
+      "id": "EAEPC305_261",
       "filename": "Digital Design (Morris Mano).pdf",
       "title": "Digital Design (Morris Mano)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4710,7 +4746,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Digital%20Design%20%28Morris%20Mano%29.pdf"
     },
     {
-      "id": "EAEPC305_260",
+      "id": "EAEPC305_262",
       "filename": "Digital Logic And Computer Design By M. Morris Mano (2nd Edition).pdf",
       "title": "Digital Logic And Computer Design By M. Morris Mano (2nd Edition)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4728,7 +4764,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Digital%20Logic%20And%20Computer%20Design%20By%20M.%20Morris%20Mano%20%282nd%20Edition%29.pdf"
     },
     {
-      "id": "EAEPC305_261",
+      "id": "EAEPC305_263",
       "filename": "Morris Mano- Digital logic Design.pdf",
       "title": "Morris Mano Digital logic Design",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4746,7 +4782,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Morris%20Mano-%20Digital%20logic%20Design.pdf"
     },
     {
-      "id": "EAEPC305_262",
+      "id": "EAEPC305_264",
       "filename": "logic family.pdf",
       "title": "logic family",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4764,7 +4800,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/logic%20family.pdf"
     },
     {
-      "id": "EAEPC305_263",
+      "id": "EAEPC305_265",
       "filename": "Copy of 01 Number System.pdf",
       "title": "Copy of 01 Number System",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4782,7 +4818,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2001%20Number%20System.pdf"
     },
     {
-      "id": "EAEPC305_264",
+      "id": "EAEPC305_266",
       "filename": "Copy of 02 Binary Codes.pdf",
       "title": "Copy of 02 Binary Codes",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4800,7 +4836,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2002%20Binary%20Codes.pdf"
     },
     {
-      "id": "EAEPC305_265",
+      "id": "EAEPC305_267",
       "filename": "Copy of 03 Binary Arithmetic.pdf",
       "title": "Copy of 03 Binary Arithmetic",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4818,7 +4854,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2003%20Binary%20Arithmetic.pdf"
     },
     {
-      "id": "EAEPC305_266",
+      "id": "EAEPC305_268",
       "filename": "Copy of 04 Boolean Algebra.pdf",
       "title": "Copy of 04 Boolean Algebra",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4836,7 +4872,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2004%20Boolean%20Algebra.pdf"
     },
     {
-      "id": "EAEPC305_267",
+      "id": "EAEPC305_269",
       "filename": "Copy of 05 SOP and POS Form.pdf",
       "title": "Copy of 05 SOP and POS Form",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4854,7 +4890,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2005%20SOP%20and%20POS%20Form.pdf"
     },
     {
-      "id": "EAEPC305_268",
+      "id": "EAEPC305_270",
       "filename": "Copy of 06 Logic Gates and its Implementation.pdf",
       "title": "Copy of 06 Logic Gates and its Implementation",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4872,7 +4908,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2006%20Logic%20Gates%20and%20its%20Implementation.pdf"
     },
     {
-      "id": "EAEPC305_269",
+      "id": "EAEPC305_271",
       "filename": "Copy of 07 Karnaugh Map(K-map) Simplification of an Boolean expression.pdf",
       "title": "Copy of 07 Karnaugh Map(K map) Simplification of an Boolean expression",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4890,7 +4926,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2007%20Karnaugh%20Map%28K-map%29%20Simplification%20of%20an%20Boolean%20expression.pdf"
     },
     {
-      "id": "EAEPC305_270",
+      "id": "EAEPC305_272",
       "filename": "Copy of 07a Quine McCluskey Method - Tabulation Method - Solved Problem # 02 - Edited.pdf",
       "title": "Copy of 07a Quine McCluskey Method Tabulation Method Solved Problem # 02 Edited",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4908,7 +4944,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2007a%20Quine%20McCluskey%20Method%20-%20Tabulation%20Method%20-%20Solved%20Problem%20%23%2002%20-%20Edited.pdf"
     },
     {
-      "id": "EAEPC305_271",
+      "id": "EAEPC305_273",
       "filename": "Copy of 08 Digital Adders and Digital Subtractors.pdf",
       "title": "Copy of 08 Digital Adders and Digital Subtractors",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4926,7 +4962,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2008%20Digital%20Adders%20and%20Digital%20Subtractors.pdf"
     },
     {
-      "id": "EAEPC305_272",
+      "id": "EAEPC305_274",
       "filename": "Copy of 09 Digital Comparators.pdf",
       "title": "Copy of 09 Digital Comparators",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4944,7 +4980,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2009%20Digital%20Comparators.pdf"
     },
     {
-      "id": "EAEPC305_273",
+      "id": "EAEPC305_275",
       "filename": "Copy of 10 Digital Converters.pdf",
       "title": "Copy of 10 Digital Converters",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4962,7 +4998,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2010%20Digital%20Converters.pdf"
     },
     {
-      "id": "EAEPC305_274",
+      "id": "EAEPC305_276",
       "filename": "Copy of 11 Multiplexers.pdf",
       "title": "Copy of 11 Multiplexers",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4980,7 +5016,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2011%20Multiplexers.pdf"
     },
     {
-      "id": "EAEPC305_275",
+      "id": "EAEPC305_277",
       "filename": "Copy of 15 Flip Flop.pdf",
       "title": "Copy of 15 Flip Flop",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -4998,7 +5034,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf"
     },
     {
-      "id": "EAEPC305_276",
+      "id": "EAEPC305_278",
       "filename": "2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "title": "2025 End Semester EAEPC305 Digital Circuits and Systems",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5011,12 +5047,12 @@
       "size_bytes": 297219,
       "size_formatted": "290.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_277",
+      "id": "EAEPC305_279",
       "filename": "DCS Endsem 2025 (Nov-Dec).jpeg",
       "title": "DCS Endsem 2025 (Nov Dec)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5034,7 +5070,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/DCS%20Endsem%202025%20%28Nov-Dec%29.jpeg"
     },
     {
-      "id": "EAEPC305_278",
+      "id": "EAEPC305_280",
       "filename": "EAEPC305_2024.pdf",
       "title": "EAEPC305 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5047,12 +5083,12 @@
       "size_bytes": 288211,
       "size_formatted": "281.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/EAEPC305_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/EAEPC305_2024.pdf"
     },
     {
-      "id": "EAEPC305_279",
+      "id": "EAEPC305_281",
       "filename": "ECECC08-EIECC08-ICECC08.pdf",
       "title": "ECECC08 EIECC08 ICECC08",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5070,7 +5106,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08-EIECC08-ICECC08.pdf"
     },
     {
-      "id": "EAEPC305_280",
+      "id": "EAEPC305_282",
       "filename": "ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf",
       "title": "ECECC08 ECECC305 ICECC305 VTECC305 copy1",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5088,7 +5124,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf"
     },
     {
-      "id": "EAEPC305_281",
+      "id": "EAEPC305_283",
       "filename": "ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf",
       "title": "ECECC08 ECECC305 ICECC305 VTECC305 copy2",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5106,7 +5142,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf"
     },
     {
-      "id": "EAEPC305_282",
+      "id": "EAEPC305_284",
       "filename": "ECECC08_EIECC08_2023.pdf",
       "title": "ECECC08 EIECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5119,12 +5155,12 @@
       "size_bytes": 45873,
       "size_formatted": "44.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_283",
+      "id": "EAEPC305_285",
       "filename": "ECECC08_EIECC08_2024.pdf",
       "title": "ECECC08 EIECC08 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5137,12 +5173,12 @@
       "size_bytes": 51057,
       "size_formatted": "49.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_2024.pdf"
     },
     {
-      "id": "EAEPC305_284",
+      "id": "EAEPC305_286",
       "filename": "ECECC08_EIECC08_ICECC08.pdf",
       "title": "ECECC08 EIECC08 ICECC08",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5160,7 +5196,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_ICECC08.pdf"
     },
     {
-      "id": "EAEPC305_285",
+      "id": "EAEPC305_287",
       "filename": "ECECC305-EIECC305-ICECC305-VTECC305.pdf",
       "title": "ECECC305 EIECC305 ICECC305 VTECC305",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5178,7 +5214,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305-EIECC305-ICECC305-VTECC305.pdf"
     },
     {
-      "id": "EAEPC305_286",
+      "id": "EAEPC305_288",
       "filename": "ECECC305_EIECC305_ICECC305_2024.pdf",
       "title": "ECECC305 EIECC305 ICECC305 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5191,12 +5227,12 @@
       "size_bytes": 47493,
       "size_formatted": "46.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_2024.pdf"
     },
     {
-      "id": "EAEPC305_287",
+      "id": "EAEPC305_289",
       "filename": "ECECC305_EIECC305_ICECC305_VTECC305.pdf",
       "title": "ECECC305 EIECC305 ICECC305 VTECC305",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5214,7 +5250,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_VTECC305.pdf"
     },
     {
-      "id": "EAEPC305_288",
+      "id": "EAEPC305_290",
       "filename": "END SEM 2018.pdf",
       "title": "END SEM 2018",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5232,7 +5268,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/END%20SEM%202018.pdf"
     },
     {
-      "id": "EAEPC305_289",
+      "id": "EAEPC305_291",
       "filename": "END SEM 2019.pdf",
       "title": "END SEM 2019",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5250,7 +5286,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/END%20SEM%202019.pdf"
     },
     {
-      "id": "EAEPC305_290",
+      "id": "EAEPC305_292",
       "filename": "2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf",
       "title": "2025 Mid Semester DIGITALCIRCUITS Pages 43 43",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5263,12 +5299,12 @@
       "size_bytes": 377087,
       "size_formatted": "368.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf"
     },
     {
-      "id": "EAEPC305_291",
+      "id": "EAEPC305_293",
       "filename": "2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf",
       "title": "2025 Mid Semester EAEPC08 Digital Circuits and Systems Reappear",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5281,12 +5317,12 @@
       "size_bytes": 377073,
       "size_formatted": "368.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf"
     },
     {
-      "id": "EAEPC305_292",
+      "id": "EAEPC305_294",
       "filename": "2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "title": "2025 Mid Semester EAEPC305 Digital Circuits and Systems",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5299,12 +5335,12 @@
       "size_bytes": 436504,
       "size_formatted": "426.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_293",
+      "id": "EAEPC305_295",
       "filename": "2025_Mid_Semester_EAEPC305_Pages_15_15.pdf",
       "title": "2025 Mid Semester EAEPC305 Pages 15 15",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5317,12 +5353,12 @@
       "size_bytes": 436519,
       "size_formatted": "426.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Pages_15_15.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Pages_15_15.pdf"
     },
     {
-      "id": "EAEPC305_294",
+      "id": "EAEPC305_296",
       "filename": "2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf",
       "title": "2026 Mid Semester DIGITALLOGICDESIGN Pages 49 50",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5335,12 +5371,12 @@
       "size_bytes": 1000032,
       "size_formatted": "976.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf"
     },
     {
-      "id": "EAEPC305_295",
+      "id": "EAEPC305_297",
       "filename": "DCS Midsem 2025 (sept).jpeg",
       "title": "DCS Midsem 2025 (sept)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5358,7 +5394,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/DCS%20Midsem%202025%20%28sept%29.jpeg"
     },
     {
-      "id": "EAEPC305_296",
+      "id": "EAEPC305_298",
       "filename": "DCS midsem (2020,2021,2022,2023).pdf",
       "title": "DCS midsem (2020,2021,2022,2023)",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5376,7 +5412,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/DCS%20midsem%20%282020%2C2021%2C2022%2C2023%29.pdf"
     },
     {
-      "id": "EAEPC305_297",
+      "id": "EAEPC305_299",
       "filename": "ECECC08_EIECC08_2023.pdf",
       "title": "ECECC08 EIECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5389,12 +5425,12 @@
       "size_bytes": 18886,
       "size_formatted": "18.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_298",
+      "id": "EAEPC305_300",
       "filename": "EIECC08_ECECC08_INECC01_2024.pdf",
       "title": "EIECC08 ECECC08 INECC01 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5407,12 +5443,12 @@
       "size_bytes": 22716,
       "size_formatted": "22.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf"
     },
     {
-      "id": "EAEPC305_299",
+      "id": "EAEPC305_301",
       "filename": "ICECC08_EEECC08_2023.pdf",
       "title": "ICECC08 EEECC08 2023",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5425,12 +5461,12 @@
       "size_bytes": 276018,
       "size_formatted": "269.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_300",
+      "id": "EAEPC305_302",
       "filename": "MID SEM 2021.pdf",
       "title": "MID SEM 2021",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5448,7 +5484,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/MID%20SEM%202021.pdf"
     },
     {
-      "id": "EAEPC305_301",
+      "id": "EAEPC305_303",
       "filename": "Mid sem 2022.pdf",
       "title": "Mid sem 2022",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5466,7 +5502,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/Mid%20sem%202022.pdf"
     },
     {
-      "id": "EAEPC305_302",
+      "id": "EAEPC305_304",
       "filename": "EEECC203_Analog_and_Digital_Electronics.pdf",
       "title": "EEECC203 Analog and Digital Electronics",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5484,7 +5520,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/EEECC203_Analog_and_Digital_Electronics.pdf"
     },
     {
-      "id": "EAEPC305_303",
+      "id": "EAEPC305_305",
       "filename": "EIECC08_ECECC08_INECC01_2024.pdf",
       "title": "EIECC08 ECECC08 INECC01 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5497,12 +5533,12 @@
       "size_bytes": 48872,
       "size_formatted": "47.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/EIECC08_ECECC08_INECC01_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/EIECC08_ECECC08_INECC01_2024.pdf"
     },
     {
-      "id": "EAEPC305_304",
+      "id": "EAEPC305_306",
       "filename": "ICECC08_EEECC08_2024.pdf",
       "title": "ICECC08 EEECC08 2024",
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -5515,12 +5551,12 @@
       "size_bytes": 60522,
       "size_formatted": "59.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/ICECC08_EEECC08_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/ICECC08_EEECC08_2024.pdf"
     },
     {
-      "id": "EPMTC301_305",
+      "id": "EPMTC301_307",
       "filename": "Linear_algebra_schaum_outlines_problemsheet2_ques.pdf",
       "title": "Linear algebra schaum outlines problemsheet2 ques",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5538,7 +5574,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Assignments_and_Tutorials/Linear_algebra_schaum_outlines_problemsheet2_ques.pdf"
     },
     {
-      "id": "EPMTC301_306",
+      "id": "EPMTC301_308",
       "filename": "2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "title": "2025 End Semester EPMTC301 Mathematics for Machine Learning",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5551,12 +5587,12 @@
       "size_bytes": 333630,
       "size_formatted": "325.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf"
     },
     {
-      "id": "EPMTC301_307",
+      "id": "EPMTC301_309",
       "filename": "2025_End_Semester_EPMTC301_Pages_18_18.pdf",
       "title": "2025 End Semester EPMTC301 Pages 18 18",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5569,12 +5605,12 @@
       "size_bytes": 333644,
       "size_formatted": "325.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Pages_18_18.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Pages_18_18.pdf"
     },
     {
-      "id": "EPMTC301_308",
+      "id": "EPMTC301_310",
       "filename": "CMMTC04_2023.pdf",
       "title": "CMMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5587,12 +5623,12 @@
       "size_bytes": 39433,
       "size_formatted": "38.5 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC04_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_309",
+      "id": "EPMTC301_311",
       "filename": "CMMTC04_2024.pdf",
       "title": "CMMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5605,12 +5641,12 @@
       "size_bytes": 43736,
       "size_formatted": "42.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC04_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_310",
+      "id": "EPMTC301_312",
       "filename": "CMMTC13.pdf",
       "title": "CMMTC13",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5628,7 +5664,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC13.pdf"
     },
     {
-      "id": "EPMTC301_311",
+      "id": "EPMTC301_313",
       "filename": "CMMTC13_2024.pdf",
       "title": "CMMTC13 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5641,12 +5677,12 @@
       "size_bytes": 54350,
       "size_formatted": "53.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC13_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC13_2024.pdf"
     },
     {
-      "id": "EPMTC301_312",
+      "id": "EPMTC301_314",
       "filename": "CMMTC303.pdf",
       "title": "CMMTC303",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5664,7 +5700,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC303.pdf"
     },
     {
-      "id": "EPMTC301_313",
+      "id": "EPMTC301_315",
       "filename": "CMMTC303_2024.pdf",
       "title": "CMMTC303 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5677,12 +5713,12 @@
       "size_bytes": 58611,
       "size_formatted": "57.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC303_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC303_2024.pdf"
     },
     {
-      "id": "EPMTC301_314",
+      "id": "EPMTC301_316",
       "filename": "COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf",
       "title": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CMMTC13",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5700,7 +5736,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf"
     },
     {
-      "id": "EPMTC301_315",
+      "id": "EPMTC301_317",
       "filename": "COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf",
       "title": "COMTC13 CAMTC13 CMMTC13 CDMTC13",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5718,7 +5754,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf"
     },
     {
-      "id": "EPMTC301_316",
+      "id": "EPMTC301_318",
       "filename": "EAMTC04_2023.pdf",
       "title": "EAMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5731,12 +5767,12 @@
       "size_bytes": 31764,
       "size_formatted": "31.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EAMTC04_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EAMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_317",
+      "id": "EPMTC301_319",
       "filename": "EAMTC04_2024.pdf",
       "title": "EAMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5749,12 +5785,12 @@
       "size_bytes": 42668,
       "size_formatted": "41.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EAMTC04_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EAMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_318",
+      "id": "EPMTC301_320",
       "filename": "ECMTC04.pdf",
       "title": "ECMTC04",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5772,7 +5808,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04.pdf"
     },
     {
-      "id": "EPMTC301_319",
+      "id": "EPMTC301_321",
       "filename": "ECMTC04_2023.pdf",
       "title": "ECMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5785,12 +5821,12 @@
       "size_bytes": 44416,
       "size_formatted": "43.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_320",
+      "id": "EPMTC301_322",
       "filename": "ECMTC04_2024.pdf",
       "title": "ECMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5803,12 +5839,12 @@
       "size_bytes": 49198,
       "size_formatted": "48.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_321",
+      "id": "EPMTC301_323",
       "filename": "ECMTC301.pdf",
       "title": "ECMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5826,7 +5862,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC301.pdf"
     },
     {
-      "id": "EPMTC301_322",
+      "id": "EPMTC301_324",
       "filename": "ECMTC301_2024.pdf",
       "title": "ECMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5839,12 +5875,12 @@
       "size_bytes": 54562,
       "size_formatted": "53.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC301_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_323",
+      "id": "EPMTC301_325",
       "filename": "EEMTC04-ICMTC04.pdf",
       "title": "EEMTC04 ICMTC04",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5862,7 +5898,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EEMTC04-ICMTC04.pdf"
     },
     {
-      "id": "EPMTC301_324",
+      "id": "EPMTC301_326",
       "filename": "EEMTC04_ICMTC04.pdf",
       "title": "EEMTC04 ICMTC04",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5880,7 +5916,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EEMTC04_ICMTC04.pdf"
     },
     {
-      "id": "EPMTC301_325",
+      "id": "EPMTC301_327",
       "filename": "ICMTC04_EEMTC04_2023.pdf",
       "title": "ICMTC04 EEMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5893,12 +5929,12 @@
       "size_bytes": 36661,
       "size_formatted": "35.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_326",
+      "id": "EPMTC301_328",
       "filename": "ICMTC04_EEMTC04_2024.pdf",
       "title": "ICMTC04 EEMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5911,12 +5947,12 @@
       "size_bytes": 49816,
       "size_formatted": "48.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_327",
+      "id": "EPMTC301_329",
       "filename": "ICMTC301-EEMTC301-CMMTC301.pdf",
       "title": "ICMTC301 EEMTC301 CMMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5934,7 +5970,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC301-EEMTC301-CMMTC301.pdf"
     },
     {
-      "id": "EPMTC301_328",
+      "id": "EPMTC301_330",
       "filename": "ICMTC301_EEMTC301_CMMTC301.pdf",
       "title": "ICMTC301 EEMTC301 CMMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5952,7 +5988,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301.pdf"
     },
     {
-      "id": "EPMTC301_329",
+      "id": "EPMTC301_331",
       "filename": "ICMTC301_EEMTC301_CMMTC301_2024.pdf",
       "title": "ICMTC301 EEMTC301 CMMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5965,12 +6001,12 @@
       "size_bytes": 51458,
       "size_formatted": "50.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_330",
+      "id": "EPMTC301_332",
       "filename": "ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf",
       "title": "ITMTC301 INMTC301 ITMTC301 EIMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -5988,7 +6024,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_331",
+      "id": "EPMTC301_333",
       "filename": "ITMTC301_INMTC301.pdf",
       "title": "ITMTC301 INMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6006,7 +6042,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301_INMTC301.pdf"
     },
     {
-      "id": "EPMTC301_332",
+      "id": "EPMTC301_334",
       "filename": "ITMTC301_INMTC301_EIMTC301.pdf",
       "title": "ITMTC301 INMTC301 EIMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6024,7 +6060,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301_INMTC301_EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_333",
+      "id": "EPMTC301_335",
       "filename": "2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf",
       "title": "2025 Mid Semester EAMTC04 Mathematics for Machine Learning Backlog",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6037,12 +6073,12 @@
       "size_bytes": 916125,
       "size_formatted": "894.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf"
     },
     {
-      "id": "EPMTC301_334",
+      "id": "EPMTC301_336",
       "filename": "2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "title": "2025 Mid Semester EPMTC301 Mathematics for Machine Learning",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6055,12 +6091,12 @@
       "size_bytes": 459006,
       "size_formatted": "448.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf"
     },
     {
-      "id": "EPMTC301_335",
+      "id": "EPMTC301_337",
       "filename": "2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf",
       "title": "2025 Mid Semester MATHEMATICSFORMACHINELEARNING Pages 20 20",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6073,12 +6109,12 @@
       "size_bytes": 459021,
       "size_formatted": "448.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf"
     },
     {
-      "id": "EPMTC301_336",
+      "id": "EPMTC301_338",
       "filename": "2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf",
       "title": "2025 Mid Semester MATHEMATICSFORMACHINELEARNING Pages 62 63",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6091,12 +6127,12 @@
       "size_bytes": 916161,
       "size_formatted": "894.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2025",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf"
     },
     {
-      "id": "EPMTC301_337",
+      "id": "EPMTC301_339",
       "filename": "CMMTC04.pdf",
       "title": "CMMTC04",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6114,7 +6150,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/CMMTC04.pdf"
     },
     {
-      "id": "EPMTC301_338",
+      "id": "EPMTC301_340",
       "filename": "CMMTC13.pdf",
       "title": "CMMTC13",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6132,7 +6168,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/CMMTC13.pdf"
     },
     {
-      "id": "EPMTC301_339",
+      "id": "EPMTC301_341",
       "filename": "CMMTC13_2024.pdf",
       "title": "CMMTC13 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6145,12 +6181,12 @@
       "size_bytes": 26900,
       "size_formatted": "26.3 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/CMMTC13_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/CMMTC13_2024.pdf"
     },
     {
-      "id": "EPMTC301_340",
+      "id": "EPMTC301_342",
       "filename": "ECMTC04_2023.pdf",
       "title": "ECMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6163,12 +6199,12 @@
       "size_bytes": 27731,
       "size_formatted": "27.1 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ECMTC04_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ECMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_341",
+      "id": "EPMTC301_343",
       "filename": "EEMTC04_ICMTC04_2024.pdf",
       "title": "EEMTC04 ICMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6181,12 +6217,12 @@
       "size_bytes": 26570,
       "size_formatted": "25.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EEMTC04_ICMTC04_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EEMTC04_ICMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_342",
+      "id": "EPMTC301_344",
       "filename": "EIMTC04_ITMTC04_INMTC04_2023.pdf",
       "title": "EIMTC04 ITMTC04 INMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6199,12 +6235,12 @@
       "size_bytes": 42692,
       "size_formatted": "41.7 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_343",
+      "id": "EPMTC301_345",
       "filename": "EIMTC04_ITMTC04_INMTC04_2024.pdf",
       "title": "EIMTC04 ITMTC04 INMTC04 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6217,12 +6253,12 @@
       "size_bytes": 31169,
       "size_formatted": "30.4 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_344",
+      "id": "EPMTC301_346",
       "filename": "EIMTC301_ITMTC301_INMTC301_2024.pdf",
       "title": "EIMTC301 ITMTC301 INMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6235,12 +6271,12 @@
       "size_bytes": 53410,
       "size_formatted": "52.2 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC301_ITMTC301_INMTC301_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC301_ITMTC301_INMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_345",
+      "id": "EPMTC301_347",
       "filename": "EPMTC301_2024.pdf",
       "title": "EPMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6253,12 +6289,12 @@
       "size_bytes": 27581,
       "size_formatted": "26.9 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EPMTC301_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EPMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_346",
+      "id": "EPMTC301_348",
       "filename": "ICMTC04.pdf",
       "title": "ICMTC04",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6276,7 +6312,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ICMTC04.pdf"
     },
     {
-      "id": "EPMTC301_347",
+      "id": "EPMTC301_349",
       "filename": "ICMTC04_EEMTC04_2023.pdf",
       "title": "ICMTC04 EEMTC04 2023",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6289,12 +6325,12 @@
       "size_bytes": 291631,
       "size_formatted": "284.8 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2023",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ICMTC04_EEMTC04_2023.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ICMTC04_EEMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_348",
+      "id": "EPMTC301_350",
       "filename": "ITMTC04.pdf",
       "title": "ITMTC04",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6312,7 +6348,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ITMTC04.pdf"
     },
     {
-      "id": "EPMTC301_349",
+      "id": "EPMTC301_351",
       "filename": "ITMTC301.pdf",
       "title": "ITMTC301",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6330,7 +6366,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ITMTC301.pdf"
     },
     {
-      "id": "EPMTC301_350",
+      "id": "EPMTC301_352",
       "filename": "26_CMMTC13_Applied_Linear_Algebra.pdf",
       "title": "26 CMMTC13 Applied Linear Algebra",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6348,7 +6384,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/26_CMMTC13_Applied_Linear_Algebra.pdf"
     },
     {
-      "id": "EPMTC301_351",
+      "id": "EPMTC301_353",
       "filename": "27_CMMTC303_Applied_Linear_Algebra.pdf",
       "title": "27 CMMTC303 Applied Linear Algebra",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6366,7 +6402,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/27_CMMTC303_Applied_Linear_Algebra.pdf"
     },
     {
-      "id": "EPMTC301_352",
+      "id": "EPMTC301_354",
       "filename": "CMMTC04_Engineering-Mathematics_EndSem_BTech_Summer2026.pdf",
       "title": "CMMTC04 Engineering Mathematics EndSem BTech Summer2026",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6379,12 +6415,12 @@
       "size_bytes": 113619,
       "size_formatted": "111.0 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2026",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/CMMTC04_Engineering-Mathematics_EndSem_BTech_Summer2026.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/CMMTC04_Engineering-Mathematics_EndSem_BTech_Summer2026.pdf"
     },
     {
-      "id": "EPMTC301_353",
+      "id": "EPMTC301_355",
       "filename": "ECMTC04_Mathematics_for_Signal_Processing_and_Communication.pdf",
       "title": "ECMTC04 Mathematics for Signal Processing and Communication",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6402,7 +6438,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ECMTC04_Mathematics_for_Signal_Processing_and_Communication.pdf"
     },
     {
-      "id": "EPMTC301_354",
+      "id": "EPMTC301_356",
       "filename": "ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf",
       "title": "ECMTC301 Mathematics for Communication and Signal Processing",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6420,7 +6456,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf"
     },
     {
-      "id": "EPMTC301_355",
+      "id": "EPMTC301_357",
       "filename": "ICMTC04_Mathematics_III.pdf",
       "title": "ICMTC04 Mathematics III",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6438,7 +6474,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ICMTC04_Mathematics_III.pdf"
     },
     {
-      "id": "EPMTC301_356",
+      "id": "EPMTC301_358",
       "filename": "ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf",
       "title": "ITMTC04 EIMTC04 ITMTC301 EIMTC301 INMTC04 INMTC301 2024",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -6451,12 +6487,12 @@
       "size_bytes": 73338,
       "size_formatted": "71.6 KB",
       "file_type": "PDF",
-      "year": "",
+      "year": "2024",
       "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf",
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_357",
+      "id": "EPMTC301_359",
       "filename": "ITMTC04_ITMTC301_Optimization_Principles_and_Techniques.pdf",
       "title": "ITMTC04 ITMTC301 Optimization Principles and Techniques",
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",

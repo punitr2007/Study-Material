@@ -36,7 +36,18 @@ def query_local_llm(prompt: str, system_prompt: str = "You are an expert enginee
         with urllib.request.urlopen(req, timeout=timeout) as response:
             res_data = json.loads(response.read().decode('utf-8'))
             if "output" in res_data:
-                return res_data["output"]
+                out = res_data["output"]
+                if isinstance(out, list):
+                    texts = []
+                    for item in out:
+                        if isinstance(item, dict) and item.get("type") == "message":
+                            texts.append(item.get("content", ""))
+                        elif isinstance(item, str):
+                            texts.append(item)
+                    return "\n".join(texts)
+                return str(out)
+            if "choices" in res_data and len(res_data["choices"]) > 0:
+                return res_data["choices"][0]["message"]["content"]
             if "response" in res_data:
                 return res_data["response"]
             if "message" in res_data:

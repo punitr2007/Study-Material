@@ -82,9 +82,6 @@ export const AnalyticsView: React.FC<AnalyticsViewProps> = ({
             <BarChart3 size={14} className="inline-icon" /> 5-Year Historical Analysis (2021–2026)
           </span>
           <span className="banner-badge subtle">
-            {analyticsData.metadata?.curator || 'Academic Intelligence Engine'}
-          </span>
-          <span className="banner-badge subtle">
             {analyticsData.metadata?.historical_data_span || 'Past 5 Years'}
           </span>
         </div>
