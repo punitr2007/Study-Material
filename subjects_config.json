@@ -70,22 +70,33 @@
       "primary_code": "EAEPC304",
       "code_aliases": [
         "EAEPC304",
+        "EAEPC07",
+        "EAEPC04",
         "ECECC304",
         "ECECC07",
         "EIECC304",
         "EIECC07",
+        "VTECC304",
+        "ECECC202",
+        "EIECC202",
+        "VTECC202",
+        "ICECC202",
         "EC201",
         "EC203",
-        "VTECC304",
         "MCA"
       ],
       "title_keywords": [
         "MICROELECTRONICS CIRCUITS",
         "MICROELECTRONIC CIRCUITS",
         "MICROELECTRONICS",
+        "ELECTRONIC DEVICES AND CIRCUITS",
+        "ELECTRONIC DEVICES & CIRCUITS",
+        "ELECTRONIC DEVICES",
         "ANALOG ELECTRONICS",
         "ANALOG INTEGRATED CIRCUITS",
-        "SOLID STATE DEVICES"
+        "SOLID STATE DEVICES",
+        "SOLID STATE DEVICES AND CIRCUITS",
+        "SEMICONDUCTOR DEVICES"
       ],
       "excluded_keywords": [
         "MICROPROCESSOR",
@@ -119,7 +130,13 @@
         "Digital-Image-Processing",
         "Digital-Communication",
         "DIGITAL COMMUNICATION",
-        "DIGITAL IMAGE PROCESSING"
+        "DIGITAL IMAGE PROCESSING",
+        "CMOS",
+        "Digital Integrated Circuits",
+        "Analog and Digital Communication",
+        "Analog & Digital Communication",
+        "Basics of Analog and Digital",
+        "Basics-of-Analog-and-Digital"
       ]
     },
     "05_Mathematics_For_Machine_Learning_EPMTC301": {
@@ -127,20 +144,38 @@
       "primary_code": "EPMTC301",
       "code_aliases": [
         "EPMTC301",
+        "EAMTC301",
+        "EAMTC04",
+        "ECMTC301",
+        "ECMTC04",
+        "CMMTC13",
+        "CMMTC303",
+        "CMMTC04",
+        "ITMTC301",
+        "ITMTC04",
+        "EIMTC301",
+        "EIMTC04",
+        "INMTC301",
+        "INMTC04",
+        "ICMTC301",
+        "ICMTC04",
+        "EEMTC301",
+        "EEMTC04",
+        "CMMTC301",
         "MAC301",
         "MML301",
         "MA301",
-        "EAMTC301",
-        "ECCPC301",
-        "EIMTC301",
         "MML"
       ],
       "title_keywords": [
         "MATHEMATICS FOR MACHINE LEARNING",
         "MATHEMATICS FOR ML",
         "LINEAR ALGEBRA AND OPTIMIZATION",
-        "OPTIMIZATION TECHNIQUES",
-        "APPLIED MATHEMATICS FOR ML"
+        "APPLIED LINEAR ALGEBRA",
+        "APPLIED MATHEMATICS FOR ML",
+        "MATHEMATICS FOR COMMUNICATION",
+        "MATHEMATICS FOR SIGNAL PROCESSING",
+        "OPTIMIZATION PRINCIPLES"
       ],
       "excluded_keywords": []
     }

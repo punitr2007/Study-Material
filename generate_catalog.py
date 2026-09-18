@@ -70,7 +70,8 @@ def clean_display_title(filename: str) -> str:
 
 
 def extract_year(text: str) -> str:
-    match = re.search(r"\b(202[0-9]|201[5-9])\b", text)
+    # Robustly match 4-digit academic years (2015–2029) without digit boundaries
+    match = re.search(r"(?<!\d)(201[5-9]|202[0-9])(?!\d)", text)
     return match.group(1) if match else ""
 
 
@@ -88,23 +89,21 @@ def build_catalog() -> dict:
         s_title = SUBJECT_TITLES.get(s_id, s_name)
 
         s_doc_count = 0
-        s_categories = []
 
         subdirs = sorted([d for d in s_dir.iterdir() if d.is_dir() and not d.name.startswith(".")])
 
         for cat_dir in subdirs:
             cat_name = cat_dir.name
             nested_dirs = sorted([nd for nd in cat_dir.iterdir() if nd.is_dir() and not nd.name.startswith(".")])
-            direct_files = sorted([f for f in cat_dir.iterdir() if f.is_file() and not f.name.startswith(".") and f.name != "README.md"])
+            direct_files = sorted([f for f in cat_dir.iterdir() if f.is_file() and not f.name.startswith(".") and f.name != "README.md" and f.name != "SYLLABUS.md"])
 
             if direct_files:
                 for f in direct_files:
                     rel_path = f.relative_to(BASE_DIR).as_posix()
                     size_b = f.stat().st_size
                     ext = f.suffix.upper().replace(".", "") or "FILE"
-                    year = extract_year(f.name)
+                    year = extract_year(f.name) or extract_year(f.parent.name) or extract_year(rel_path)
 
-                    # Encode paths properly for URLs
                     url_encoded_path = urllib.parse.quote(rel_path)
                     jsdelivr_url = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@{BRANCH}/{url_encoded_path}"
                     raw_github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/{url_encoded_path}"
@@ -133,13 +132,13 @@ def build_catalog() -> dict:
             if nested_dirs:
                 for sub_cat in nested_dirs:
                     sub_name = sub_cat.name
-                    nested_files = sorted([f for f in sub_cat.iterdir() if f.is_file() and not f.name.startswith(".") and f.name != "README.md"])
+                    nested_files = sorted([f for f in sub_cat.iterdir() if f.is_file() and not f.name.startswith(".") and f.name != "README.md" and f.name != "SYLLABUS.md"])
                     
                     for f in nested_files:
                         rel_path = f.relative_to(BASE_DIR).as_posix()
                         size_b = f.stat().st_size
                         ext = f.suffix.upper().replace(".", "") or "FILE"
-                        year = extract_year(f.name)
+                        year = extract_year(f.name) or extract_year(sub_name) or extract_year(rel_path)
 
                         url_encoded_path = urllib.parse.quote(rel_path)
                         jsdelivr_url = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@{BRANCH}/{url_encoded_path}"
@@ -179,25 +178,21 @@ def build_catalog() -> dict:
         "repository": f"{REPO_OWNER}/{REPO_NAME}",
         "branch": BRANCH,
         "generated_at": datetime.now().isoformat(),
-        "total_documents": len(all_documents),
         "total_subjects": len(subject_list),
+        "total_documents": len(all_documents),
         "subjects": subject_list,
         "documents": all_documents
     }
 
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(catalog, f, indent=2)
+
+    print(f"[✓] Successfully generated catalog manifest at: {OUTPUT_FILE}")
+    print(f"    - Subjects indexed: {len(subject_list)}")
+    print(f"    - Documents indexed: {len(all_documents)}")
     return catalog
 
 
-def main():
-    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
-    catalog = build_catalog()
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(catalog, f, indent=2, ensure_ascii=False)
-
-    print(f"[✓] Successfully generated catalog manifest at: {OUTPUT_FILE}")
-    print(f"    - Subjects indexed: {catalog['total_subjects']}")
-    print(f"    - Documents indexed: {catalog['total_documents']}")
-
-
 if __name__ == "__main__":
-    main()
+    build_catalog()

@@ -1,28 +1,83 @@
 import React from 'react';
-import { BookOpen, Moon, Sun, ExternalLink } from 'lucide-react';
+import { BookOpen, Moon, Sun, ExternalLink, RefreshCw, BarChart3, Sparkles, FolderArchive } from 'lucide-react';
+
+export type ActiveNavView = 'materials' | 'analytics' | 'solutions';
 
 interface NavbarProps {
   theme: 'dark' | 'light';
   toggleTheme: () => void;
   totalDocuments: number;
+  activeView: ActiveNavView;
+  setActiveView: (view: ActiveNavView) => void;
+  onOpenSyncModal: () => void;
+  isRefreshing?: boolean;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, totalDocuments }) => {
+export const Navbar: React.FC<NavbarProps> = ({
+  theme,
+  toggleTheme,
+  totalDocuments,
+  activeView,
+  setActiveView,
+  onOpenSyncModal,
+  isRefreshing,
+}) => {
   return (
     <header className="navbar">
-      <a href="#" className="brand-group">
-        <div className="brand-icon-box">
-          <BookOpen size={22} />
-        </div>
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span className="brand-title">NSUT Study Material</span>
-            <span className="brand-badge">{totalDocuments} Files</span>
+      <div className="navbar-left">
+        <a href="#" className="brand-group" onClick={(e) => { e.preventDefault(); setActiveView('materials'); }}>
+          <div className="brand-icon-box">
+            <BookOpen size={22} />
           </div>
-        </div>
-      </a>
+          <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span className="brand-title">NSUT Study Material</span>
+              <span className="brand-badge">{totalDocuments} Files</span>
+            </div>
+          </div>
+        </a>
+
+        {/* View Switcher Tabs */}
+        <nav className="nav-view-tabs">
+          <button
+            className={`nav-tab-link ${activeView === 'materials' ? 'active' : ''}`}
+            onClick={() => setActiveView('materials')}
+          >
+            <FolderArchive size={15} className="inline-icon" />
+            <span>Materials</span>
+          </button>
+          <button
+            className={`nav-tab-link ${activeView === 'analytics' ? 'active' : ''}`}
+            onClick={() => setActiveView('analytics')}
+          >
+            <BarChart3 size={15} className="inline-icon" />
+            <span>Analytics</span>
+          </button>
+          <button
+            className={`nav-tab-link ${activeView === 'solutions' ? 'active' : ''}`}
+            onClick={() => setActiveView('solutions')}
+          >
+            <Sparkles size={15} className="inline-icon" />
+            <span>AI Solutions</span>
+          </button>
+        </nav>
+      </div>
 
       <div className="nav-actions">
+        <button
+          className="btn-github"
+          onClick={onOpenSyncModal}
+          style={{ padding: '7px 12px', fontSize: '0.82rem' }}
+          title="AutoSync & Live Refresh"
+        >
+          <RefreshCw
+            size={15}
+            className={isRefreshing ? 'spin-animation' : ''}
+            style={{ color: 'var(--accent-primary)' }}
+          />
+          <span className="nav-sync-text">Sync & Refresh</span>
+        </button>
+
         <button
           className="btn-icon"
           onClick={toggleTheme}
@@ -36,7 +91,7 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, totalDocumen
           href="https://github.com/punitr2007/Study-Material"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-github"
+          className="btn-github nav-github-link"
         >
           <svg
             width="18"

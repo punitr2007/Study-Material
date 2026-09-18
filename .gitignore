@@ -19,6 +19,13 @@ tessdata/
 web/node_modules/
 web/dist/
 
+# Logs
+*.log
+.automation_worker.log
+
+# Large local reference books / temp
+*#*
+
 # OS & Editor
 .DS_Store
 .vscode/

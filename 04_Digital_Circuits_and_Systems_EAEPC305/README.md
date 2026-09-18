@@ -95,14 +95,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [Copy of 15 Flip Flop.pdf](downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf) | `PDF` | 5.63 MB |
 
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
-
 ---
 
 ## downloaded pyqs
@@ -111,9 +103,7 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
-| [2025_End_Semester_DIGITALCIRCUITS_Pages_15_15.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_DIGITALCIRCUITS_Pages_15_15.pdf) | `PDF` | 290.3 KB |
-| [2025_End_Semester_DIGITALLOGICDESIGN_Pages_104_104.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_DIGITALLOGICDESIGN_Pages_104_104.pdf) | `PDF` | 624.6 KB |
-| [2025_End_Semester_DIGITALLOGICDESIGN_Pages_99_99.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_DIGITALLOGICDESIGN_Pages_99_99.pdf) | `PDF` | 595.2 KB |
+| [2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 290.3 KB |
 | [DCS Endsem 2025 (Nov-Dec).jpeg](downloaded_pyqs/End_Semester/DCS%20Endsem%202025%20%28Nov-Dec%29.jpeg) | `JPEG` | 430.0 KB |
 | [EAEPC305_2024.pdf](downloaded_pyqs/End_Semester/EAEPC305_2024.pdf) | `PDF` | 281.5 KB |
 | [ECECC08-EIECC08-ICECC08.pdf](downloaded_pyqs/End_Semester/ECECC08-EIECC08-ICECC08.pdf) | `PDF` | 286.9 KB |
@@ -125,7 +115,6 @@ _No files currently._
 | [ECECC305-EIECC305-ICECC305-VTECC305.pdf](downloaded_pyqs/End_Semester/ECECC305-EIECC305-ICECC305-VTECC305.pdf) | `PDF` | 122.2 KB |
 | [ECECC305_EIECC305_ICECC305_2024.pdf](downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_2024.pdf) | `PDF` | 46.4 KB |
 | [ECECC305_EIECC305_ICECC305_VTECC305.pdf](downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_VTECC305.pdf) | `PDF` | 75.3 KB |
-| [ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf](downloaded_pyqs/End_Semester/ECEVE07_ECECE07_CMOS_Digital_Integrated_Circuits.pdf) | `PDF` | 154.0 KB |
 | [END SEM 2018.pdf](downloaded_pyqs/End_Semester/END%20SEM%202018.pdf) | `PDF` | 574.2 KB |
 | [END SEM 2019.pdf](downloaded_pyqs/End_Semester/END%20SEM%202019.pdf) | `PDF` | 269.0 KB |
 
@@ -134,17 +123,15 @@ _No files currently._
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf) | `PDF` | 368.2 KB |
-| [2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_72_72.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_72_72.pdf) | `PDF` | 448.2 KB |
-| [2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_74_74.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALLOGICDESIGN_Pages_74_74.pdf) | `PDF` | 470.9 KB |
+| [2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf) | `PDF` | 368.2 KB |
+| [2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 426.3 KB |
 | [2025_Mid_Semester_EAEPC305_Pages_15_15.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Pages_15_15.pdf) | `PDF` | 426.3 KB |
 | [2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf) | `PDF` | 976.6 KB |
 | [DCS Midsem 2025 (sept).jpeg](downloaded_pyqs/Mid_Semester/DCS%20Midsem%202025%20%28sept%29.jpeg) | `JPEG` | 170.7 KB |
 | [DCS midsem (2020,2021,2022,2023).pdf](downloaded_pyqs/Mid_Semester/DCS%20midsem%20%282020%2C2021%2C2022%2C2023%29.pdf) | `PDF` | 2.31 MB |
 | [ECECC08_EIECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf) | `PDF` | 18.4 KB |
-| [ECECC08_EIECC08_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2024.pdf) | `PDF` | 21.1 KB |
 | [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 22.2 KB |
 | [ICECC08_EEECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2023.pdf) | `PDF` | 269.5 KB |
-| [ICECC08_EEECC08_2024.pdf](downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2024.pdf) | `PDF` | 21.3 KB |
 | [MID SEM 2021.pdf](downloaded_pyqs/Mid_Semester/MID%20SEM%202021.pdf) | `PDF` | 443.2 KB |
 | [Mid sem 2022.pdf](downloaded_pyqs/Mid_Semester/Mid%20sem%202022.pdf) | `PDF` | 2.31 MB |
 
@@ -154,7 +141,6 @@ _No files currently._
 | :--- | :---: | :---: |
 | [EEECC203_Analog_and_Digital_Electronics.pdf](downloaded_pyqs/Summer_Semester/EEECC203_Analog_and_Digital_Electronics.pdf) | `PDF` | 129.3 KB |
 | [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Summer_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 47.7 KB |
-| [FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf](downloaded_pyqs/Summer_Semester/FCEC0116_Basics-of-Analog-and-Digital-Electronics_EndSem_BTech-CourseWork_Summer2026.pdf) | `PDF` | 130.3 KB |
-| [ITECC405_EIECC405_Analog_and_Digital_Communication.pdf](downloaded_pyqs/Summer_Semester/ITECC405_EIECC405_Analog_and_Digital_Communication.pdf) | `PDF` | 118.5 KB |
+| [ICECC08_EEECC08_2024.pdf](downloaded_pyqs/Summer_Semester/ICECC08_EEECC08_2024.pdf) | `PDF` | 59.1 KB |
 
 ---
