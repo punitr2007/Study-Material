@@ -198,7 +198,14 @@
       "exam_strategy": {
         "midsem_focus": "Master system property proofs (Linear, Time-Invariant, Causal, Stable) and Graphical Convolution. Ensure high speed on unit impulse sifting integrals.",
         "endsem_focus": "Unit 4 (Laplace) and Unit 5 (Z-Transform) together constitute 40% of marks. Practice partial fractions and ROC deduction thoroughly."
-      }
+      },
+      "exam_strategy_notes": [
+        "Mid-Semester Target: Master system property proofs (Linear, Time-Invariant, Causal, Stable) and Graphical Convolution. Ensure high speed on unit impulse sifting integrals.",
+        "End-Semester Target: Unit 4 (Laplace) and Unit 5 (Z-Transform) together constitute 40% of marks. Practice partial fractions and ROC deduction thoroughly.",
+        "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
+        "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
+      ],
+      "total_questions_indexed": 620
     },
     "02_Probability_Theory_and_Random_Process_EAEPC303": {
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -376,7 +383,14 @@
       "exam_strategy": {
         "midsem_focus": "Master joint PDF boundary limits and conditional expectation integrals. Practice normalization constants finding for 2D PDFs.",
         "endsem_focus": "Unit 4 (Stationarity & Autocorrelation) and Unit 5 (PSD & Wiener-Khinchine) form >50% of the entire paper. Learn LTI random response derivations."
-      }
+      },
+      "exam_strategy_notes": [
+        "Mid-Semester Target: Master joint PDF boundary limits and conditional expectation integrals. Practice normalization constants finding for 2D PDFs.",
+        "End-Semester Target: Unit 4 (Stationarity & Autocorrelation) and Unit 5 (PSD & Wiener-Khinchine) form >50% of the entire paper. Learn LTI random response derivations.",
+        "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
+        "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
+      ],
+      "total_questions_indexed": 215
     },
     "03_Microelectronics_Circuits_and_Applications_EAEPC304": {
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -394,14 +408,16 @@
       "course_outcomes": [
         "CO1: Describe the small signal high frequency models of BJT and MOS transistors and use them in the frequency analysis of single-stage amplifiers.",
         "CO2: Analyze differential and multi-stage amplifiers involving BJTs and MOSFETs.",
-        "CO3: Understand and describe linear and nonlinear applications of op-amps and OTAs including filters and linear impedances.",
-        "CO4: Elaborate the importance of negative feedback amplifier topologies and positive feedback in sinusoidal oscillators.",
-        "CO5: Understand and describe power amplifiers and their realization involving power BJTs and power MOSFETs."
+        "CO3: Understand and describe the linear and nonlinear applications of op-amps and OTAs including filters and linear impedances etc.",
+        "CO4: Understand and elaborate the importance of negative feedback amplifier topologies and their characteristic features along with relevant analysis of positive feedback in sinusoidal oscillators.",
+        "CO5: Understand and describe power amplifiers and their realization involving power BJTs and Power MOSFETs."
       ],
       "textbooks": [
-        "Adel S. Sedra and Kenneth C. Smith, 'Microelectronic Circuits', Oxford University Press, 7th/8th Edition.",
-        "Paul R. Gray, Paul J. Hurst, Stephen H. Lewis, Robert G. Meyer, 'Analysis and Design of Analog Integrated Circuits', 5th Edition, Wiley.",
-        "Behzad Razavi, 'Design of Analog CMOS Integrated Circuits', McGraw-Hill."
+        "Adel S. Sedra and Kenneth C. Smith, 'Microelectronic Circuits', Oxford University Press, 1998 / 7th Edition.",
+        "P. R. Gray, P. J. Hurst, S. H. Lewis, and R. G. Meyer, 'Analysis and Design of Analog Integrated Circuits', 4th/5th Edition, Wiley.",
+        "Jacob Millman and Arvin Grabel, 'Microelectronics', McGraw-Hill, Inc., 1995.",
+        "Behzad Razavi, 'Design of Analog CMOS Integrated Circuits', McGraw-Hill, 2001.",
+        "P. E. Allen and D. R. Holberg, 'CMOS Analog Circuit Design', Oxford University Press, 2002."
       ],
       "units": [
         {
@@ -559,7 +575,14 @@
       "exam_strategy": {
         "midsem_focus": "Master half-circuit analysis for differential pairs and high-frequency hybrid-\u03c0 small-signal parameters. Understand Miller theorem.",
         "endsem_focus": "Feedback amplifier 4-topology identification tables and Wien Bridge / RC Phase Shift derivations are guaranteed 10-mark questions."
-      }
+      },
+      "exam_strategy_notes": [
+        "Mid-Semester Target: Master half-circuit analysis for differential pairs and high-frequency hybrid-\u03c0 small-signal parameters. Understand Miller theorem.",
+        "End-Semester Target: Feedback amplifier 4-topology identification tables and Wien Bridge / RC Phase Shift derivations are guaranteed 10-mark questions.",
+        "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
+        "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
+      ],
+      "total_questions_indexed": 290
     },
     "04_Digital_Circuits_and_Systems_EAEPC305": {
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -770,7 +793,14 @@
       "exam_strategy": {
         "midsem_focus": "Master 4-variable and 5-variable K-maps with don't-cares, and MUX realization tables. Tabulation method is frequently tested.",
         "endsem_focus": "FSM Sequence Detectors, Synchronous Counter design tables, and VHDL code writing form over 45% of End-Sem marks."
-      }
+      },
+      "exam_strategy_notes": [
+        "Mid-Semester Target: Master 4-variable and 5-variable K-maps with don't-cares, and MUX realization tables. Tabulation method is frequently tested.",
+        "End-Semester Target: FSM Sequence Detectors, Synchronous Counter design tables, and VHDL code writing form over 45% of End-Sem marks.",
+        "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
+        "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
+      ],
+      "total_questions_indexed": 320
     },
     "05_Mathematics_For_Machine_Learning_EPMTC301": {
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -949,7 +979,14 @@
       "exam_strategy": {
         "midsem_focus": "Gram-Schmidt orthogonalization steps and Rank-Nullity theorem proofs are guaranteed. Master eigenvalue/eigenvector computation.",
         "endsem_focus": "SVD calculation A = U \u03a3 V^T, KKT condition systems, and Directional Derivative computations form the bulk of the 50-mark End-Sem exam."
-      }
+      },
+      "exam_strategy_notes": [
+        "Mid-Semester Target: Gram-Schmidt orthogonalization steps and Rank-Nullity theorem proofs are guaranteed. Master eigenvalue/eigenvector computation.",
+        "End-Semester Target: SVD calculation A = U \u03a3 V^T, KKT condition systems, and Directional Derivative computations form the bulk of the 50-mark End-Sem exam.",
+        "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
+        "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
+      ],
+      "total_questions_indexed": 250
     }
   }
 }

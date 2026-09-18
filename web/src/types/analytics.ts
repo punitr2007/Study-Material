@@ -27,8 +27,12 @@ export interface SubjectAnalytics {
   unit_weightage_midsem: Record<string, number>;
   unit_weightage_endsem: Record<string, number>;
   topic_metrics: TopicMetric[];
-  exam_strategy_notes: string[];
-  total_questions_indexed: number;
+  exam_strategy?: {
+    midsem_focus?: string;
+    endsem_focus?: string;
+  };
+  exam_strategy_notes?: string[];
+  total_questions_indexed?: number;
 }
 
 export interface AnalyticsData {
