@@ -164,6 +164,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [2025_End_Semester_EAEPC302_Signals_and_Systems.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC302_Signals_and_Systems.pdf) | `PDF` | 227.6 KB |
+| [2025_End_Semester_SIGNALANDSYSTEM_Pages_17_17.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_SIGNALANDSYSTEM_Pages_17_17.pdf) | `PDF` | 227.6 KB |
 | [CGECC302_2024.pdf](downloaded_pyqs/End_Semester/CGECC302_2024.pdf) | `PDF` | 53.6 KB |
 | [EAEPC05_2023.pdf](downloaded_pyqs/End_Semester/EAEPC05_2023.pdf) | `PDF` | 33.5 KB |
 | [EAEPC05_2024.pdf](downloaded_pyqs/End_Semester/EAEPC05_2024.pdf) | `PDF` | 27.0 KB |

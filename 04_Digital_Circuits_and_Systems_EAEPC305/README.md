@@ -57,8 +57,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
-| [#AnandKumar_Digital_CIrcuits-flat.pdf](Textbooks/%23AnandKumar_Digital_CIrcuits-flat.pdf) | `PDF` | 154.66 MB |
-| [#Digital-Electronics-R P Jain.pdf](Textbooks/%23Digital-Electronics-R%20P%20Jain.pdf) | `PDF` | 50.85 MB |
 | [A VHDL Primer - Jayaram Bhasker-1.pdf](Textbooks/A%20VHDL%20Primer%20-%20Jayaram%20Bhasker-1.pdf) | `PDF` | 2.61 MB |
 | [Digital Design (Morris Mano).pdf](Textbooks/Digital%20Design%20%28Morris%20Mano%29.pdf) | `PDF` | 2.99 MB |
 | [Digital Logic And Computer Design By M. Morris Mano (2nd Edition).pdf](Textbooks/Digital%20Logic%20And%20Computer%20Design%20By%20M.%20Morris%20Mano%20%282nd%20Edition%29.pdf) | `PDF` | 13.38 MB |
@@ -97,14 +95,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [Copy of 15 Flip Flop.pdf](downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf) | `PDF` | 5.63 MB |
 
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
-
 ---
 
 ## downloaded pyqs
@@ -132,11 +122,15 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_DIGITALCIRCUITS_Pages_43_43.pdf) | `PDF` | 368.2 KB |
 | [2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems_Reappear.pdf) | `PDF` | 368.2 KB |
 | [2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 426.3 KB |
+| [2025_Mid_Semester_EAEPC305_Pages_15_15.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Pages_15_15.pdf) | `PDF` | 426.3 KB |
+| [2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf) | `PDF` | 976.6 KB |
 | [DCS Midsem 2025 (sept).jpeg](downloaded_pyqs/Mid_Semester/DCS%20Midsem%202025%20%28sept%29.jpeg) | `JPEG` | 170.7 KB |
 | [DCS midsem (2020,2021,2022,2023).pdf](downloaded_pyqs/Mid_Semester/DCS%20midsem%20%282020%2C2021%2C2022%2C2023%29.pdf) | `PDF` | 2.31 MB |
 | [ECECC08_EIECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf) | `PDF` | 18.4 KB |
+| [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 22.2 KB |
 | [ICECC08_EEECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2023.pdf) | `PDF` | 269.5 KB |
 | [MID SEM 2021.pdf](downloaded_pyqs/Mid_Semester/MID%20SEM%202021.pdf) | `PDF` | 443.2 KB |
 | [Mid sem 2022.pdf](downloaded_pyqs/Mid_Semester/Mid%20sem%202022.pdf) | `PDF` | 2.31 MB |

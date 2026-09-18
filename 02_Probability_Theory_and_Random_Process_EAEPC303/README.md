@@ -61,7 +61,10 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [2025_End_Semester_EAEPC303_Pages_20_21.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC303_Pages_20_21.pdf) | `PDF` | 1.07 MB |
 | [2025_End_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf) | `PDF` | 709.0 KB |
+| [2025_End_Semester_PROBABILITYTHEORY_Pages_26_27.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_PROBABILITYTHEORY_Pages_26_27.pdf) | `PDF` | 830.6 KB |
+| [2025_End_Semester_STOCHASTICPROCESSES_Pages_83_86.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_STOCHASTICPROCESSES_Pages_83_86.pdf) | `PDF` | 2.19 MB |
 | [CAMTC13-COMTC13_Probability-and-Stochastic-Processes_EndSem_BTech-CourseWork_June2026_copy5.pdf](downloaded_pyqs/End_Semester/CAMTC13-COMTC13_Probability-and-Stochastic-Processes_EndSem_BTech-CourseWork_June2026_copy5.pdf) | `PDF` | 164.0 KB |
 | [CAMTC13_COMTC13.pdf](downloaded_pyqs/End_Semester/CAMTC13_COMTC13.pdf) | `PDF` | 292.7 KB |
 | [COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf](downloaded_pyqs/End_Semester/COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf) | `PDF` | 70.7 KB |
@@ -85,6 +88,9 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf) | `PDF` | 499.5 KB |
+| [2025_Mid_Semester_PROBABILITYTHEORY_Pages_63_63.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_63_63.pdf) | `PDF` | 537.7 KB |
+| [2025_Mid_Semester_PROBABILITYTHEORY_Pages_9_9.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_9_9.pdf) | `PDF` | 499.5 KB |
+| [2026_Mid_Semester_STOCHASTICPROCESSES_Pages_7_7.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_STOCHASTICPROCESSES_Pages_7_7.pdf) | `PDF` | 554.2 KB |
 | [CAMTC13-COMTC13.pdf](downloaded_pyqs/Mid_Semester/CAMTC13-COMTC13.pdf) | `PDF` | 64.5 KB |
 | [COMTC13_2024.pdf](downloaded_pyqs/Mid_Semester/COMTC13_2024.pdf) | `PDF` | 32.0 KB |
 | [EAEPC303__25_EAEPC06_2024.pdf](downloaded_pyqs/Mid_Semester/EAEPC303__25_EAEPC06_2024.pdf) | `PDF` | 29.9 KB |

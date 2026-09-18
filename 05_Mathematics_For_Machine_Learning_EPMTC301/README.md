@@ -5,7 +5,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 ## Table of Contents
 
 - [Assignments and Tutorials](#assignments-and-tutorials)
-- [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
 
 ---
@@ -18,30 +17,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 ---
 
-## downloaded notes
-
-### Unit 1
-
-_No files currently._
-
-### Unit 2
-
-_No files currently._
-
-### Unit 3
-
-_No files currently._
-
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
-
----
-
 ## downloaded pyqs
 
 ### End Semester
@@ -49,6 +24,7 @@ _No files currently._
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 325.8 KB |
+| [2025_End_Semester_EPMTC301_Pages_18_18.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Pages_18_18.pdf) | `PDF` | 325.8 KB |
 | [CMMTC04_2023.pdf](downloaded_pyqs/End_Semester/CMMTC04_2023.pdf) | `PDF` | 38.5 KB |
 | [CMMTC04_2024.pdf](downloaded_pyqs/End_Semester/CMMTC04_2024.pdf) | `PDF` | 42.7 KB |
 | [CMMTC13.pdf](downloaded_pyqs/End_Semester/CMMTC13.pdf) | `PDF` | 100.3 KB |
@@ -81,6 +57,8 @@ _No files currently._
 | :--- | :---: | :---: |
 | [2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf) | `PDF` | 894.7 KB |
 | [2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 448.2 KB |
+| [2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf) | `PDF` | 448.3 KB |
+| [2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf) | `PDF` | 894.7 KB |
 | [CMMTC04.pdf](downloaded_pyqs/Mid_Semester/CMMTC04.pdf) | `PDF` | 53.7 KB |
 | [CMMTC13.pdf](downloaded_pyqs/Mid_Semester/CMMTC13.pdf) | `PDF` | 63.3 KB |
 | [CMMTC13_2024.pdf](downloaded_pyqs/Mid_Semester/CMMTC13_2024.pdf) | `PDF` | 26.3 KB |
