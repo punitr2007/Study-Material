@@ -42,8 +42,11 @@ export type CategoryFilter =
   | 'End_Semester'
   | 'Summer_Semester'
   | 'downloaded_notes'
-  | 'Assignments'
+  | 'Practice_Material'
+  | 'Linear_Algebra_Done_Right'
   | 'Textbooks'
+  | 'Textbooks_and_References'
+  | 'Assignments'
   | 'Lab_Manuals_and_Experiments'
   | 'Handwritten_Notes'
   | 'Lecture_Slides';

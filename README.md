@@ -22,11 +22,11 @@
 
 | # | Subject Code | Subject Name | Key Resources Available |
 | :-: | :--- | :--- | :--- |
-| 01 | `EAEPC302` | [Signals and Systems](01_Signals_and_Systems_EAEPC302/README.md) | downloaded notes, downloaded pyqs, Textbooks, Handwritten Notes, Assignments, Lecture Slides |
-| 02 | `EAEPC303` | [Probability Theory and Random Process](02_Probability_Theory_and_Random_Process_EAEPC303/README.md) | downloaded notes, downloaded pyqs, Textbooks |
-| 03 | `EAEPC304` | [Microelectronics Circuits and Applications](03_Microelectronics_Circuits_and_Applications_EAEPC304/README.md) | downloaded notes, downloaded pyqs, Lab Manuals and Experiments, Lecture Slides Prof Razavi, Assignments |
-| 04 | `EAEPC305` | [Digital Circuits and Systems](04_Digital_Circuits_and_Systems_EAEPC305/README.md) | downloaded notes, downloaded pyqs, Textbooks, Handwritten Notes, Assignments, Syllabus |
-| 05 | `EPMTC301` | [Mathematics For Machine Learning](05_Mathematics_For_Machine_Learning_EPMTC301/README.md) | downloaded pyqs, Assignments and Tutorials |
+| 01 | `EAEPC302` | [Signals and Systems](01_Signals_and_Systems_EAEPC302/README.md) | Assignments, downloaded pyqs, downloaded notes, Lecture Slides, Textbooks, Handwritten Notes |
+| 02 | `EAEPC303` | [Probability Theory and Random Process](02_Probability_Theory_and_Random_Process_EAEPC303/README.md) | downloaded pyqs, downloaded notes, Textbooks |
+| 03 | `EAEPC304` | [Microelectronics Circuits and Applications](03_Microelectronics_Circuits_and_Applications_EAEPC304/README.md) | Lab Manuals and Experiments, Assignments, downloaded pyqs, downloaded notes, Lecture Slides Prof Razavi |
+| 04 | `EAEPC305` | [Digital Circuits and Systems](04_Digital_Circuits_and_Systems_EAEPC305/README.md) | Assignments, downloaded pyqs, downloaded notes, Syllabus, Textbooks, Handwritten Notes |
+| 05 | `EPMTC301` | [Mathematics For Machine Learning](05_Mathematics_For_Machine_Learning_EPMTC301/README.md) | Textbooks and References, Assignments and Tutorials, downloaded pyqs, Linear Algebra Done Right, downloaded notes, Practice Material |
 
 ---
 

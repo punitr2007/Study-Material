@@ -13,6 +13,7 @@ import { SyncModal } from './components/SyncModal';
 import { EmptyState } from './components/EmptyState';
 import { AnalyticsView } from './components/AnalyticsView';
 import { SolutionsView } from './components/SolutionsView';
+import { PracticeVaultView } from './components/PracticeVaultView';
 import { SolutionViewerModal } from './components/SolutionViewerModal';
 import { Search, X, Loader2 } from 'lucide-react';
 
@@ -134,6 +135,29 @@ export function App() {
             if (doc.category !== 'downloaded_notes' && !(doc.sub_category && doc.sub_category.startsWith('Unit_'))) {
               return;
             }
+          } else if (activeCategory === 'Practice_Material') {
+            if (
+              doc.category !== 'Practice_Material' &&
+              !doc.relative_path.includes('Practice_Material') &&
+              doc.sub_category !== 'Practice_Material'
+            ) {
+              return;
+            }
+          } else if (activeCategory === 'Linear_Algebra_Done_Right') {
+            if (
+              doc.category !== 'Linear_Algebra_Done_Right' &&
+              !doc.relative_path.includes('Linear_Algebra_Done_Right')
+            ) {
+              return;
+            }
+          } else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') {
+            if (
+              doc.category !== 'Textbooks' &&
+              doc.category !== 'Textbooks_and_References' &&
+              !doc.relative_path.includes('Textbooks')
+            ) {
+              return;
+            }
           } else {
             if (doc.category !== activeCategory && doc.sub_category !== activeCategory) {
               return;
@@ -170,6 +194,29 @@ export function App() {
           }
         } else if (activeCategory === 'downloaded_notes') {
           if (doc.category !== 'downloaded_notes' && !(doc.sub_category && doc.sub_category.startsWith('Unit_'))) {
+            return false;
+          }
+        } else if (activeCategory === 'Practice_Material') {
+          if (
+            doc.category !== 'Practice_Material' &&
+            !doc.relative_path.includes('Practice_Material') &&
+            doc.sub_category !== 'Practice_Material'
+          ) {
+            return false;
+          }
+        } else if (activeCategory === 'Linear_Algebra_Done_Right') {
+          if (
+            doc.category !== 'Linear_Algebra_Done_Right' &&
+            !doc.relative_path.includes('Linear_Algebra_Done_Right')
+          ) {
+            return false;
+          }
+        } else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') {
+          if (
+            doc.category !== 'Textbooks' &&
+            doc.category !== 'Textbooks_and_References' &&
+            !doc.relative_path.includes('Textbooks')
+          ) {
             return false;
           }
         } else {
@@ -341,6 +388,13 @@ export function App() {
               <EmptyState onClearFilters={handleClearFilters} />
             )}
           </>
+        )}
+
+        {activeNavView === 'practice' && (
+          <PracticeVaultView
+            documents={catalog.documents}
+            onPreview={setActivePreviewDoc}
+          />
         )}
 
         {activeNavView === 'analytics' && (

@@ -4,6 +4,8 @@ Catalog Manifest Generator for Study-Material Web Portal
 =========================================================
 Scans all course subjects and generates web/public/catalog.json
 with jsDelivr CDN preview links and GitHub direct download links.
+Includes deep recursive scanning for Practice Material, Linear Algebra Done Right,
+and Curated Textbooks & Reference Repositories.
 """
 
 import os
@@ -35,6 +37,16 @@ CATEGORY_LABELS = {
     "Summer_Semester": "Summer / Special Exam",
     "downloaded_pyqs": "Question Papers",
     "downloaded_notes": "Lecture Notes",
+    "Practice_Material": "Practice Material & Worksheets",
+    "Linear_Algebra_Done_Right": "Linear Algebra Done Right (4th Ed)",
+    "Textbooks": "Textbooks & References",
+    "Textbooks_and_References": "Textbooks & References",
+    "MIT_OCW_18.06_Linear_Algebra": "MIT OCW 18.06 (Linear Algebra)",
+    "Miami_MTH210_Linear_Algebra": "Miami MTH 210 (Linear Algebra)",
+    "Abstract_Proof_Based_Linear_Algebra": "Proof-Based Linear Algebra",
+    "EPMTC301_Matching_Assignments": "EPMTC301 Mapped Assignments",
+    "Unit_1_Linear_Algebra": "Unit 1 Practice Problems",
+    "Unit_2_Matrix_Theory": "Unit 2 Practice Problems",
     "Unit_1": "Unit 1 Notes",
     "Unit_2": "Unit 2 Notes",
     "Unit_3": "Unit 3 Notes",
@@ -42,7 +54,6 @@ CATEGORY_LABELS = {
     "Unit_5": "Unit 5 Notes",
     "Assignments": "Assignments & Solutions",
     "Assignments_and_Tutorials": "Assignments & Tutorials",
-    "Textbooks": "Textbooks & References",
     "Lab_Manuals_and_Experiments": "Lab Manuals & Experiments",
     "Handwritten_Notes": "Handwritten Notes",
     "Lecture_Slides": "Lecture Slides",
@@ -90,34 +101,54 @@ def build_catalog() -> dict:
 
         s_doc_count = 0
 
-        subdirs = sorted([d for d in s_dir.iterdir() if d.is_dir() and not d.name.startswith(".")])
+        # Scan all subdirectories in subject
+        top_cats = sorted([d for d in s_dir.iterdir() if d.is_dir() and not d.name.startswith(".")])
 
-        for cat_dir in subdirs:
+        for cat_dir in top_cats:
             cat_name = cat_dir.name
-            nested_dirs = sorted([nd for nd in cat_dir.iterdir() if nd.is_dir() and not nd.name.startswith(".")])
-            direct_files = sorted([f for f in cat_dir.iterdir() if f.is_file() and not f.name.startswith(".") and f.name != "README.md" and f.name != "SYLLABUS.md"])
+            
+            # Recursively walk the category directory
+            for root, dirs, files in os.walk(cat_dir):
+                # Filter out hidden directories and LaTeX source if not desired as doc cards
+                dirs[:] = [d for d in dirs if not d.startswith(".")]
+                
+                for f_name in sorted(files):
+                    if f_name.startswith(".") or f_name in ["README.md", "SYLLABUS.md", "packages.tex", "math_commands.tex"]:
+                        continue
+                    # Skip raw tex files from main cards if PDF exists, but allow MD and PDF
+                    if f_name.endswith(".tex"):
+                        continue
 
-            if direct_files:
-                for f in direct_files:
-                    rel_path = f.relative_to(BASE_DIR).as_posix()
-                    size_b = f.stat().st_size
-                    ext = f.suffix.upper().replace(".", "") or "FILE"
-                    year = extract_year(f.name) or extract_year(f.parent.name) or extract_year(rel_path)
+                    f_path = Path(root) / f_name
+                    rel_path = f_path.relative_to(BASE_DIR).as_posix()
+                    size_b = f_path.stat().st_size
+                    ext = f_path.suffix.upper().replace(".", "") or "FILE"
+                    year = extract_year(f_name) or extract_year(f_path.parent.name) or extract_year(rel_path)
+
+                    # Determine sub_category
+                    rel_to_cat = f_path.relative_to(cat_dir)
+                    sub_name = rel_to_cat.parts[0] if len(rel_to_cat.parts) > 1 else None
 
                     url_encoded_path = urllib.parse.quote(rel_path)
                     jsdelivr_url = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@{BRANCH}/{url_encoded_path}"
                     raw_github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/{url_encoded_path}"
 
+                    cat_label = CATEGORY_LABELS.get(cat_name, cat_name.replace("_", " "))
+                    if sub_name and sub_name in CATEGORY_LABELS:
+                        cat_label = CATEGORY_LABELS[sub_name]
+                    elif sub_name:
+                        cat_label = sub_name.replace("_", " ")
+
                     doc_entry = {
                         "id": f"{s_code}_{len(all_documents) + 1}",
-                        "filename": f.name,
-                        "title": clean_display_title(f.name),
+                        "filename": f_name,
+                        "title": clean_display_title(f_name),
                         "subject_id": s_id,
                         "subject_name": s_name,
                         "subject_code": s_code,
                         "category": cat_name,
-                        "category_label": CATEGORY_LABELS.get(cat_name, cat_name.replace("_", " ")),
-                        "sub_category": None,
+                        "category_label": cat_label,
+                        "sub_category": sub_name,
                         "relative_path": rel_path,
                         "size_bytes": size_b,
                         "size_formatted": format_size(size_b),
@@ -128,42 +159,6 @@ def build_catalog() -> dict:
                     }
                     all_documents.append(doc_entry)
                     s_doc_count += 1
-
-            if nested_dirs:
-                for sub_cat in nested_dirs:
-                    sub_name = sub_cat.name
-                    nested_files = sorted([f for f in sub_cat.iterdir() if f.is_file() and not f.name.startswith(".") and f.name != "README.md" and f.name != "SYLLABUS.md"])
-                    
-                    for f in nested_files:
-                        rel_path = f.relative_to(BASE_DIR).as_posix()
-                        size_b = f.stat().st_size
-                        ext = f.suffix.upper().replace(".", "") or "FILE"
-                        year = extract_year(f.name) or extract_year(sub_name) or extract_year(rel_path)
-
-                        url_encoded_path = urllib.parse.quote(rel_path)
-                        jsdelivr_url = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@{BRANCH}/{url_encoded_path}"
-                        raw_github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/{url_encoded_path}"
-
-                        doc_entry = {
-                            "id": f"{s_code}_{len(all_documents) + 1}",
-                            "filename": f.name,
-                            "title": clean_display_title(f.name),
-                            "subject_id": s_id,
-                            "subject_name": s_name,
-                            "subject_code": s_code,
-                            "category": cat_name,
-                            "category_label": CATEGORY_LABELS.get(sub_name, CATEGORY_LABELS.get(cat_name, sub_name.replace("_", " "))),
-                            "sub_category": sub_name,
-                            "relative_path": rel_path,
-                            "size_bytes": size_b,
-                            "size_formatted": format_size(size_b),
-                            "file_type": ext,
-                            "year": year,
-                            "preview_url": jsdelivr_url,
-                            "download_url": raw_github_url
-                        }
-                        all_documents.append(doc_entry)
-                        s_doc_count += 1
 
         subject_list.append({
             "id": s_id,

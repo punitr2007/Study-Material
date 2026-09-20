@@ -14,6 +14,11 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [503 STAT - Text Book.pdf](Textbooks/503%20STAT%20-%20Text%20Book.pdf) | `PDF` | 6.00 MB |
+| [A First Course in Probability by Sheldon Ross.pdf](Textbooks/A%20First%20Course%20in%20Probability%20by%20Sheldon%20Ross.pdf) | `PDF` | 4.86 MB |
+| [MathematicalStatisticsPDFDrive.com.pdf](Textbooks/MathematicalStatisticsPDFDrive.com.pdf) | `PDF` | 5.10 MB |
+| [Probability Random Variable and Random Signal Principles 2nd edition by peyton-z-peebles.pdf](Textbooks/Probability%20Random%20Variable%20and%20Random%20Signal%20Principles%202nd%20edition%20by%20peyton-z-peebles.pdf) | `PDF` | 11.71 MB |
+| [Probability.pdf](Textbooks/Probability.pdf) | `PDF` | 2.17 MB |
 | [Probability_Random_Variables_and_Stochastic_Processes_Papoulis.pdf](Textbooks/Probability_Random_Variables_and_Stochastic_Processes_Papoulis.pdf) | `PDF` | 13.76 MB |
 
 ---
