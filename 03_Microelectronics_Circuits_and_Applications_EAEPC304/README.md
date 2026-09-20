@@ -7,6 +7,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 - [Assignments](#assignments)
 - [Lab Manuals and Experiments](#lab-manuals-and-experiments)
 - [Lecture Slides Prof Razavi](#lecture-slides-prof-razavi)
+- [Textbooks](#textbooks)
 - [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
 
@@ -24,6 +25,8 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [EDC_Laboratory_File_Complete.pdf](Lab_Manuals_and_Experiments/EDC_Laboratory_File_Complete.pdf) | `PDF` | 456.5 KB |
+| [Lab6_Frequency_Response_Common_Source_Amplifier.pdf](Lab_Manuals_and_Experiments/Lab6_Frequency_Response_Common_Source_Amplifier.pdf) | `PDF` | 266.0 KB |
 | [MCA_Lab_Experiments_Manual.pdf](Lab_Manuals_and_Experiments/MCA_Lab_Experiments_Manual.pdf) | `PDF` | 76.2 KB |
 
 ---
@@ -56,7 +59,35 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 ---
 
+## Textbooks
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Electronic_Devices_and_Circuit_Theory_11th_Ed_Boylestad.pdf](Textbooks/Electronic_Devices_and_Circuit_Theory_11th_Ed_Boylestad.pdf) | `PDF` | 25.92 MB |
+| [Electronic_Devices_and_Circuits_Salivahanan.pdf](Textbooks/Electronic_Devices_and_Circuits_Salivahanan.pdf) | `PDF` | 14.96 MB |
+
+---
+
 ## downloaded notes
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [BJT_Characteristics_Notes.pdf](downloaded_notes/BJT_Characteristics_Notes.pdf) | `PDF` | 208.5 KB |
+| [BJT_Circuits_at_DC_Analysis.pdf](downloaded_notes/BJT_Circuits_at_DC_Analysis.pdf) | `PDF` | 221.3 KB |
+| [BJT_Small_Signal_Parameters_Lecture_Notes.pdf](downloaded_notes/BJT_Small_Signal_Parameters_Lecture_Notes.pdf) | `PDF` | 109.1 KB |
+| [Characteristics_of_MOSFET_Notes.pdf](downloaded_notes/Characteristics_of_MOSFET_Notes.pdf) | `PDF` | 2.92 MB |
+| [ECE255_MOSFET_Small_Signal_Analysis_Lecture_Notes.pdf](downloaded_notes/ECE255_MOSFET_Small_Signal_Analysis_Lecture_Notes.pdf) | `PDF` | 6.80 MB |
+| [EDC_Comprehensive_Theory_Notes.pdf](downloaded_notes/EDC_Comprehensive_Theory_Notes.pdf) | `PDF` | 825.7 KB |
+| [Electronics_Devices_and_Circuits_I_Notes.pdf](downloaded_notes/Electronics_Devices_and_Circuits_I_Notes.pdf) | `PDF` | 943.7 KB |
+| [IITG_PH218_BJT_IV_Characteristics_and_Ebers_Moll_Model.pdf](downloaded_notes/IITG_PH218_BJT_IV_Characteristics_and_Ebers_Moll_Model.pdf) | `PDF` | 461.2 KB |
+| [MCA_Syllabus_Page1.jpeg](downloaded_notes/MCA_Syllabus_Page1.jpeg) | `JPEG` | 154.4 KB |
+| [MCA_Syllabus_Page2.jpeg](downloaded_notes/MCA_Syllabus_Page2.jpeg) | `JPEG` | 91.1 KB |
+| [Microelectronics_Complete_Course_File.pdf](downloaded_notes/Microelectronics_Complete_Course_File.pdf) | `PDF` | 3.13 MB |
+| [Microelectronics_Lecture_Notes_Aug13.pdf](downloaded_notes/Microelectronics_Lecture_Notes_Aug13.pdf) | `PDF` | 3.55 MB |
+| [Small_Signal_Operation_and_Models_of_MOSFETs.pdf](downloaded_notes/Small_Signal_Operation_and_Models_of_MOSFETs.pdf) | `PDF` | 2.30 MB |
+| [Steps_for_MOSFET_Small_Signal_Analysis.pdf](downloaded_notes/Steps_for_MOSFET_Small_Signal_Analysis.pdf) | `PDF` | 80.8 KB |
+| [Unit20_Operational_Amplifiers_OpAmp.pdf](downloaded_notes/Unit20_Operational_Amplifiers_OpAmp.pdf) | `PDF` | 3.49 MB |
+| [Zener_Diode_Characteristics_and_Applications.pdf](downloaded_notes/Zener_Diode_Characteristics_and_Applications.pdf) | `PDF` | 84.1 KB |
 
 ### Unit 1
 

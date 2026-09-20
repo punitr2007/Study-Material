@@ -49,7 +49,10 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [DCS_ECAM_Syllabus_2026.pdf](Syllabus/DCS_ECAM_Syllabus_2026.pdf) | `PDF` | 98.5 KB |
 | [DCS_Syllabus.pdf](Syllabus/DCS_Syllabus.pdf) | `PDF` | 381.4 KB |
+| [DCS_Syllabus_Overview.jpeg](Syllabus/DCS_Syllabus_Overview.jpeg) | `JPEG` | 103.0 KB |
+| [Digital_Circuits_and_Systems_Detailed_Syllabus.pdf](Syllabus/Digital_Circuits_and_Systems_Detailed_Syllabus.pdf) | `PDF` | 381.4 KB |
 
 ---
 
@@ -109,6 +112,11 @@ _No files currently._
 
 ## downloaded pyqs
 
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Digital_Circuits_Combined_Branch_Exam_Papers.pdf](downloaded_pyqs/Digital_Circuits_Combined_Branch_Exam_Papers.pdf) | `PDF` | 82.4 KB |
+| [Digital_Circuits_EEECC02_Past_Paper.pdf](downloaded_pyqs/Digital_Circuits_EEECC02_Past_Paper.pdf) | `PDF` | 103.2 KB |
+
 ### End Semester
 
 | File Name | Type | Size |
@@ -139,6 +147,9 @@ _No files currently._
 | [2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_49_50.pdf) | `PDF` | 976.6 KB |
 | [DCS Midsem 2025 (sept).jpeg](downloaded_pyqs/Mid_Semester/DCS%20Midsem%202025%20%28sept%29.jpeg) | `JPEG` | 170.7 KB |
 | [DCS midsem (2020,2021,2022,2023).pdf](downloaded_pyqs/Mid_Semester/DCS%20midsem%20%282020%2C2021%2C2022%2C2023%29.pdf) | `PDF` | 2.31 MB |
+| [Digital_Circuits_Midsem_2022_ECE_EEE_ICE.pdf](downloaded_pyqs/Mid_Semester/Digital_Circuits_Midsem_2022_ECE_EEE_ICE.pdf) | `PDF` | 28.9 KB |
+| [Digital_Circuits_Midsem_2023_ECE_EEE_ICE.pdf](downloaded_pyqs/Mid_Semester/Digital_Circuits_Midsem_2023_ECE_EEE_ICE.pdf) | `PDF` | 53.4 KB |
+| [Digital_Circuits_Midsem_2024_ECE_EEE_ICE.pdf](downloaded_pyqs/Mid_Semester/Digital_Circuits_Midsem_2024_ECE_EEE_ICE.pdf) | `PDF` | 50.7 KB |
 | [ECECC08_EIECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf) | `PDF` | 18.4 KB |
 | [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 22.2 KB |
 | [ICECC08_EEECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ICECC08_EEECC08_2023.pdf) | `PDF` | 269.5 KB |

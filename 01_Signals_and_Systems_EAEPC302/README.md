@@ -36,7 +36,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [HW05 - Properties of linear, time-invariant systems - Solutions.pdf](Assignments/HW05%20-%20Properties%20of%20linear%2C%20time-invariant%20systems%20-%20Solutions.pdf) | `PDF` | 296.3 KB |
 | [HW05 - Properties of linear, time-invariant systems.pdf](Assignments/HW05%20-%20Properties%20of%20linear%2C%20time-invariant%20systems.pdf) | `PDF` | 243.3 KB |
 | [HW06 - Systems represented by differential and difference equations - Solutions.pdf](Assignments/HW06%20-%20Systems%20represented%20by%20differential%20and%20difference%20equations%20-%20Solutions.pdf) | `PDF` | 383.1 KB |
-| [HW06 - Systems represented by differential and difference equations.pdf](Assignments/HW06%20-%20Systems%20represented%20by%20differential%20and%20difference%20equations.pdf) | `PDF` | 238.4 KB |
+| [HW06 - Systems represented by differential and difference equations.pdf](Assignments/HW06%20-%20Systems%20represented%20by%20differential%20and%20difference%20equations.pdf) | `PDF` | 383.1 KB |
 | [HW07 - Continuous-time Fourier series - Solutions.pdf](Assignments/HW07%20-%20Continuous-time%20Fourier%20series%20-%20Solutions.pdf) | `PDF` | 349.8 KB |
 | [HW07 - Continuous-time Fourier series.pdf](Assignments/HW07%20-%20Continuous-time%20Fourier%20series.pdf) | `PDF` | 293.8 KB |
 | [HW08 - Continuous-time Fourier transform - Solutions.pdf](Assignments/HW08%20-%20Continuous-time%20Fourier%20transform%20-%20Solutions.pdf) | `PDF` | 397.3 KB |
@@ -69,12 +69,16 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [HW21 - Continuous-time second-order systems.pdf](Assignments/HW21%20-%20Continuous-time%20second-order%20systems.pdf) | `PDF` | 292.6 KB |
 | [HW22 - The z-transform - Solutions.pdf](Assignments/HW22%20-%20The%20z-transform%20-%20Solutions.pdf) | `PDF` | 408.9 KB |
 | [HW22 - The z-transform.pdf](Assignments/HW22%20-%20The%20z-transform.pdf) | `PDF` | 264.8 KB |
+| [HW23 - Mapping continuous time filters to discrete time filters - Solutions.pdf](Assignments/HW23%20-%20Mapping%20continuous%20time%20filters%20to%20discrete%20time%20filters%20-%20Solutions.pdf) | `PDF` | 569.4 KB |
+| [HW23 - Mapping continuous time filters to discrete time filters.pdf](Assignments/HW23%20-%20Mapping%20continuous%20time%20filters%20to%20discrete%20time%20filters.pdf) | `PDF` | 297.7 KB |
 | [HW23 - Mapping continuous-time filters to discrete-time filters - Solutions.pdf](Assignments/HW23%20-%20Mapping%20continuous-time%20filters%20to%20discrete-time%20filters%20-%20Solutions.pdf) | `PDF` | 569.4 KB |
 | [HW23 - Mapping continuous-time filters to discrete-time filters.pdf](Assignments/HW23%20-%20Mapping%20continuous-time%20filters%20to%20discrete-time%20filters.pdf) | `PDF` | 297.7 KB |
 | [HW24 - Butterworth filters - Solutions.pdf](Assignments/HW24%20-%20Butterworth%20filters%20-%20Solutions.pdf) | `PDF` | 361.2 KB |
 | [HW24 - Butterworth filters.pdf](Assignments/HW24%20-%20Butterworth%20filters.pdf) | `PDF` | 296.6 KB |
 | [HW25 - Feedback - Solutions.pdf](Assignments/HW25%20-%20Feedback%20-%20Solutions.pdf) | `PDF` | 320.1 KB |
 | [HW25 - Feedback.pdf](Assignments/HW25%20-%20Feedback.pdf) | `PDF` | 242.0 KB |
+| [HW26 - Feedback example - The inverted pendulum - Solutions.pdf](Assignments/HW26%20-%20Feedback%20example%20-%20The%20inverted%20pendulum%20-%20Solutions.pdf) | `PDF` | 383.6 KB |
+| [HW26 - Feedback example - The inverted pendulum.pdf](Assignments/HW26%20-%20Feedback%20example%20-%20The%20inverted%20pendulum.pdf) | `PDF` | 430.0 KB |
 | [HW26 - Feedback example- The inverted pendulum - Solutions.pdf](Assignments/HW26%20-%20Feedback%20example-%20The%20inverted%20pendulum%20-%20Solutions.pdf) | `PDF` | 383.6 KB |
 | [HW26 - Feedback example- The inverted pendulum.pdf](Assignments/HW26%20-%20Feedback%20example-%20The%20inverted%20pendulum.pdf) | `PDF` | 430.0 KB |
 
@@ -91,6 +95,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [EC 402 SignalSystems Notes.pdf](Handwritten_Notes/EC%20402%20SignalSystems%20Notes.pdf) | `PDF` | 1.43 MB |
 | [Fourier Series.pdf](Handwritten_Notes/Fourier%20Series.pdf) | `PDF` | 2.18 MB |
 | [SNS Notes 2.pdf](Handwritten_Notes/SNS%20Notes%202.pdf) | `PDF` | 2.91 MB |
+| [Signals_and_Systems_Unit_3_DTFT_Notes.pdf](Handwritten_Notes/Signals_and_Systems_Unit_3_DTFT_Notes.pdf) | `PDF` | 45.87 MB |
 | [SnS notes 1.pdf](Handwritten_Notes/SnS%20notes%201.pdf) | `PDF` | 42.52 MB |
 | [u3.pdf](Handwritten_Notes/u3.pdf) | `PDF` | 45.87 MB |
 
@@ -115,6 +120,14 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 ---
 
 ## downloaded notes
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Signals_and_Systems_Complete_Notes.pdf](downloaded_notes/Signals_and_Systems_Complete_Notes.pdf) | `PDF` | 6.07 MB |
+| [Signals_and_Systems_Midsem_Neso_Academy_Notes.pdf](downloaded_notes/Signals_and_Systems_Midsem_Neso_Academy_Notes.pdf) | `PDF` | 7.70 MB |
+| [Signals_and_Systems_Notes_Part1.pdf](downloaded_notes/Signals_and_Systems_Notes_Part1.pdf) | `PDF` | 42.52 MB |
+| [Signals_and_Systems_Notes_Part2.pdf](downloaded_notes/Signals_and_Systems_Notes_Part2.pdf) | `PDF` | 2.91 MB |
+| [Signals_and_Systems_Unit_2_Anshul_Goyal.pdf](downloaded_notes/Signals_and_Systems_Unit_2_Anshul_Goyal.pdf) | `PDF` | 71.90 MB |
 
 ### Unit 1
 
@@ -183,6 +196,11 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [END SEM 2019.pdf](downloaded_pyqs/End_Semester/END%20SEM%202019.pdf) | `PDF` | 697.0 KB |
 | [End Sem 2022 ECE.pdf](downloaded_pyqs/End_Semester/End%20Sem%202022%20ECE.pdf) | `PDF` | 5.94 MB |
 | [Endsem 2025(Nov-Dec).pdf](downloaded_pyqs/End_Semester/Endsem%202025%28Nov-Dec%29.pdf) | `PDF` | 1.14 MB |
+| [Signals_and_Systems_Endsem_2017.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2017.pdf) | `PDF` | 635.8 KB |
+| [Signals_and_Systems_Endsem_2018.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2018.pdf) | `PDF` | 205.9 KB |
+| [Signals_and_Systems_Endsem_2019.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2019.pdf) | `PDF` | 697.0 KB |
+| [Signals_and_Systems_Endsem_2023.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2023.pdf) | `PDF` | 51.4 KB |
+| [Signals_and_Systems_Endsem_2025_Nov_Dec.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2025_Nov_Dec.pdf) | `PDF` | 1.14 MB |
 
 ### Mid Semester
 
@@ -204,6 +222,9 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [Mid Sem 2022 ECE .pdf](downloaded_pyqs/Mid_Semester/Mid%20Sem%202022%20ECE%20.pdf) | `PDF` | 6.10 MB |
 | [Mid Sem 2022 ECE.pdf](downloaded_pyqs/Mid_Semester/Mid%20Sem%202022%20ECE.pdf) | `PDF` | 3.51 MB |
 | [Signal and system 2025 (Sept).jpeg](downloaded_pyqs/Mid_Semester/Signal%20and%20system%202025%20%28Sept%29.jpeg) | `JPEG` | 179.3 KB |
+| [Signals_and_Systems_Midsem_2021.pdf](downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2021.pdf) | `PDF` | 646.2 KB |
+| [Signals_and_Systems_Midsem_2024.pdf](downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2024.pdf) | `PDF` | 41.7 KB |
+| [Signals_and_Systems_Midsem_2025_Sept.jpeg](downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2025_Sept.jpeg) | `JPEG` | 179.3 KB |
 
 ### Summer Semester
 

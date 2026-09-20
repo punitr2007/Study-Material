@@ -17,7 +17,10 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [Linear_Transformations_Homework_5_Solutions.pdf](Assignments_and_Tutorials/Linear_Transformations_Homework_5_Solutions.pdf) | `PDF` | 114.3 KB |
 | [Linear_algebra_schaum_outlines_problemsheet2_ques.pdf](Assignments_and_Tutorials/Linear_algebra_schaum_outlines_problemsheet2_ques.pdf) | `PDF` | 343.9 KB |
+| [MML_Class_Test_1_Set_A.pdf](Assignments_and_Tutorials/MML_Class_Test_1_Set_A.pdf) | `PDF` | 66.0 KB |
+| [MML_Class_Test_1_Set_B.pdf](Assignments_and_Tutorials/MML_Class_Test_1_Set_B.pdf) | `PDF` | 96.6 KB |
 
 ---
 
@@ -60,6 +63,21 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 ---
 
 ## Practice Material
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Fourier_Series_Notes.pdf](Practice_Material/Fourier_Series_Notes.pdf) | `PDF` | 2.18 MB |
+| [Linear_Algebra_Problem_Sheet_1.pdf](Practice_Material/Linear_Algebra_Problem_Sheet_1.pdf) | `PDF` | 87.0 KB |
+| [Linear_Algebra_Problem_Sheet_2.pdf](Practice_Material/Linear_Algebra_Problem_Sheet_2.pdf) | `PDF` | 86.9 KB |
+| [Linear_Algebra_Problem_Sheet_3.pdf](Practice_Material/Linear_Algebra_Problem_Sheet_3.pdf) | `PDF` | 102.7 KB |
+| [Linear_Algebra_Schaum_Outlines_Problem_Sheet_2.pdf](Practice_Material/Linear_Algebra_Schaum_Outlines_Problem_Sheet_2.pdf) | `PDF` | 343.9 KB |
+| [Linear_Algebra_Short_Notes.pdf](Practice_Material/Linear_Algebra_Short_Notes.pdf) | `PDF` | 695.2 KB |
+| [Linear_Algebra_University_Question_Paper_P16MA22.pdf](Practice_Material/Linear_Algebra_University_Question_Paper_P16MA22.pdf) | `PDF` | 315.7 KB |
+| [Singular_Value_Decomposition_Unit3_Notes.pdf](Practice_Material/Singular_Value_Decomposition_Unit3_Notes.pdf) | `PDF` | 3.06 MB |
+| [Vector_Calculus_Curl_and_Divergence.pdf](Practice_Material/Vector_Calculus_Curl_and_Divergence.pdf) | `PDF` | 2.42 MB |
+| [Vector_Calculus_Greens_Stokes_Divergence_Theorems.pdf](Practice_Material/Vector_Calculus_Greens_Stokes_Divergence_Theorems.pdf) | `PDF` | 3.61 MB |
+| [Vector_Calculus_Line_Surface_Volume_Integrals.pdf](Practice_Material/Vector_Calculus_Line_Surface_Volume_Integrals.pdf) | `PDF` | 3.04 MB |
+| [Vector_Calculus_Part1_Notes.pdf](Practice_Material/Vector_Calculus_Part1_Notes.pdf) | `PDF` | 2.24 MB |
 
 ### Abstract Proof Based Linear Algebra
 
@@ -112,9 +130,15 @@ _No files currently._
 | [Algebra.pdf](Textbooks_and_References/Algebra.pdf) | `PDF` | 3.62 MB |
 | [Calculus.pdf](Textbooks_and_References/Calculus.pdf) | `PDF` | 2.34 MB |
 | [Complex-Analysis.pdf](Textbooks_and_References/Complex-Analysis.pdf) | `PDF` | 2.67 MB |
+| [Elementary_Linear_Algebra.pdf](Textbooks_and_References/Elementary_Linear_Algebra.pdf) | `PDF` | 19.70 MB |
 | [Higher Engineering Mathematics - 7th Edition - John Bird.pdf](Textbooks_and_References/Higher%20Engineering%20Mathematics%20-%207th%20Edition%20-%20John%20Bird.pdf) | `PDF` | 6.52 MB |
+| [Introduction_to_Machine_Learning_with_Python_Mueller_Guido.pdf](Textbooks_and_References/Introduction_to_Machine_Learning_with_Python_Mueller_Guido.pdf) | `PDF` | 6.73 MB |
 | [Linear Algebra.pdf](Textbooks_and_References/Linear%20Algebra.pdf) | `PDF` | 1.80 MB |
 | [Linear-programming.pdf](Textbooks_and_References/Linear-programming.pdf) | `PDF` | 2.21 MB |
+| [Linear_Algebra_M_Thamban_Nair.pdf](Textbooks_and_References/Linear_Algebra_M_Thamban_Nair.pdf) | `PDF` | 517.9 KB |
+| [Linear_Algebra_and_Its_Applications_5th_Ed_David_Lay.pdf](Textbooks_and_References/Linear_Algebra_and_Its_Applications_5th_Ed_David_Lay.pdf) | `PDF` | 39.05 MB |
+| [Mathematics_for_Machine_Learning_Deisenroth_Faisal_Ong.pdf](Textbooks_and_References/Mathematics_for_Machine_Learning_Deisenroth_Faisal_Ong.pdf) | `PDF` | 462.8 KB |
+| [Notes_on_Mathematics_IITK_Chandra_Lal.pdf](Textbooks_and_References/Notes_on_Mathematics_IITK_Chandra_Lal.pdf) | `PDF` | 1.70 MB |
 | [Numerical-Analysis.pdf](Textbooks_and_References/Numerical-Analysis.pdf) | `PDF` | 2.57 MB |
 | [Ordinary-differential-equation.pdf](Textbooks_and_References/Ordinary-differential-equation.pdf) | `PDF` | 3.90 MB |
 | [Partial-differential-equations.pdf](Textbooks_and_References/Partial-differential-equations.pdf) | `PDF` | 2.64 MB |
@@ -182,6 +206,7 @@ _No files currently._
 | [ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf) | `PDF` | 108.2 KB |
 | [ITMTC301_INMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301_INMTC301.pdf) | `PDF` | 115.4 KB |
 | [ITMTC301_INMTC301_EIMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301_INMTC301_EIMTC301.pdf) | `PDF` | 104.5 KB |
+| [Mathematics_Signal_Processing_Communication_Endsem_2022.pdf](downloaded_pyqs/End_Semester/Mathematics_Signal_Processing_Communication_Endsem_2022.pdf) | `PDF` | 5.94 MB |
 
 ### Mid Semester
 
@@ -204,6 +229,9 @@ _No files currently._
 | [ICMTC04_EEMTC04_2023.pdf](downloaded_pyqs/Mid_Semester/ICMTC04_EEMTC04_2023.pdf) | `PDF` | 284.8 KB |
 | [ITMTC04.pdf](downloaded_pyqs/Mid_Semester/ITMTC04.pdf) | `PDF` | 120.1 KB |
 | [ITMTC301.pdf](downloaded_pyqs/Mid_Semester/ITMTC301.pdf) | `PDF` | 106.3 KB |
+| [Mathematics_For_Machine_Learning_Midsem_2024_EPMTC04.pdf](downloaded_pyqs/Mid_Semester/Mathematics_For_Machine_Learning_Midsem_2024_EPMTC04.pdf) | `PDF` | 50.6 KB |
+| [Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf](downloaded_pyqs/Mid_Semester/Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf) | `PDF` | 26.9 KB |
+| [Mathematics_Signal_Processing_Communication_Midsem_2022.pdf](downloaded_pyqs/Mid_Semester/Mathematics_Signal_Processing_Communication_Midsem_2022.pdf) | `PDF` | 3.51 MB |
 
 ### Summer Semester
 
