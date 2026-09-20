@@ -16,6 +16,7 @@ import { SolutionsView } from './components/SolutionsView';
 import { PracticeVaultView } from './components/PracticeVaultView';
 import { SolutionViewerModal } from './components/SolutionViewerModal';
 import { Search, X, Loader2 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 export function App() {
   const [activeNavView, setActiveNavView] = useState<ActiveNavView>('materials');
@@ -453,6 +454,7 @@ export function App() {
           </p>
         </footer>
       </div>
+      <Analytics />
     </>
   );
 }
