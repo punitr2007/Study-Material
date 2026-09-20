@@ -6,6 +6,7 @@ import { Navbar, type ActiveNavView } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { SubjectTabs } from './components/SubjectTabs';
 import { CategoryFilterBar } from './components/CategoryFilter';
+import { SubCategoryFilterBar } from './components/SubCategoryFilter';
 import { YearFilterBar } from './components/YearFilter';
 import { DocumentCard } from './components/DocumentCard';
 import { PdfViewerModal } from './components/PdfViewerModal';
@@ -34,6 +35,7 @@ export function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSubject, setSelectedSubject] = useState<string>('ALL');
   const [activeCategory, setActiveCategory] = useState<CategoryFilter>('ALL');
+  const [selectedSubCategory, setSelectedSubCategory] = useState<string>('ALL');
   const [selectedYear, setSelectedYear] = useState<string>('ALL');
   const [activePreviewDoc, setActivePreviewDoc] = useState<CatalogDocument | null>(null);
   const [activeSolutionModal, setActiveSolutionModal] = useState<QuestionSolution | null>(null);
@@ -112,6 +114,99 @@ export function App() {
     fetchAllData(false);
   }, []);
 
+  // Dynamically compute category counts for the active subject context
+  const { categoryCounts, totalActiveSubjectDocs } = useMemo(() => {
+    if (!catalog) return { categoryCounts: {} as Record<string, number>, totalActiveSubjectDocs: 0 };
+    const counts: Record<string, number> = {};
+    let total = 0;
+
+    catalog.documents.forEach((doc) => {
+      if (selectedSubject !== 'ALL' && doc.subject_id !== selectedSubject) {
+        return;
+      }
+      total += 1;
+
+      const cat = doc.category;
+      const path = doc.relative_path.toLowerCase();
+
+      if (cat === 'Mid_Semester' || doc.sub_category === 'Mid_Semester') {
+        counts['Mid_Semester'] = (counts['Mid_Semester'] || 0) + 1;
+      } else if (cat === 'End_Semester' || doc.sub_category === 'End_Semester') {
+        counts['End_Semester'] = (counts['End_Semester'] || 0) + 1;
+      } else if (cat === 'Summer_Semester' || doc.sub_category === 'Summer_Semester') {
+        counts['Summer_Semester'] = (counts['Summer_Semester'] || 0) + 1;
+      } else if (cat === 'Practice_Material' || path.includes('practice_material')) {
+        counts['Practice_Material'] = (counts['Practice_Material'] || 0) + 1;
+      } else if (cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right')) {
+        counts['Linear_Algebra_Done_Right'] = (counts['Linear_Algebra_Done_Right'] || 0) + 1;
+      } else if (cat === 'downloaded_notes' || (doc.sub_category && doc.sub_category.startsWith('Unit_'))) {
+        counts['downloaded_notes'] = (counts['downloaded_notes'] || 0) + 1;
+      } else if (cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks')) {
+        counts['Textbooks'] = (counts['Textbooks'] || 0) + 1;
+      } else if (cat === 'Assignments' || cat === 'Assignments_and_Tutorials') {
+        counts['Assignments'] = (counts['Assignments'] || 0) + 1;
+      } else if (cat === 'Lab_Manuals_and_Experiments') {
+        counts['Lab_Manuals_and_Experiments'] = (counts['Lab_Manuals_and_Experiments'] || 0) + 1;
+      } else if (cat === 'Handwritten_Notes') {
+        counts['Handwritten_Notes'] = (counts['Handwritten_Notes'] || 0) + 1;
+      } else if (cat === 'Lecture_Slides' || cat === 'Lecture_Slides_Prof_Razavi') {
+        counts['Lecture_Slides'] = (counts['Lecture_Slides'] || 0) + 1;
+      }
+    });
+
+    return { categoryCounts: counts, totalActiveSubjectDocs: total };
+  }, [catalog, selectedSubject]);
+
+  // Dynamically compute subcategories for active subject + category
+  const availableSubCategories = useMemo(() => {
+    if (!catalog || activeCategory === 'ALL') return [];
+    const subMap: Record<string, number> = {};
+
+    catalog.documents.forEach((doc) => {
+      if (selectedSubject !== 'ALL' && doc.subject_id !== selectedSubject) return;
+
+      const cat = doc.category;
+      const path = doc.relative_path.toLowerCase();
+
+      let matchesCategory = false;
+      if (activeCategory === 'Mid_Semester') matchesCategory = cat === 'Mid_Semester';
+      else if (activeCategory === 'End_Semester') matchesCategory = cat === 'End_Semester';
+      else if (activeCategory === 'Summer_Semester') matchesCategory = cat === 'Summer_Semester';
+      else if (activeCategory === 'downloaded_notes') matchesCategory = cat === 'downloaded_notes';
+      else if (activeCategory === 'Practice_Material') matchesCategory = cat === 'Practice_Material' || path.includes('practice_material');
+      else if (activeCategory === 'Linear_Algebra_Done_Right') matchesCategory = cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right');
+      else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') matchesCategory = cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks');
+      else if (activeCategory === 'Assignments') matchesCategory = cat === 'Assignments' || cat === 'Assignments_and_Tutorials';
+      else matchesCategory = cat === activeCategory;
+
+      if (!matchesCategory) return;
+
+      if (doc.sub_category && doc.sub_category !== activeCategory) {
+        subMap[doc.sub_category] = (subMap[doc.sub_category] || 0) + 1;
+      }
+    });
+
+    return Object.entries(subMap)
+      .filter(([_, count]) => count > 0)
+      .map(([key, count]) => ({
+        key,
+        label: key,
+        count
+      }));
+  }, [catalog, selectedSubject, activeCategory]);
+
+  // Auto-reset category & subcategory if non-existent in new subject context
+  useEffect(() => {
+    if (activeCategory !== 'ALL' && (!categoryCounts[activeCategory] || categoryCounts[activeCategory] === 0)) {
+      setActiveCategory('ALL');
+    }
+    setSelectedSubCategory('ALL');
+  }, [selectedSubject, categoryCounts]);
+
+  useEffect(() => {
+    setSelectedSubCategory('ALL');
+  }, [activeCategory]);
+
   // Calculate available years and document counts per year
   const { availableYears, yearCounts } = useMemo(() => {
     if (!catalog) return { availableYears: [], yearCounts: {} };
@@ -120,58 +215,45 @@ export function App() {
 
     catalog.documents.forEach((doc) => {
       if (doc.year) {
-        allKnownYears.add(doc.year);
         // Track count considering subject and category filters
         if (selectedSubject !== 'ALL' && doc.subject_id !== selectedSubject) return;
         if (activeCategory !== 'ALL') {
-          if (
-            activeCategory === 'Mid_Semester' ||
-            activeCategory === 'End_Semester' ||
-            activeCategory === 'Summer_Semester'
-          ) {
-            if (doc.category !== activeCategory && doc.sub_category !== activeCategory) {
-              return;
-            }
-          } else if (activeCategory === 'downloaded_notes') {
-            if (doc.category !== 'downloaded_notes' && !(doc.sub_category && doc.sub_category.startsWith('Unit_'))) {
-              return;
-            }
-          } else if (activeCategory === 'Practice_Material') {
-            if (
-              doc.category !== 'Practice_Material' &&
-              !doc.relative_path.includes('Practice_Material') &&
-              doc.sub_category !== 'Practice_Material'
-            ) {
-              return;
-            }
-          } else if (activeCategory === 'Linear_Algebra_Done_Right') {
-            if (
-              doc.category !== 'Linear_Algebra_Done_Right' &&
-              !doc.relative_path.includes('Linear_Algebra_Done_Right')
-            ) {
-              return;
-            }
-          } else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') {
-            if (
-              doc.category !== 'Textbooks' &&
-              doc.category !== 'Textbooks_and_References' &&
-              !doc.relative_path.includes('Textbooks')
-            ) {
-              return;
-            }
-          } else {
-            if (doc.category !== activeCategory && doc.sub_category !== activeCategory) {
-              return;
-            }
-          }
+          const cat = doc.category;
+          const path = doc.relative_path.toLowerCase();
+
+          let matchesCategory = false;
+          if (activeCategory === 'Mid_Semester') matchesCategory = cat === 'Mid_Semester';
+          else if (activeCategory === 'End_Semester') matchesCategory = cat === 'End_Semester';
+          else if (activeCategory === 'Summer_Semester') matchesCategory = cat === 'Summer_Semester';
+          else if (activeCategory === 'downloaded_notes') matchesCategory = cat === 'downloaded_notes';
+          else if (activeCategory === 'Practice_Material') matchesCategory = cat === 'Practice_Material' || path.includes('practice_material');
+          else if (activeCategory === 'Linear_Algebra_Done_Right') matchesCategory = cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right');
+          else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') matchesCategory = cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks');
+          else if (activeCategory === 'Assignments') matchesCategory = cat === 'Assignments' || cat === 'Assignments_and_Tutorials';
+          else matchesCategory = cat === activeCategory;
+
+          if (!matchesCategory) return;
         }
+
+        if (selectedSubCategory !== 'ALL' && doc.sub_category !== selectedSubCategory) {
+          return;
+        }
+
+        allKnownYears.add(doc.year);
         counts[doc.year] = (counts[doc.year] || 0) + 1;
       }
     });
 
     const sortedYears = Array.from(allKnownYears).sort((a, b) => b.localeCompare(a));
     return { availableYears: sortedYears, yearCounts: counts };
-  }, [catalog, selectedSubject, activeCategory]);
+  }, [catalog, selectedSubject, activeCategory, selectedSubCategory]);
+
+  // Auto-reset year if selected year has 0 documents in new filter
+  useEffect(() => {
+    if (selectedYear !== 'ALL' && (!yearCounts[selectedYear] || yearCounts[selectedYear] === 0)) {
+      setSelectedYear('ALL');
+    }
+  }, [selectedSubject, activeCategory, selectedSubCategory, yearCounts]);
 
   // Filtered documents calculation for Materials View
   const filteredDocuments = useMemo(() => {
@@ -185,75 +267,57 @@ export function App() {
 
       // 2. Category filter
       if (activeCategory !== 'ALL') {
-        if (
-          activeCategory === 'Mid_Semester' ||
-          activeCategory === 'End_Semester' ||
-          activeCategory === 'Summer_Semester'
-        ) {
-          if (doc.category !== activeCategory && doc.sub_category !== activeCategory) {
-            return false;
-          }
-        } else if (activeCategory === 'downloaded_notes') {
-          if (doc.category !== 'downloaded_notes' && !(doc.sub_category && doc.sub_category.startsWith('Unit_'))) {
-            return false;
-          }
-        } else if (activeCategory === 'Practice_Material') {
-          if (
-            doc.category !== 'Practice_Material' &&
-            !doc.relative_path.includes('Practice_Material') &&
-            doc.sub_category !== 'Practice_Material'
-          ) {
-            return false;
-          }
-        } else if (activeCategory === 'Linear_Algebra_Done_Right') {
-          if (
-            doc.category !== 'Linear_Algebra_Done_Right' &&
-            !doc.relative_path.includes('Linear_Algebra_Done_Right')
-          ) {
-            return false;
-          }
-        } else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') {
-          if (
-            doc.category !== 'Textbooks' &&
-            doc.category !== 'Textbooks_and_References' &&
-            !doc.relative_path.includes('Textbooks')
-          ) {
-            return false;
-          }
-        } else {
-          if (doc.category !== activeCategory && doc.sub_category !== activeCategory) {
-            return false;
-          }
-        }
+        const cat = doc.category;
+        const path = doc.relative_path.toLowerCase();
+
+        let matchesCategory = false;
+        if (activeCategory === 'Mid_Semester') matchesCategory = cat === 'Mid_Semester' || doc.sub_category === 'Mid_Semester';
+        else if (activeCategory === 'End_Semester') matchesCategory = cat === 'End_Semester' || doc.sub_category === 'End_Semester';
+        else if (activeCategory === 'Summer_Semester') matchesCategory = cat === 'Summer_Semester' || doc.sub_category === 'Summer_Semester';
+        else if (activeCategory === 'downloaded_notes') matchesCategory = cat === 'downloaded_notes' || Boolean(doc.sub_category && doc.sub_category.startsWith('Unit_'));
+        else if (activeCategory === 'Practice_Material') matchesCategory = cat === 'Practice_Material' || path.includes('practice_material');
+        else if (activeCategory === 'Linear_Algebra_Done_Right') matchesCategory = cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right');
+        else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') matchesCategory = cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks');
+        else if (activeCategory === 'Assignments') matchesCategory = cat === 'Assignments' || cat === 'Assignments_and_Tutorials';
+        else matchesCategory = cat === activeCategory || doc.sub_category === activeCategory;
+
+        if (!matchesCategory) return false;
       }
 
-      // 3. Year filter
+      // 3. Sub-Category filter
+      if (selectedSubCategory !== 'ALL' && doc.sub_category !== selectedSubCategory) {
+        return false;
+      }
+
+      // 4. Year filter
       if (selectedYear !== 'ALL' && doc.year !== selectedYear) {
         return false;
       }
 
-      // 4. Search query filter
+      // 5. Search query filter
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
         const matchTitle = doc.title.toLowerCase().includes(q);
         const matchFile = doc.filename.toLowerCase().includes(q);
         const matchSubject = doc.subject_name.toLowerCase().includes(q) || doc.subject_code.toLowerCase().includes(q);
         const matchCategory = doc.category_label.toLowerCase().includes(q);
+        const matchSubCategory = doc.sub_category ? doc.sub_category.toLowerCase().includes(q) : false;
         const matchYear = doc.year ? doc.year.includes(q) : false;
 
-        if (!matchTitle && !matchFile && !matchSubject && !matchCategory && !matchYear) {
+        if (!matchTitle && !matchFile && !matchSubject && !matchCategory && !matchSubCategory && !matchYear) {
           return false;
         }
       }
 
       return true;
     });
-  }, [catalog, selectedSubject, activeCategory, selectedYear, searchQuery]);
+  }, [catalog, selectedSubject, activeCategory, selectedSubCategory, selectedYear, searchQuery]);
 
   const handleClearFilters = () => {
     setSearchQuery('');
     setSelectedSubject('ALL');
     setActiveCategory('ALL');
+    setSelectedSubCategory('ALL');
     setSelectedYear('ALL');
   };
 
@@ -337,13 +401,22 @@ export function App() {
                 totalDocuments={catalog.total_documents}
               />
 
-              {/* Category Filter Pills */}
+              {/* Context-Aware Dynamic Category Filter Pills */}
               <CategoryFilterBar
                 activeCategory={activeCategory}
                 onSelectCategory={setActiveCategory}
+                categoryCounts={categoryCounts}
+                totalDocuments={totalActiveSubjectDocs}
               />
 
-              {/* Year Filter Pills */}
+              {/* Granular Sub-Category / Module Filter Chips */}
+              <SubCategoryFilterBar
+                availableSubCategories={availableSubCategories}
+                selectedSubCategory={selectedSubCategory}
+                onSelectSubCategory={setSelectedSubCategory}
+              />
+
+              {/* Dynamic Exam Year Filter Pills (Auto-hidden when empty) */}
               <YearFilterBar
                 availableYears={availableYears}
                 selectedYear={selectedYear}
@@ -357,11 +430,12 @@ export function App() {
               <div className="results-count">
                 Showing <strong>{filteredDocuments.length}</strong> of <strong>{catalog.total_documents}</strong> documents
                 {selectedSubject !== 'ALL' && ` in ${catalog.subjects.find((s) => s.id === selectedSubject)?.name}`}
-                {activeCategory !== 'ALL' && ` (${activeCategory.replace('_', ' ')})`}
+                {activeCategory !== 'ALL' && ` (${activeCategory.replace(/_/g, ' ')})`}
+                {selectedSubCategory !== 'ALL' && ` • ${selectedSubCategory}`}
                 {selectedYear !== 'ALL' && ` • Year ${selectedYear}`}
               </div>
 
-              {(selectedSubject !== 'ALL' || activeCategory !== 'ALL' || selectedYear !== 'ALL' || searchQuery) && (
+              {(selectedSubject !== 'ALL' || activeCategory !== 'ALL' || selectedSubCategory !== 'ALL' || selectedYear !== 'ALL' || searchQuery) && (
                 <button
                   onClick={handleClearFilters}
                   style={{
@@ -454,9 +528,11 @@ export function App() {
           </p>
         </footer>
       </div>
+
       <Analytics />
     </>
   );
 }
 
 export default App;
+

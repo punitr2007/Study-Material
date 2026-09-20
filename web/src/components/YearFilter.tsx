@@ -14,7 +14,14 @@ export const YearFilterBar: React.FC<YearFilterProps> = ({
   onSelectYear,
   yearCounts = {},
 }) => {
-  if (availableYears.length === 0) return null;
+  // Only show years that have at least 1 document matching current criteria
+  const activeYears = availableYears.filter((yr) => {
+    const count = yearCounts[yr];
+    return count !== undefined && count > 0;
+  });
+
+  // If no documents have exam year metadata in this selection, hide the entire row
+  if (activeYears.length === 0) return null;
 
   return (
     <div className="year-filter-wrapper">
@@ -29,7 +36,7 @@ export const YearFilterBar: React.FC<YearFilterProps> = ({
         >
           All Years
         </button>
-        {availableYears.map((yr) => {
+        {activeYears.map((yr) => {
           const isActive = selectedYear === yr;
           const count = yearCounts[yr];
           return (

@@ -4,6 +4,8 @@ import type { CategoryFilter } from '../types/catalog';
 interface CategoryFilterProps {
   activeCategory: CategoryFilter;
   onSelectCategory: (cat: CategoryFilter) => void;
+  categoryCounts?: Record<string, number>;
+  totalDocuments?: number;
 }
 
 const CATEGORY_ITEMS: { key: CategoryFilter; label: string }[] = [
@@ -14,7 +16,7 @@ const CATEGORY_ITEMS: { key: CategoryFilter; label: string }[] = [
   { key: 'Linear_Algebra_Done_Right', label: '📐 Linear Algebra Done Right (4th Ed)' },
   { key: 'downloaded_notes', label: '📖 Lecture Notes' },
   { key: 'Textbooks', label: '📚 Textbooks & References' },
-  { key: 'Assignments', label: '📋 Assignments & Solutions' },
+  { key: 'Assignments', label: '📋 Assignments & Tutorials' },
   { key: 'Summer_Semester', label: '☀️ Summer Exam' },
   { key: 'Lab_Manuals_and_Experiments', label: '🔬 Lab Manuals' },
   { key: 'Handwritten_Notes', label: '✍️ Handwritten Notes' },
@@ -23,19 +25,33 @@ const CATEGORY_ITEMS: { key: CategoryFilter; label: string }[] = [
 
 export const CategoryFilterBar: React.FC<CategoryFilterProps> = ({
   activeCategory,
-  onSelectCategory
+  onSelectCategory,
+  categoryCounts = {},
+  totalDocuments = 0
 }) => {
+  // Intelligently filter out categories with 0 documents for the current context
+  const visibleCategories = CATEGORY_ITEMS.filter((item) => {
+    if (item.key === 'ALL') return true;
+    const count = categoryCounts[item.key] || 0;
+    return count > 0;
+  });
+
   return (
     <div className="category-pills">
-      {CATEGORY_ITEMS.map((item) => {
+      {visibleCategories.map((item) => {
         const isActive = activeCategory === item.key;
+        const count = item.key === 'ALL' ? totalDocuments : categoryCounts[item.key];
+        
         return (
           <button
             key={item.key}
             className={`pill-btn ${isActive ? 'active' : ''}`}
             onClick={() => onSelectCategory(item.key)}
           >
-            {item.label}
+            <span>{item.label}</span>
+            {count !== undefined && count > 0 && (
+              <span className="pill-badge">{count}</span>
+            )}
           </button>
         );
       })}

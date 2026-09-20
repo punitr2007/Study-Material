@@ -4,8 +4,8 @@ Catalog Manifest Generator for Study-Material Web Portal
 =========================================================
 Scans all course subjects and generates web/public/catalog.json
 with jsDelivr CDN preview links and GitHub direct download links.
-Includes deep recursive scanning for Practice Material, Linear Algebra Done Right,
-and Curated Textbooks & Reference Repositories.
+Includes deep recursive scanning, intelligent title cleanup, and
+granular sub-category tagging for Practice Material and Textbooks.
 """
 
 import os
@@ -37,13 +37,13 @@ CATEGORY_LABELS = {
     "Summer_Semester": "Summer / Special Exam",
     "downloaded_pyqs": "Question Papers",
     "downloaded_notes": "Lecture Notes",
-    "Practice_Material": "Practice Material & Worksheets",
+    "Practice_Material": "Practice Material",
     "Linear_Algebra_Done_Right": "Linear Algebra Done Right (4th Ed)",
     "Textbooks": "Textbooks & References",
     "Textbooks_and_References": "Textbooks & References",
-    "MIT_OCW_18.06_Linear_Algebra": "MIT OCW 18.06 (Linear Algebra)",
-    "Miami_MTH210_Linear_Algebra": "Miami MTH 210 (Linear Algebra)",
-    "Abstract_Proof_Based_Linear_Algebra": "Proof-Based Linear Algebra",
+    "MIT_OCW_18.06_Linear_Algebra": "MIT OCW 18.06",
+    "Miami_MTH210_Linear_Algebra": "Miami MTH 210",
+    "Abstract_Proof_Based_Linear_Algebra": "Proof-Based Problem Bank",
     "EPMTC301_Matching_Assignments": "EPMTC301 Mapped Assignments",
     "Unit_1_Linear_Algebra": "Unit 1 Practice Problems",
     "Unit_2_Matrix_Theory": "Unit 2 Practice Problems",
@@ -52,7 +52,7 @@ CATEGORY_LABELS = {
     "Unit_3": "Unit 3 Notes",
     "Unit_4": "Unit 4 Notes",
     "Unit_5": "Unit 5 Notes",
-    "Assignments": "Assignments & Solutions",
+    "Assignments": "Assignments & Tutorials",
     "Assignments_and_Tutorials": "Assignments & Tutorials",
     "Lab_Manuals_and_Experiments": "Lab Manuals & Experiments",
     "Handwritten_Notes": "Handwritten Notes",
@@ -71,19 +71,123 @@ def format_size(bytes_size: int) -> str:
         return f"{bytes_size / (1024 * 1024):.2f} MB"
 
 
-def clean_display_title(filename: str) -> str:
+def clean_display_title(filename: str, rel_path: str = "") -> str:
     name = Path(filename).stem
-    # Replace underscores, multiple dashes
+    p_lower = rel_path.lower()
+
+    # MIT OCW specific titles
+    if "mit_ocw" in p_lower:
+        name_clean = name.upper()
+        if "EXAM1_S10_SOL" in name_clean or "EXAM1 S10 SOL" in name_clean:
+            return "Exam 1 Solutions (Spring 2010)"
+        elif "EXAM1_S10" in name_clean or "EXAM1 S10" in name_clean:
+            return "Exam 1 (Spring 2010)"
+        elif "EXAM2_S10_SOL" in name_clean or "EXAM2 S10 SOL" in name_clean:
+            return "Exam 2 Solutions (Spring 2010)"
+        elif "EXAM2_S10" in name_clean or "EXAM2 S10" in name_clean:
+            return "Exam 2 (Spring 2010)"
+        elif "EXAM3_S10_SOL" in name_clean or "EXAM3 S10 SOL" in name_clean:
+            return "Exam 3 Solutions (Spring 2010)"
+        elif "EXAM3_S10" in name_clean or "EXAM3 S10" in name_clean:
+            return "Exam 3 (Spring 2010)"
+        elif "FINAL_ANSWERS" in name_clean or "FINAL ANSWERS" in name_clean:
+            return "Final Exam Solutions (Spring 2010)"
+        elif "FINAL_EXAM" in name_clean or "FINAL EXAM" in name_clean:
+            return "Final Exam (Spring 2010)"
+        
+        m_pset_sol = re.search(r"PSET(\d+)[_\s]+S10[_\s]+SOL", name_clean)
+        if m_pset_sol:
+            return f"Problem Set {m_pset_sol.group(1)} Solutions (Spring 2010)"
+        m_pset = re.search(r"PSET(\d+)[_\s]+S10", name_clean)
+        if m_pset:
+            return f"Problem Set {m_pset.group(1)} (Spring 2010)"
+
+    # Miami MTH210 titles
+    if "miami_mth210" in p_lower or "mth210" in p_lower:
+        m_hw = re.search(r"hw0?(\d+)", name.lower())
+        if m_hw:
+            return f"Homework {m_hw.group(1)} (Spring 2023)"
+        if "midterm1_actual_exam_solutions" in name.lower():
+            return "Midterm 1 Actual Exam Solutions"
+        if "midterm2_actual_exam_solutions" in name.lower():
+            return "Midterm 2 Actual Exam Solutions"
+        if "practice_midterm1_solutions" in name.lower():
+            return "Practice Midterm 1 Solutions"
+        if "practice_midterm1" in name.lower():
+            return "Practice Midterm 1"
+        if "practice_midterm2_solutions" in name.lower():
+            return "Practice Midterm 2 Solutions"
+        if "practice_midterm2" in name.lower():
+            return "Practice Midterm 2"
+        if "practice_final_exam_solutions" in name.lower():
+            return "Practice Final Exam Solutions"
+        if "practice_final_exam" in name.lower():
+            return "Practice Final Exam"
+
+    # Linear Algebra Done Right titles
+    if "linear_algebra_done_right" in p_lower:
+        if "complete_solutions" in name.lower():
+            return "Linear Algebra Done Right (4th Ed) — Complete Solutions Manual (Axler)"
+        m_ch = re.search(r"Chapter[_\s]+(\d+)[_\s]+(.*)", name, re.IGNORECASE)
+        if m_ch:
+            ch_num = m_ch.group(1)
+            ch_topic = m_ch.group(2).replace("_", " ").strip()
+            return f"Chapter {ch_num}: {ch_topic} (LADR 4th Ed Solutions)"
+
+    # General numbered prefixes cleanup: "01_Sheet1_...", "02_Miami_..."
+    m_prefix = re.match(r"^\d{2}_(.*)$", name)
+    if m_prefix:
+        name = m_prefix.group(1)
+
+    # Clean underscores and multiple dashes
     name = name.replace("_", " ").replace("-", " ")
-    # Clean up double spaces
     name = re.sub(r"\s+", " ", name).strip()
     return name
 
 
 def extract_year(text: str) -> str:
-    # Robustly match 4-digit academic years (2015–2029) without digit boundaries
     match = re.search(r"(?<!\d)(201[5-9]|202[0-9])(?!\d)", text)
     return match.group(1) if match else ""
+
+
+def determine_sub_category(rel_path_parts: tuple, cat_name: str) -> str:
+    """Returns a clean user-facing subcategory label."""
+    if len(rel_path_parts) <= 2:
+        return cat_name
+
+    sub_parts = rel_path_parts[2:-1]  # intermediate folders
+    sub_str = "/".join(sub_parts).lower()
+
+    if "linear_algebra_done_right" in sub_str:
+        return "Linear Algebra Done Right (4th Ed)"
+    elif "mit_ocw" in sub_str:
+        if "exam" in sub_str:
+            return "MIT OCW 18.06 (Exams)"
+        elif "problem_set" in sub_str:
+            return "MIT OCW 18.06 (Problem Sets)"
+        return "MIT OCW 18.06"
+    elif "miami_mth210" in sub_str:
+        if "exam" in sub_str:
+            return "Miami MTH210 (Exams)"
+        elif "homework" in sub_str:
+            return "Miami MTH210 (Homeworks)"
+        return "Miami MTH210 Archive"
+    elif "abstract_proof" in sub_str:
+        return "Abstract Proof Problem Bank"
+    elif "epmtc301_matching" in sub_str:
+        return "EPMTC301 Mapped Problem Sheets"
+    elif "unit_1_linear_algebra" in sub_str:
+        return "Unit 1 Practice Problems"
+    elif "unit_2_matrix_theory" in sub_str:
+        return "Unit 2 Practice Problems"
+    elif "textbooks" in sub_str or cat_name in ["Textbooks", "Textbooks_and_References"]:
+        return "Textbooks & References"
+    elif "mid_semester" in sub_str or cat_name == "Mid_Semester":
+        return "Mid-Semester PYQ"
+    elif "end_semester" in sub_str or cat_name == "End_Semester":
+        return "End-Semester PYQ"
+
+    return rel_path_parts[2] if len(rel_path_parts) > 2 else cat_name
 
 
 def build_catalog() -> dict:
@@ -109,46 +213,43 @@ def build_catalog() -> dict:
             
             # Recursively walk the category directory
             for root, dirs, files in os.walk(cat_dir):
-                # Filter out hidden directories and LaTeX source if not desired as doc cards
                 dirs[:] = [d for d in dirs if not d.startswith(".")]
                 
                 for f_name in sorted(files):
                     if f_name.startswith(".") or f_name in ["README.md", "SYLLABUS.md", "packages.tex", "math_commands.tex"]:
                         continue
-                    # Skip raw tex files from main cards if PDF exists, but allow MD and PDF
                     if f_name.endswith(".tex"):
                         continue
 
                     f_path = Path(root) / f_name
                     rel_path = f_path.relative_to(BASE_DIR).as_posix()
+                    rel_parts = f_path.relative_to(BASE_DIR).parts
                     size_b = f_path.stat().st_size
                     ext = f_path.suffix.upper().replace(".", "") or "FILE"
+
+                    # Check year
                     year = extract_year(f_name) or extract_year(f_path.parent.name) or extract_year(rel_path)
 
-                    # Determine sub_category
-                    rel_to_cat = f_path.relative_to(cat_dir)
-                    sub_name = rel_to_cat.parts[0] if len(rel_to_cat.parts) > 1 else None
+                    # Determine granular subcategory and display title
+                    sub_category = determine_sub_category(rel_parts, cat_name)
+                    display_title = clean_display_title(f_name, rel_path)
 
                     url_encoded_path = urllib.parse.quote(rel_path)
                     jsdelivr_url = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@{BRANCH}/{url_encoded_path}"
                     raw_github_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/{url_encoded_path}"
 
                     cat_label = CATEGORY_LABELS.get(cat_name, cat_name.replace("_", " "))
-                    if sub_name and sub_name in CATEGORY_LABELS:
-                        cat_label = CATEGORY_LABELS[sub_name]
-                    elif sub_name:
-                        cat_label = sub_name.replace("_", " ")
 
                     doc_entry = {
                         "id": f"{s_code}_{len(all_documents) + 1}",
                         "filename": f_name,
-                        "title": clean_display_title(f_name),
+                        "title": display_title,
                         "subject_id": s_id,
                         "subject_name": s_name,
                         "subject_code": s_code,
                         "category": cat_name,
                         "category_label": cat_label,
-                        "sub_category": sub_name,
+                        "sub_category": sub_category,
                         "relative_path": rel_path,
                         "size_bytes": size_b,
                         "size_formatted": format_size(size_b),
