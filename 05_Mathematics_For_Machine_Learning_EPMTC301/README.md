@@ -8,6 +8,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 - [Linear Algebra Done Right](#linear-algebra-done-right)
 - [Practice Material](#practice-material)
 - [Textbooks and References](#textbooks-and-references)
+- [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
 
 ---
@@ -72,6 +73,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [Linear_Algebra_Schaum_Outlines_Problem_Sheet_2.pdf](Practice_Material/Linear_Algebra_Schaum_Outlines_Problem_Sheet_2.pdf) | `PDF` | 343.9 KB |
 | [Linear_Algebra_Short_Notes.pdf](Practice_Material/Linear_Algebra_Short_Notes.pdf) | `PDF` | 695.2 KB |
 | [Linear_Algebra_University_Question_Paper_P16MA22.pdf](Practice_Material/Linear_Algebra_University_Question_Paper_P16MA22.pdf) | `PDF` | 315.7 KB |
+| [Schaums_Outline_3000_Solved_Problems_in_Calculus_Mendelson.pdf](Practice_Material/Schaums_Outline_3000_Solved_Problems_in_Calculus_Mendelson.pdf) | `PDF` | 20.86 MB |
 | [Singular_Value_Decomposition_Unit3_Notes.pdf](Practice_Material/Singular_Value_Decomposition_Unit3_Notes.pdf) | `PDF` | 3.06 MB |
 | [Vector_Calculus_Curl_and_Divergence.pdf](Practice_Material/Vector_Calculus_Curl_and_Divergence.pdf) | `PDF` | 2.42 MB |
 | [Vector_Calculus_Greens_Stokes_Divergence_Theorems.pdf](Practice_Material/Vector_Calculus_Greens_Stokes_Divergence_Theorems.pdf) | `PDF` | 3.61 MB |
@@ -129,22 +131,58 @@ _No files currently._
 | [Algebra.pdf](Textbooks_and_References/Algebra.pdf) | `PDF` | 3.62 MB |
 | [Calculus.pdf](Textbooks_and_References/Calculus.pdf) | `PDF` | 2.34 MB |
 | [Complex-Analysis.pdf](Textbooks_and_References/Complex-Analysis.pdf) | `PDF` | 2.67 MB |
+| [Differential_Equations_and_Boundary_Value_Problems_6th_Ed_Edwards.pdf](Textbooks_and_References/Differential_Equations_and_Boundary_Value_Problems_6th_Ed_Edwards.pdf) | `PDF` | 13.63 MB |
+| [Differential_Equations_with_Applications_and_Historical_Notes_3rd_Ed_Simmons.pdf](Textbooks_and_References/Differential_Equations_with_Applications_and_Historical_Notes_3rd_Ed_Simmons.pdf) | `PDF` | 4.68 MB |
 | [Elementary_Linear_Algebra.pdf](Textbooks_and_References/Elementary_Linear_Algebra.pdf) | `PDF` | 19.70 MB |
 | [Higher Engineering Mathematics - 7th Edition - John Bird.pdf](Textbooks_and_References/Higher%20Engineering%20Mathematics%20-%207th%20Edition%20-%20John%20Bird.pdf) | `PDF` | 6.52 MB |
 | [Introduction_to_Machine_Learning_with_Python_Mueller_Guido.pdf](Textbooks_and_References/Introduction_to_Machine_Learning_with_Python_Mueller_Guido.pdf) | `PDF` | 6.73 MB |
+| [Learning_OpenCV3_Computer_Vision_Kaehler_Bradski.pdf](Textbooks_and_References/Learning_OpenCV3_Computer_Vision_Kaehler_Bradski.pdf) | `PDF` | 42.57 MB |
 | [Linear Algebra.pdf](Textbooks_and_References/Linear%20Algebra.pdf) | `PDF` | 1.80 MB |
 | [Linear-programming.pdf](Textbooks_and_References/Linear-programming.pdf) | `PDF` | 2.21 MB |
 | [Linear_Algebra_M_Thamban_Nair.pdf](Textbooks_and_References/Linear_Algebra_M_Thamban_Nair.pdf) | `PDF` | 517.9 KB |
 | [Linear_Algebra_and_Its_Applications_5th_Ed_David_Lay.pdf](Textbooks_and_References/Linear_Algebra_and_Its_Applications_5th_Ed_David_Lay.pdf) | `PDF` | 39.05 MB |
 | [Mathematics_for_Machine_Learning_Deisenroth_Faisal_Ong.pdf](Textbooks_and_References/Mathematics_for_Machine_Learning_Deisenroth_Faisal_Ong.pdf) | `PDF` | 462.8 KB |
+| [Multivariable_Calculus_7th_Ed_Stewart.pdf](Textbooks_and_References/Multivariable_Calculus_7th_Ed_Stewart.pdf) | `PDF` | 15.27 MB |
 | [Notes_on_Mathematics_IITK_Chandra_Lal.pdf](Textbooks_and_References/Notes_on_Mathematics_IITK_Chandra_Lal.pdf) | `PDF` | 1.70 MB |
 | [Numerical-Analysis.pdf](Textbooks_and_References/Numerical-Analysis.pdf) | `PDF` | 2.57 MB |
+| [Numerical_Methods_for_Engineers_7th_Ed_Chapra_Canale.pdf](Textbooks_and_References/Numerical_Methods_for_Engineers_7th_Ed_Chapra_Canale.pdf) | `PDF` | 10.41 MB |
+| [Numerical_Methods_for_Engineers_and_Scientists_2nd_Ed_Hoffman.pdf](Textbooks_and_References/Numerical_Methods_for_Engineers_and_Scientists_2nd_Ed_Hoffman.pdf) | `PDF` | 33.64 MB |
 | [Ordinary-differential-equation.pdf](Textbooks_and_References/Ordinary-differential-equation.pdf) | `PDF` | 3.90 MB |
 | [Partial-differential-equations.pdf](Textbooks_and_References/Partial-differential-equations.pdf) | `PDF` | 2.64 MB |
+| [Partial_Differential_Equations_An_Introduction_2nd_Ed_Strauss.pdf](Textbooks_and_References/Partial_Differential_Equations_An_Introduction_2nd_Ed_Strauss.pdf) | `PDF` | 2.74 MB |
+| [Python_Crash_Course_2nd_Ed_Eric_Matthes.pdf](Textbooks_and_References/Python_Crash_Course_2nd_Ed_Eric_Matthes.pdf) | `PDF` | 6.91 MB |
 | [Real-Analysis.pdf](Textbooks_and_References/Real-Analysis.pdf) | `PDF` | 3.01 MB |
+| [Schaums_Outline_Differential_Equations_3rd_Ed_Bronson.pdf](Textbooks_and_References/Schaums_Outline_Differential_Equations_3rd_Ed_Bronson.pdf) | `PDF` | 17.37 MB |
+| [Schaums_Outline_Mathematical_Handbook_Formulas_Tables.pdf](Textbooks_and_References/Schaums_Outline_Mathematical_Handbook_Formulas_Tables.pdf) | `PDF` | 3.45 MB |
+| [Thomas_Calculus_13th_Ed_Solutions_Manual.pdf](Textbooks_and_References/Thomas_Calculus_13th_Ed_Solutions_Manual.pdf) | `PDF` | 60.78 MB |
+| [Thomas_Calculus_13th_Ed_Thomas_Weir_Hass.pdf](Textbooks_and_References/Thomas_Calculus_13th_Ed_Thomas_Weir_Hass.pdf) | `PDF` | 22.06 MB |
 | [engineering-mathematics-qualifygate.pdf](Textbooks_and_References/engineering-mathematics-qualifygate.pdf) | `PDF` | 3.93 MB |
 | [laplace-transform.pdf](Textbooks_and_References/laplace-transform.pdf) | `PDF` | 1.29 MB |
 | [vector-calculus.pdf](Textbooks_and_References/vector-calculus.pdf) | `PDF` | 353.2 KB |
+
+---
+
+## downloaded notes
+
+### Unit 1
+
+_No files currently._
+
+### Unit 2
+
+_No files currently._
+
+### Unit 3
+
+_No files currently._
+
+### Unit 4
+
+_No files currently._
+
+### Unit 5
+
+_No files currently._
 
 ---
 

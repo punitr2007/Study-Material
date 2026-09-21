@@ -60,10 +60,21 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [#AnandKumar_Digital_CIrcuits-flat.pdf](Textbooks/%23AnandKumar_Digital_CIrcuits-flat.pdf) | `PDF` | 154.66 MB |
+| [#Digital-Electronics-R P Jain.pdf](Textbooks/%23Digital-Electronics-R%20P%20Jain.pdf) | `PDF` | 50.85 MB |
 | [A VHDL Primer - Jayaram Bhasker-1.pdf](Textbooks/A%20VHDL%20Primer%20-%20Jayaram%20Bhasker-1.pdf) | `PDF` | 2.61 MB |
+| [Algorithms_4th_Ed_Sedgewick_Wayne.pdf](Textbooks/Algorithms_4th_Ed_Sedgewick_Wayne.pdf) | `PDF` | 11.93 MB |
+| [CPP_How_to_Program_10th_Ed_Deitel.pdf](Textbooks/CPP_How_to_Program_10th_Ed_Deitel.pdf) | `PDF` | 7.62 MB |
+| [C_How_to_Program_7th_Ed_Deitel.pdf](Textbooks/C_How_to_Program_7th_Ed_Deitel.pdf) | `PDF` | 7.39 MB |
+| [C_Programming_for_Arduino_Embedded_Systems_Bayle.pdf](Textbooks/C_Programming_for_Arduino_Embedded_Systems_Bayle.pdf) | `PDF` | 10.77 MB |
 | [Digital Design (Morris Mano).pdf](Textbooks/Digital%20Design%20%28Morris%20Mano%29.pdf) | `PDF` | 2.99 MB |
 | [Digital Logic And Computer Design By M. Morris Mano (2nd Edition).pdf](Textbooks/Digital%20Logic%20And%20Computer%20Design%20By%20M.%20Morris%20Mano%20%282nd%20Edition%29.pdf) | `PDF` | 13.38 MB |
+| [Discrete_Mathematics_and_Its_Applications_8th_Ed_Rosen.pdf](Textbooks/Discrete_Mathematics_and_Its_Applications_8th_Ed_Rosen.pdf) | `PDF` | 35.04 MB |
+| [Introduction_to_Algorithms_3rd_Ed_CLRS.pdf](Textbooks/Introduction_to_Algorithms_3rd_Ed_CLRS.pdf) | `PDF` | 5.37 MB |
+| [Learn_to_Program_in_Arduino_C_Digital_Interfacing_Osborne.pdf](Textbooks/Learn_to_Program_in_Arduino_C_Digital_Interfacing_Osborne.pdf) | `PDF` | 5.73 MB |
 | [Morris Mano- Digital logic Design.pdf](Textbooks/Morris%20Mano-%20Digital%20logic%20Design.pdf) | `PDF` | 13.36 MB |
+| [Principles_of_Data_Structures_Using_C_and_CPP_Das.pdf](Textbooks/Principles_of_Data_Structures_Using_C_and_CPP_Das.pdf) | `PDF` | 2.41 MB |
+| [The_CPP_Programming_Language_4th_Ed_Bjarne_Stroustrup.pdf](Textbooks/The_CPP_Programming_Language_4th_Ed_Bjarne_Stroustrup.pdf) | `PDF` | 4.21 MB |
 | [logic family.pdf](Textbooks/logic%20family.pdf) | `PDF` | 936.7 KB |
 
 ---
@@ -97,6 +108,14 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [Copy of 15 Flip Flop.pdf](downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf) | `PDF` | 5.63 MB |
+
+### Unit 4
+
+_No files currently._
+
+### Unit 5
+
+_No files currently._
 
 ---
 

@@ -17,7 +17,9 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [503 STAT - Text Book.pdf](Textbooks/503%20STAT%20-%20Text%20Book.pdf) | `PDF` | 6.00 MB |
 | [A First Course in Probability by Sheldon Ross.pdf](Textbooks/A%20First%20Course%20in%20Probability%20by%20Sheldon%20Ross.pdf) | `PDF` | 4.86 MB |
 | [A_First_Course_in_Probability_Sheldon_Ross.pdf](Textbooks/A_First_Course_in_Probability_Sheldon_Ross.pdf) | `PDF` | 4.86 MB |
+| [Applied_Statistics_and_Probability_for_Engineers_3rd_Ed_Montgomery.pdf](Textbooks/Applied_Statistics_and_Probability_for_Engineers_3rd_Ed_Montgomery.pdf) | `PDF` | 13.62 MB |
 | [Elementary_Probability_David_Stirzaker.pdf](Textbooks/Elementary_Probability_David_Stirzaker.pdf) | `PDF` | 2.39 MB |
+| [Fundamentals_of_Probability_with_Stochastic_Processes_3rd_Ed_Ghahramani.pdf](Textbooks/Fundamentals_of_Probability_with_Stochastic_Processes_3rd_Ed_Ghahramani.pdf) | `PDF` | 4.38 MB |
 | [Introduction_to_Probability_Models_Sheldon_Ross.pdf](Textbooks/Introduction_to_Probability_Models_Sheldon_Ross.pdf) | `PDF` | 3.02 MB |
 | [Introduction_to_Probability_and_Statistics_Principles_and_Applications.pdf](Textbooks/Introduction_to_Probability_and_Statistics_Principles_and_Applications.pdf) | `PDF` | 7.52 MB |
 | [MathematicalStatisticsPDFDrive.com.pdf](Textbooks/MathematicalStatisticsPDFDrive.com.pdf) | `PDF` | 5.10 MB |
@@ -26,8 +28,17 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [Probability_Random_Variables_and_Stochastic_Processes_Papoulis.pdf](Textbooks/Probability_Random_Variables_and_Stochastic_Processes_Papoulis.pdf) | `PDF` | 13.76 MB |
 | [Probability_Statistics_Random_Processes_Leon_Garcia.pdf](Textbooks/Probability_Statistics_Random_Processes_Leon_Garcia.pdf) | `PDF` | 5.02 MB |
 | [Probability_Theory_and_Random_Processes_Ramesh_Babu.pdf](Textbooks/Probability_Theory_and_Random_Processes_Ramesh_Babu.pdf) | `PDF` | 7.39 MB |
+| [Probability_and_Statistical_Inference_Hogg_Tanis.pdf](Textbooks/Probability_and_Statistical_Inference_Hogg_Tanis.pdf) | `PDF` | 30.59 MB |
+| [Probability_and_Statistical_Inference_Marcel_Dekker.pdf](Textbooks/Probability_and_Statistical_Inference_Marcel_Dekker.pdf) | `PDF` | 18.80 MB |
 | [Probability_and_Statistics_T_Veerarajan.pdf](Textbooks/Probability_and_Statistics_T_Veerarajan.pdf) | `PDF` | 6.60 MB |
+| [Probability_and_Statistics_for_Engineers_Scientists_9th_Ed_Solutions_Walpole.pdf](Textbooks/Probability_and_Statistics_for_Engineers_Scientists_9th_Ed_Solutions_Walpole.pdf) | `PDF` | 52.12 MB |
+| [Probability_and_Statistics_for_Engineers_Scientists_9th_Ed_Walpole.pdf](Textbooks/Probability_and_Statistics_for_Engineers_Scientists_9th_Ed_Walpole.pdf) | `PDF` | 6.00 MB |
+| [Probability_and_Stochastic_Processes_2nd_Ed_Solutions_Yates_Goodman.pdf](Textbooks/Probability_and_Stochastic_Processes_2nd_Ed_Solutions_Yates_Goodman.pdf) | `PDF` | 2.32 MB |
+| [Probability_and_Stochastic_Processes_2nd_Ed_Yates_Goodman.pdf](Textbooks/Probability_and_Stochastic_Processes_2nd_Ed_Yates_Goodman.pdf) | `PDF` | 4.98 MB |
+| [Probability_and_Stochastic_Processes_3rd_Ed_Solutions_Yates.pdf](Textbooks/Probability_and_Stochastic_Processes_3rd_Ed_Solutions_Yates.pdf) | `PDF` | 1.63 MB |
+| [Schaums_Outline_Probability_Random_Variables_Processes_Hsu.pdf](Textbooks/Schaums_Outline_Probability_Random_Variables_Processes_Hsu.pdf) | `PDF` | 4.42 MB |
 | [Schaums_Outline_Probability_Random_Variables_Random_Processes.pdf](Textbooks/Schaums_Outline_Probability_Random_Variables_Random_Processes.pdf) | `PDF` | 4.03 MB |
+| [Schaums_Outline_Probability_and_Statistics_4th_Ed_Spiegel.pdf](Textbooks/Schaums_Outline_Probability_and_Statistics_4th_Ed_Spiegel.pdf) | `PDF` | 3.50 MB |
 | [Weighing_The_Odds_David_Williams.pdf](Textbooks/Weighing_The_Odds_David_Williams.pdf) | `PDF` | 7.72 MB |
 
 ---

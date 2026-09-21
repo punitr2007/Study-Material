@@ -25,6 +25,17 @@ export const DocumentCard: React.FC<DocumentCardProps> = ({ document, onPreview 
             <span className="tag-badge code">{document.subject_code}</span>
             {document.year && <span className="tag-badge year">{document.year}</span>}
             <span className="tag-badge category">{document.category_label}</span>
+            {document.sub_category && 
+             document.sub_category !== document.category && 
+             document.sub_category !== document.category_label && (
+              <span className={`tag-badge ${
+                document.sub_category.toLowerCase().includes('solution') ? 'solution' :
+                document.sub_category.toLowerCase().includes('schaum') ? 'schaum' :
+                document.sub_category.toLowerCase().includes('textbook') ? 'textbook' : 'sub-cat'
+              }`}>
+                {document.sub_category}
+              </span>
+            )}
           </div>
 
           <div className="file-type-icon">{document.file_type}</div>

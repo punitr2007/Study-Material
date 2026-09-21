@@ -65,6 +65,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [Electronic_Devices_and_Circuit_Theory_11th_Ed_Boylestad.pdf](Textbooks/Electronic_Devices_and_Circuit_Theory_11th_Ed_Boylestad.pdf) | `PDF` | 25.92 MB |
 | [Electronic_Devices_and_Circuits_Salivahanan.pdf](Textbooks/Electronic_Devices_and_Circuits_Salivahanan.pdf) | `PDF` | 14.96 MB |
+| [Fundamentals_of_Electric_Circuits_4th_Ed_Alexander_Sadiku.pdf](Textbooks/Fundamentals_of_Electric_Circuits_4th_Ed_Alexander_Sadiku.pdf) | `PDF` | 15.20 MB |
 
 ---
 
@@ -115,6 +116,10 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [feedback amplifier 1.pdf](downloaded_notes/Unit_4/feedback%20amplifier%201.pdf) | `PDF` | 15.58 MB |
 | [feedback amplifier 2.pdf](downloaded_notes/Unit_4/feedback%20amplifier%202.pdf) | `PDF` | 11.89 MB |
+
+### Unit 5
+
+_No files currently._
 
 ---
 

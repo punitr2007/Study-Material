@@ -134,6 +134,50 @@ def clean_display_title(filename: str, rel_path: str = "") -> str:
             ch_topic = m_ch.group(2).replace("_", " ").strip()
             return f"Chapter {ch_num}: {ch_topic} (LADR 4th Ed Solutions)"
 
+    # Specific clean titles for standard textbooks and solutions
+    title_overrides = {
+        "Probability_and_Stochastic_Processes_2nd_Ed_Yates_Goodman": "Probability & Stochastic Processes (2nd Ed) — Yates & Goodman",
+        "Probability_and_Stochastic_Processes_2nd_Ed_Solutions_Yates_Goodman": "Probability & Stochastic Processes (2nd Ed) Solutions Manual — Yates & Goodman",
+        "Probability_and_Stochastic_Processes_3rd_Ed_Solutions_Yates": "Probability & Stochastic Processes (3rd Ed) Solutions Manual — Yates & Goodman",
+        "Fundamentals_of_Probability_with_Stochastic_Processes_3rd_Ed_Ghahramani": "Fundamentals of Probability with Stochastic Processes (3rd Ed) — Ghahramani",
+        "Schaums_Outline_Probability_Random_Variables_Processes_Hsu": "Schaum's Outline of Probability, Random Variables & Random Processes — Hwei Hsu",
+        "Schaums_Outline_Probability_and_Statistics_4th_Ed_Spiegel": "Schaum's Outline of Probability & Statistics (4th Ed) — Spiegel, Schiller & Srinivasan",
+        "Probability_and_Statistics_for_Engineers_Scientists_9th_Ed_Walpole": "Probability & Statistics for Engineers and Scientists (9th Ed) — Walpole & Myers",
+        "Probability_and_Statistics_for_Engineers_Scientists_9th_Ed_Solutions_Walpole": "Probability & Statistics for Engineers & Scientists (9th Ed) Solutions Manual — Walpole",
+        "Applied_Statistics_and_Probability_for_Engineers_3rd_Ed_Montgomery": "Applied Statistics and Probability for Engineers (3rd Ed) — Montgomery & Runger",
+        "Probability_and_Statistical_Inference_Hogg_Tanis": "Probability and Statistical Inference — Hogg & Tanis",
+        "Probability_and_Statistical_Inference_Marcel_Dekker": "Probability and Statistical Inference — Marcel Dekker",
+        "Fundamentals_of_Electric_Circuits_4th_Ed_Alexander_Sadiku": "Fundamentals of Electric Circuits (4th Ed) — Alexander & Sadiku",
+        "Electronic_Communications_4th_Ed_Roddy_Coolen": "Electronic Communications (4th Ed) — Roddy & Coolen",
+        "Discrete_Mathematics_and_Its_Applications_8th_Ed_Rosen": "Discrete Mathematics and Its Applications (8th Ed) — Kenneth Rosen",
+        "Learn_to_Program_in_Arduino_C_Digital_Interfacing_Osborne": "Learn to Program in Arduino C (Digital Interfacing) — Osborne",
+        "C_Programming_for_Arduino_Embedded_Systems_Bayle": "C Programming for Arduino & Embedded Systems — Julien Bayle",
+        "Multivariable_Calculus_7th_Ed_Stewart": "Multivariable Calculus (7th Ed) — James Stewart",
+        "Thomas_Calculus_13th_Ed_Thomas_Weir_Hass": "Thomas' Calculus: Early Transcendentals (13th Ed) — Thomas, Weir & Hass",
+        "Thomas_Calculus_13th_Ed_Solutions_Manual": "Thomas' Calculus (13th Ed) Complete Solutions Manual",
+        "Schaums_Outline_3000_Solved_Problems_in_Calculus_Mendelson": "Schaum's Outline: 3,000 Solved Problems in Calculus — Elliott Mendelson",
+        "Schaums_Outline_Differential_Equations_3rd_Ed_Bronson": "Schaum's Outline of Differential Equations (3rd Ed) — Bronson & Costa",
+        "Differential_Equations_and_Boundary_Value_Problems_6th_Ed_Edwards": "Differential Equations & Boundary Value Problems (6th Ed) — Edwards, Penney & Calvis",
+        "Differential_Equations_with_Applications_and_Historical_Notes_3rd_Ed_Simmons": "Differential Equations with Applications & Historical Notes (3rd Ed) — George Simmons",
+        "Partial_Differential_Equations_An_Introduction_2nd_Ed_Strauss": "Partial Differential Equations: An Introduction (2nd Ed) — Walter A. Strauss",
+        "Numerical_Methods_for_Engineers_7th_Ed_Chapra_Canale": "Numerical Methods for Engineers (7th Ed) — Steven Chapra & Raymond Canale",
+        "Numerical_Methods_for_Engineers_and_Scientists_2nd_Ed_Hoffman": "Numerical Methods for Engineers and Scientists (2nd Ed) — Joe D. Hoffman",
+        "Schaums_Outline_Mathematical_Handbook_Formulas_Tables": "Schaum's Outline: Mathematical Handbook of Formulas and Tables — Spiegel",
+        "Introduction_to_Algorithms_3rd_Ed_CLRS": "Introduction to Algorithms (3rd Ed) — Cormen, Leiserson, Rivest & Stein (CLRS)",
+        "Algorithms_4th_Ed_Sedgewick_Wayne": "Algorithms (4th Ed) — Robert Sedgewick & Kevin Wayne",
+        "Principles_of_Data_Structures_Using_C_and_CPP_Das": "Principles of Data Structures Using C and C++ — Vinu V. Das",
+        "The_CPP_Programming_Language_4th_Ed_Bjarne_Stroustrup": "The C++ Programming Language (4th Ed) — Bjarne Stroustrup",
+        "C_How_to_Program_7th_Ed_Deitel": "C: How to Program (7th Ed) — Paul Deitel & Harvey Deitel",
+        "CPP_How_to_Program_10th_Ed_Deitel": "C++: How to Program (10th Ed) — Paul Deitel & Harvey Deitel",
+        "Python_Crash_Course_2nd_Ed_Eric_Matthes": "Python Crash Course (2nd Ed) — Eric Matthes",
+        "Learning_OpenCV3_Computer_Vision_Kaehler_Bradski": "Learning OpenCV 3: Computer Vision in C++ — Adrian Kaehler & Gary Bradski",
+        "Fundamentals_of_Physics_10th_Ed_Halliday_Resnick": "Fundamentals of Physics (10th Ed) — Halliday, Resnick & Walker",
+        "Fundamentals_of_Physics_Extended_10th_Ed_Solutions_Halliday_Resnick": "Fundamentals of Physics Extended (10th Ed) Solutions Manual — Halliday & Resnick",
+        "Schaums_Outline_3000_Solved_Problems_in_Physics_Oman": "Schaum's Outline: 3,000 Solved Problems in Physics — Alvin Halpern & Robert Oman",
+    }
+    if name in title_overrides:
+        return title_overrides[name]
+
     # General numbered prefixes cleanup: "01_Sheet1_...", "02_Miami_..."
     m_prefix = re.match(r"^\d{2}_(.*)$", name)
     if m_prefix:
@@ -157,8 +201,9 @@ def determine_sub_category(rel_path_parts: tuple, cat_name: str) -> str:
 
     sub_parts = rel_path_parts[2:-1]  # intermediate folders
     sub_str = "/".join(sub_parts).lower()
+    fname = rel_path_parts[-1].lower()
 
-    if "linear_algebra_done_right" in sub_str:
+    if "linear_algebra_done_right" in sub_str or "linear_algebra_done_right" in fname:
         return "Linear Algebra Done Right (4th Ed)"
     elif "mit_ocw" in sub_str:
         if "exam" in sub_str:
@@ -180,6 +225,10 @@ def determine_sub_category(rel_path_parts: tuple, cat_name: str) -> str:
         return "Unit 1 Practice Problems"
     elif "unit_2_matrix_theory" in sub_str:
         return "Unit 2 Practice Problems"
+    elif "solution" in fname or "solutions" in fname or "manual" in fname:
+        return "Solution Manuals"
+    elif "schaum" in fname:
+        return "Schaum's Outlines & Solved Problems"
     elif "textbooks" in sub_str or cat_name in ["Textbooks", "Textbooks_and_References"]:
         return "Textbooks & References"
     elif "mid_semester" in sub_str or cat_name == "Mid_Semester":

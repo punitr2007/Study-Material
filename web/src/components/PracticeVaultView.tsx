@@ -28,7 +28,9 @@ type PracticeSubFilter =
   | 'MIT_OCW' 
   | 'MIAMI_MTH210' 
   | 'PROOF_BANK' 
-  | 'TEXTBOOKS';
+  | 'TEXTBOOKS'
+  | 'SOLUTIONS_MANUALS'
+  | 'SCHAUMS';
 
 interface ModuleBadge {
   id: PracticeSubFilter;
@@ -40,15 +42,33 @@ interface ModuleBadge {
 const MODULES: ModuleBadge[] = [
   { 
     id: 'ALL', 
-    label: 'All Practice Material', 
+    label: 'All Practice & References', 
     icon: <Layers size={16} />,
-    description: 'Complete collection of practice sheets, textbook solutions, and university problem archives.'
+    description: 'Complete collection of practice sheets, standard textbooks, solution manuals, and university problem archives.'
   },
   { 
     id: 'LADR', 
     label: 'Linear Algebra Done Right (4th Ed)', 
     icon: <BookMarked size={16} />,
     description: 'Sheldon Axler 4th Edition comprehensive solution manual with chapter-by-chapter proofs and master PDF.'
+  },
+  { 
+    id: 'TEXTBOOKS', 
+    label: 'Standard Reference Textbooks', 
+    icon: <Library size={16} />,
+    description: 'Yates & Goodman, Leon-Garcia, Alexander & Sadiku, Stewart, Thomas Calculus, Kenneth Rosen, CLRS, etc.'
+  },
+  { 
+    id: 'SOLUTIONS_MANUALS', 
+    label: 'Official Solution Manuals', 
+    icon: <Sparkles size={16} />,
+    description: 'Complete verified solution manuals for Yates & Goodman PTRP, Walpole & Myers, Thomas Calculus 13th, Halliday & Resnick, etc.'
+  },
+  { 
+    id: 'SCHAUMS', 
+    label: "Schaum's Outlines & 3,000 Solved", 
+    icon: <Target size={16} />,
+    description: "Schaum's 3,000 Solved Problems in Calculus, 3,000 Solved Problems in Physics, Differential Equations, and Probability & Statistics."
   },
   { 
     id: 'EPMTC_MAPPED', 
@@ -73,12 +93,6 @@ const MODULES: ModuleBadge[] = [
     label: 'Abstract Proofs & Worksheets', 
     icon: <Sparkles size={16} />,
     description: 'Exotic vector spaces, prove/disprove subspaces, Wronskians, and kernel/image derivations.'
-  },
-  { 
-    id: 'TEXTBOOKS', 
-    label: 'Standard Reference Textbooks', 
-    icon: <Library size={16} />,
-    description: 'Kreyszig Engineering Mathematics, Sheldon Ross Probability, Peyton Peebles, John Bird, etc.'
   },
 ];
 
@@ -112,11 +126,12 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
       const path = doc.relative_path.toLowerCase();
       const title = doc.title.toLowerCase();
       const filename = doc.filename.toLowerCase();
+      const subCat = (doc.sub_category || '').toLowerCase();
 
       // Module match
       let matchesModule = true;
       if (selectedModule === 'LADR') {
-        matchesModule = path.includes('linear_algebra_done_right');
+        matchesModule = path.includes('linear_algebra_done_right') || filename.includes('ladr');
       } else if (selectedModule === 'EPMTC_MAPPED') {
         matchesModule = path.includes('epmtc301_matching') || path.includes('unit_1') || path.includes('unit_2');
       } else if (selectedModule === 'MIT_OCW') {
@@ -126,7 +141,12 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
       } else if (selectedModule === 'PROOF_BANK') {
         matchesModule = path.includes('abstract_proof') || path.includes('proof_based');
       } else if (selectedModule === 'TEXTBOOKS') {
-        matchesModule = path.includes('textbooks') || doc.category.toLowerCase().includes('textbook');
+        matchesModule = (path.includes('textbooks') || doc.category.toLowerCase().includes('textbook')) && 
+                        !filename.includes('solution') && !filename.includes('solutions_manual');
+      } else if (selectedModule === 'SOLUTIONS_MANUALS') {
+        matchesModule = filename.includes('solution') || filename.includes('solutions_manual') || subCat.includes('solution');
+      } else if (selectedModule === 'SCHAUMS') {
+        matchesModule = filename.includes('schaum') || title.includes("schaum") || subCat.includes('schaum');
       }
 
       if (!matchesModule) return false;
