@@ -174,6 +174,10 @@ def clean_display_title(filename: str, rel_path: str = "") -> str:
         "Fundamentals_of_Physics_10th_Ed_Halliday_Resnick": "Fundamentals of Physics (10th Ed) — Halliday, Resnick & Walker",
         "Fundamentals_of_Physics_Extended_10th_Ed_Solutions_Halliday_Resnick": "Fundamentals of Physics Extended (10th Ed) Solutions Manual — Halliday & Resnick",
         "Schaums_Outline_3000_Solved_Problems_in_Physics_Oman": "Schaum's Outline: 3,000 Solved Problems in Physics — Alvin Halpern & Robert Oman",
+        "Signals_and_Systems_2nd_Ed_Oppenheim_Willsky_Nawab": "Signals & Systems (2nd Ed) — Alan V. Oppenheim, Alan S. Willsky & S. Hamid Nawab",
+        "Signals_and_Systems_2nd_Ed_Solutions_Manual_Oppenheim": "Signals & Systems (2nd Ed) Complete Solutions Manual — Oppenheim & Willsky",
+        "Signals_Systems_Transforms_DSP_MATLAB_Corinthios": "Signals, Systems, Transforms & DSP with MATLAB — Michael Corinthios",
+        "Fundamentals_of_Signals_and_Systems_MATLAB_3rd_Ed_Kamen_Heck": "Fundamentals of Signals & Systems with MATLAB (3rd Ed) — Edward Kamen & Bonnie Heck",
     }
     if name in title_overrides:
         return title_overrides[name]

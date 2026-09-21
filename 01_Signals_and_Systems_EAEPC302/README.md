@@ -116,9 +116,13 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [Electronic_Communications_4th_Ed_Roddy_Coolen.pdf](Textbooks/Electronic_Communications_4th_Ed_Roddy_Coolen.pdf) | `PDF` | 4.76 MB |
 | [Fundamentals_of_Physics_10th_Ed_Halliday_Resnick.pdf](Textbooks/Fundamentals_of_Physics_10th_Ed_Halliday_Resnick.pdf) | `PDF` | 30.73 MB |
 | [Fundamentals_of_Physics_Extended_10th_Ed_Solutions_Halliday_Resnick.pdf](Textbooks/Fundamentals_of_Physics_Extended_10th_Ed_Solutions_Halliday_Resnick.pdf) | `PDF` | 23.31 MB |
+| [Fundamentals_of_Signals_and_Systems_MATLAB_3rd_Ed_Kamen_Heck.pdf](Textbooks/Fundamentals_of_Signals_and_Systems_MATLAB_3rd_Ed_Kamen_Heck.pdf) | `PDF` | 4.65 MB |
 | [Schaums_Outline_3000_Solved_Problems_in_Physics_Oman.pdf](Textbooks/Schaums_Outline_3000_Solved_Problems_in_Physics_Oman.pdf) | `PDF` | 55.78 MB |
 | [Schaums_Outline_Mathematical_Handbook_Formulas_Tables.pdf](Textbooks/Schaums_Outline_Mathematical_Handbook_Formulas_Tables.pdf) | `PDF` | 3.45 MB |
 | [Signals and Systems by Oppenheim.pdf](Textbooks/Signals%20and%20Systems%20by%20Oppenheim.pdf) | `PDF` | 14.24 MB |
+| [Signals_Systems_Transforms_DSP_MATLAB_Corinthios.pdf](Textbooks/Signals_Systems_Transforms_DSP_MATLAB_Corinthios.pdf) | `PDF` | 18.97 MB |
+| [Signals_and_Systems_2nd_Ed_Oppenheim_Willsky_Nawab.pdf](Textbooks/Signals_and_Systems_2nd_Ed_Oppenheim_Willsky_Nawab.pdf) | `PDF` | 33.97 MB |
+| [Signals_and_Systems_2nd_Ed_Solutions_Manual_Oppenheim.pdf](Textbooks/Signals_and_Systems_2nd_Ed_Solutions_Manual_Oppenheim.pdf) | `PDF` | 26.65 MB |
 | [TARUN RAWAT- SnS.pdf](Textbooks/TARUN%20RAWAT-%20SnS.pdf) | `PDF` | 96.76 MB |
 | [schaums-signals-and-systems.pdf](Textbooks/schaums-signals-and-systems.pdf) | `PDF` | 6.37 MB |
 
