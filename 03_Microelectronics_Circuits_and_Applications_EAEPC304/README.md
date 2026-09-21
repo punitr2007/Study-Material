@@ -116,10 +116,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [feedback amplifier 1.pdf](downloaded_notes/Unit_4/feedback%20amplifier%201.pdf) | `PDF` | 15.58 MB |
 | [feedback amplifier 2.pdf](downloaded_notes/Unit_4/feedback%20amplifier%202.pdf) | `PDF` | 11.89 MB |
 
-### Unit 5
-
-_No files currently._
-
 ---
 
 ## downloaded pyqs
@@ -161,6 +157,7 @@ _No files currently._
 | [2025_Mid_Semester_MICROELECTRONICSCIRCUITS_Pages_11_12.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MICROELECTRONICSCIRCUITS_Pages_11_12.pdf) | `PDF` | 725.4 KB |
 | [2025_Mid_Semester_MICROELECTRONICS_Pages_40_41.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MICROELECTRONICS_Pages_40_41.pdf) | `PDF` | 862.6 KB |
 | [ECECC07-VTECC304.pdf](downloaded_pyqs/Mid_Semester/ECECC07-VTECC304.pdf) | `PDF` | 103.8 KB |
+| [ECECC07_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC07_2023.pdf) | `PDF` | 36.3 KB |
 | [ECECC202-EIECC02.pdf](downloaded_pyqs/Mid_Semester/ECECC202-EIECC02.pdf) | `PDF` | 157.9 KB |
 | [ECECC202-EIECC202-ICECC202-VTECC202.pdf](downloaded_pyqs/Mid_Semester/ECECC202-EIECC202-ICECC202-VTECC202.pdf) | `PDF` | 70.6 KB |
 | [ECECC202-VTECC202-ICCECC202.pdf](downloaded_pyqs/Mid_Semester/ECECC202-VTECC202-ICCECC202.pdf) | `PDF` | 142.9 KB |

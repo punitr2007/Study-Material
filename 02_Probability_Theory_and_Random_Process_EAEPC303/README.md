@@ -84,10 +84,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 ## downloaded pyqs
 
-| File Name | Type | Size |
-| :--- | :---: | :---: |
-| [PTRP_Previous_Year_Questions_Collection.pdf](downloaded_pyqs/PTRP_Previous_Year_Questions_Collection.pdf) | `PDF` | 4.71 MB |
-
 ### End Semester
 
 | File Name | Type | Size |
@@ -115,6 +111,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ITECC305_INECC305_ITECC06_INECC06_2024.pdf](downloaded_pyqs/End_Semester/ITECC305_INECC305_ITECC06_INECC06_2024.pdf) | `PDF` | 464.4 KB |
 | [PTRP_Endsem_2023.pdf](downloaded_pyqs/End_Semester/PTRP_Endsem_2023.pdf) | `PDF` | 5.35 MB |
 | [PTRP_Endsem_2025_Nov_Dec.jpeg](downloaded_pyqs/End_Semester/PTRP_Endsem_2025_Nov_Dec.jpeg) | `JPEG` | 353.9 KB |
+| [PTRP_Previous_Year_Questions_Collection.pdf](downloaded_pyqs/End_Semester/PTRP_Previous_Year_Questions_Collection.pdf) | `PDF` | 4.71 MB |
 
 ### Mid Semester
 
