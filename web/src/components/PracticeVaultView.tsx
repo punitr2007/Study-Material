@@ -24,13 +24,16 @@ interface PracticeVaultViewProps {
 type PracticeSubFilter = 
   | 'ALL' 
   | 'LADR' 
+  | 'STANFORD_CME106'
+  | 'PROBABILITY_UNITS'
+  | 'ECEN303_TAMU'
+  | 'TEXTBOOKS'
+  | 'SOLUTIONS_MANUALS'
+  | 'SCHAUMS'
   | 'EPMTC_MAPPED' 
   | 'MIT_OCW' 
   | 'MIAMI_MTH210' 
-  | 'PROOF_BANK' 
-  | 'TEXTBOOKS'
-  | 'SOLUTIONS_MANUALS'
-  | 'SCHAUMS';
+  | 'PROOF_BANK';
 
 interface ModuleBadge {
   id: PracticeSubFilter;
@@ -47,6 +50,24 @@ const MODULES: ModuleBadge[] = [
     description: 'Complete collection of practice sheets, standard textbooks, solution manuals, and university problem archives.'
   },
   { 
+    id: 'STANFORD_CME106', 
+    label: 'Stanford CME 106 Cheatsheets', 
+    icon: <Sparkles size={16} />,
+    description: 'Crisp probability & statistical inference summary sheets by Shervine & Afshine Amidi (Stanford University).'
+  },
+  { 
+    id: 'PROBABILITY_UNITS', 
+    label: 'PTRP Unit 1-3 Mapped Worksheets', 
+    icon: <Target size={16} />,
+    description: 'Characteristic functions, Multivariate Gaussian, Transformations of RVs (Jacobians), and Chebyshev/Chernoff bounds.'
+  },
+  { 
+    id: 'ECEN303_TAMU', 
+    label: 'Texas A&M ECEN 303 Problem Sets', 
+    icon: <School size={16} />,
+    description: 'Engineering probability problem sets (1-10) and midterm exams from Texas A&M ECE Department.'
+  },
+  { 
     id: 'LADR', 
     label: 'Linear Algebra Done Right (4th Ed)', 
     icon: <BookMarked size={16} />,
@@ -56,13 +77,13 @@ const MODULES: ModuleBadge[] = [
     id: 'TEXTBOOKS', 
     label: 'Standard Reference Textbooks', 
     icon: <Library size={16} />,
-    description: 'Yates & Goodman, Leon-Garcia, Alexander & Sadiku, Stewart, Thomas Calculus, Kenneth Rosen, CLRS, etc.'
+    description: 'Yates & Goodman, Leon-Garcia, Alexander & Sadiku, Stewart, Thomas Calculus, Kenneth Rosen, CLRS, Oppenheim, etc.'
   },
   { 
     id: 'SOLUTIONS_MANUALS', 
     label: 'Official Solution Manuals', 
     icon: <Sparkles size={16} />,
-    description: 'Complete verified solution manuals for Yates & Goodman PTRP, Walpole & Myers, Thomas Calculus 13th, Halliday & Resnick, etc.'
+    description: 'Complete verified solution manuals for Yates & Goodman PTRP, Walpole & Myers, Thomas Calculus 13th, Halliday & Resnick, Oppenheim, etc.'
   },
   { 
     id: 'SCHAUMS', 
@@ -113,9 +134,11 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
         cat.includes('practice') || 
         cat.includes('linear_algebra_done_right') || 
         cat.includes('textbook') ||
+        cat.includes('assignment') ||
         path.includes('practice_material') ||
         path.includes('linear_algebra_done_right') ||
-        path.includes('textbooks')
+        path.includes('textbooks') ||
+        path.includes('assignments')
       );
     });
   }, [documents]);
@@ -130,10 +153,17 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
 
       // Module match
       let matchesModule = true;
-      if (selectedModule === 'LADR') {
+      if (selectedModule === 'STANFORD_CME106') {
+        matchesModule = path.includes('stanford') || subCat.includes('stanford');
+      } else if (selectedModule === 'PROBABILITY_UNITS') {
+        matchesModule = path.includes('unit_1_probability') || path.includes('unit_2_joint') || path.includes('unit_3_transformations') ||
+                        subCat.includes('probability & rvs') || subCat.includes('joint rvs') || subCat.includes('transformations');
+      } else if (selectedModule === 'ECEN303_TAMU') {
+        matchesModule = path.includes('ecen303') || filename.includes('ecen303') || subCat.includes('ecen303');
+      } else if (selectedModule === 'LADR') {
         matchesModule = path.includes('linear_algebra_done_right') || filename.includes('ladr');
       } else if (selectedModule === 'EPMTC_MAPPED') {
-        matchesModule = path.includes('epmtc301_matching') || path.includes('unit_1') || path.includes('unit_2');
+        matchesModule = path.includes('epmtc301_matching') || path.includes('unit_1_linear_algebra') || path.includes('unit_2_matrix_theory');
       } else if (selectedModule === 'MIT_OCW') {
         matchesModule = path.includes('mit_ocw') || path.includes('18.06');
       } else if (selectedModule === 'MIAMI_MTH210') {

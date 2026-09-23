@@ -223,11 +223,19 @@ def determine_sub_category(rel_path_parts: tuple, cat_name: str) -> str:
         return "Miami MTH210 Archive"
     elif "abstract_proof" in sub_str:
         return "Abstract Proof Problem Bank"
-    elif "epmtc301_matching" in sub_str:
-        return "EPMTC301 Mapped Problem Sheets"
-    elif "unit_1_linear_algebra" in sub_str:
+    elif "stanford_cme106" in sub_str:
+        return "Stanford CME 106 Cheatsheets"
+    elif "ecen303" in sub_str:
+        return "ECEN303 Texas A&M Problem Sets"
+    elif "unit_1_probability" in sub_str:
+        return "Unit 1 Probability & RVs"
+    elif "unit_2_joint" in sub_str:
+        return "Unit 2 Joint RVs & Gaussian"
+    elif "unit_3_transformations" in sub_str:
+        return "Unit 3 Transformations, Inequalities & CLT"
+    elif "unit_1_linear_algebra" in sub_str or "unit_1" in sub_str:
         return "Unit 1 Practice Problems"
-    elif "unit_2_matrix_theory" in sub_str:
+    elif "unit_2_matrix_theory" in sub_str or "unit_2" in sub_str:
         return "Unit 2 Practice Problems"
     elif "solution" in fname or "solutions" in fname or "manual" in fname:
         return "Solution Manuals"

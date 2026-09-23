@@ -4,9 +4,77 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 ## Table of Contents
 
+- [Assignments and Tutorials](#assignments-and-tutorials)
+- [Practice Material](#practice-material)
 - [Textbooks](#textbooks)
 - [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
+
+---
+
+## Assignments and Tutorials
+
+### ECEN303 Texas AM Problem Sets
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [ECEN303_Assignment_01_Set_Theory_Probability.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_01_Set_Theory_Probability.pdf) | `PDF` | 68.5 KB |
+| [ECEN303_Assignment_02_Conditional_Probability_Bayes.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_02_Conditional_Probability_Bayes.pdf) | `PDF` | 88.4 KB |
+| [ECEN303_Assignment_03_Discrete_Random_Variables.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_03_Discrete_Random_Variables.pdf) | `PDF` | 51.5 KB |
+| [ECEN303_Assignment_04_Poisson_Geometric_Binomial.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_04_Poisson_Geometric_Binomial.pdf) | `PDF` | 63.4 KB |
+| [ECEN303_Assignment_05_Continuous_Random_Variables.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_05_Continuous_Random_Variables.pdf) | `PDF` | 84.7 KB |
+| [ECEN303_Assignment_06_Normal_Exponential_Rayleigh.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_06_Normal_Exponential_Rayleigh.pdf) | `PDF` | 87.7 KB |
+| [ECEN303_Assignment_07_Joint_Distributions_Marginals.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_07_Joint_Distributions_Marginals.pdf) | `PDF` | 92.2 KB |
+| [ECEN303_Assignment_08_Covariance_and_Joint_Moments.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_08_Covariance_and_Joint_Moments.pdf) | `PDF` | 81.5 KB |
+| [ECEN303_Assignment_09_Functions_of_Random_Variables.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_09_Functions_of_Random_Variables.pdf) | `PDF` | 112.5 KB |
+| [ECEN303_Assignment_10_Inequalities_and_CLT.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Assignment_10_Inequalities_and_CLT.pdf) | `PDF` | 92.3 KB |
+| [ECEN303_Midterm_Exam_01.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Midterm_Exam_01.pdf) | `PDF` | 124.3 KB |
+| [ECEN303_Midterm_Exam_02.pdf](Assignments_and_Tutorials/ECEN303_Texas_AM_Problem_Sets/ECEN303_Midterm_Exam_02.pdf) | `PDF` | 134.5 KB |
+
+---
+
+## Practice Material
+
+### Stanford CME106 Cheatsheets
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Stanford_CME106_Probability_Theory_Cheatsheet.pdf](Practice_Material/Stanford_CME106_Cheatsheets/Stanford_CME106_Probability_Theory_Cheatsheet.pdf) | `PDF` | 322.4 KB |
+| [Stanford_CME106_Statistical_Inference_Cheatsheet.pdf](Practice_Material/Stanford_CME106_Cheatsheets/Stanford_CME106_Statistical_Inference_Cheatsheet.pdf) | `PDF` | 325.8 KB |
+
+### Unit 1 Probability and Random Variables
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Characteristic_and_Generating_Functions_Problem_Set.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Characteristic_and_Generating_Functions_Problem_Set.pdf) | `PDF` | 125.7 KB |
+| [Characteristic_and_Generating_Functions_Solutions.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Characteristic_and_Generating_Functions_Solutions.pdf) | `PDF` | 189.6 KB |
+| [Lecture_Generating_and_Characteristic_Functions.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Lecture_Generating_and_Characteristic_Functions.pdf) | `PDF` | 310.0 KB |
+| [Lecture_Sums_of_Independent_Random_Variables.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Lecture_Sums_of_Independent_Random_Variables.pdf) | `PDF` | 177.0 KB |
+| [Rayleigh_and_Nakagami_Distribution_Properties.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Rayleigh_and_Nakagami_Distribution_Properties.pdf) | `PDF` | 316.2 KB |
+| [Seminar_Discrete_and_Continuous_Random_Variables.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Seminar_Discrete_and_Continuous_Random_Variables.pdf) | `PDF` | 2.35 MB |
+| [Seminar_Expectation_Variance_and_Moments.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Seminar_Expectation_Variance_and_Moments.pdf) | `PDF` | 99.7 KB |
+| [Seminar_Special_Distributions_Beta_Gamma_Rayleigh.pdf](Practice_Material/Unit_1_Probability_and_Random_Variables/Seminar_Special_Distributions_Beta_Gamma_Rayleigh.pdf) | `PDF` | 4.63 MB |
+
+### Unit 2 Joint Distributions and Gaussian
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Karlin_Taylor_Joint_Moments_and_Covariance_Notes.pdf](Practice_Material/Unit_2_Joint_Distributions_and_Gaussian/Karlin_Taylor_Joint_Moments_and_Covariance_Notes.pdf) | `PDF` | 139.3 KB |
+| [Lecture_Multidimensional_Gaussian_Law_and_Properties.pdf](Practice_Material/Unit_2_Joint_Distributions_and_Gaussian/Lecture_Multidimensional_Gaussian_Law_and_Properties.pdf) | `PDF` | 444.2 KB |
+| [Multivariate_Gaussian_Random_Variables_Problem_Set.pdf](Practice_Material/Unit_2_Joint_Distributions_and_Gaussian/Multivariate_Gaussian_Random_Variables_Problem_Set.pdf) | `PDF` | 125.9 KB |
+| [Multivariate_Gaussian_Random_Variables_Solutions.pdf](Practice_Material/Unit_2_Joint_Distributions_and_Gaussian/Multivariate_Gaussian_Random_Variables_Solutions.pdf) | `PDF` | 102.0 KB |
+| [Seminar_Conditional_Expectation_and_Covariance.pdf](Practice_Material/Unit_2_Joint_Distributions_and_Gaussian/Seminar_Conditional_Expectation_and_Covariance.pdf) | `PDF` | 108.4 KB |
+| [Seminar_Joint_Distributions_and_Random_Vectors.pdf](Practice_Material/Unit_2_Joint_Distributions_and_Gaussian/Seminar_Joint_Distributions_and_Random_Vectors.pdf) | `PDF` | 4.16 MB |
+
+### Unit 3 Transformations Inequalities and CLT
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Central_Limit_Theorem_Analytical_and_Simulation_Report.pdf](Practice_Material/Unit_3_Transformations_Inequalities_and_CLT/Central_Limit_Theorem_Analytical_and_Simulation_Report.pdf) | `PDF` | 484.4 KB |
+| [Central_Limit_Theorem_Problem_Formulation.pdf](Practice_Material/Unit_3_Transformations_Inequalities_and_CLT/Central_Limit_Theorem_Problem_Formulation.pdf) | `PDF` | 109.6 KB |
+| [Seminar_Central_Limit_Theorem_and_Laws_of_Large_Numbers.pdf](Practice_Material/Unit_3_Transformations_Inequalities_and_CLT/Seminar_Central_Limit_Theorem_and_Laws_of_Large_Numbers.pdf) | `PDF` | 157.6 KB |
+| [Seminar_Functions_and_Transformations_of_Random_Variables.pdf](Practice_Material/Unit_3_Transformations_Inequalities_and_CLT/Seminar_Functions_and_Transformations_of_Random_Variables.pdf) | `PDF` | 4.59 MB |
+| [Seminar_Probability_Inequalities_Markov_Chebyshev_Chernoff.pdf](Practice_Material/Unit_3_Transformations_Inequalities_and_CLT/Seminar_Probability_Inequalities_Markov_Chebyshev_Chernoff.pdf) | `PDF` | 83.7 KB |
 
 ---
 
