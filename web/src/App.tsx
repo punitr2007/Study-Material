@@ -114,6 +114,50 @@ export function App() {
     fetchAllData(false);
   }, []);
 
+  // Unified category matching helper
+  const isDocInCategory = (doc: CatalogDocument, catFilter: CategoryFilter): boolean => {
+    if (catFilter === 'ALL') return true;
+    const cat = doc.category;
+    const path = doc.relative_path.toLowerCase();
+    const sub = (doc.sub_category || '').toLowerCase();
+    const label = (doc.category_label || '').toLowerCase();
+
+    if (catFilter === 'Mid_Semester') {
+      return cat === 'Mid_Semester' || path.includes('mid_semester') || sub.includes('mid-semester') || sub.includes('midsem') || label.includes('mid');
+    }
+    if (catFilter === 'End_Semester') {
+      return cat === 'End_Semester' || path.includes('end_semester') || sub.includes('end-semester') || sub.includes('endsem') || label.includes('end');
+    }
+    if (catFilter === 'Summer_Semester') {
+      return cat === 'Summer_Semester' || path.includes('summer_semester') || sub.includes('summer') || label.includes('summer');
+    }
+    if (catFilter === 'Practice_Material') {
+      return cat === 'Practice_Material' || path.includes('practice_material') || sub.includes('practice') || sub.includes('problem set') || sub.includes('cheatsheet');
+    }
+    if (catFilter === 'Linear_Algebra_Done_Right') {
+      return cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right');
+    }
+    if (catFilter === 'downloaded_notes') {
+      return cat === 'downloaded_notes' || path.includes('downloaded_notes') || Boolean(doc.sub_category && doc.sub_category.startsWith('Unit_'));
+    }
+    if (catFilter === 'Textbooks' || catFilter === 'Textbooks_and_References') {
+      return cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks');
+    }
+    if (catFilter === 'Assignments') {
+      return cat === 'Assignments' || cat === 'Assignments_and_Tutorials' || path.includes('assignments');
+    }
+    if (catFilter === 'Lab_Manuals_and_Experiments') {
+      return cat === 'Lab_Manuals_and_Experiments' || path.includes('lab_manuals');
+    }
+    if (catFilter === 'Handwritten_Notes') {
+      return cat === 'Handwritten_Notes' || path.includes('handwritten_notes');
+    }
+    if (catFilter === 'Lecture_Slides') {
+      return cat === 'Lecture_Slides' || cat === 'Lecture_Slides_Prof_Razavi' || path.includes('lecture_slides');
+    }
+    return cat === catFilter || doc.sub_category === catFilter;
+  };
+
   // Dynamically compute category counts for the active subject context
   const { categoryCounts, totalActiveSubjectDocs } = useMemo(() => {
     if (!catalog) return { categoryCounts: {} as Record<string, number>, totalActiveSubjectDocs: 0 };
@@ -126,32 +170,25 @@ export function App() {
       }
       total += 1;
 
-      const cat = doc.category;
-      const path = doc.relative_path.toLowerCase();
+      const keys: CategoryFilter[] = [
+        'Mid_Semester',
+        'End_Semester',
+        'Summer_Semester',
+        'Practice_Material',
+        'Linear_Algebra_Done_Right',
+        'downloaded_notes',
+        'Textbooks',
+        'Assignments',
+        'Lab_Manuals_and_Experiments',
+        'Handwritten_Notes',
+        'Lecture_Slides'
+      ];
 
-      if (cat === 'Mid_Semester' || doc.sub_category === 'Mid_Semester') {
-        counts['Mid_Semester'] = (counts['Mid_Semester'] || 0) + 1;
-      } else if (cat === 'End_Semester' || doc.sub_category === 'End_Semester') {
-        counts['End_Semester'] = (counts['End_Semester'] || 0) + 1;
-      } else if (cat === 'Summer_Semester' || doc.sub_category === 'Summer_Semester') {
-        counts['Summer_Semester'] = (counts['Summer_Semester'] || 0) + 1;
-      } else if (cat === 'Practice_Material' || path.includes('practice_material')) {
-        counts['Practice_Material'] = (counts['Practice_Material'] || 0) + 1;
-      } else if (cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right')) {
-        counts['Linear_Algebra_Done_Right'] = (counts['Linear_Algebra_Done_Right'] || 0) + 1;
-      } else if (cat === 'downloaded_notes' || (doc.sub_category && doc.sub_category.startsWith('Unit_'))) {
-        counts['downloaded_notes'] = (counts['downloaded_notes'] || 0) + 1;
-      } else if (cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks')) {
-        counts['Textbooks'] = (counts['Textbooks'] || 0) + 1;
-      } else if (cat === 'Assignments' || cat === 'Assignments_and_Tutorials') {
-        counts['Assignments'] = (counts['Assignments'] || 0) + 1;
-      } else if (cat === 'Lab_Manuals_and_Experiments') {
-        counts['Lab_Manuals_and_Experiments'] = (counts['Lab_Manuals_and_Experiments'] || 0) + 1;
-      } else if (cat === 'Handwritten_Notes') {
-        counts['Handwritten_Notes'] = (counts['Handwritten_Notes'] || 0) + 1;
-      } else if (cat === 'Lecture_Slides' || cat === 'Lecture_Slides_Prof_Razavi') {
-        counts['Lecture_Slides'] = (counts['Lecture_Slides'] || 0) + 1;
-      }
+      keys.forEach((k) => {
+        if (isDocInCategory(doc, k)) {
+          counts[k] = (counts[k] || 0) + 1;
+        }
+      });
     });
 
     return { categoryCounts: counts, totalActiveSubjectDocs: total };
@@ -164,22 +201,7 @@ export function App() {
 
     catalog.documents.forEach((doc) => {
       if (selectedSubject !== 'ALL' && doc.subject_id !== selectedSubject) return;
-
-      const cat = doc.category;
-      const path = doc.relative_path.toLowerCase();
-
-      let matchesCategory = false;
-      if (activeCategory === 'Mid_Semester') matchesCategory = cat === 'Mid_Semester';
-      else if (activeCategory === 'End_Semester') matchesCategory = cat === 'End_Semester';
-      else if (activeCategory === 'Summer_Semester') matchesCategory = cat === 'Summer_Semester';
-      else if (activeCategory === 'downloaded_notes') matchesCategory = cat === 'downloaded_notes';
-      else if (activeCategory === 'Practice_Material') matchesCategory = cat === 'Practice_Material' || path.includes('practice_material');
-      else if (activeCategory === 'Linear_Algebra_Done_Right') matchesCategory = cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right');
-      else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') matchesCategory = cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks');
-      else if (activeCategory === 'Assignments') matchesCategory = cat === 'Assignments' || cat === 'Assignments_and_Tutorials';
-      else matchesCategory = cat === activeCategory;
-
-      if (!matchesCategory) return;
+      if (!isDocInCategory(doc, activeCategory)) return;
 
       if (doc.sub_category && doc.sub_category !== activeCategory) {
         subMap[doc.sub_category] = (subMap[doc.sub_category] || 0) + 1;
@@ -217,23 +239,7 @@ export function App() {
       if (doc.year) {
         // Track count considering subject and category filters
         if (selectedSubject !== 'ALL' && doc.subject_id !== selectedSubject) return;
-        if (activeCategory !== 'ALL') {
-          const cat = doc.category;
-          const path = doc.relative_path.toLowerCase();
-
-          let matchesCategory = false;
-          if (activeCategory === 'Mid_Semester') matchesCategory = cat === 'Mid_Semester';
-          else if (activeCategory === 'End_Semester') matchesCategory = cat === 'End_Semester';
-          else if (activeCategory === 'Summer_Semester') matchesCategory = cat === 'Summer_Semester';
-          else if (activeCategory === 'downloaded_notes') matchesCategory = cat === 'downloaded_notes';
-          else if (activeCategory === 'Practice_Material') matchesCategory = cat === 'Practice_Material' || path.includes('practice_material');
-          else if (activeCategory === 'Linear_Algebra_Done_Right') matchesCategory = cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right');
-          else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') matchesCategory = cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks');
-          else if (activeCategory === 'Assignments') matchesCategory = cat === 'Assignments' || cat === 'Assignments_and_Tutorials';
-          else matchesCategory = cat === activeCategory;
-
-          if (!matchesCategory) return;
-        }
+        if (activeCategory !== 'ALL' && !isDocInCategory(doc, activeCategory)) return;
 
         if (selectedSubCategory !== 'ALL' && doc.sub_category !== selectedSubCategory) {
           return;
@@ -266,22 +272,8 @@ export function App() {
       }
 
       // 2. Category filter
-      if (activeCategory !== 'ALL') {
-        const cat = doc.category;
-        const path = doc.relative_path.toLowerCase();
-
-        let matchesCategory = false;
-        if (activeCategory === 'Mid_Semester') matchesCategory = cat === 'Mid_Semester' || doc.sub_category === 'Mid_Semester';
-        else if (activeCategory === 'End_Semester') matchesCategory = cat === 'End_Semester' || doc.sub_category === 'End_Semester';
-        else if (activeCategory === 'Summer_Semester') matchesCategory = cat === 'Summer_Semester' || doc.sub_category === 'Summer_Semester';
-        else if (activeCategory === 'downloaded_notes') matchesCategory = cat === 'downloaded_notes' || Boolean(doc.sub_category && doc.sub_category.startsWith('Unit_'));
-        else if (activeCategory === 'Practice_Material') matchesCategory = cat === 'Practice_Material' || path.includes('practice_material');
-        else if (activeCategory === 'Linear_Algebra_Done_Right') matchesCategory = cat === 'Linear_Algebra_Done_Right' || path.includes('linear_algebra_done_right');
-        else if (activeCategory === 'Textbooks' || activeCategory === 'Textbooks_and_References') matchesCategory = cat === 'Textbooks' || cat === 'Textbooks_and_References' || path.includes('textbooks');
-        else if (activeCategory === 'Assignments') matchesCategory = cat === 'Assignments' || cat === 'Assignments_and_Tutorials';
-        else matchesCategory = cat === activeCategory || doc.sub_category === activeCategory;
-
-        if (!matchesCategory) return false;
+      if (activeCategory !== 'ALL' && !isDocInCategory(doc, activeCategory)) {
+        return false;
       }
 
       // 3. Sub-Category filter
