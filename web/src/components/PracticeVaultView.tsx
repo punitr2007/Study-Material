@@ -23,10 +23,13 @@ interface PracticeVaultViewProps {
 
 type PracticeSubFilter = 
   | 'ALL' 
-  | 'LADR' 
+  | 'SEDRA_SMITH'
+  | 'ECE321_ARCHIVE'
+  | 'ANALOG_GUIDES'
   | 'STANFORD_CME106'
   | 'PROBABILITY_UNITS'
   | 'ECEN303_TAMU'
+  | 'LADR' 
   | 'TEXTBOOKS'
   | 'SOLUTIONS_MANUALS'
   | 'SCHAUMS'
@@ -48,6 +51,24 @@ const MODULES: ModuleBadge[] = [
     label: 'All Practice & References', 
     icon: <Layers size={16} />,
     description: 'Complete collection of practice sheets, standard textbooks, solution manuals, and university problem archives.'
+  },
+  { 
+    id: 'SEDRA_SMITH', 
+    label: 'Sedra & Smith Solutions & Notes', 
+    icon: <BookMarked size={16} />,
+    description: 'Sedra & Smith Microelectronic Circuits complete solutions manual and Kevin Wang LaTeX chapter-by-chapter derivation notes.'
+  },
+  { 
+    id: 'ECE321_ARCHIVE', 
+    label: 'ECE 321 Microelectronics Archive', 
+    icon: <School size={16} />,
+    description: '28 Microelectronics lecture slide decks, 12 problem sets with step-by-step solutions, and midterm/final exam question archives.'
+  },
+  { 
+    id: 'ANALOG_GUIDES', 
+    label: 'Analog IC Design Guides', 
+    icon: <Sparkles size={16} />,
+    description: 'Practical guides covering Current Mirrors, Cascodes, Diff Pairs, Frequency Response, PLLs, ADCs, and LDOs.'
   },
   { 
     id: 'STANFORD_CME106', 
@@ -77,13 +98,13 @@ const MODULES: ModuleBadge[] = [
     id: 'TEXTBOOKS', 
     label: 'Standard Reference Textbooks', 
     icon: <Library size={16} />,
-    description: 'Yates & Goodman, Leon-Garcia, Alexander & Sadiku, Stewart, Thomas Calculus, Kenneth Rosen, CLRS, Oppenheim, etc.'
+    description: 'Sedra & Smith, Razavi, Boylestad, Yates & Goodman, Alexander & Sadiku, Stewart, Thomas Calculus, Oppenheim, etc.'
   },
   { 
     id: 'SOLUTIONS_MANUALS', 
     label: 'Official Solution Manuals', 
     icon: <Sparkles size={16} />,
-    description: 'Complete verified solution manuals for Yates & Goodman PTRP, Walpole & Myers, Thomas Calculus 13th, Halliday & Resnick, Oppenheim, etc.'
+    description: 'Complete verified solution manuals for Sedra & Smith, Oppenheim, Yates & Goodman PTRP, Walpole & Myers, Thomas Calculus 13th, etc.'
   },
   { 
     id: 'SCHAUMS', 
@@ -135,6 +156,7 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
         cat.includes('linear_algebra_done_right') || 
         cat.includes('textbook') ||
         cat.includes('assignment') ||
+        path.includes('practice_and_reference_material') ||
         path.includes('practice_material') ||
         path.includes('linear_algebra_done_right') ||
         path.includes('textbooks') ||
@@ -153,7 +175,13 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
 
       // Module match
       let matchesModule = true;
-      if (selectedModule === 'STANFORD_CME106') {
+      if (selectedModule === 'SEDRA_SMITH') {
+        matchesModule = path.includes('sedra') || filename.includes('sedra') || subCat.includes('sedra');
+      } else if (selectedModule === 'ECE321_ARCHIVE') {
+        matchesModule = path.includes('ece321') || filename.includes('ece321') || subCat.includes('ece 321');
+      } else if (selectedModule === 'ANALOG_GUIDES') {
+        matchesModule = path.includes('analog_design_basics') || subCat.includes('analog ic design');
+      } else if (selectedModule === 'STANFORD_CME106') {
         matchesModule = path.includes('stanford') || subCat.includes('stanford');
       } else if (selectedModule === 'PROBABILITY_UNITS') {
         matchesModule = path.includes('unit_1_probability') || path.includes('unit_2_joint') || path.includes('unit_3_transformations') ||

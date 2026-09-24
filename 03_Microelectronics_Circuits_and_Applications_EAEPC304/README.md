@@ -7,6 +7,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 - [Assignments](#assignments)
 - [Lab Manuals and Experiments](#lab-manuals-and-experiments)
 - [Lecture Slides Prof Razavi](#lecture-slides-prof-razavi)
+- [Practice and Reference Material](#practice-and-reference-material)
 - [Textbooks](#textbooks)
 - [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
@@ -56,6 +57,45 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [Lec-42&43.pdf](Lecture_Slides_Prof_Razavi/Lec-42%2643.pdf) | `PDF` | 4.40 MB |
 | [Lec-44 & 45.pdf](Lecture_Slides_Prof_Razavi/Lec-44%20%26%2045.pdf) | `PDF` | 3.33 MB |
 | [Lecture18_MOSFET_Amplifiers.pdf](Lecture_Slides_Prof_Razavi/Lecture18_MOSFET_Amplifiers.pdf) | `PDF` | 101.1 KB |
+
+---
+
+## Practice and Reference Material
+
+### 01 Sedra and Smith Solutions and Manuals
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Sedra_and_Smith_Microelectronic_Circuits_Complete_Solutions_Manual.pdf](Practice_and_Reference_Material/01_Sedra_and_Smith_Solutions_and_Manuals/Sedra_and_Smith_Microelectronic_Circuits_Complete_Solutions_Manual.pdf) | `PDF` | 19.47 MB |
+
+### 02 Sedra Smith LaTeX Detailed Notes
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Sedra_Smith_Microelectronic_Circuits_LaTeX_Notes_Ch3_to_Ch6.pdf](Practice_and_Reference_Material/02_Sedra_Smith_LaTeX_Detailed_Notes/Sedra_Smith_Microelectronic_Circuits_LaTeX_Notes_Ch3_to_Ch6.pdf) | `PDF` | 245.3 KB |
+
+### 03 Analog Design Basics Guides
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [08_Analog_IC_Layout_Basics.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/08_Analog_IC_Layout_Basics.md) | `MD` | 3.4 KB |
+| [1_Analog_Design_Basics.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/1_Analog_Design_Basics.md) | `MD` | 5.0 KB |
+| [2_Digital_Circuits_Basics.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/2_Digital_Circuits_Basics.md) | `MD` | 4.4 KB |
+| [3_PLLs.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/3_PLLs.md) | `MD` | 5.0 KB |
+| [4_ADCs.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/4_ADCs.md) | `MD` | 6.0 KB |
+| [5_LDOs.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/5_LDOs.md) | `MD` | 2.7 KB |
+| [6_RF_Rx.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/6_RF_Rx.md) | `MD` | 2.6 KB |
+| [7_IO_transceivers.md](Practice_and_Reference_Material/03_Analog_Design_Basics_Guides/7_IO_transceivers.md) | `MD` | 5.5 KB |
+
+### 04 ECE321 Microelectronics Exam and Homework Sets
+
+_No files currently._
+
+### 05 Open Source Electrical Engineering Analog Core
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [OSEE_Analog_Electronics_Curriculum.md](Practice_and_Reference_Material/05_Open_Source_Electrical_Engineering_Analog_Core/OSEE_Analog_Electronics_Curriculum.md) | `MD` | 13.0 KB |
 
 ---
 
@@ -116,6 +156,10 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [feedback amplifier 1.pdf](downloaded_notes/Unit_4/feedback%20amplifier%201.pdf) | `PDF` | 15.58 MB |
 | [feedback amplifier 2.pdf](downloaded_notes/Unit_4/feedback%20amplifier%202.pdf) | `PDF` | 11.89 MB |
+
+### Unit 5
+
+_No files currently._
 
 ---
 

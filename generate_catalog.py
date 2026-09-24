@@ -134,6 +134,18 @@ def clean_display_title(filename: str, rel_path: str = "") -> str:
             ch_topic = m_ch.group(2).replace("_", " ").strip()
             return f"Chapter {ch_num}: {ch_topic} (LADR 4th Ed Solutions)"
 
+    # ECE321 microelectronics titles
+    if "ece321" in p_lower or "ece321" in name.lower():
+        m_lec = re.search(r"ECE321[_\s]+Lecture[_\s]+(\d+)", name, re.IGNORECASE)
+        if m_lec:
+            return f"ECE 321 Lecture {int(m_lec.group(1)):02d}: Microelectronics Slide Deck"
+        m_pset_sol = re.search(r"ECE321[_\s]+Problem[_\s]+Set[_\s]+(\d+)[_\s]+Detailed[_\s]+Solutions", name, re.IGNORECASE)
+        if m_pset_sol:
+            return f"ECE 321 Problem Set {int(m_pset_sol.group(1)):02d} (Detailed Solutions)"
+        m_pset_q = re.search(r"ECE321[_\s]+Problem[_\s]+Set[_\s]+(\d+)[_\s]+Questions", name, re.IGNORECASE)
+        if m_pset_q:
+            return f"ECE 321 Problem Set {int(m_pset_q.group(1)):02d} (Questions)"
+
     # Specific clean titles for standard textbooks and solutions
     title_overrides = {
         "Probability_and_Stochastic_Processes_2nd_Ed_Yates_Goodman": "Probability & Stochastic Processes (2nd Ed) — Yates & Goodman",
@@ -178,6 +190,23 @@ def clean_display_title(filename: str, rel_path: str = "") -> str:
         "Signals_and_Systems_2nd_Ed_Solutions_Manual_Oppenheim": "Signals & Systems (2nd Ed) Complete Solutions Manual — Oppenheim & Willsky",
         "Signals_Systems_Transforms_DSP_MATLAB_Corinthios": "Signals, Systems, Transforms & DSP with MATLAB — Michael Corinthios",
         "Fundamentals_of_Signals_and_Systems_MATLAB_3rd_Ed_Kamen_Heck": "Fundamentals of Signals & Systems with MATLAB (3rd Ed) — Edward Kamen & Bonnie Heck",
+        "Sedra_and_Smith_Microelectronic_Circuits_Complete_Solutions_Manual": "Microelectronic Circuits Complete Solutions Manual (Sedra & Smith)",
+        "Sedra_Smith_Microelectronic_Circuits_LaTeX_Notes_Ch3_to_Ch6": "Microelectronic Circuits Detailed Notes: Ch 3–6 BJTs & MOSFETs (Kevin Wang)",
+        "01_Analog_Design_Basics": "Analog IC Design: Core Principles & Biasing Guide",
+        "02_Digital_Circuits_Basics": "Digital Circuits Basics: Logic Families, Propagation Delays & Inverters",
+        "03_PLLs": "Phase-Locked Loops (PLL): Architecture, Phase Detectors & VCO Design",
+        "04_ADCs": "Analog-to-Digital Converters (ADC): Flash, SAR, Pipelined & Sigma-Delta",
+        "05_LDOs": "Low Dropout Regulators (LDO): Stability, PSRR & Error Amplifiers",
+        "06_RF_Rx": "RF Receiver Architectures: LNAs, Mixers & Direct Conversion",
+        "07_IO_transceivers": "High-Speed I/O Transceivers & Driver Topologies",
+        "08_Analog_IC_Layout_Basics": "Analog IC Layout & Matching Techniques (Common Centroid, Interdigitation)",
+        "OSEE_Analog_Electronics_Curriculum": "Open-Source Electrical Engineering (OSEE) Analog Core Curriculum",
+        "ECE321_Midterm_Exam_1_with_Solutions": "ECE 321 Midterm Exam 1 with Detailed Solutions (Transistor Biasing & Small-Signal)",
+        "ECE321_Midterm_Exam_1_Questions": "ECE 321 Midterm Exam 1 Questions",
+        "ECE321_Midterm_Exam_2_Questions": "ECE 321 Midterm Exam 2 Questions (High-Frequency Models & Miller Effect)",
+        "ECE321_Midterm_Exam_3_Questions": "ECE 321 Midterm Exam 3 Questions (Differential Pairs & Output Stages)",
+        "ECE321_Final_Exam_Questions": "ECE 321 Comprehensive Final Exam Questions",
+        "EEXAM": "Comprehensive Electronics Exam Practice Archive",
     }
     if name in title_overrides:
         return title_overrides[name]
@@ -227,6 +256,22 @@ def determine_sub_category(rel_path_parts: tuple, cat_name: str) -> str:
         return "Stanford CME 106 Cheatsheets"
     elif "ecen303" in sub_str:
         return "ECEN303 Texas A&M Problem Sets"
+    elif "sedra_and_smith" in sub_str or "sedra_smith" in sub_str:
+        if "latex" in sub_str or "notes" in sub_str:
+            return "Sedra & Smith LaTeX Notes"
+        return "Sedra & Smith Solutions Manual"
+    elif "analog_design_basics" in sub_str:
+        return "Analog IC Design Guides"
+    elif "ece321" in sub_str:
+        if "lecture" in sub_str:
+            return "ECE 321 Lecture Slides"
+        elif "homework" in sub_str or "hw" in sub_str:
+            return "ECE 321 Homework Problem Sets"
+        elif "exam" in sub_str:
+            return "ECE 321 Midterm & Final Exams"
+        return "ECE 321 University Course Archive"
+    elif "open_source_electrical_engineering" in sub_str or "osee" in sub_str:
+        return "Open-Source EE Analog Core"
     elif "unit_1_probability" in sub_str:
         return "Unit 1 Probability & RVs"
     elif "unit_2_joint" in sub_str:
