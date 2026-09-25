@@ -94,10 +94,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [DocScanner Aug 31, 2024 9-23 PM.pdf](Handwritten_Notes/DocScanner%20Aug%2031%2C%202024%209-23%20PM.pdf) | `PDF` | 7.94 MB |
 | [EC 402 SignalSystems Notes.pdf](Handwritten_Notes/EC%20402%20SignalSystems%20Notes.pdf) | `PDF` | 1.43 MB |
 | [Fourier Series.pdf](Handwritten_Notes/Fourier%20Series.pdf) | `PDF` | 2.18 MB |
-| [SNS Notes 2.pdf](Handwritten_Notes/SNS%20Notes%202.pdf) | `PDF` | 2.91 MB |
 | [Signals_and_Systems_Unit_3_DTFT_Notes.pdf](Handwritten_Notes/Signals_and_Systems_Unit_3_DTFT_Notes.pdf) | `PDF` | 45.87 MB |
-| [SnS notes 1.pdf](Handwritten_Notes/SnS%20notes%201.pdf) | `PDF` | 42.52 MB |
-| [u3.pdf](Handwritten_Notes/u3.pdf) | `PDF` | 45.87 MB |
 
 ---
 
@@ -200,11 +197,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ECECC302_VTECC302_EIECE302.pdf](downloaded_pyqs/End_Semester/ECECC302_VTECC302_EIECE302.pdf) | `PDF` | 77.2 KB |
 | [EEEEC03.pdf](downloaded_pyqs/End_Semester/EEEEC03.pdf) | `PDF` | 168.7 KB |
 | [EEEEC03_2024.pdf](downloaded_pyqs/End_Semester/EEEEC03_2024.pdf) | `PDF` | 47.9 KB |
-| [END SEM 2017.pdf](downloaded_pyqs/End_Semester/END%20SEM%202017.pdf) | `PDF` | 635.8 KB |
-| [END SEM 2018.pdf](downloaded_pyqs/End_Semester/END%20SEM%202018.pdf) | `PDF` | 205.9 KB |
-| [END SEM 2019.pdf](downloaded_pyqs/End_Semester/END%20SEM%202019.pdf) | `PDF` | 697.0 KB |
 | [End Sem 2022 ECE.pdf](downloaded_pyqs/End_Semester/End%20Sem%202022%20ECE.pdf) | `PDF` | 5.94 MB |
-| [Endsem 2025(Nov-Dec).pdf](downloaded_pyqs/End_Semester/Endsem%202025%28Nov-Dec%29.pdf) | `PDF` | 1.14 MB |
 | [Signals_and_Systems_Endsem_2017.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2017.pdf) | `PDF` | 635.8 KB |
 | [Signals_and_Systems_Endsem_2018.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2018.pdf) | `PDF` | 205.9 KB |
 | [Signals_and_Systems_Endsem_2019.pdf](downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2019.pdf) | `PDF` | 697.0 KB |
@@ -225,8 +218,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [EEEEC03_2024.pdf](downloaded_pyqs/Mid_Semester/EEEEC03_2024.pdf) | `PDF` | 22.3 KB |
 | [ICICC03_ECECC05_2023.pdf](downloaded_pyqs/Mid_Semester/ICICC03_ECECC05_2023.pdf) | `PDF` | 21.0 KB |
 | [ICICC03_EEEEC03_2022.pdf](downloaded_pyqs/Mid_Semester/ICICC03_EEEEC03_2022.pdf) | `PDF` | 28.0 KB |
-| [MIDSEM-2024.pdf](downloaded_pyqs/Mid_Semester/MIDSEM-2024.pdf) | `PDF` | 41.7 KB |
-| [MIS SEM 2021.pdf](downloaded_pyqs/Mid_Semester/MIS%20SEM%202021.pdf) | `PDF` | 646.2 KB |
 | [MSE 2023.pdf](downloaded_pyqs/Mid_Semester/MSE%202023.pdf) | `PDF` | 51.4 KB |
 | [Mid Sem 2022 ECE .pdf](downloaded_pyqs/Mid_Semester/Mid%20Sem%202022%20ECE%20.pdf) | `PDF` | 6.10 MB |
 | [Mid Sem 2022 ECE.pdf](downloaded_pyqs/Mid_Semester/Mid%20Sem%202022%20ECE.pdf) | `PDF` | 3.51 MB |

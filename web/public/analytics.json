@@ -205,7 +205,7 @@
         "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
         "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
       ],
-      "total_questions_indexed": 760
+      "total_questions_indexed": 715
     },
     "02_Probability_Theory_and_Random_Process_EAEPC303": {
       "subject_id": "02_Probability_Theory_and_Random_Process_EAEPC303",
@@ -390,7 +390,7 @@
         "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
         "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
       ],
-      "total_questions_indexed": 615
+      "total_questions_indexed": 605
     },
     "03_Microelectronics_Circuits_and_Applications_EAEPC304": {
       "subject_id": "03_Microelectronics_Circuits_and_Applications_EAEPC304",
@@ -582,7 +582,7 @@
         "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
         "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
       ],
-      "total_questions_indexed": 755
+      "total_questions_indexed": 745
     },
     "04_Digital_Circuits_and_Systems_EAEPC305": {
       "subject_id": "04_Digital_Circuits_and_Systems_EAEPC305",
@@ -800,7 +800,7 @@
         "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
         "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
       ],
-      "total_questions_indexed": 465
+      "total_questions_indexed": 435
     },
     "05_Mathematics_For_Machine_Learning_EPMTC301": {
       "subject_id": "05_Mathematics_For_Machine_Learning_EPMTC301",
@@ -986,7 +986,7 @@
         "Prioritize top 90%+ recurrence rate topics to guarantee over 70% of exam question marks.",
         "Practice step-by-step mathematical proofs with proper diagrammatic and circuit representations."
       ],
-      "total_questions_indexed": 930
+      "total_questions_indexed": 910
     }
   }
 }

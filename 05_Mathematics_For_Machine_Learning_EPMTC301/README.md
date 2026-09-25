@@ -192,8 +192,9 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [2024_End_Semester_EPMTC04_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_EPMTC04_Mathematics_for_Machine_Learning.pdf) | `PDF` | 50.6 KB |
+| [2024_End_Semester_ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301.pdf) | `PDF` | 71.6 KB |
 | [2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 325.8 KB |
-| [2025_End_Semester_EPMTC301_Pages_18_18.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Pages_18_18.pdf) | `PDF` | 325.8 KB |
 | [CMMTC04_2023.pdf](downloaded_pyqs/End_Semester/CMMTC04_2023.pdf) | `PDF` | 38.5 KB |
 | [CMMTC04_2024.pdf](downloaded_pyqs/End_Semester/CMMTC04_2024.pdf) | `PDF` | 42.7 KB |
 | [CMMTC13.pdf](downloaded_pyqs/End_Semester/CMMTC13.pdf) | `PDF` | 100.3 KB |
@@ -214,10 +215,8 @@ _No files currently._
 | [ICMTC04_EEMTC04_2023.pdf](downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2023.pdf) | `PDF` | 35.8 KB |
 | [ICMTC04_EEMTC04_2024.pdf](downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2024.pdf) | `PDF` | 48.6 KB |
 | [ICMTC301-EEMTC301-CMMTC301.pdf](downloaded_pyqs/End_Semester/ICMTC301-EEMTC301-CMMTC301.pdf) | `PDF` | 76.7 KB |
-| [ICMTC301_EEMTC301_CMMTC301.pdf](downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301.pdf) | `PDF` | 87.1 KB |
 | [ICMTC301_EEMTC301_CMMTC301_2024.pdf](downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301_2024.pdf) | `PDF` | 50.3 KB |
 | [ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf) | `PDF` | 108.2 KB |
-| [ITMTC301_INMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301_INMTC301.pdf) | `PDF` | 115.4 KB |
 | [ITMTC301_INMTC301_EIMTC301.pdf](downloaded_pyqs/End_Semester/ITMTC301_INMTC301_EIMTC301.pdf) | `PDF` | 104.5 KB |
 | [Mathematics_Signal_Processing_Communication_Endsem_2022.pdf](downloaded_pyqs/End_Semester/Mathematics_Signal_Processing_Communication_Endsem_2022.pdf) | `PDF` | 5.94 MB |
 
@@ -227,8 +226,8 @@ _No files currently._
 | :--- | :---: | :---: |
 | [2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf) | `PDF` | 894.7 KB |
 | [2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf) | `PDF` | 448.2 KB |
-| [2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_20_20.pdf) | `PDF` | 448.3 KB |
-| [2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_MATHEMATICSFORMACHINELEARNING_Pages_62_63.pdf) | `PDF` | 894.7 KB |
+| [2025_Mid_Semester_ICMTC301_EEMTC301_CMMTC301.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ICMTC301_EEMTC301_CMMTC301.pdf) | `PDF` | 87.1 KB |
+| [2025_Mid_Semester_ITMTC301_INMTC301.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ITMTC301_INMTC301.pdf) | `PDF` | 115.4 KB |
 | [CMMTC04.pdf](downloaded_pyqs/Mid_Semester/CMMTC04.pdf) | `PDF` | 53.7 KB |
 | [CMMTC13.pdf](downloaded_pyqs/Mid_Semester/CMMTC13.pdf) | `PDF` | 63.3 KB |
 | [CMMTC13_2024.pdf](downloaded_pyqs/Mid_Semester/CMMTC13_2024.pdf) | `PDF` | 26.3 KB |
@@ -237,12 +236,10 @@ _No files currently._
 | [EIMTC04_ITMTC04_INMTC04_2023.pdf](downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2023.pdf) | `PDF` | 41.7 KB |
 | [EIMTC04_ITMTC04_INMTC04_2024.pdf](downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2024.pdf) | `PDF` | 30.4 KB |
 | [EIMTC301_ITMTC301_INMTC301_2024.pdf](downloaded_pyqs/Mid_Semester/EIMTC301_ITMTC301_INMTC301_2024.pdf) | `PDF` | 52.2 KB |
-| [EPMTC301_2024.pdf](downloaded_pyqs/Mid_Semester/EPMTC301_2024.pdf) | `PDF` | 26.9 KB |
 | [ICMTC04.pdf](downloaded_pyqs/Mid_Semester/ICMTC04.pdf) | `PDF` | 135.4 KB |
 | [ICMTC04_EEMTC04_2023.pdf](downloaded_pyqs/Mid_Semester/ICMTC04_EEMTC04_2023.pdf) | `PDF` | 284.8 KB |
 | [ITMTC04.pdf](downloaded_pyqs/Mid_Semester/ITMTC04.pdf) | `PDF` | 120.1 KB |
 | [ITMTC301.pdf](downloaded_pyqs/Mid_Semester/ITMTC301.pdf) | `PDF` | 106.3 KB |
-| [Mathematics_For_Machine_Learning_Midsem_2024_EPMTC04.pdf](downloaded_pyqs/Mid_Semester/Mathematics_For_Machine_Learning_Midsem_2024_EPMTC04.pdf) | `PDF` | 50.6 KB |
 | [Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf](downloaded_pyqs/Mid_Semester/Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf) | `PDF` | 26.9 KB |
 | [Mathematics_Signal_Processing_Communication_Midsem_2022.pdf](downloaded_pyqs/Mid_Semester/Mathematics_Signal_Processing_Communication_Midsem_2022.pdf) | `PDF` | 3.51 MB |
 
@@ -256,7 +253,6 @@ _No files currently._
 | [ECMTC04_Mathematics_for_Signal_Processing_and_Communication.pdf](downloaded_pyqs/Summer_Semester/ECMTC04_Mathematics_for_Signal_Processing_and_Communication.pdf) | `PDF` | 113.1 KB |
 | [ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf](downloaded_pyqs/Summer_Semester/ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf) | `PDF` | 113.7 KB |
 | [ICMTC04_Mathematics_III.pdf](downloaded_pyqs/Summer_Semester/ICMTC04_Mathematics_III.pdf) | `PDF` | 110.6 KB |
-| [ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf](downloaded_pyqs/Summer_Semester/ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf) | `PDF` | 71.6 KB |
 | [ITMTC04_ITMTC301_Optimization_Principles_and_Techniques.pdf](downloaded_pyqs/Summer_Semester/ITMTC04_ITMTC301_Optimization_Principles_and_Techniques.pdf) | `PDF` | 145.4 KB |
 
 ---

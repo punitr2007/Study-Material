@@ -83,7 +83,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [503 STAT - Text Book.pdf](Textbooks/503%20STAT%20-%20Text%20Book.pdf) | `PDF` | 6.00 MB |
-| [A First Course in Probability by Sheldon Ross.pdf](Textbooks/A%20First%20Course%20in%20Probability%20by%20Sheldon%20Ross.pdf) | `PDF` | 4.86 MB |
 | [A_First_Course_in_Probability_Sheldon_Ross.pdf](Textbooks/A_First_Course_in_Probability_Sheldon_Ross.pdf) | `PDF` | 4.86 MB |
 | [Applied_Statistics_and_Probability_for_Engineers_3rd_Ed_Montgomery.pdf](Textbooks/Applied_Statistics_and_Probability_for_Engineers_3rd_Ed_Montgomery.pdf) | `PDF` | 13.62 MB |
 | [Elementary_Probability_David_Stirzaker.pdf](Textbooks/Elementary_Probability_David_Stirzaker.pdf) | `PDF` | 2.39 MB |
@@ -128,9 +127,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 ### Unit 1
 
-| File Name | Type | Size |
-| :--- | :---: | :---: |
-| [Probability_Unit-1.pdf](downloaded_notes/Unit_1/Probability_Unit-1.pdf) | `PDF` | 141.7 KB |
+_No files currently._
 
 ### Unit 2
 
