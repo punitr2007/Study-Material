@@ -1,0 +1,142 @@
+{
+  "semester": "sem5",
+  "total_documents": 8,
+  "generated_at": "2026-09-25T13:46:17.196314",
+  "documents": [
+    {
+      "id": "1Ib9achQJj-mbvj_iwIqW4whpE2PT4EuD",
+      "title": "ECECC14 Digital Communication EndSem ECE Sem5 Summer2026",
+      "filename": "ECECC14_Digital-Communication_EndSem_ECE-Sem5_Summer2026.pdf",
+      "subject_code": "GENERAL",
+      "code_aliases": [],
+      "semester": "sem5",
+      "branch": "General Engineering",
+      "category": "End_Semester",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1Ib9achQJj-mbvj_iwIqW4whpE2PT4EuD/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1Ib9achQJj-mbvj_iwIqW4whpE2PT4EuD",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1Ib9achQJj-mbvj_iwIqW4whpE2PT4EuD&export=download&confirm=t"
+    },
+    {
+      "id": "1ycs_nwkD9JESjhe2cGjvv1QLw7ay82kY",
+      "title": "ECECC502 Digital Communication EndSem ECE Sem5 Summer2026",
+      "filename": "ECECC502_Digital-Communication_EndSem_ECE-Sem5_Summer2026.pdf",
+      "subject_code": "GENERAL",
+      "code_aliases": [],
+      "semester": "sem5",
+      "branch": "General Engineering",
+      "category": "End_Semester",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1ycs_nwkD9JESjhe2cGjvv1QLw7ay82kY/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1ycs_nwkD9JESjhe2cGjvv1QLw7ay82kY",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1ycs_nwkD9JESjhe2cGjvv1QLw7ay82kY&export=download&confirm=t"
+    },
+    {
+      "id": "1EC_DSP_Midsem24",
+      "title": "ECECC501 Digital Signal Processing (DSP) (Mid Semester)",
+      "filename": "ECECC501_Digital_Signal_Processing_(DSP)_Mid_Semester_2024.pdf",
+      "subject_code": "ECECC501",
+      "code_aliases": [
+        "ECECC501",
+        "DSP",
+        "EC501"
+      ],
+      "semester": "sem5",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EC_DSP_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EC_DSP_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_DSP_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1EC_DSP_Endsem24",
+      "title": "ECECC501 Digital Signal Processing (DSP) (End Semester)",
+      "filename": "ECECC501_Digital_Signal_Processing_(DSP)_End_Semester_2024.pdf",
+      "subject_code": "ECECC501",
+      "code_aliases": [
+        "ECECC501",
+        "DSP",
+        "EC501"
+      ],
+      "semester": "sem5",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EC_DSP_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EC_DSP_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_DSP_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1EA_DL_Midsem24",
+      "title": "EAEPC501 Deep Learning & Neural Networks (Mid Semester)",
+      "filename": "EAEPC501_Deep_Learning_&_Neural_Networks_Mid_Semester_2024.pdf",
+      "subject_code": "EAEPC501",
+      "code_aliases": [
+        "EAEPC501",
+        "DL",
+        "DNN"
+      ],
+      "semester": "sem5",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EA_DL_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EA_DL_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EA_DL_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1EA_DL_Endsem24",
+      "title": "EAEPC501 Deep Learning & Neural Networks (End Semester)",
+      "filename": "EAEPC501_Deep_Learning_&_Neural_Networks_End_Semester_2024.pdf",
+      "subject_code": "EAEPC501",
+      "code_aliases": [
+        "EAEPC501",
+        "DL",
+        "DNN"
+      ],
+      "semester": "sem5",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EA_DL_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EA_DL_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EA_DL_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1CO_CN_Midsem24",
+      "title": "COCSC501 Computer Networks (Mid Semester)",
+      "filename": "COCSC501_Computer_Networks_Mid_Semester_2024.pdf",
+      "subject_code": "COCSC501",
+      "code_aliases": [
+        "COCSC501",
+        "CN",
+        "CS501"
+      ],
+      "semester": "sem5",
+      "branch": "CSE (Computer Science & Engineering)",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1CO_CN_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1CO_CN_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1CO_CN_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1VT_VLSI_Endsem24",
+      "title": "VTECC501 CMOS Digital VLSI Design (End Semester)",
+      "filename": "VTECC501_CMOS_Digital_VLSI_Design_End_Semester_2024.pdf",
+      "subject_code": "VTECC501",
+      "code_aliases": [
+        "VTECC501",
+        "VLSI"
+      ],
+      "semester": "sem5",
+      "branch": "VLSI & Embedded Systems",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1VT_VLSI_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1VT_VLSI_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1VT_VLSI_Endsem24&export=download&confirm=t"
+    }
+  ]
+}

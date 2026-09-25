@@ -1,0 +1,681 @@
+{
+  "semester": "sem3",
+  "total_documents": 39,
+  "generated_at": "2026-09-25T13:46:17.194048",
+  "documents": [
+    {
+      "id": "1EAfeFyb0ypi15Y-RHCrSa5Gxwz74R5b2",
+      "title": "EEEEC03",
+      "filename": "EEEEC03.pdf",
+      "subject_code": "EEEEC03",
+      "code_aliases": [
+        "EEEEC03"
+      ],
+      "semester": "sem3",
+      "branch": "Electrical Engineering",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1EAfeFyb0ypi15Y-RHCrSa5Gxwz74R5b2/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EAfeFyb0ypi15Y-RHCrSa5Gxwz74R5b2",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EAfeFyb0ypi15Y-RHCrSa5Gxwz74R5b2&export=download&confirm=t"
+    },
+    {
+      "id": "1GjpT_zTqzRf26u-Z3KJrZNCLPQQtBsJE",
+      "title": "EEEEC03",
+      "filename": "EEEEC03.pdf",
+      "subject_code": "EEEEC03",
+      "code_aliases": [
+        "EEEEC03"
+      ],
+      "semester": "sem3",
+      "branch": "Electrical Engineering",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1GjpT_zTqzRf26u-Z3KJrZNCLPQQtBsJE/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1GjpT_zTqzRf26u-Z3KJrZNCLPQQtBsJE",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1GjpT_zTqzRf26u-Z3KJrZNCLPQQtBsJE&export=download&confirm=t"
+    },
+    {
+      "id": "1JmNKYf22tt14WlyDkO_LpzYMQvb83L4b",
+      "title": "EEEEC03",
+      "filename": "EEEEC03.pdf",
+      "subject_code": "EEEEC03",
+      "code_aliases": [
+        "EEEEC03"
+      ],
+      "semester": "sem3",
+      "branch": "Electrical Engineering",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1JmNKYf22tt14WlyDkO_LpzYMQvb83L4b/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1JmNKYf22tt14WlyDkO_LpzYMQvb83L4b",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1JmNKYf22tt14WlyDkO_LpzYMQvb83L4b&export=download&confirm=t"
+    },
+    {
+      "id": "1KZ6Yx8Yy6yMJ2ee4J-rrD_WczxKNENr0",
+      "title": "ECECC05,EIECC05",
+      "filename": "ECECC05,EIECC05.pdf",
+      "subject_code": "ECECC05",
+      "code_aliases": [
+        "ECECC05",
+        "EIECC05"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1KZ6Yx8Yy6yMJ2ee4J-rrD_WczxKNENr0/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1KZ6Yx8Yy6yMJ2ee4J-rrD_WczxKNENr0",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1KZ6Yx8Yy6yMJ2ee4J-rrD_WczxKNENr0&export=download&confirm=t"
+    },
+    {
+      "id": "18i7xfm79zeKrzk6TCgag1OntgLf0EnR8",
+      "title": "ECECC302,VTECC302,EIECE302",
+      "filename": "ECECC302,VTECC302,EIECE302.pdf",
+      "subject_code": "ECECC302",
+      "code_aliases": [
+        "ECECC302",
+        "EIECE302",
+        "VTECC302"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/18i7xfm79zeKrzk6TCgag1OntgLf0EnR8/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=18i7xfm79zeKrzk6TCgag1OntgLf0EnR8",
+      "direct_url": "https://drive.usercontent.google.com/download?id=18i7xfm79zeKrzk6TCgag1OntgLf0EnR8&export=download&confirm=t"
+    },
+    {
+      "id": "1qYlq6Z2wSnZBAfZDR8_gVJkdav5o3Fib",
+      "title": "ECECC302 VTECC302 EIECC302 ECECC05 EIECC05",
+      "filename": "ECECC302-VTECC302-EIECC302-ECECC05-EIECC05.pdf",
+      "subject_code": "ECECC302",
+      "code_aliases": [
+        "VTECC302",
+        "EIECC302",
+        "ECECC302",
+        "EIECC05",
+        "ECECC05"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1qYlq6Z2wSnZBAfZDR8_gVJkdav5o3Fib/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1qYlq6Z2wSnZBAfZDR8_gVJkdav5o3Fib",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1qYlq6Z2wSnZBAfZDR8_gVJkdav5o3Fib&export=download&confirm=t"
+    },
+    {
+      "id": "1BvraaqqCzFrAz7nlkMzrivMyGWaxPHuE",
+      "title": "ECECC05",
+      "filename": "ECECC05.pdf",
+      "subject_code": "ECECC05",
+      "code_aliases": [
+        "ECECC05"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1BvraaqqCzFrAz7nlkMzrivMyGWaxPHuE/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1BvraaqqCzFrAz7nlkMzrivMyGWaxPHuE",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1BvraaqqCzFrAz7nlkMzrivMyGWaxPHuE&export=download&confirm=t"
+    },
+    {
+      "id": "12S8K215hxF0CLWIXyhHbEkylD_E-GhjK",
+      "title": "ECECC302 EIECC302 VTECC302",
+      "filename": "ECECC302-EIECC302-VTECC302.pdf",
+      "subject_code": "ECECC302",
+      "code_aliases": [
+        "EIECC302",
+        "ECECC302",
+        "VTECC302"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/12S8K215hxF0CLWIXyhHbEkylD_E-GhjK/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=12S8K215hxF0CLWIXyhHbEkylD_E-GhjK",
+      "direct_url": "https://drive.usercontent.google.com/download?id=12S8K215hxF0CLWIXyhHbEkylD_E-GhjK&export=download&confirm=t"
+    },
+    {
+      "id": "1Mnp4qntc25ZSUaCQCYj-MSoOacpZR9C1",
+      "title": "EEEEC03",
+      "filename": "EEEEC03.pdf",
+      "subject_code": "EEEEC03",
+      "code_aliases": [
+        "EEEEC03"
+      ],
+      "semester": "sem3",
+      "branch": "Electrical Engineering",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1Mnp4qntc25ZSUaCQCYj-MSoOacpZR9C1/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1Mnp4qntc25ZSUaCQCYj-MSoOacpZR9C1",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1Mnp4qntc25ZSUaCQCYj-MSoOacpZR9C1&export=download&confirm=t"
+    },
+    {
+      "id": "1vUo53WOPBaBaIlEgq-iVL67cB6jRcmd9",
+      "title": "ECECC303,EIECC303,ECECC06,EIECC06,VTECC303",
+      "filename": "ECECC303,EIECC303,ECECC06,EIECC06,VTECC303.pdf",
+      "subject_code": "ECECC303",
+      "code_aliases": [
+        "EIECC06",
+        "EIECC303",
+        "VTECC303",
+        "ECECC06",
+        "ECECC303"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1vUo53WOPBaBaIlEgq-iVL67cB6jRcmd9/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1vUo53WOPBaBaIlEgq-iVL67cB6jRcmd9",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1vUo53WOPBaBaIlEgq-iVL67cB6jRcmd9&export=download&confirm=t"
+    },
+    {
+      "id": "1nXfGAJ4ygkXBGm__q4wx6_plVhSZoWr4",
+      "title": "ECECC303,EIECC303,ECECC06,EIECC06",
+      "filename": "ECECC303,EIECC303,ECECC06,EIECC06.pdf",
+      "subject_code": "ECECC303",
+      "code_aliases": [
+        "EIECC06",
+        "EIECC303",
+        "ECECC303",
+        "ECECC06"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1nXfGAJ4ygkXBGm__q4wx6_plVhSZoWr4/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1nXfGAJ4ygkXBGm__q4wx6_plVhSZoWr4",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1nXfGAJ4ygkXBGm__q4wx6_plVhSZoWr4&export=download&confirm=t"
+    },
+    {
+      "id": "1MkFi1tTdlw4msEK52nqEgWdtV2Ldg1CM",
+      "title": "INECC305,ITECC305",
+      "filename": "INECC305,ITECC305.pdf",
+      "subject_code": "INECC305",
+      "code_aliases": [
+        "ITECC305",
+        "INECC305"
+      ],
+      "semester": "sem3",
+      "branch": "Instrumentation & Control",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1MkFi1tTdlw4msEK52nqEgWdtV2Ldg1CM/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1MkFi1tTdlw4msEK52nqEgWdtV2Ldg1CM",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1MkFi1tTdlw4msEK52nqEgWdtV2Ldg1CM&export=download&confirm=t"
+    },
+    {
+      "id": "1dn4arp8aPElrY8FmQijpKCFnArqhSeOp",
+      "title": "ECECC303 VTECC303 ECECC06 EIECC06 EIECC303",
+      "filename": "ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf",
+      "subject_code": "ECECC303",
+      "code_aliases": [
+        "EIECC06",
+        "EIECC303",
+        "VTECC303",
+        "ECECC06",
+        "ECECC303"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1dn4arp8aPElrY8FmQijpKCFnArqhSeOp/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1dn4arp8aPElrY8FmQijpKCFnArqhSeOp",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1dn4arp8aPElrY8FmQijpKCFnArqhSeOp&export=download&confirm=t"
+    },
+    {
+      "id": "1GyxtMr8jpitkty4XZldFQj8NytDAmZgt",
+      "title": "INECC305 ITECC305 INECC06 ITECC06",
+      "filename": "INECC305-ITECC305-INECC06-ITECC06.pdf",
+      "subject_code": "INECC305",
+      "code_aliases": [
+        "ITECC06",
+        "ITECC305",
+        "INECC06",
+        "INECC305"
+      ],
+      "semester": "sem3",
+      "branch": "Instrumentation & Control",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1GyxtMr8jpitkty4XZldFQj8NytDAmZgt/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1GyxtMr8jpitkty4XZldFQj8NytDAmZgt",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1GyxtMr8jpitkty4XZldFQj8NytDAmZgt&export=download&confirm=t"
+    },
+    {
+      "id": "1lQXYK-rlx2L8Atn-POo2rOWUvnC6g5Yz",
+      "title": "COMTC305 CAMTC305 CMMTC305 CDMTC305 Probability and Statistics EndSem BTech CourseWork June2026",
+      "filename": "COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf",
+      "subject_code": "COMTC305",
+      "code_aliases": [
+        "COMTC305",
+        "CAMTC305",
+        "CMMTC305"
+      ],
+      "semester": "sem3",
+      "branch": "CSE (Computer Science & Engineering)",
+      "category": "End_Semester",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1lQXYK-rlx2L8Atn-POo2rOWUvnC6g5Yz/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1lQXYK-rlx2L8Atn-POo2rOWUvnC6g5Yz",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1lQXYK-rlx2L8Atn-POo2rOWUvnC6g5Yz&export=download&confirm=t"
+    },
+    {
+      "id": "1ANgvUUmhOhg_f7GlVNeGhhKN5JWxrSNG",
+      "title": "ECECG303 EIE Probability Theory and Random Process EndSem BTech Summer2026 copy2",
+      "filename": "ECECG303-EIE_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy2.pdf",
+      "subject_code": "ECECG303",
+      "code_aliases": [
+        "ECECG303"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "End_Semester",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1ANgvUUmhOhg_f7GlVNeGhhKN5JWxrSNG/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1ANgvUUmhOhg_f7GlVNeGhhKN5JWxrSNG",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1ANgvUUmhOhg_f7GlVNeGhhKN5JWxrSNG&export=download&confirm=t"
+    },
+    {
+      "id": "1gWMe6f8n1N4SM7K-W0NO45y7KoMJW1iq",
+      "title": "INECC305 ITECC305 Probability and Stochastic Process EndSem BTech Sem3 June2026 copy4",
+      "filename": "INECC305-ITECC305_Probability-and-Stochastic-Process_EndSem_BTech-Sem3_June2026_copy4.pdf",
+      "subject_code": "INECC305",
+      "code_aliases": [
+        "INECC305"
+      ],
+      "semester": "sem3",
+      "branch": "Instrumentation & Control",
+      "category": "End_Semester",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1gWMe6f8n1N4SM7K-W0NO45y7KoMJW1iq/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1gWMe6f8n1N4SM7K-W0NO45y7KoMJW1iq",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1gWMe6f8n1N4SM7K-W0NO45y7KoMJW1iq&export=download&confirm=t"
+    },
+    {
+      "id": "14afRWpud9iTc65gWI5Nz-ZmezfNd5Npf",
+      "title": "ECECC06",
+      "filename": "ECECC06.pdf",
+      "subject_code": "ECECC06",
+      "code_aliases": [
+        "ECECC06"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/14afRWpud9iTc65gWI5Nz-ZmezfNd5Npf/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=14afRWpud9iTc65gWI5Nz-ZmezfNd5Npf",
+      "direct_url": "https://drive.usercontent.google.com/download?id=14afRWpud9iTc65gWI5Nz-ZmezfNd5Npf&export=download&confirm=t"
+    },
+    {
+      "id": "1cevjcsLYDNXD2t0dQsbccZqL7_pAY0HX",
+      "title": "ECECC303 EIECC303 VTEC303",
+      "filename": "ECECC303-EIECC303-VTEC303.pdf",
+      "subject_code": "ECECC303",
+      "code_aliases": [
+        "VTEC303",
+        "EIECC303",
+        "ECECC303"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1cevjcsLYDNXD2t0dQsbccZqL7_pAY0HX/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1cevjcsLYDNXD2t0dQsbccZqL7_pAY0HX",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1cevjcsLYDNXD2t0dQsbccZqL7_pAY0HX&export=download&confirm=t"
+    },
+    {
+      "id": "1bJUZ_4WXjjx06TdX9vl-8omO_gcHHBmW",
+      "title": "ECECC303 EIECC303 VTECC303",
+      "filename": "ECECC303-EIECC303-VTECC303.pdf",
+      "subject_code": "ECECC303",
+      "code_aliases": [
+        "EIECC303",
+        "ECECC303",
+        "VTECC303"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1bJUZ_4WXjjx06TdX9vl-8omO_gcHHBmW/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1bJUZ_4WXjjx06TdX9vl-8omO_gcHHBmW",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1bJUZ_4WXjjx06TdX9vl-8omO_gcHHBmW&export=download&confirm=t"
+    },
+    {
+      "id": "1PT38juccRtYJPTTTXam3s1YlPrmsbiji",
+      "title": "INECC305 ITECC305",
+      "filename": "INECC305-ITECC305.pdf",
+      "subject_code": "INECC305",
+      "code_aliases": [
+        "ITECC305",
+        "INECC305"
+      ],
+      "semester": "sem3",
+      "branch": "Instrumentation & Control",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1PT38juccRtYJPTTTXam3s1YlPrmsbiji/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1PT38juccRtYJPTTTXam3s1YlPrmsbiji",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1PT38juccRtYJPTTTXam3s1YlPrmsbiji&export=download&confirm=t"
+    },
+    {
+      "id": "1Hnp7i6l5pAPIJyd_QyTe4wb8Il4AVIGl",
+      "title": "ECECC07",
+      "filename": "ECECC07.pdf",
+      "subject_code": "ECECC07",
+      "code_aliases": [
+        "ECECC07"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1Hnp7i6l5pAPIJyd_QyTe4wb8Il4AVIGl/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1Hnp7i6l5pAPIJyd_QyTe4wb8Il4AVIGl",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1Hnp7i6l5pAPIJyd_QyTe4wb8Il4AVIGl&export=download&confirm=t"
+    },
+    {
+      "id": "1mOj_EzwC0RyZokFmGRY9PB3rAQTmGqC3",
+      "title": "ECECC304,EIECC304",
+      "filename": "ECECC304,EIECC304.pdf",
+      "subject_code": "ECECC304",
+      "code_aliases": [
+        "ECECC304",
+        "EIECC304"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1mOj_EzwC0RyZokFmGRY9PB3rAQTmGqC3/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1mOj_EzwC0RyZokFmGRY9PB3rAQTmGqC3",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1mOj_EzwC0RyZokFmGRY9PB3rAQTmGqC3&export=download&confirm=t"
+    },
+    {
+      "id": "16JV49qfk_vdEZeHHWvx-Apm2uCQDHDX6",
+      "title": "VTECC304",
+      "filename": "VTECC304.pdf",
+      "subject_code": "VTECC304",
+      "code_aliases": [
+        "VTECC304"
+      ],
+      "semester": "sem3",
+      "branch": "VLSI & Embedded Systems",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/16JV49qfk_vdEZeHHWvx-Apm2uCQDHDX6/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=16JV49qfk_vdEZeHHWvx-Apm2uCQDHDX6",
+      "direct_url": "https://drive.usercontent.google.com/download?id=16JV49qfk_vdEZeHHWvx-Apm2uCQDHDX6&export=download&confirm=t"
+    },
+    {
+      "id": "1aiP9yLgDo07fg7F44eYoAOrbpgy8bRum",
+      "title": "ECECC07 EIECC07",
+      "filename": "ECECC07-EIECC07-.pdf",
+      "subject_code": "ECECC07",
+      "code_aliases": [
+        "EIECC07",
+        "ECECC07"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1aiP9yLgDo07fg7F44eYoAOrbpgy8bRum/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1aiP9yLgDo07fg7F44eYoAOrbpgy8bRum",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1aiP9yLgDo07fg7F44eYoAOrbpgy8bRum&export=download&confirm=t"
+    },
+    {
+      "id": "1YWE-UIv4zw9iWqRURaLNCQWeZnuQPMBS",
+      "title": "ECECC304 EIECC304",
+      "filename": "ECECC304-EIECC304.pdf",
+      "subject_code": "ECECC304",
+      "code_aliases": [
+        "ECECC304",
+        "EIECC304"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1YWE-UIv4zw9iWqRURaLNCQWeZnuQPMBS/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1YWE-UIv4zw9iWqRURaLNCQWeZnuQPMBS",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1YWE-UIv4zw9iWqRURaLNCQWeZnuQPMBS&export=download&confirm=t"
+    },
+    {
+      "id": "1WoXJN9RpxgHbRHzhY2WmT2-AoomrZAhr",
+      "title": "VTECC304",
+      "filename": "VTECC304.pdf",
+      "subject_code": "VTECC304",
+      "code_aliases": [
+        "VTECC304"
+      ],
+      "semester": "sem3",
+      "branch": "VLSI & Embedded Systems",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1WoXJN9RpxgHbRHzhY2WmT2-AoomrZAhr/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1WoXJN9RpxgHbRHzhY2WmT2-AoomrZAhr",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1WoXJN9RpxgHbRHzhY2WmT2-AoomrZAhr&export=download&confirm=t"
+    },
+    {
+      "id": "1TseBiUk-YhHw8upOrlF51FLtDcBM9DJy",
+      "title": "ECECC304 EIECC07 Microelectronics Circuits and Application EndSem BTech Sem3 July2026",
+      "filename": "ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf",
+      "subject_code": "ECECC304",
+      "code_aliases": [
+        "ECECC304"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "End_Semester",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1TseBiUk-YhHw8upOrlF51FLtDcBM9DJy/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1TseBiUk-YhHw8upOrlF51FLtDcBM9DJy",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1TseBiUk-YhHw8upOrlF51FLtDcBM9DJy&export=download&confirm=t"
+    },
+    {
+      "id": "1GouC1VcJGBi4zpouXxKRSBlejIbr5Xom",
+      "title": "ECECC07 VTECC304",
+      "filename": "ECECC07-VTECC304.pdf",
+      "subject_code": "ECECC07",
+      "code_aliases": [
+        "VTECC304",
+        "ECECC07"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1GouC1VcJGBi4zpouXxKRSBlejIbr5Xom/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1GouC1VcJGBi4zpouXxKRSBlejIbr5Xom",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1GouC1VcJGBi4zpouXxKRSBlejIbr5Xom&export=download&confirm=t"
+    },
+    {
+      "id": "1yz5wVfDJ8bT0ZFkXLJuoQ9gUmQRrkiwq",
+      "title": "ECECC304 EIECC07",
+      "filename": "ECECC304-EIECC07.pdf",
+      "subject_code": "ECECC304",
+      "code_aliases": [
+        "ECECC304",
+        "EIECC07"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1yz5wVfDJ8bT0ZFkXLJuoQ9gUmQRrkiwq/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1yz5wVfDJ8bT0ZFkXLJuoQ9gUmQRrkiwq",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1yz5wVfDJ8bT0ZFkXLJuoQ9gUmQRrkiwq&export=download&confirm=t"
+    },
+    {
+      "id": "1VSVcu477nOS0wa2Vwp4pD2CL0CTYSUNC",
+      "title": "ECECC08,EIECC08,ICECC08",
+      "filename": "ECECC08,EIECC08,ICECC08.pdf",
+      "subject_code": "ECECC08",
+      "code_aliases": [
+        "ECECC08",
+        "EIECC08",
+        "ICECC08"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1VSVcu477nOS0wa2Vwp4pD2CL0CTYSUNC/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1VSVcu477nOS0wa2Vwp4pD2CL0CTYSUNC",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1VSVcu477nOS0wa2Vwp4pD2CL0CTYSUNC&export=download&confirm=t"
+    },
+    {
+      "id": "1nMOwmJS97LffHrt1HAtdWWL2pHdNw8J3",
+      "title": "ECECC305,EIECC305,ICECC305,VTECC305",
+      "filename": "ECECC305,EIECC305,ICECC305,VTECC305.pdf",
+      "subject_code": "ECECC305",
+      "code_aliases": [
+        "ECECC305",
+        "ICECC305",
+        "VTECC305",
+        "EIECC305"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1nMOwmJS97LffHrt1HAtdWWL2pHdNw8J3/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1nMOwmJS97LffHrt1HAtdWWL2pHdNw8J3",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1nMOwmJS97LffHrt1HAtdWWL2pHdNw8J3&export=download&confirm=t"
+    },
+    {
+      "id": "1wXqD9DrlZu7Q6Gu118ep2Gb_SogP-7cR",
+      "title": "ECECC08 EIECC08 ICECC08",
+      "filename": "ECECC08-EIECC08-ICECC08.pdf",
+      "subject_code": "ECECC08",
+      "code_aliases": [
+        "ECECC08",
+        "EIECC08",
+        "ICECC08"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1wXqD9DrlZu7Q6Gu118ep2Gb_SogP-7cR/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1wXqD9DrlZu7Q6Gu118ep2Gb_SogP-7cR",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1wXqD9DrlZu7Q6Gu118ep2Gb_SogP-7cR&export=download&confirm=t"
+    },
+    {
+      "id": "1gkEecxpce5IxHoMlMPHWt3f2hGE1UG9F",
+      "title": "ECECC305 EIECC305 ICECC305 VTECC305",
+      "filename": "ECECC305-EIECC305-ICECC305-VTECC305.pdf",
+      "subject_code": "ECECC305",
+      "code_aliases": [
+        "ECECC305",
+        "ICECC305",
+        "VTECC305",
+        "EIECC305"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1gkEecxpce5IxHoMlMPHWt3f2hGE1UG9F/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1gkEecxpce5IxHoMlMPHWt3f2hGE1UG9F",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1gkEecxpce5IxHoMlMPHWt3f2hGE1UG9F&export=download&confirm=t"
+    },
+    {
+      "id": "1JXjNgfCaIhfQhJdXt3yZGbOecIZZ4Opo",
+      "title": "ECMTC301",
+      "filename": "ECMTC301.pdf",
+      "subject_code": "ECMTC301",
+      "code_aliases": [
+        "ECMTC301"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1JXjNgfCaIhfQhJdXt3yZGbOecIZZ4Opo/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1JXjNgfCaIhfQhJdXt3yZGbOecIZZ4Opo",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1JXjNgfCaIhfQhJdXt3yZGbOecIZZ4Opo&export=download&confirm=t"
+    },
+    {
+      "id": "1vj9QN09SYpLIDiyvdycApQdxewjFLlZ1",
+      "title": "ITMTC301,INMTC301,EIMTC301",
+      "filename": "ITMTC301,INMTC301,EIMTC301.pdf",
+      "subject_code": "ITMTC301",
+      "code_aliases": [
+        "INMTC301",
+        "ITMTC301",
+        "EIMTC301"
+      ],
+      "semester": "sem3",
+      "branch": "Information Technology",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1vj9QN09SYpLIDiyvdycApQdxewjFLlZ1/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1vj9QN09SYpLIDiyvdycApQdxewjFLlZ1",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1vj9QN09SYpLIDiyvdycApQdxewjFLlZ1&export=download&confirm=t"
+    },
+    {
+      "id": "1wdky7QY_DGrlBDhHmeMBPt2L1ct9ju-9",
+      "title": "ECMTC301",
+      "filename": "ECMTC301.pdf",
+      "subject_code": "ECMTC301",
+      "code_aliases": [
+        "ECMTC301"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1wdky7QY_DGrlBDhHmeMBPt2L1ct9ju-9/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1wdky7QY_DGrlBDhHmeMBPt2L1ct9ju-9",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1wdky7QY_DGrlBDhHmeMBPt2L1ct9ju-9&export=download&confirm=t"
+    },
+    {
+      "id": "1mUwRk7cPFO5lZyiYO8AQ-I6lBf0emZDc",
+      "title": "ITMTC301 INMTC301 ITMTC301 EIMTC301",
+      "filename": "ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf",
+      "subject_code": "ITMTC301",
+      "code_aliases": [
+        "INMTC301",
+        "ITMTC301",
+        "EIMTC301"
+      ],
+      "semester": "sem3",
+      "branch": "Information Technology",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1mUwRk7cPFO5lZyiYO8AQ-I6lBf0emZDc/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1mUwRk7cPFO5lZyiYO8AQ-I6lBf0emZDc",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1mUwRk7cPFO5lZyiYO8AQ-I6lBf0emZDc&export=download&confirm=t"
+    },
+    {
+      "id": "1FUmAs7eWW1JHEdYyLE_D2GS4RqEXKOnH",
+      "title": "ECMTC301",
+      "filename": "ECMTC301.pdf",
+      "subject_code": "ECMTC301",
+      "code_aliases": [
+        "ECMTC301"
+      ],
+      "semester": "sem3",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "PYQ",
+      "year": null,
+      "preview_url": "https://drive.google.com/file/d/1FUmAs7eWW1JHEdYyLE_D2GS4RqEXKOnH/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1FUmAs7eWW1JHEdYyLE_D2GS4RqEXKOnH",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1FUmAs7eWW1JHEdYyLE_D2GS4RqEXKOnH&export=download&confirm=t"
+    }
+  ]
+}

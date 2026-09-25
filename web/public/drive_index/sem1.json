@@ -1,0 +1,143 @@
+{
+  "semester": "sem1",
+  "total_documents": 8,
+  "generated_at": "2026-09-25T13:46:17.192536",
+  "documents": [
+    {
+      "id": "1CY_Chem_Midsem24",
+      "title": "CYC01 Engineering Chemistry (Mid Semester)",
+      "filename": "CYC01_Engineering_Chemistry_Mid_Semester_2024.pdf",
+      "subject_code": "CYC01",
+      "code_aliases": [
+        "CYC01",
+        "CY101"
+      ],
+      "semester": "sem1",
+      "branch": "Chemistry / Physical Sciences",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1CY_Chem_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1CY_Chem_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1CY_Chem_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1CY_Chem_Endsem24",
+      "title": "CYC01 Engineering Chemistry (End Semester)",
+      "filename": "CYC01_Engineering_Chemistry_End_Semester_2024.pdf",
+      "subject_code": "CYC01",
+      "code_aliases": [
+        "CYC01",
+        "CY101"
+      ],
+      "semester": "sem1",
+      "branch": "Chemistry / Physical Sciences",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1CY_Chem_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1CY_Chem_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1CY_Chem_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1PH_Phy_Midsem24",
+      "title": "PHC01 Engineering Physics (Mid Semester)",
+      "filename": "PHC01_Engineering_Physics_Mid_Semester_2024.pdf",
+      "subject_code": "PHC01",
+      "code_aliases": [
+        "PHC01",
+        "PH101"
+      ],
+      "semester": "sem1",
+      "branch": "Physics",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1PH_Phy_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1PH_Phy_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1PH_Phy_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1PH_Phy_Endsem24",
+      "title": "PHC01 Engineering Physics (End Semester)",
+      "filename": "PHC01_Engineering_Physics_End_Semester_2024.pdf",
+      "subject_code": "PHC01",
+      "code_aliases": [
+        "PHC01",
+        "PH101"
+      ],
+      "semester": "sem1",
+      "branch": "Physics",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1PH_Phy_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1PH_Phy_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1PH_Phy_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1MT_Math1_Midsem24",
+      "title": "MTC01 Mathematics - I (Calculus & Linear Algebra) (Mid Semester)",
+      "filename": "MTC01_Mathematics_-_I_(Calculus_&_Linear_Algebra)_Mid_Semester_2024.pdf",
+      "subject_code": "MTC01",
+      "code_aliases": [
+        "MTC01",
+        "MA101"
+      ],
+      "semester": "sem1",
+      "branch": "Mathematics",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1MT_Math1_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1MT_Math1_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1MT_Math1_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1MT_Math1_Endsem24",
+      "title": "MTC01 Mathematics - I (Calculus & Linear Algebra) (End Semester)",
+      "filename": "MTC01_Mathematics_-_I_(Calculus_&_Linear_Algebra)_End_Semester_2024.pdf",
+      "subject_code": "MTC01",
+      "code_aliases": [
+        "MTC01",
+        "MA101"
+      ],
+      "semester": "sem1",
+      "branch": "Mathematics",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1MT_Math1_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1MT_Math1_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1MT_Math1_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1EE_BEE_Midsem24",
+      "title": "EEC01 Basic Electrical Engineering (Mid Semester)",
+      "filename": "EEC01_Basic_Electrical_Engineering_Mid_Semester_2024.pdf",
+      "subject_code": "EEC01",
+      "code_aliases": [
+        "EEC01",
+        "EE101"
+      ],
+      "semester": "sem1",
+      "branch": "Electrical Engineering",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EE_BEE_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EE_BEE_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EE_BEE_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1CS_PPS_Endsem24",
+      "title": "CSC01 Programming for Problem Solving (C / Python) (End Semester)",
+      "filename": "CSC01_Programming_for_Problem_Solving_(C_/_Python)_End_Semester_2024.pdf",
+      "subject_code": "CSC01",
+      "code_aliases": [
+        "CSC01",
+        "CS101"
+      ],
+      "semester": "sem1",
+      "branch": "CSDA / CSIOT (Computer Science)",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1CS_PPS_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1CS_PPS_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1CS_PPS_Endsem24&export=download&confirm=t"
+    }
+  ]
+}

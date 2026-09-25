@@ -1,0 +1,507 @@
+{
+  "version": "2.0.0",
+  "generated_at": "2026-09-25T13:46:17.199952",
+  "total_documents": 171,
+  "semesters": {
+    "sem1": 8,
+    "sem2": 6,
+    "sem3": 39,
+    "sem4": 8,
+    "sem5": 8,
+    "sem6": 3,
+    "sem7": 3,
+    "sem8": 1,
+    "general": 95
+  },
+  "subjects": [
+    {
+      "code": "CAMTC13",
+      "name": "CAMTC13,COMTC13",
+      "aliases": [
+        "COMTC13",
+        "CAMTC13"
+      ],
+      "branch": "General Engineering",
+      "semester": "general",
+      "document_count": 4
+    },
+    {
+      "code": "COCSC401",
+      "name": "Operating Systems",
+      "aliases": [
+        "COCSC401",
+        "CS401",
+        "OS"
+      ],
+      "branch": "CSE (Computer Science & Engineering)",
+      "semester": "sem4",
+      "document_count": 2
+    },
+    {
+      "code": "COCSC501",
+      "name": "Computer Networks",
+      "aliases": [
+        "COCSC501",
+        "CN",
+        "CS501"
+      ],
+      "branch": "CSE (Computer Science & Engineering)",
+      "semester": "sem5",
+      "document_count": 1
+    },
+    {
+      "code": "COCSC601",
+      "name": "Compiler Design",
+      "aliases": [
+        "COCSC601",
+        "CD",
+        "CS601"
+      ],
+      "branch": "CSE (Computer Science & Engineering)",
+      "semester": "sem6",
+      "document_count": 1
+    },
+    {
+      "code": "COCSC701",
+      "name": "Cloud Computing & Distributed Systems",
+      "aliases": [
+        "COCSC701",
+        "Cloud",
+        "CS701"
+      ],
+      "branch": "CSE (Computer Science & Engineering)",
+      "semester": "sem7",
+      "document_count": 1
+    },
+    {
+      "code": "COMTC13",
+      "name": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CMMTC13",
+      "aliases": [
+        "CDMTC13",
+        "CBMTC13",
+        "CAMTC13",
+        "COMTC13",
+        "CMMTC13"
+      ],
+      "branch": "CSE (Computer Science & Engineering)",
+      "semester": "general",
+      "document_count": 4
+    },
+    {
+      "code": "COMTC305",
+      "name": "COMTC305 CAMTC305 CMMTC305 CDMTC305 Probability and Statistics EndSem BTech CourseWork June2026",
+      "aliases": [
+        "COMTC305",
+        "CAMTC305",
+        "CMMTC305"
+      ],
+      "branch": "CSE (Computer Science & Engineering)",
+      "semester": "sem3",
+      "document_count": 1
+    },
+    {
+      "code": "CSC01",
+      "name": "Programming for Problem Solving (C / Python)",
+      "aliases": [
+        "CSC01",
+        "CS101"
+      ],
+      "branch": "CSDA / CSIOT (Computer Science)",
+      "semester": "sem1",
+      "document_count": 1
+    },
+    {
+      "code": "CSC02",
+      "name": "Data Structures & Algorithms",
+      "aliases": [
+        "CSC02",
+        "COCSC202",
+        "DSA"
+      ],
+      "branch": "CSDA / CSIOT (Computer Science)",
+      "semester": "sem2",
+      "document_count": 2
+    },
+    {
+      "code": "CYC01",
+      "name": "Engineering Chemistry",
+      "aliases": [
+        "CYC01",
+        "CY101"
+      ],
+      "branch": "Chemistry / Physical Sciences",
+      "semester": "sem1",
+      "document_count": 2
+    },
+    {
+      "code": "EAEPC401",
+      "name": "Control Systems & Engineering",
+      "aliases": [
+        "EAEPC401",
+        "ECECC402",
+        "ICECC401"
+      ],
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "semester": "sem4",
+      "document_count": 2
+    },
+    {
+      "code": "EAEPC501",
+      "name": "Deep Learning & Neural Networks",
+      "aliases": [
+        "EAEPC501",
+        "DL",
+        "DNN"
+      ],
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "semester": "sem5",
+      "document_count": 2
+    },
+    {
+      "code": "EAEPC601",
+      "name": "Reinforcement Learning & Robotics",
+      "aliases": [
+        "EAEPC601",
+        "RL"
+      ],
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "semester": "sem6",
+      "document_count": 1
+    },
+    {
+      "code": "ECC02",
+      "name": "Electronic Devices and Circuits (EDC)",
+      "aliases": [
+        "ECC02",
+        "ECECC202",
+        "EC202"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem2",
+      "document_count": 2
+    },
+    {
+      "code": "ECECC05",
+      "name": "ECECC05,EIECC05",
+      "aliases": [
+        "ECECC05",
+        "EIECC05"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 2
+    },
+    {
+      "code": "ECECC06",
+      "name": "ECECC06",
+      "aliases": [
+        "ECECC06"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 1
+    },
+    {
+      "code": "ECECC07",
+      "name": "ECECC07",
+      "aliases": [
+        "ECECC07"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 3
+    },
+    {
+      "code": "ECECC08",
+      "name": "ECECC08,EIECC08,ICECC08",
+      "aliases": [
+        "ECECC08",
+        "EIECC08",
+        "ICECC08"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 2
+    },
+    {
+      "code": "ECECC302",
+      "name": "ECECC302,VTECC302,EIECE302",
+      "aliases": [
+        "ECECC302",
+        "EIECE302",
+        "VTECC302"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 3
+    },
+    {
+      "code": "ECECC303",
+      "name": "ECECC303,EIECC303,ECECC06,EIECC06,VTECC303",
+      "aliases": [
+        "EIECC06",
+        "EIECC303",
+        "VTECC303",
+        "ECECC06",
+        "ECECC303"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 5
+    },
+    {
+      "code": "ECECC304",
+      "name": "ECECC304,EIECC304",
+      "aliases": [
+        "ECECC304",
+        "EIECC304"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 4
+    },
+    {
+      "code": "ECECC305",
+      "name": "ECECC305,EIECC305,ICECC305,VTECC305",
+      "aliases": [
+        "ECECC305",
+        "ICECC305",
+        "VTECC305",
+        "EIECC305"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 2
+    },
+    {
+      "code": "ECECC401",
+      "name": "Analog & Digital Communication",
+      "aliases": [
+        "ECECC401",
+        "ECECC09",
+        "EC401"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem4",
+      "document_count": 2
+    },
+    {
+      "code": "ECECC501",
+      "name": "Digital Signal Processing (DSP)",
+      "aliases": [
+        "ECECC501",
+        "DSP",
+        "EC501"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem5",
+      "document_count": 2
+    },
+    {
+      "code": "ECECC601",
+      "name": "Electromagnetic Waves & Antennas",
+      "aliases": [
+        "ECECC601",
+        "EMFT",
+        "Antennas"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem6",
+      "document_count": 1
+    },
+    {
+      "code": "ECECG303",
+      "name": "ECECG303 EIE Probability Theory and Random Process EndSem BTech Summer2026 copy2",
+      "aliases": [
+        "ECECG303"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 1
+    },
+    {
+      "code": "ECEPE701",
+      "name": "Wireless & Cellular Communications",
+      "aliases": [
+        "ECEPE701",
+        "5G",
+        "Wireless"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem7",
+      "document_count": 1
+    },
+    {
+      "code": "ECMTC301",
+      "name": "ECMTC301",
+      "aliases": [
+        "ECMTC301"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem3",
+      "document_count": 3
+    },
+    {
+      "code": "ECOEC801",
+      "name": "Embedded Systems & IoT Architecture",
+      "aliases": [
+        "ECOEC801",
+        "IoT"
+      ],
+      "branch": "ECE (Electronics & Communication)",
+      "semester": "sem8",
+      "document_count": 1
+    },
+    {
+      "code": "EEC01",
+      "name": "Basic Electrical Engineering",
+      "aliases": [
+        "EEC01",
+        "EE101"
+      ],
+      "branch": "Electrical Engineering",
+      "semester": "sem1",
+      "document_count": 1
+    },
+    {
+      "code": "EEEEC03",
+      "name": "EEEEC03",
+      "aliases": [
+        "EEEEC03"
+      ],
+      "branch": "Electrical Engineering",
+      "semester": "sem3",
+      "document_count": 4
+    },
+    {
+      "code": "GENERAL",
+      "name": "EEEEC03 2023",
+      "aliases": [],
+      "branch": "General Engineering",
+      "semester": "general",
+      "document_count": 89
+    },
+    {
+      "code": "INECC305",
+      "name": "INECC305,ITECC305",
+      "aliases": [
+        "ITECC305",
+        "INECC305"
+      ],
+      "branch": "Instrumentation & Control",
+      "semester": "sem3",
+      "document_count": 4
+    },
+    {
+      "code": "ITCSE402",
+      "name": "Database Management Systems (DBMS)",
+      "aliases": [
+        "ITCSE402",
+        "IT402",
+        "DBMS"
+      ],
+      "branch": "Information Technology",
+      "semester": "sem4",
+      "document_count": 1
+    },
+    {
+      "code": "ITMTC301",
+      "name": "ITMTC301,INMTC301,EIMTC301",
+      "aliases": [
+        "INMTC301",
+        "ITMTC301",
+        "EIMTC301"
+      ],
+      "branch": "Information Technology",
+      "semester": "sem3",
+      "document_count": 2
+    },
+    {
+      "code": "MTC01",
+      "name": "Mathematics - I (Calculus & Linear Algebra)",
+      "aliases": [
+        "MTC01",
+        "MA101"
+      ],
+      "branch": "Mathematics",
+      "semester": "sem1",
+      "document_count": 2
+    },
+    {
+      "code": "MTC02",
+      "name": "Mathematics - II (Differential Equations & Complex Analysis)",
+      "aliases": [
+        "MTC02",
+        "MA102"
+      ],
+      "branch": "Mathematics",
+      "semester": "sem2",
+      "document_count": 2
+    },
+    {
+      "code": "PHC01",
+      "name": "Engineering Physics",
+      "aliases": [
+        "PHC01",
+        "PH101"
+      ],
+      "branch": "Physics",
+      "semester": "sem1",
+      "document_count": 2
+    },
+    {
+      "code": "VTECC304",
+      "name": "VTECC304",
+      "aliases": [
+        "VTECC304"
+      ],
+      "branch": "VLSI & Embedded Systems",
+      "semester": "sem3",
+      "document_count": 2
+    },
+    {
+      "code": "VTECC401",
+      "name": "Analog Integrated Circuit Design",
+      "aliases": [
+        "VTECC401",
+        "AIC"
+      ],
+      "branch": "VLSI & Embedded Systems",
+      "semester": "sem4",
+      "document_count": 1
+    },
+    {
+      "code": "VTECC501",
+      "name": "CMOS Digital VLSI Design",
+      "aliases": [
+        "VTECC501",
+        "VLSI"
+      ],
+      "branch": "VLSI & Embedded Systems",
+      "semester": "sem5",
+      "document_count": 1
+    },
+    {
+      "code": "VTEPE702",
+      "name": "Low Power VLSI Circuits",
+      "aliases": [
+        "VTEPE702",
+        "LowPower"
+      ],
+      "branch": "VLSI & Embedded Systems",
+      "semester": "sem7",
+      "document_count": 1
+    }
+  ],
+  "shards": {
+    "sem1": "/drive_index/sem1.json",
+    "sem2": "/drive_index/sem2.json",
+    "sem3": "/drive_index/sem3.json",
+    "sem4": "/drive_index/sem4.json",
+    "sem5": "/drive_index/sem5.json",
+    "sem6": "/drive_index/sem6.json",
+    "sem7": "/drive_index/sem7.json",
+    "sem8": "/drive_index/sem8.json",
+    "general": "/drive_index/general.json"
+  }
+}

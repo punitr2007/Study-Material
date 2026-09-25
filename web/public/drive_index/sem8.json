@@ -1,0 +1,24 @@
+{
+  "semester": "sem8",
+  "total_documents": 1,
+  "generated_at": "2026-09-25T13:46:17.197756",
+  "documents": [
+    {
+      "id": "1EC_IoT_Endsem24",
+      "title": "ECOEC801 Embedded Systems & IoT Architecture (End Semester)",
+      "filename": "ECOEC801_Embedded_Systems_&_IoT_Architecture_End_Semester_2024.pdf",
+      "subject_code": "ECOEC801",
+      "code_aliases": [
+        "ECOEC801",
+        "IoT"
+      ],
+      "semester": "sem8",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EC_IoT_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EC_IoT_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_IoT_Endsem24&export=download&confirm=t"
+    }
+  ]
+}

@@ -15,6 +15,7 @@ import { EmptyState } from './components/EmptyState';
 import { AnalyticsView } from './components/AnalyticsView';
 import { SolutionsView } from './components/SolutionsView';
 import { PracticeVaultView } from './components/PracticeVaultView';
+import { DriveExplorer } from './components/DriveExplorer';
 import { SolutionViewerModal } from './components/SolutionViewerModal';
 import { Search, X, Loader2 } from 'lucide-react';
 import { Analytics } from '@vercel/analytics/react';
@@ -462,6 +463,10 @@ export function App() {
             documents={catalog.documents}
             onPreview={setActivePreviewDoc}
           />
+        )}
+
+        {activeNavView === 'drive' && (
+          <DriveExplorer />
         )}
 
         {activeNavView === 'analytics' && (

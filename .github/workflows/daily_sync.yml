@@ -47,10 +47,11 @@ jobs:
         run: |
           python sort_pyqs_by_semester.py
 
-      - name: Generate Markdown Readmes & Web Catalog
+      - name: Generate Markdown Readmes, Web Catalog & Sharded Drive Index
         run: |
           python generate_readmes.py
           python generate_catalog.py
+          python build_drive_shards.py
 
       - name: Generate Syllabus Coverage & Exam Weightage Analytics
         run: |

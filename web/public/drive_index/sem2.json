@@ -1,0 +1,113 @@
+{
+  "semester": "sem2",
+  "total_documents": 6,
+  "generated_at": "2026-09-25T13:46:17.193388",
+  "documents": [
+    {
+      "id": "1MT_Math2_Midsem24",
+      "title": "MTC02 Mathematics - II (Differential Equations & Complex Analysis) (Mid Semester)",
+      "filename": "MTC02_Mathematics_-_II_(Differential_Equations_&_Complex_Analysis)_Mid_Semester_2024.pdf",
+      "subject_code": "MTC02",
+      "code_aliases": [
+        "MTC02",
+        "MA102"
+      ],
+      "semester": "sem2",
+      "branch": "Mathematics",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1MT_Math2_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1MT_Math2_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1MT_Math2_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1MT_Math2_Endsem24",
+      "title": "MTC02 Mathematics - II (Differential Equations & Complex Analysis) (End Semester)",
+      "filename": "MTC02_Mathematics_-_II_(Differential_Equations_&_Complex_Analysis)_End_Semester_2024.pdf",
+      "subject_code": "MTC02",
+      "code_aliases": [
+        "MTC02",
+        "MA102"
+      ],
+      "semester": "sem2",
+      "branch": "Mathematics",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1MT_Math2_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1MT_Math2_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1MT_Math2_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1EC_EDC_Midsem25",
+      "title": "ECC02 Electronic Devices and Circuits (EDC) (Mid Semester)",
+      "filename": "ECC02_Electronic_Devices_and_Circuits_(EDC)_Mid_Semester_2025.pdf",
+      "subject_code": "ECC02",
+      "code_aliases": [
+        "ECC02",
+        "ECECC202",
+        "EC202"
+      ],
+      "semester": "sem2",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "Mid_Semester",
+      "year": "2025",
+      "preview_url": "https://drive.google.com/file/d/1EC_EDC_Midsem25/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EC_EDC_Midsem25",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_EDC_Midsem25&export=download&confirm=t"
+    },
+    {
+      "id": "1EC_EDC_Endsem24",
+      "title": "ECC02 Electronic Devices and Circuits (EDC) (End Semester)",
+      "filename": "ECC02_Electronic_Devices_and_Circuits_(EDC)_End_Semester_2024.pdf",
+      "subject_code": "ECC02",
+      "code_aliases": [
+        "ECC02",
+        "ECECC202",
+        "EC202"
+      ],
+      "semester": "sem2",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EC_EDC_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EC_EDC_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_EDC_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1CS_DSA_Midsem24",
+      "title": "CSC02 Data Structures & Algorithms (Mid Semester)",
+      "filename": "CSC02_Data_Structures_&_Algorithms_Mid_Semester_2024.pdf",
+      "subject_code": "CSC02",
+      "code_aliases": [
+        "CSC02",
+        "COCSC202",
+        "DSA"
+      ],
+      "semester": "sem2",
+      "branch": "CSDA / CSIOT (Computer Science)",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1CS_DSA_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1CS_DSA_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1CS_DSA_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1CS_DSA_Endsem24",
+      "title": "CSC02 Data Structures & Algorithms (End Semester)",
+      "filename": "CSC02_Data_Structures_&_Algorithms_End_Semester_2024.pdf",
+      "subject_code": "CSC02",
+      "code_aliases": [
+        "CSC02",
+        "COCSC202",
+        "DSA"
+      ],
+      "semester": "sem2",
+      "branch": "CSDA / CSIOT (Computer Science)",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1CS_DSA_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1CS_DSA_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1CS_DSA_Endsem24&export=download&confirm=t"
+    }
+  ]
+}

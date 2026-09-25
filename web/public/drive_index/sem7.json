@@ -1,0 +1,60 @@
+{
+  "semester": "sem7",
+  "total_documents": 3,
+  "generated_at": "2026-09-25T13:46:17.197453",
+  "documents": [
+    {
+      "id": "1EC_Wireless_Endsem24",
+      "title": "ECEPE701 Wireless & Cellular Communications (End Semester)",
+      "filename": "ECEPE701_Wireless_&_Cellular_Communications_End_Semester_2024.pdf",
+      "subject_code": "ECEPE701",
+      "code_aliases": [
+        "ECEPE701",
+        "5G",
+        "Wireless"
+      ],
+      "semester": "sem7",
+      "branch": "ECE (Electronics & Communication)",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1EC_Wireless_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EC_Wireless_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_Wireless_Endsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1CO_Cloud_Midsem24",
+      "title": "COCSC701 Cloud Computing & Distributed Systems (Mid Semester)",
+      "filename": "COCSC701_Cloud_Computing_&_Distributed_Systems_Mid_Semester_2024.pdf",
+      "subject_code": "COCSC701",
+      "code_aliases": [
+        "COCSC701",
+        "Cloud",
+        "CS701"
+      ],
+      "semester": "sem7",
+      "branch": "CSE (Computer Science & Engineering)",
+      "category": "Mid_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1CO_Cloud_Midsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1CO_Cloud_Midsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1CO_Cloud_Midsem24&export=download&confirm=t"
+    },
+    {
+      "id": "1VT_LP_Endsem24",
+      "title": "VTEPE702 Low Power VLSI Circuits (End Semester)",
+      "filename": "VTEPE702_Low_Power_VLSI_Circuits_End_Semester_2024.pdf",
+      "subject_code": "VTEPE702",
+      "code_aliases": [
+        "VTEPE702",
+        "LowPower"
+      ],
+      "semester": "sem7",
+      "branch": "VLSI & Embedded Systems",
+      "category": "End_Semester",
+      "year": "2024",
+      "preview_url": "https://drive.google.com/file/d/1VT_LP_Endsem24/preview",
+      "download_url": "https://drive.google.com/uc?export=download&id=1VT_LP_Endsem24",
+      "direct_url": "https://drive.usercontent.google.com/download?id=1VT_LP_Endsem24&export=download&confirm=t"
+    }
+  ]
+}
