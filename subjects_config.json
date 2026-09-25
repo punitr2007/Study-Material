@@ -71,34 +71,31 @@
       "code_aliases": [
         "EAEPC304",
         "EAEPC07",
-        "EAEPC04",
         "ECECC304",
         "ECECC07",
         "EIECC304",
         "EIECC07",
         "VTECC304",
-        "ECECC202",
-        "EIECC202",
-        "VTECC202",
-        "ICECC202",
-        "EC201",
-        "EC203",
+        "VTECC07",
         "MCA"
       ],
       "title_keywords": [
         "MICROELECTRONICS CIRCUITS",
         "MICROELECTRONIC CIRCUITS",
         "MICROELECTRONICS",
+        "MICROELECTRONIC CIRCUITS AND APPLICATIONS",
+        "MICROELECTRONICS CIRCUITS AND APPLICATIONS"
+      ],
+      "excluded_keywords": [
         "ELECTRONIC DEVICES AND CIRCUITS",
         "ELECTRONIC DEVICES & CIRCUITS",
         "ELECTRONIC DEVICES",
-        "ANALOG ELECTRONICS",
-        "ANALOG INTEGRATED CIRCUITS",
-        "SOLID STATE DEVICES",
-        "SOLID STATE DEVICES AND CIRCUITS",
-        "SEMICONDUCTOR DEVICES"
-      ],
-      "excluded_keywords": [
+        "ECECC202",
+        "ICECC202",
+        "EIECC202",
+        "VTECC202",
+        "EC202",
+        "EDC",
         "MICROPROCESSOR",
         "MICROCONTROLLER"
       ]
