@@ -211,58 +211,34 @@ export const DriveExplorer: React.FC = () => {
   return (
     <div className="practice-vault-container">
       {/* Header Banner */}
-      <div className="practice-header" style={{ marginBottom: '24px' }}>
+      <div className="practice-hero-banner" style={{ marginBottom: '24px' }}>
         <div className="practice-header-badge">
-          <Globe size={14} />
-          <span>Universal Drive Explorer & Multi-Semester Index</span>
+          <Globe size={15} />
+          <span>Universal Google Drive Explorer • Multi-Semester Academic Hub</span>
         </div>
-        <h1 className="practice-title">On-Demand Subject Code & Drive Fetcher</h1>
+        <h1 className="practice-page-title">On-Demand Subject Code & Drive Fetcher</h1>
         <p className="practice-subtitle">
-          Search and stream question papers, books, and resources for <strong>all 8 Semesters & Branches</strong> directly from NSUT's public Google Drive archives without consuming local disk space.
+          Search and stream verified question papers, lecture notes, and textbooks for <strong>all 8 Semesters & Engineering Branches</strong> directly from NSUT's Google Drive repository on-demand.
         </p>
       </div>
 
-      {/* Quick Search & Filter Controls */}
-      <div className="practice-filters-panel" style={{ padding: '20px', borderRadius: '16px', marginBottom: '28px' }}>
-        {/* Search Input */}
-        <div style={{ position: 'relative', marginBottom: '16px' }}>
-          <Search
-            size={18}
-            style={{
-              position: 'absolute',
-              left: '16px',
-              top: '50%',
-              transform: 'translateY(-50%)',
-              color: 'var(--text-muted)',
-            }}
-          />
+      {/* Quick Search & Filter Controls Panel */}
+      <div className="drive-explorer-filter-card" style={{ marginBottom: '28px' }}>
+        {/* Full-Width Search Input */}
+        <div className="drive-search-input-wrapper">
+          <Search size={20} className="drive-search-icon" />
           <input
             type="text"
-            className="filter-search-input"
-            style={{
-              paddingLeft: '44px',
-              height: '46px',
-              fontSize: '0.95rem',
-              borderRadius: '12px',
-            }}
+            className="drive-search-input"
             placeholder="Enter any Course Code or Subject Name (e.g. ECECC401, CYC01, Operating Systems, EAEPC304)..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           {searchQuery && (
             <button
+              className="drive-search-clear-btn"
               onClick={() => setSearchQuery('')}
-              style={{
-                position: 'absolute',
-                right: '14px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                background: 'transparent',
-                border: 'none',
-                color: 'var(--text-muted)',
-                cursor: 'pointer',
-                fontSize: '0.85rem',
-              }}
+              title="Clear Search"
             >
               Clear
             </button>
@@ -405,57 +381,44 @@ export const DriveExplorer: React.FC = () => {
           </button>
         </div>
       ) : (
-        <div className="practice-modules-grid">
+        <div className="drive-docs-grid">
           {filteredDocuments.map((doc) => (
-            <div key={doc.id} className="practice-module-card">
-              <div className="practice-card-header">
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+            <div key={doc.id} className="drive-doc-card">
+              <div className="drive-card-header">
+                <div className="drive-tags-row">
                   <span className="tag-badge code">{doc.subject_code}</span>
                   <span className="tag-badge category" style={{ textTransform: 'capitalize' }}>
                     {doc.semester.replace('sem', 'Sem ')}
                   </span>
                   {doc.year && <span className="tag-badge year">{doc.year}</span>}
                 </div>
-                <div
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    fontSize: '0.72rem',
-                    color: '#10b981',
-                    background: 'rgba(16, 185, 129, 0.1)',
-                    padding: '2px 8px',
-                    borderRadius: '6px',
-                  }}
-                  title="Health-checked Google Drive source"
-                >
-                  <CheckCircle2 size={12} />
-                  <span>Drive Verified</span>
+                <div className="drive-verified-badge" title="Health-checked Google Drive source">
+                  <CheckCircle2 size={13} />
+                  <span>Verified Drive</span>
                 </div>
               </div>
 
-              <h3 className="practice-card-title" title={doc.title}>
+              <h3 className="drive-card-title" title={doc.title}>
                 {doc.title}
               </h3>
 
-              <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '16px' }}>
-                <span style={{ fontWeight: 500 }}>{doc.branch}</span>
+              <div className="drive-card-meta">
+                <span className="drive-branch-label">{doc.branch}</span>
                 {doc.code_aliases.length > 1 && (
-                  <div style={{ fontSize: '0.72rem', marginTop: '4px', opacity: 0.8 }}>
+                  <div className="drive-aliases-label">
                     Aliases: {doc.code_aliases.join(', ')}
                   </div>
                 )}
               </div>
 
               {/* Action Buttons */}
-              <div className="practice-card-footer" style={{ marginTop: 'auto', gap: '8px' }}>
+              <div className="drive-card-footer">
                 <button
-                  className="practice-btn-primary"
+                  className="drive-btn-preview"
                   onClick={() => handleOpenPreview(doc)}
-                  style={{ flex: 1, padding: '8px 12px', fontSize: '0.82rem' }}
                 >
                   <Eye size={15} />
-                  <span>Preview</span>
+                  <span>Preview PDF</span>
                 </button>
 
                 <a
@@ -463,8 +426,7 @@ export const DriveExplorer: React.FC = () => {
                   download={doc.filename}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="practice-btn-secondary"
-                  style={{ padding: '8px 12px', fontSize: '0.82rem' }}
+                  className="drive-btn-icon"
                   title="Direct Download from Drive"
                 >
                   <Download size={15} />
@@ -474,8 +436,7 @@ export const DriveExplorer: React.FC = () => {
                   href={doc.preview_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="practice-btn-secondary"
-                  style={{ padding: '8px 12px', fontSize: '0.82rem' }}
+                  className="drive-btn-icon"
                   title="Open in Google Drive"
                 >
                   <ExternalLink size={15} />
