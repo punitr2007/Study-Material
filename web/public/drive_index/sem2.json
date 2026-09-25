@@ -1,113 +1,247 @@
 {
   "semester": "sem2",
-  "total_documents": 6,
-  "generated_at": "2026-09-25T13:46:17.193388",
+  "total_documents": 15,
+  "generated_at": "2026-09-25T13:57:45.116065",
   "documents": [
     {
-      "id": "1MT_Math2_Midsem24",
-      "title": "MTC02 Mathematics - II (Differential Equations & Complex Analysis) (Mid Semester)",
-      "filename": "MTC02_Mathematics_-_II_(Differential_Equations_&_Complex_Analysis)_Mid_Semester_2024.pdf",
-      "subject_code": "MTC02",
+      "id": "EAEPC302_122",
+      "title": "Signals and Systems Endsem 2017",
+      "filename": "Signals_and_Systems_Endsem_2017.pdf",
+      "subject_code": "EAEPC302",
       "code_aliases": [
-        "MTC02",
-        "MA102"
+        "EAEPC302"
       ],
       "semester": "sem2",
-      "branch": "Mathematics",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "End_Semester",
+      "year": "2017",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2017.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2017.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2017.pdf"
+    },
+    {
+      "id": "EAEPC302_123",
+      "title": "Signals and Systems Endsem 2018",
+      "filename": "Signals_and_Systems_Endsem_2018.pdf",
+      "subject_code": "EAEPC302",
+      "code_aliases": [
+        "EAEPC302"
+      ],
+      "semester": "sem2",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "End_Semester",
+      "year": "2018",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2018.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2018.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2018.pdf"
+    },
+    {
+      "id": "EAEPC302_124",
+      "title": "Signals and Systems Endsem 2019",
+      "filename": "Signals_and_Systems_Endsem_2019.pdf",
+      "subject_code": "EAEPC302",
+      "code_aliases": [
+        "EAEPC302"
+      ],
+      "semester": "sem2",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "End_Semester",
+      "year": "2019",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2019.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2019.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2019.pdf"
+    },
+    {
+      "id": "EAEPC302_125",
+      "title": "Signals and Systems Endsem 2023",
+      "filename": "Signals_and_Systems_Endsem_2023.pdf",
+      "subject_code": "EAEPC302",
+      "code_aliases": [
+        "EAEPC302"
+      ],
+      "semester": "sem2",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "End_Semester",
+      "year": "2023",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2023.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2023.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2023.pdf"
+    },
+    {
+      "id": "EAEPC302_126",
+      "title": "Signals and Systems Endsem 2025 Nov Dec",
+      "filename": "Signals_and_Systems_Endsem_2025_Nov_Dec.pdf",
+      "subject_code": "EAEPC302",
+      "code_aliases": [
+        "EAEPC302"
+      ],
+      "semester": "sem2",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "End_Semester",
+      "year": "2025",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2025_Nov_Dec.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2025_Nov_Dec.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/End_Semester/Signals_and_Systems_Endsem_2025_Nov_Dec.pdf"
+    },
+    {
+      "id": "EAEPC302_141",
+      "title": "Signals and Systems Midsem 2021",
+      "filename": "Signals_and_Systems_Midsem_2021.pdf",
+      "subject_code": "EAEPC302",
+      "code_aliases": [
+        "EAEPC302"
+      ],
+      "semester": "sem2",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "Mid_Semester",
+      "year": "2021",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2021.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2021.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2021.pdf"
+    },
+    {
+      "id": "EAEPC302_142",
+      "title": "Signals and Systems Midsem 2024",
+      "filename": "Signals_and_Systems_Midsem_2024.pdf",
+      "subject_code": "EAEPC302",
+      "code_aliases": [
+        "EAEPC302"
+      ],
+      "semester": "sem2",
+      "branch": "ECAM (Electronics & Communication with AI)",
       "category": "Mid_Semester",
       "year": "2024",
-      "preview_url": "https://drive.google.com/file/d/1MT_Math2_Midsem24/preview",
-      "download_url": "https://drive.google.com/uc?export=download&id=1MT_Math2_Midsem24",
-      "direct_url": "https://drive.usercontent.google.com/download?id=1MT_Math2_Midsem24&export=download&confirm=t"
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2024.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2024.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2024.pdf"
     },
     {
-      "id": "1MT_Math2_Endsem24",
-      "title": "MTC02 Mathematics - II (Differential Equations & Complex Analysis) (End Semester)",
-      "filename": "MTC02_Mathematics_-_II_(Differential_Equations_&_Complex_Analysis)_End_Semester_2024.pdf",
-      "subject_code": "MTC02",
+      "id": "EAEPC302_143",
+      "title": "Signals and Systems Midsem 2025 Sept",
+      "filename": "Signals_and_Systems_Midsem_2025_Sept.jpeg",
+      "subject_code": "EAEPC302",
       "code_aliases": [
-        "MTC02",
-        "MA102"
+        "EAEPC302"
       ],
       "semester": "sem2",
-      "branch": "Mathematics",
-      "category": "End_Semester",
-      "year": "2024",
-      "preview_url": "https://drive.google.com/file/d/1MT_Math2_Endsem24/preview",
-      "download_url": "https://drive.google.com/uc?export=download&id=1MT_Math2_Endsem24",
-      "direct_url": "https://drive.usercontent.google.com/download?id=1MT_Math2_Endsem24&export=download&confirm=t"
-    },
-    {
-      "id": "1EC_EDC_Midsem25",
-      "title": "ECC02 Electronic Devices and Circuits (EDC) (Mid Semester)",
-      "filename": "ECC02_Electronic_Devices_and_Circuits_(EDC)_Mid_Semester_2025.pdf",
-      "subject_code": "ECC02",
-      "code_aliases": [
-        "ECC02",
-        "ECECC202",
-        "EC202"
-      ],
-      "semester": "sem2",
-      "branch": "ECE (Electronics & Communication)",
+      "branch": "ECAM (Electronics & Communication with AI)",
       "category": "Mid_Semester",
       "year": "2025",
-      "preview_url": "https://drive.google.com/file/d/1EC_EDC_Midsem25/preview",
-      "download_url": "https://drive.google.com/uc?export=download&id=1EC_EDC_Midsem25",
-      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_EDC_Midsem25&export=download&confirm=t"
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2025_Sept.jpeg",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2025_Sept.jpeg",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/01_Signals_and_Systems_EAEPC302/downloaded_pyqs/Mid_Semester/Signals_and_Systems_Midsem_2025_Sept.jpeg"
     },
     {
-      "id": "1EC_EDC_Endsem24",
-      "title": "ECC02 Electronic Devices and Circuits (EDC) (End Semester)",
-      "filename": "ECC02_Electronic_Devices_and_Circuits_(EDC)_End_Semester_2024.pdf",
-      "subject_code": "ECC02",
+      "id": "EAEPC303_246",
+      "title": "PTRP Endsem 2023",
+      "filename": "PTRP_Endsem_2023.pdf",
+      "subject_code": "EAEPC303",
       "code_aliases": [
-        "ECC02",
-        "ECECC202",
-        "EC202"
+        "EAEPC303"
       ],
       "semester": "sem2",
-      "branch": "ECE (Electronics & Communication)",
+      "branch": "ECAM (Electronics & Communication with AI)",
       "category": "End_Semester",
-      "year": "2024",
-      "preview_url": "https://drive.google.com/file/d/1EC_EDC_Endsem24/preview",
-      "download_url": "https://drive.google.com/uc?export=download&id=1EC_EDC_Endsem24",
-      "direct_url": "https://drive.usercontent.google.com/download?id=1EC_EDC_Endsem24&export=download&confirm=t"
+      "year": "2023",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/PTRP_Endsem_2023.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/PTRP_Endsem_2023.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/PTRP_Endsem_2023.pdf"
     },
     {
-      "id": "1CS_DSA_Midsem24",
-      "title": "CSC02 Data Structures & Algorithms (Mid Semester)",
-      "filename": "CSC02_Data_Structures_&_Algorithms_Mid_Semester_2024.pdf",
-      "subject_code": "CSC02",
+      "id": "EAEPC303_247",
+      "title": "PTRP Endsem 2025 Nov Dec",
+      "filename": "PTRP_Endsem_2025_Nov_Dec.jpeg",
+      "subject_code": "EAEPC303",
       "code_aliases": [
-        "CSC02",
-        "COCSC202",
-        "DSA"
+        "EAEPC303"
       ],
       "semester": "sem2",
-      "branch": "CSDA / CSIOT (Computer Science)",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "End_Semester",
+      "year": "2025",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/PTRP_Endsem_2025_Nov_Dec.jpeg",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/PTRP_Endsem_2025_Nov_Dec.jpeg",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/End_Semester/PTRP_Endsem_2025_Nov_Dec.jpeg"
+    },
+    {
+      "id": "EAEPC303_263",
+      "title": "PTRP Midsem 2024",
+      "filename": "PTRP_Midsem_2024.pdf",
+      "subject_code": "EAEPC303",
+      "code_aliases": [
+        "EAEPC303"
+      ],
+      "semester": "sem2",
+      "branch": "ECAM (Electronics & Communication with AI)",
       "category": "Mid_Semester",
       "year": "2024",
-      "preview_url": "https://drive.google.com/file/d/1CS_DSA_Midsem24/preview",
-      "download_url": "https://drive.google.com/uc?export=download&id=1CS_DSA_Midsem24",
-      "direct_url": "https://drive.usercontent.google.com/download?id=1CS_DSA_Midsem24&export=download&confirm=t"
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/PTRP_Midsem_2024.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/PTRP_Midsem_2024.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/PTRP_Midsem_2024.pdf"
     },
     {
-      "id": "1CS_DSA_Endsem24",
-      "title": "CSC02 Data Structures & Algorithms (End Semester)",
-      "filename": "CSC02_Data_Structures_&_Algorithms_End_Semester_2024.pdf",
-      "subject_code": "CSC02",
+      "id": "EAEPC303_264",
+      "title": "PTRP Midsem 2025 Sept",
+      "filename": "PTRP_Midsem_2025_Sept.jpeg",
+      "subject_code": "EAEPC303",
       "code_aliases": [
-        "CSC02",
-        "COCSC202",
-        "DSA"
+        "EAEPC303"
       ],
       "semester": "sem2",
-      "branch": "CSDA / CSIOT (Computer Science)",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "Mid_Semester",
+      "year": "2025",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/PTRP_Midsem_2025_Sept.jpeg",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/PTRP_Midsem_2025_Sept.jpeg",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/02_Probability_Theory_and_Random_Process_EAEPC303/downloaded_pyqs/Mid_Semester/PTRP_Midsem_2025_Sept.jpeg"
+    },
+    {
+      "id": "EPMTC301_662",
+      "title": "Mathematics Signal Processing Communication Endsem 2022",
+      "filename": "Mathematics_Signal_Processing_Communication_Endsem_2022.pdf",
+      "subject_code": "EPMTC301",
+      "code_aliases": [
+        "EPMTC301"
+      ],
+      "semester": "sem2",
+      "branch": "General Engineering",
       "category": "End_Semester",
+      "year": "2022",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/Mathematics_Signal_Processing_Communication_Endsem_2022.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/Mathematics_Signal_Processing_Communication_Endsem_2022.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/Mathematics_Signal_Processing_Communication_Endsem_2022.pdf"
+    },
+    {
+      "id": "EPMTC301_679",
+      "title": "Mathematics For Machine Learning Midsem 2024 EPMTC301",
+      "filename": "Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf",
+      "subject_code": "EPMTC301",
+      "code_aliases": [
+        "EPMTC301"
+      ],
+      "semester": "sem2",
+      "branch": "General Engineering",
+      "category": "Mid_Semester",
       "year": "2024",
-      "preview_url": "https://drive.google.com/file/d/1CS_DSA_Endsem24/preview",
-      "download_url": "https://drive.google.com/uc?export=download&id=1CS_DSA_Endsem24",
-      "direct_url": "https://drive.usercontent.google.com/download?id=1CS_DSA_Endsem24&export=download&confirm=t"
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/Mathematics_For_Machine_Learning_Midsem_2024_EPMTC301.pdf"
+    },
+    {
+      "id": "EPMTC301_680",
+      "title": "Mathematics Signal Processing Communication Midsem 2022",
+      "filename": "Mathematics_Signal_Processing_Communication_Midsem_2022.pdf",
+      "subject_code": "EPMTC301",
+      "code_aliases": [
+        "EPMTC301"
+      ],
+      "semester": "sem2",
+      "branch": "General Engineering",
+      "category": "Mid_Semester",
+      "year": "2022",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/Mathematics_Signal_Processing_Communication_Midsem_2022.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/Mathematics_Signal_Processing_Communication_Midsem_2022.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/Mathematics_Signal_Processing_Communication_Midsem_2022.pdf"
     }
   ]
 }
