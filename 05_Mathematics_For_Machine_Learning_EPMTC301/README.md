@@ -8,7 +8,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 - [Linear Algebra Done Right](#linear-algebra-done-right)
 - [Practice Material](#practice-material)
 - [Textbooks and References](#textbooks-and-references)
-- [downloaded notes](#downloaded-notes)
 - [downloaded pyqs](#downloaded-pyqs)
 
 ---
@@ -159,30 +158,6 @@ _No files currently._
 | [engineering-mathematics-qualifygate.pdf](Textbooks_and_References/engineering-mathematics-qualifygate.pdf) | `PDF` | 3.93 MB |
 | [laplace-transform.pdf](Textbooks_and_References/laplace-transform.pdf) | `PDF` | 1.29 MB |
 | [vector-calculus.pdf](Textbooks_and_References/vector-calculus.pdf) | `PDF` | 353.2 KB |
-
----
-
-## downloaded notes
-
-### Unit 1
-
-_No files currently._
-
-### Unit 2
-
-_No files currently._
-
-### Unit 3
-
-_No files currently._
-
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
 
 ---
 
