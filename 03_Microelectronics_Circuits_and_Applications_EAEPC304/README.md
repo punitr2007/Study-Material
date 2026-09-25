@@ -202,9 +202,7 @@ _No files currently._
 | [2024_Mid_Semester_ECECC07_Microelectronics.pdf](downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC07_Microelectronics.pdf) | `PDF` | 36.7 KB |
 | [2024_Mid_Semester_ECECC304_Microelectronics.pdf](downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC304_Microelectronics.pdf) | `PDF` | 29.1 KB |
 | [2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf) | `PDF` | 862.6 KB |
-| [2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_Paper2.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_Paper2.pdf) | `PDF` | 725.4 KB |
 | [2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf) | `PDF` | 725.3 KB |
-| [2025_Mid_Semester_EAEPC304_Microelectronics_Paper3.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC304_Microelectronics_Paper3.pdf) | `PDF` | 862.6 KB |
 | [2025_Mid_Semester_ECECC07_Microelectronics.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC07_Microelectronics.pdf) | `PDF` | 154.9 KB |
 | [2026_Mid_Semester_ECECC304_EIECC07_Microelectronics.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_ECECC304_EIECC07_Microelectronics.pdf) | `PDF` | 108.7 KB |
 
