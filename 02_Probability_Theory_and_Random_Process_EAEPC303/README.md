@@ -125,10 +125,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [Probability_Unit1_Practice_Questions.pdf](downloaded_notes/Probability_Unit1_Practice_Questions.pdf) | `PDF` | 4.59 MB |
 | [Probability_Unit2_Practice_Questions.pdf](downloaded_notes/Probability_Unit2_Practice_Questions.pdf) | `PDF` | 5.10 MB |
 
-### Unit 1
-
-_No files currently._
-
 ### Unit 2
 
 | File Name | Type | Size |

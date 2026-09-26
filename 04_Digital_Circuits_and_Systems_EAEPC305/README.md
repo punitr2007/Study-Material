@@ -59,8 +59,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
-| [#AnandKumar_Digital_CIrcuits-flat.pdf](Textbooks/%23AnandKumar_Digital_CIrcuits-flat.pdf) | `PDF` | 154.66 MB |
-| [#Digital-Electronics-R P Jain.pdf](Textbooks/%23Digital-Electronics-R%20P%20Jain.pdf) | `PDF` | 50.85 MB |
 | [A VHDL Primer - Jayaram Bhasker-1.pdf](Textbooks/A%20VHDL%20Primer%20-%20Jayaram%20Bhasker-1.pdf) | `PDF` | 2.61 MB |
 | [Algorithms_4th_Ed_Sedgewick_Wayne.pdf](Textbooks/Algorithms_4th_Ed_Sedgewick_Wayne.pdf) | `PDF` | 11.93 MB |
 | [CPP_How_to_Program_10th_Ed_Deitel.pdf](Textbooks/CPP_How_to_Program_10th_Ed_Deitel.pdf) | `PDF` | 7.62 MB |
@@ -108,14 +106,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | :--- | :---: | :---: |
 | [Copy of 15 Flip Flop.pdf](downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf) | `PDF` | 5.63 MB |
 
-### Unit 4
-
-_No files currently._
-
-### Unit 5
-
-_No files currently._
-
 ---
 
 ## downloaded pyqs
@@ -132,7 +122,6 @@ _No files currently._
 | [2024_End_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 42.8 KB |
 | [2024_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 281.5 KB |
 | [2024_End_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 49.9 KB |
-| [2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf) | `PDF` | 47.7 KB |
 | [2024_End_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 46.4 KB |
 | [2024_End_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 122.2 KB |
 | [2024_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2024_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 44.7 KB |
@@ -140,8 +129,16 @@ _No files currently._
 | [2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 290.3 KB |
 | [2025_End_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2025_End_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 286.9 KB |
 | [2025_End_Semester_ECECC305_EIECC305_VTECC305_Digital_Circuits_and_Systems.jpeg](downloaded_pyqs/End_Semester/2025_End_Semester_ECECC305_EIECC305_VTECC305_Digital_Circuits_and_Systems.jpeg) | `JPEG` | 430.0 KB |
-| [2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 129.3 KB |
 | [2026_End_Semester_ECECC08_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/End_Semester/2026_End_Semester_ECECC08_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 103.1 KB |
+| [EAEPC305_2024.pdf](downloaded_pyqs/End_Semester/EAEPC305_2024.pdf) | `PDF` | 281.5 KB |
+| [ECECC08-EIECC08-ICECC08.pdf](downloaded_pyqs/End_Semester/ECECC08-EIECC08-ICECC08.pdf) | `PDF` | 286.9 KB |
+| [ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf](downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf) | `PDF` | 103.1 KB |
+| [ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf](downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf) | `PDF` | 103.6 KB |
+| [ECECC08_EIECC08_2024.pdf](downloaded_pyqs/End_Semester/ECECC08_EIECC08_2024.pdf) | `PDF` | 49.9 KB |
+| [ECECC08_EIECC08_ICECC08.pdf](downloaded_pyqs/End_Semester/ECECC08_EIECC08_ICECC08.pdf) | `PDF` | 81.1 KB |
+| [ECECC305-EIECC305-ICECC305-VTECC305.pdf](downloaded_pyqs/End_Semester/ECECC305-EIECC305-ICECC305-VTECC305.pdf) | `PDF` | 122.2 KB |
+| [ECECC305_EIECC305_ICECC305_2024.pdf](downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_2024.pdf) | `PDF` | 46.4 KB |
+| [ECECC305_EIECC305_ICECC305_VTECC305.pdf](downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_VTECC305.pdf) | `PDF` | 75.3 KB |
 
 ### Mid Semester
 
@@ -159,17 +156,21 @@ _No files currently._
 | [2024_Mid_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 23.2 KB |
 | [2024_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2024_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 21.3 KB |
 | [2024_Mid_Semester_INECC01_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2024_Mid_Semester_INECC01_Digital_Circuits_and_Systems.pdf) | `PDF` | 17.8 KB |
+| [2024_Summer_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2024_Summer_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 23.0 KB |
 | [2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 368.2 KB |
 | [2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 426.3 KB |
 | [2025_Mid_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 81.1 KB |
 | [2025_Mid_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 75.3 KB |
 | [2025_Mid_Semester_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.jpeg](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.jpeg) | `JPEG` | 170.7 KB |
+| [ECECC08_EIECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf) | `PDF` | 18.4 KB |
+| [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 22.2 KB |
 
 ### Summer Semester
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Summer_Semester/2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf) | `PDF` | 47.7 KB |
 | [2024_Summer_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Summer_Semester/2024_Summer_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 59.1 KB |
-| [2024_Summer_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Summer_Semester/2024_Summer_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 23.0 KB |
+| [2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Summer_Semester/2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 129.3 KB |
 
 ---
