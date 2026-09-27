@@ -1,7 +1,7 @@
 {
   "semester": "sem3",
-  "total_documents": 823,
-  "generated_at": "2026-09-26T02:12:56.519474",
+  "total_documents": 824,
+  "generated_at": "2026-09-27T02:05:03.713589",
   "documents": [
     {
       "id": "1EAfeFyb0ypi15Y-RHCrSa5Gxwz74R5b2",
@@ -99,8 +99,8 @@
       "filename": "ECECC05,EIECC05.pdf",
       "subject_code": "ECECC05",
       "code_aliases": [
-        "ECECC05",
-        "EIECC05"
+        "EIECC05",
+        "ECECC05"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -117,8 +117,8 @@
       "subject_code": "ECECC302",
       "code_aliases": [
         "VTECC302",
-        "EIECE302",
-        "ECECC302"
+        "ECECC302",
+        "EIECE302"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -260,11 +260,11 @@
       "filename": "ECECC302-VTECC302-EIECC302-ECECC05-EIECC05.pdf",
       "subject_code": "ECECC302",
       "code_aliases": [
-        "ECECC05",
         "VTECC302",
+        "ECECC05",
+        "EIECC302",
         "EIECC05",
-        "ECECC302",
-        "EIECC302"
+        "ECECC302"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -414,8 +414,8 @@
       "filename": "CAMTC13,COMTC13.pdf",
       "subject_code": "CAMTC13",
       "code_aliases": [
-        "COMTC13",
-        "CAMTC13"
+        "CAMTC13",
+        "COMTC13"
       ],
       "semester": "sem3",
       "branch": "General Engineering",
@@ -459,11 +459,11 @@
       "filename": "COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf",
       "subject_code": "COMTC13",
       "code_aliases": [
-        "COMTC13",
         "CAMTC13",
         "CBMTC13",
+        "CDMTC13",
         "CMMTC13",
-        "CDMTC13"
+        "COMTC13"
       ],
       "semester": "sem3",
       "branch": "CSE (Computer Science & Engineering)",
@@ -479,8 +479,8 @@
       "filename": "CAMTC13-COMTC13.pdf",
       "subject_code": "CAMTC13",
       "code_aliases": [
-        "COMTC13",
-        "CAMTC13"
+        "CAMTC13",
+        "COMTC13"
       ],
       "semester": "sem3",
       "branch": "General Engineering",
@@ -496,10 +496,10 @@
       "filename": "COMTC13,CAMTC13,CMMTC13,CDMTC13.pdf",
       "subject_code": "COMTC13",
       "code_aliases": [
-        "CMMTC13",
         "CDMTC13",
-        "COMTC13",
-        "CAMTC13"
+        "CAMTC13",
+        "CMMTC13",
+        "COMTC13"
       ],
       "semester": "sem3",
       "branch": "CSE (Computer Science & Engineering)",
@@ -515,11 +515,11 @@
       "filename": "ECECC303,EIECC303,ECECC06,EIECC06,VTECC303.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "EIECC303",
+        "ECECC303",
         "VTECC303",
         "ECECC06",
-        "ECECC303",
-        "EIECC06"
+        "EIECC06",
+        "EIECC303"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -535,10 +535,10 @@
       "filename": "ECECC303,EIECC303,ECECC06,EIECC06.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "ECECC06",
-        "ECECC303",
         "EIECC303",
-        "EIECC06"
+        "EIECC06",
+        "ECECC303",
+        "ECECC06"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -554,8 +554,8 @@
       "filename": "INECC305,ITECC305.pdf",
       "subject_code": "INECC305",
       "code_aliases": [
-        "INECC305",
-        "ITECC305"
+        "ITECC305",
+        "INECC305"
       ],
       "semester": "sem3",
       "branch": "Instrumentation & Control",
@@ -757,11 +757,11 @@
       "filename": "ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "EIECC303",
+        "ECECC303",
         "VTECC303",
         "ECECC06",
-        "ECECC303",
-        "EIECC06"
+        "EIECC06",
+        "EIECC303"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -777,9 +777,9 @@
       "filename": "INECC305-ITECC305-INECC06-ITECC06.pdf",
       "subject_code": "INECC305",
       "code_aliases": [
-        "ITECC06",
-        "INECC305",
         "ITECC305",
+        "INECC305",
+        "ITECC06",
         "INECC06"
       ],
       "semester": "sem3",
@@ -812,9 +812,9 @@
       "filename": "COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf",
       "subject_code": "COMTC305",
       "code_aliases": [
+        "CAMTC305",
         "CMMTC305",
-        "COMTC305",
-        "CAMTC305"
+        "COMTC305"
       ],
       "semester": "sem3",
       "branch": "CSE (Computer Science & Engineering)",
@@ -890,8 +890,8 @@
       "filename": "CAMTC13-COMTC13.pdf",
       "subject_code": "CAMTC13",
       "code_aliases": [
-        "COMTC13",
-        "CAMTC13"
+        "CAMTC13",
+        "COMTC13"
       ],
       "semester": "sem3",
       "branch": "General Engineering",
@@ -923,9 +923,9 @@
       "filename": "ECECC303-EIECC303-VTEC303.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "VTEC303",
+        "EIECC303",
         "ECECC303",
-        "EIECC303"
+        "VTEC303"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -941,8 +941,8 @@
       "filename": "ECECC303-EIECC303-VTECC303.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "ECECC303",
         "EIECC303",
+        "ECECC303",
         "VTECC303"
       ],
       "semester": "sem3",
@@ -959,8 +959,8 @@
       "filename": "INECC305-ITECC305.pdf",
       "subject_code": "INECC305",
       "code_aliases": [
-        "INECC305",
-        "ITECC305"
+        "ITECC305",
+        "INECC305"
       ],
       "semester": "sem3",
       "branch": "Instrumentation & Control",
@@ -1276,8 +1276,8 @@
       "filename": "ECECC304-EIECC07.pdf",
       "subject_code": "ECECC304",
       "code_aliases": [
-        "EIECC07",
-        "ECECC304"
+        "ECECC304",
+        "EIECC07"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1293,9 +1293,9 @@
       "filename": "ECECC08,EIECC08,ICECC08.pdf",
       "subject_code": "ECECC08",
       "code_aliases": [
-        "EIECC08",
         "ICECC08",
-        "ECECC08"
+        "ECECC08",
+        "EIECC08"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1312,9 +1312,9 @@
       "subject_code": "ECECC305",
       "code_aliases": [
         "ICECC305",
+        "ECECC305",
         "VTECC305",
-        "EIECC305",
-        "ECECC305"
+        "EIECC305"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1484,9 +1484,9 @@
       "filename": "ECECC08-EIECC08-ICECC08.pdf",
       "subject_code": "ECECC08",
       "code_aliases": [
-        "EIECC08",
         "ICECC08",
-        "ECECC08"
+        "ECECC08",
+        "EIECC08"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1503,9 +1503,9 @@
       "subject_code": "ECECC305",
       "code_aliases": [
         "ICECC305",
+        "ECECC305",
         "VTECC305",
-        "EIECC305",
-        "ECECC305"
+        "EIECC305"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1761,8 +1761,8 @@
       "filename": "ITMTC301,INMTC301,EIMTC301.pdf",
       "subject_code": "ITMTC301",
       "code_aliases": [
-        "INMTC301",
         "EIMTC301",
+        "INMTC301",
         "ITMTC301"
       ],
       "semester": "sem3",
@@ -1907,8 +1907,8 @@
       "filename": "ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf",
       "subject_code": "ITMTC301",
       "code_aliases": [
-        "INMTC301",
         "EIMTC301",
+        "INMTC301",
         "ITMTC301"
       ],
       "semester": "sem3",
@@ -8239,6 +8239,22 @@
     },
     {
       "id": "EAEPC304_406",
+      "title": "ECECC07 2023",
+      "filename": "ECECC07_2023.pdf",
+      "subject_code": "EAEPC304",
+      "code_aliases": [
+        "EAEPC304"
+      ],
+      "semester": "sem3",
+      "branch": "ECAM (Electronics & Communication with AI)",
+      "category": "PYQ",
+      "year": "2023",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2023.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2023.pdf",
+      "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2023.pdf"
+    },
+    {
+      "id": "EAEPC304_407",
       "title": "ECECC07 2024",
       "filename": "ECECC07_2024.pdf",
       "subject_code": "EAEPC304",
@@ -8254,7 +8270,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_2024.pdf"
     },
     {
-      "id": "EAEPC304_407",
+      "id": "EAEPC304_408",
       "title": "ECECC07 VTECC304 Microelectronics",
       "filename": "ECECC07_VTECC304_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8270,7 +8286,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC07_VTECC304_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_408",
+      "id": "EAEPC304_409",
       "title": "ECECC304 EIECC07 Microelectronics Circuits and Application EndSem BTech Sem3 July2026",
       "filename": "ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf",
       "subject_code": "EAEPC304",
@@ -8286,7 +8302,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf"
     },
     {
-      "id": "EAEPC304_409",
+      "id": "EAEPC304_410",
       "title": "ECECC304 EIECC304",
       "filename": "ECECC304-EIECC304.pdf",
       "subject_code": "EAEPC304",
@@ -8302,7 +8318,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304-EIECC304.pdf"
     },
     {
-      "id": "EAEPC304_410",
+      "id": "EAEPC304_411",
       "title": "ECECC304 2024",
       "filename": "ECECC304_2024.pdf",
       "subject_code": "EAEPC304",
@@ -8318,7 +8334,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304_2024.pdf"
     },
     {
-      "id": "EAEPC304_411",
+      "id": "EAEPC304_412",
       "title": "ECECC304 EIECC304",
       "filename": "ECECC304_EIECC304.pdf",
       "subject_code": "EAEPC304",
@@ -8334,7 +8350,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/ECECC304_EIECC304.pdf"
     },
     {
-      "id": "EAEPC304_412",
+      "id": "EAEPC304_413",
       "title": "EIECC07 2023",
       "filename": "EIECC07_2023.pdf",
       "subject_code": "EAEPC304",
@@ -8350,7 +8366,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC07_2023.pdf"
     },
     {
-      "id": "EAEPC304_413",
+      "id": "EAEPC304_414",
       "title": "EIECC304 2024",
       "filename": "EIECC304_2024.pdf",
       "subject_code": "EAEPC304",
@@ -8366,7 +8382,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/EIECC304_2024.pdf"
     },
     {
-      "id": "EAEPC304_414",
+      "id": "EAEPC304_415",
       "title": "VTECC304",
       "filename": "VTECC304.pdf",
       "subject_code": "EAEPC304",
@@ -8382,7 +8398,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/End_Semester/VTECC304.pdf"
     },
     {
-      "id": "EAEPC304_415",
+      "id": "EAEPC304_416",
       "title": "2023 Mid Semester EAEPC07 Microelectronics",
       "filename": "2023_Mid_Semester_EAEPC07_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8398,7 +8414,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2023_Mid_Semester_EAEPC07_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_416",
+      "id": "EAEPC304_417",
       "title": "2023 Mid Semester ECECC07 Microelectronics",
       "filename": "2023_Mid_Semester_ECECC07_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8414,7 +8430,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2023_Mid_Semester_ECECC07_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_417",
+      "id": "EAEPC304_418",
       "title": "2024 End Semester ECECC07 VTECC304 Microelectronics",
       "filename": "2024_End_Semester_ECECC07_VTECC304_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8430,7 +8446,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2024_End_Semester_ECECC07_VTECC304_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_418",
+      "id": "EAEPC304_419",
       "title": "2024 End Semester EIECC304 Microelectronics",
       "filename": "2024_End_Semester_EIECC304_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8446,7 +8462,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2024_End_Semester_EIECC304_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_419",
+      "id": "EAEPC304_420",
       "title": "2024 Mid Semester EAEPC07 Microelectronics",
       "filename": "2024_Mid_Semester_EAEPC07_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8462,7 +8478,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_EAEPC07_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_420",
+      "id": "EAEPC304_421",
       "title": "2024 Mid Semester ECECC07 Microelectronics",
       "filename": "2024_Mid_Semester_ECECC07_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8478,7 +8494,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC07_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_421",
+      "id": "EAEPC304_422",
       "title": "2024 Mid Semester ECECC304 Microelectronics",
       "filename": "2024_Mid_Semester_ECECC304_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8494,7 +8510,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC304_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_422",
+      "id": "EAEPC304_423",
       "title": "2025 Mid Semester EAEPC07 Microelectronics Reappear",
       "filename": "2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf",
       "subject_code": "EAEPC304",
@@ -8510,7 +8526,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC07_Microelectronics_Reappear.pdf"
     },
     {
-      "id": "EAEPC304_423",
+      "id": "EAEPC304_424",
       "title": "2025 Mid Semester EAEPC304 Microelectronics Circuits and Applications",
       "filename": "2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf",
       "subject_code": "EAEPC304",
@@ -8526,7 +8542,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC304_Microelectronics_Circuits_and_Applications.pdf"
     },
     {
-      "id": "EAEPC304_424",
+      "id": "EAEPC304_425",
       "title": "2025 Mid Semester ECECC07 Microelectronics",
       "filename": "2025_Mid_Semester_ECECC07_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8542,7 +8558,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC07_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_425",
+      "id": "EAEPC304_426",
       "title": "2026 Mid Semester ECECC304 EIECC07 Microelectronics",
       "filename": "2026_Mid_Semester_ECECC304_EIECC07_Microelectronics.pdf",
       "subject_code": "EAEPC304",
@@ -8558,7 +8574,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/2026_Mid_Semester_ECECC304_EIECC07_Microelectronics.pdf"
     },
     {
-      "id": "EAEPC304_426",
+      "id": "EAEPC304_427",
       "title": "ECECC07 VTECC304",
       "filename": "ECECC07-VTECC304.pdf",
       "subject_code": "EAEPC304",
@@ -8574,7 +8590,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC07-VTECC304.pdf"
     },
     {
-      "id": "EAEPC304_427",
+      "id": "EAEPC304_428",
       "title": "ECECC07 2023",
       "filename": "ECECC07_2023.pdf",
       "subject_code": "EAEPC304",
@@ -8590,7 +8606,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC07_2023.pdf"
     },
     {
-      "id": "EAEPC304_428",
+      "id": "EAEPC304_429",
       "title": "ECECC304 EIECC07",
       "filename": "ECECC304-EIECC07.pdf",
       "subject_code": "EAEPC304",
@@ -8606,7 +8622,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/03_Microelectronics_Circuits_and_Applications_EAEPC304/downloaded_pyqs/Mid_Semester/ECECC304-EIECC07.pdf"
     },
     {
-      "id": "EAEPC305_429",
+      "id": "EAEPC305_430",
       "title": "DLD Assignment 1",
       "filename": "DLD Assignment-1.pdf",
       "subject_code": "EAEPC305",
@@ -8622,7 +8638,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/DLD%20Assignment-1.pdf"
     },
     {
-      "id": "EAEPC305_430",
+      "id": "EAEPC305_431",
       "title": "TUTORIAL SHEET 1 SOLUTIONS",
       "filename": "TUTORIAL SHEET 1 SOLUTIONS.pdf",
       "subject_code": "EAEPC305",
@@ -8638,7 +8654,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/TUTORIAL%20SHEET%201%20SOLUTIONS.pdf"
     },
     {
-      "id": "EAEPC305_431",
+      "id": "EAEPC305_432",
       "title": "TUTORIAL SHEET 2 Solution",
       "filename": "TUTORIAL SHEET 2 Solution.pdf",
       "subject_code": "EAEPC305",
@@ -8654,7 +8670,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/TUTORIAL%20SHEET%202%20Solution.pdf"
     },
     {
-      "id": "EAEPC305_432",
+      "id": "EAEPC305_433",
       "title": "TUTORIAL SHEET 1",
       "filename": "TUTORIAL_SHEET 1.pdf",
       "subject_code": "EAEPC305",
@@ -8670,7 +8686,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/TUTORIAL_SHEET%201.pdf"
     },
     {
-      "id": "EAEPC305_433",
+      "id": "EAEPC305_434",
       "title": "Tutorial Sheet 2",
       "filename": "Tutorial Sheet 2.pdf",
       "subject_code": "EAEPC305",
@@ -8686,7 +8702,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/Tutorial%20Sheet%202.pdf"
     },
     {
-      "id": "EAEPC305_434",
+      "id": "EAEPC305_435",
       "title": "Verilog questions",
       "filename": "Verilog questions.docx",
       "subject_code": "EAEPC305",
@@ -8702,7 +8718,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Assignments/Verilog%20questions.docx"
     },
     {
-      "id": "EAEPC305_435",
+      "id": "EAEPC305_436",
       "title": "DCS HANDWRITTEN NOTES 2",
       "filename": "DCS HANDWRITTEN NOTES-2.pdf",
       "subject_code": "EAEPC305",
@@ -8718,7 +8734,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/DCS%20HANDWRITTEN%20NOTES-2.pdf"
     },
     {
-      "id": "EAEPC305_436",
+      "id": "EAEPC305_437",
       "title": "DCS HANDWRITTEN NOTES",
       "filename": "DCS HANDWRITTEN NOTES.pdf",
       "subject_code": "EAEPC305",
@@ -8734,7 +8750,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/DCS%20HANDWRITTEN%20NOTES.pdf"
     },
     {
-      "id": "EAEPC305_437",
+      "id": "EAEPC305_438",
       "title": "GSK Notes on PLD in VLSI design",
       "filename": "GSK_Notes_on_PLD_in_VLSI_design.pdf",
       "subject_code": "EAEPC305",
@@ -8750,7 +8766,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/GSK_Notes_on_PLD_in_VLSI_design.pdf"
     },
     {
-      "id": "EAEPC305_438",
+      "id": "EAEPC305_439",
       "title": "MUX AND DECODER",
       "filename": "MUX AND DECODER.pdf",
       "subject_code": "EAEPC305",
@@ -8766,7 +8782,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/MUX%20AND%20DECODER.pdf"
     },
     {
-      "id": "EAEPC305_439",
+      "id": "EAEPC305_440",
       "title": "TOPPER NOTES ALL IN ONE (BY ADITYA GUPTA)",
       "filename": "TOPPER NOTES ALL IN ONE (BY ADITYA GUPTA).pdf",
       "subject_code": "EAEPC305",
@@ -8782,7 +8798,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/TOPPER%20NOTES%20ALL%20IN%20ONE%20%28BY%20ADITYA%20GUPTA%29.pdf"
     },
     {
-      "id": "EAEPC305_440",
+      "id": "EAEPC305_441",
       "title": "Unit 4",
       "filename": "Unit 4.pdf",
       "subject_code": "EAEPC305",
@@ -8798,7 +8814,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/Unit%204.pdf"
     },
     {
-      "id": "EAEPC305_441",
+      "id": "EAEPC305_442",
       "title": "Verilog intro",
       "filename": "Verilog intro.pdf",
       "subject_code": "EAEPC305",
@@ -8814,7 +8830,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/Verilog%20intro.pdf"
     },
     {
-      "id": "EAEPC305_442",
+      "id": "EAEPC305_443",
       "title": "Verilog Sequential",
       "filename": "Verilog_Sequential.pdf",
       "subject_code": "EAEPC305",
@@ -8830,7 +8846,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/Verilog_Sequential.pdf"
     },
     {
-      "id": "EAEPC305_443",
+      "id": "EAEPC305_444",
       "title": "counter",
       "filename": "counter.pdf",
       "subject_code": "EAEPC305",
@@ -8846,7 +8862,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/counter.pdf"
     },
     {
-      "id": "EAEPC305_444",
+      "id": "EAEPC305_445",
       "title": "register",
       "filename": "register.pdf",
       "subject_code": "EAEPC305",
@@ -8862,7 +8878,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/register.pdf"
     },
     {
-      "id": "EAEPC305_445",
+      "id": "EAEPC305_446",
       "title": "sync counter prob",
       "filename": "sync counter prob.pdf",
       "subject_code": "EAEPC305",
@@ -8878,7 +8894,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/sync%20counter%20prob.pdf"
     },
     {
-      "id": "EAEPC305_446",
+      "id": "EAEPC305_447",
       "title": "unit 3 flip flop notes",
       "filename": "unit-3 flip flop notes.pdf",
       "subject_code": "EAEPC305",
@@ -8894,7 +8910,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Handwritten_Notes/unit-3%20flip%20flop%20notes.pdf"
     },
     {
-      "id": "EAEPC305_447",
+      "id": "EAEPC305_448",
       "title": "DCS ECAM Syllabus 2026",
       "filename": "DCS_ECAM_Syllabus_2026.pdf",
       "subject_code": "EAEPC305",
@@ -8910,7 +8926,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Syllabus/DCS_ECAM_Syllabus_2026.pdf"
     },
     {
-      "id": "EAEPC305_448",
+      "id": "EAEPC305_449",
       "title": "DCS Syllabus Overview",
       "filename": "DCS_Syllabus_Overview.jpeg",
       "subject_code": "EAEPC305",
@@ -8926,7 +8942,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Syllabus/DCS_Syllabus_Overview.jpeg"
     },
     {
-      "id": "EAEPC305_449",
+      "id": "EAEPC305_450",
       "title": "Digital Circuits and Systems Detailed Syllabus",
       "filename": "Digital_Circuits_and_Systems_Detailed_Syllabus.pdf",
       "subject_code": "EAEPC305",
@@ -8942,7 +8958,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Syllabus/Digital_Circuits_and_Systems_Detailed_Syllabus.pdf"
     },
     {
-      "id": "EAEPC305_450",
+      "id": "EAEPC305_451",
       "title": "A VHDL Primer Jayaram Bhasker 1",
       "filename": "A VHDL Primer - Jayaram Bhasker-1.pdf",
       "subject_code": "EAEPC305",
@@ -8958,7 +8974,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/A%20VHDL%20Primer%20-%20Jayaram%20Bhasker-1.pdf"
     },
     {
-      "id": "EAEPC305_451",
+      "id": "EAEPC305_452",
       "title": "Algorithms (4th Ed) \u2014 Robert Sedgewick & Kevin Wayne",
       "filename": "Algorithms_4th_Ed_Sedgewick_Wayne.pdf",
       "subject_code": "EAEPC305",
@@ -8974,7 +8990,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Algorithms_4th_Ed_Sedgewick_Wayne.pdf"
     },
     {
-      "id": "EAEPC305_452",
+      "id": "EAEPC305_453",
       "title": "C++: How to Program (10th Ed) \u2014 Paul Deitel & Harvey Deitel",
       "filename": "CPP_How_to_Program_10th_Ed_Deitel.pdf",
       "subject_code": "EAEPC305",
@@ -8990,7 +9006,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/CPP_How_to_Program_10th_Ed_Deitel.pdf"
     },
     {
-      "id": "EAEPC305_453",
+      "id": "EAEPC305_454",
       "title": "C: How to Program (7th Ed) \u2014 Paul Deitel & Harvey Deitel",
       "filename": "C_How_to_Program_7th_Ed_Deitel.pdf",
       "subject_code": "EAEPC305",
@@ -9006,7 +9022,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/C_How_to_Program_7th_Ed_Deitel.pdf"
     },
     {
-      "id": "EAEPC305_454",
+      "id": "EAEPC305_455",
       "title": "C Programming for Arduino & Embedded Systems \u2014 Julien Bayle",
       "filename": "C_Programming_for_Arduino_Embedded_Systems_Bayle.pdf",
       "subject_code": "EAEPC305",
@@ -9022,7 +9038,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/C_Programming_for_Arduino_Embedded_Systems_Bayle.pdf"
     },
     {
-      "id": "EAEPC305_455",
+      "id": "EAEPC305_456",
       "title": "Digital Design (Morris Mano)",
       "filename": "Digital Design (Morris Mano).pdf",
       "subject_code": "EAEPC305",
@@ -9038,7 +9054,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Digital%20Design%20%28Morris%20Mano%29.pdf"
     },
     {
-      "id": "EAEPC305_456",
+      "id": "EAEPC305_457",
       "title": "Digital Logic And Computer Design By M. Morris Mano (2nd Edition)",
       "filename": "Digital Logic And Computer Design By M. Morris Mano (2nd Edition).pdf",
       "subject_code": "EAEPC305",
@@ -9054,7 +9070,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Digital%20Logic%20And%20Computer%20Design%20By%20M.%20Morris%20Mano%20%282nd%20Edition%29.pdf"
     },
     {
-      "id": "EAEPC305_457",
+      "id": "EAEPC305_458",
       "title": "Discrete Mathematics and Its Applications (8th Ed) \u2014 Kenneth Rosen",
       "filename": "Discrete_Mathematics_and_Its_Applications_8th_Ed_Rosen.pdf",
       "subject_code": "EAEPC305",
@@ -9070,7 +9086,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Discrete_Mathematics_and_Its_Applications_8th_Ed_Rosen.pdf"
     },
     {
-      "id": "EAEPC305_458",
+      "id": "EAEPC305_459",
       "title": "Introduction to Algorithms (3rd Ed) \u2014 Cormen, Leiserson, Rivest & Stein (CLRS)",
       "filename": "Introduction_to_Algorithms_3rd_Ed_CLRS.pdf",
       "subject_code": "EAEPC305",
@@ -9086,7 +9102,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Introduction_to_Algorithms_3rd_Ed_CLRS.pdf"
     },
     {
-      "id": "EAEPC305_459",
+      "id": "EAEPC305_460",
       "title": "Learn to Program in Arduino C (Digital Interfacing) \u2014 Osborne",
       "filename": "Learn_to_Program_in_Arduino_C_Digital_Interfacing_Osborne.pdf",
       "subject_code": "EAEPC305",
@@ -9102,7 +9118,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Learn_to_Program_in_Arduino_C_Digital_Interfacing_Osborne.pdf"
     },
     {
-      "id": "EAEPC305_460",
+      "id": "EAEPC305_461",
       "title": "Morris Mano Digital logic Design",
       "filename": "Morris Mano- Digital logic Design.pdf",
       "subject_code": "EAEPC305",
@@ -9118,7 +9134,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Morris%20Mano-%20Digital%20logic%20Design.pdf"
     },
     {
-      "id": "EAEPC305_461",
+      "id": "EAEPC305_462",
       "title": "Principles of Data Structures Using C and C++ \u2014 Vinu V. Das",
       "filename": "Principles_of_Data_Structures_Using_C_and_CPP_Das.pdf",
       "subject_code": "EAEPC305",
@@ -9134,7 +9150,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/Principles_of_Data_Structures_Using_C_and_CPP_Das.pdf"
     },
     {
-      "id": "EAEPC305_462",
+      "id": "EAEPC305_463",
       "title": "The C++ Programming Language (4th Ed) \u2014 Bjarne Stroustrup",
       "filename": "The_CPP_Programming_Language_4th_Ed_Bjarne_Stroustrup.pdf",
       "subject_code": "EAEPC305",
@@ -9150,7 +9166,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/The_CPP_Programming_Language_4th_Ed_Bjarne_Stroustrup.pdf"
     },
     {
-      "id": "EAEPC305_463",
+      "id": "EAEPC305_464",
       "title": "logic family",
       "filename": "logic family.pdf",
       "subject_code": "EAEPC305",
@@ -9166,7 +9182,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/Textbooks/logic%20family.pdf"
     },
     {
-      "id": "EAEPC305_464",
+      "id": "EAEPC305_465",
       "title": "Copy of 01 Number System",
       "filename": "Copy of 01 Number System.pdf",
       "subject_code": "EAEPC305",
@@ -9182,7 +9198,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2001%20Number%20System.pdf"
     },
     {
-      "id": "EAEPC305_465",
+      "id": "EAEPC305_466",
       "title": "Copy of 02 Binary Codes",
       "filename": "Copy of 02 Binary Codes.pdf",
       "subject_code": "EAEPC305",
@@ -9198,7 +9214,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2002%20Binary%20Codes.pdf"
     },
     {
-      "id": "EAEPC305_466",
+      "id": "EAEPC305_467",
       "title": "Copy of 03 Binary Arithmetic",
       "filename": "Copy of 03 Binary Arithmetic.pdf",
       "subject_code": "EAEPC305",
@@ -9214,7 +9230,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2003%20Binary%20Arithmetic.pdf"
     },
     {
-      "id": "EAEPC305_467",
+      "id": "EAEPC305_468",
       "title": "Copy of 04 Boolean Algebra",
       "filename": "Copy of 04 Boolean Algebra.pdf",
       "subject_code": "EAEPC305",
@@ -9230,7 +9246,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2004%20Boolean%20Algebra.pdf"
     },
     {
-      "id": "EAEPC305_468",
+      "id": "EAEPC305_469",
       "title": "Copy of 05 SOP and POS Form",
       "filename": "Copy of 05 SOP and POS Form.pdf",
       "subject_code": "EAEPC305",
@@ -9246,7 +9262,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2005%20SOP%20and%20POS%20Form.pdf"
     },
     {
-      "id": "EAEPC305_469",
+      "id": "EAEPC305_470",
       "title": "Copy of 06 Logic Gates and its Implementation",
       "filename": "Copy of 06 Logic Gates and its Implementation.pdf",
       "subject_code": "EAEPC305",
@@ -9262,7 +9278,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_1/Copy%20of%2006%20Logic%20Gates%20and%20its%20Implementation.pdf"
     },
     {
-      "id": "EAEPC305_470",
+      "id": "EAEPC305_471",
       "title": "Copy of 15 Flip Flop",
       "filename": "Copy of 15 Flip Flop.pdf",
       "subject_code": "EAEPC305",
@@ -9278,7 +9294,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_3/Copy%20of%2015%20Flip%20Flop.pdf"
     },
     {
-      "id": "EAEPC305_471",
+      "id": "EAEPC305_472",
       "title": "Copy of 07 Karnaugh Map(K map) Simplification of an Boolean expression",
       "filename": "Copy of 07 Karnaugh Map(K-map) Simplification of an Boolean expression.pdf",
       "subject_code": "EAEPC305",
@@ -9294,7 +9310,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2007%20Karnaugh%20Map%28K-map%29%20Simplification%20of%20an%20Boolean%20expression.pdf"
     },
     {
-      "id": "EAEPC305_472",
+      "id": "EAEPC305_473",
       "title": "Copy of 07a Quine McCluskey Method Tabulation Method Solved Problem # 02 Edited",
       "filename": "Copy of 07a Quine McCluskey Method - Tabulation Method - Solved Problem # 02 - Edited.pdf",
       "subject_code": "EAEPC305",
@@ -9310,7 +9326,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2007a%20Quine%20McCluskey%20Method%20-%20Tabulation%20Method%20-%20Solved%20Problem%20%23%2002%20-%20Edited.pdf"
     },
     {
-      "id": "EAEPC305_473",
+      "id": "EAEPC305_474",
       "title": "Copy of 08 Digital Adders and Digital Subtractors",
       "filename": "Copy of 08 Digital Adders and Digital Subtractors.pdf",
       "subject_code": "EAEPC305",
@@ -9326,7 +9342,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2008%20Digital%20Adders%20and%20Digital%20Subtractors.pdf"
     },
     {
-      "id": "EAEPC305_474",
+      "id": "EAEPC305_475",
       "title": "Copy of 09 Digital Comparators",
       "filename": "Copy of 09 Digital Comparators.pdf",
       "subject_code": "EAEPC305",
@@ -9342,7 +9358,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2009%20Digital%20Comparators.pdf"
     },
     {
-      "id": "EAEPC305_475",
+      "id": "EAEPC305_476",
       "title": "Copy of 10 Digital Converters",
       "filename": "Copy of 10 Digital Converters.pdf",
       "subject_code": "EAEPC305",
@@ -9358,7 +9374,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2010%20Digital%20Converters.pdf"
     },
     {
-      "id": "EAEPC305_476",
+      "id": "EAEPC305_477",
       "title": "Copy of 11 Multiplexers",
       "filename": "Copy of 11 Multiplexers.pdf",
       "subject_code": "EAEPC305",
@@ -9374,7 +9390,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_notes/Unit_2/Copy%20of%2011%20Multiplexers.pdf"
     },
     {
-      "id": "EAEPC305_477",
+      "id": "EAEPC305_478",
       "title": "2018 End Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2018_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9390,7 +9406,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2018_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_478",
+      "id": "EAEPC305_479",
       "title": "2019 End Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2019_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9406,7 +9422,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2019_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_479",
+      "id": "EAEPC305_480",
       "title": "2023 End Semester EAEPC08 Digital Circuits and Systems",
       "filename": "2023_End_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9422,7 +9438,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2023_End_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_480",
+      "id": "EAEPC305_481",
       "title": "2023 End Semester ECECC08 EIECC08 Digital Circuits and Systems",
       "filename": "2023_End_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9438,7 +9454,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2023_End_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_481",
+      "id": "EAEPC305_482",
       "title": "2023 End Semester EEECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2023_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9454,7 +9470,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2023_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_482",
+      "id": "EAEPC305_483",
       "title": "2024 End Semester EAEPC08 Digital Circuits and Systems",
       "filename": "2024_End_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9470,7 +9486,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2024_End_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_483",
+      "id": "EAEPC305_484",
       "title": "2024 End Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2024_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9486,7 +9502,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2024_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_484",
+      "id": "EAEPC305_485",
       "title": "2024 End Semester ECECC08 EIECC08 Digital Circuits and Systems",
       "filename": "2024_End_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9502,7 +9518,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2024_End_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_485",
+      "id": "EAEPC305_486",
       "title": "2024 End Semester ECECC305 EIECC305 ICECC305 Digital Circuits and Systems",
       "filename": "2024_End_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9518,7 +9534,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2024_End_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_486",
+      "id": "EAEPC305_487",
       "title": "2024 End Semester ECECC305 EIECC305 ICECC305 VTECC305 Digital Circuits and Systems",
       "filename": "2024_End_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9534,7 +9550,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2024_End_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_487",
+      "id": "EAEPC305_488",
       "title": "2024 End Semester EEECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2024_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9550,7 +9566,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2024_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_488",
+      "id": "EAEPC305_489",
       "title": "2024 End Semester INECC01 Digital Circuits and Systems",
       "filename": "2024_End_Semester_INECC01_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9566,7 +9582,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2024_End_Semester_INECC01_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_489",
+      "id": "EAEPC305_490",
       "title": "2025 End Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9582,7 +9598,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2025_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_490",
+      "id": "EAEPC305_491",
       "title": "2025 End Semester ECECC08 EIECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2025_End_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9598,7 +9614,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2025_End_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_491",
+      "id": "EAEPC305_492",
       "title": "2025 End Semester ECECC305 EIECC305 VTECC305 Digital Circuits and Systems",
       "filename": "2025_End_Semester_ECECC305_EIECC305_VTECC305_Digital_Circuits_and_Systems.jpeg",
       "subject_code": "EAEPC305",
@@ -9614,7 +9630,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2025_End_Semester_ECECC305_EIECC305_VTECC305_Digital_Circuits_and_Systems.jpeg"
     },
     {
-      "id": "EAEPC305_492",
+      "id": "EAEPC305_493",
       "title": "2026 End Semester ECECC08 ECECC305 ICECC305 VTECC305 Digital Circuits and Systems",
       "filename": "2026_End_Semester_ECECC08_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9630,7 +9646,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/2026_End_Semester_ECECC08_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_493",
+      "id": "EAEPC305_494",
       "title": "EAEPC305 2024",
       "filename": "EAEPC305_2024.pdf",
       "subject_code": "EAEPC305",
@@ -9646,7 +9662,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/EAEPC305_2024.pdf"
     },
     {
-      "id": "EAEPC305_494",
+      "id": "EAEPC305_495",
       "title": "ECECC08 EIECC08 ICECC08",
       "filename": "ECECC08-EIECC08-ICECC08.pdf",
       "subject_code": "EAEPC305",
@@ -9662,7 +9678,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08-EIECC08-ICECC08.pdf"
     },
     {
-      "id": "EAEPC305_495",
+      "id": "EAEPC305_496",
       "title": "ECECC08 ECECC305 ICECC305 VTECC305 copy1",
       "filename": "ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf",
       "subject_code": "EAEPC305",
@@ -9678,7 +9694,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy1.pdf"
     },
     {
-      "id": "EAEPC305_496",
+      "id": "EAEPC305_497",
       "title": "ECECC08 ECECC305 ICECC305 VTECC305 copy2",
       "filename": "ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf",
       "subject_code": "EAEPC305",
@@ -9694,7 +9710,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_ECECC305_ICECC305_VTECC305_copy2.pdf"
     },
     {
-      "id": "EAEPC305_497",
+      "id": "EAEPC305_498",
       "title": "ECECC08 EIECC08 2024",
       "filename": "ECECC08_EIECC08_2024.pdf",
       "subject_code": "EAEPC305",
@@ -9710,7 +9726,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_2024.pdf"
     },
     {
-      "id": "EAEPC305_498",
+      "id": "EAEPC305_499",
       "title": "ECECC08 EIECC08 ICECC08",
       "filename": "ECECC08_EIECC08_ICECC08.pdf",
       "subject_code": "EAEPC305",
@@ -9726,7 +9742,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC08_EIECC08_ICECC08.pdf"
     },
     {
-      "id": "EAEPC305_499",
+      "id": "EAEPC305_500",
       "title": "ECECC305 EIECC305 ICECC305 VTECC305",
       "filename": "ECECC305-EIECC305-ICECC305-VTECC305.pdf",
       "subject_code": "EAEPC305",
@@ -9742,7 +9758,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305-EIECC305-ICECC305-VTECC305.pdf"
     },
     {
-      "id": "EAEPC305_500",
+      "id": "EAEPC305_501",
       "title": "ECECC305 EIECC305 ICECC305 2024",
       "filename": "ECECC305_EIECC305_ICECC305_2024.pdf",
       "subject_code": "EAEPC305",
@@ -9758,7 +9774,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_2024.pdf"
     },
     {
-      "id": "EAEPC305_501",
+      "id": "EAEPC305_502",
       "title": "ECECC305 EIECC305 ICECC305 VTECC305",
       "filename": "ECECC305_EIECC305_ICECC305_VTECC305.pdf",
       "subject_code": "EAEPC305",
@@ -9774,7 +9790,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/End_Semester/ECECC305_EIECC305_ICECC305_VTECC305.pdf"
     },
     {
-      "id": "EAEPC305_502",
+      "id": "EAEPC305_503",
       "title": "2024 End Semester ECECC08 EIECC08 INECC01 Digital Circuits and Systems",
       "filename": "2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9790,7 +9806,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_503",
+      "id": "EAEPC305_504",
       "title": "2024 Summer End Semester EEECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2024_Summer_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9806,7 +9822,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/2024_Summer_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_504",
+      "id": "EAEPC305_505",
       "title": "2026 End Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9822,7 +9838,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Summer_Semester/2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_505",
+      "id": "EAEPC305_506",
       "title": "2021 Mid Semester ICECC08 Digital Circuits and Systems",
       "filename": "2021_Mid_Semester_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9838,7 +9854,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2021_Mid_Semester_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_506",
+      "id": "EAEPC305_507",
       "title": "2022 Mid Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2022_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9854,7 +9870,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2022_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_507",
+      "id": "EAEPC305_508",
       "title": "2022 Mid Semester INECC01 Digital Circuits and Systems",
       "filename": "2022_Mid_Semester_INECC01_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9870,7 +9886,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2022_Mid_Semester_INECC01_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_508",
+      "id": "EAEPC305_509",
       "title": "2023 Mid Semester ECECC08 EIECC08 Digital Circuits and Systems",
       "filename": "2023_Mid_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9886,7 +9902,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2023_Mid_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_509",
+      "id": "EAEPC305_510",
       "title": "2023 Mid Semester EEECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2023_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9902,7 +9918,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2023_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_510",
+      "id": "EAEPC305_511",
       "title": "2024 Mid Semester EAEPC08 Digital Circuits and Systems",
       "filename": "2024_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9918,7 +9934,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_511",
+      "id": "EAEPC305_512",
       "title": "2024 Mid Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2024_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9934,7 +9950,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_512",
+      "id": "EAEPC305_513",
       "title": "2024 Mid Semester ECECC08 EIECC08 Digital Circuits and Systems",
       "filename": "2024_Mid_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9950,7 +9966,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC08_EIECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_513",
+      "id": "EAEPC305_514",
       "title": "2024 Mid Semester ECECC08 EIECC08 INECC01 Digital Circuits and Systems",
       "filename": "2024_Mid_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9966,7 +9982,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_514",
+      "id": "EAEPC305_515",
       "title": "2024 Mid Semester ECECC305 EIECC305 ICECC305 Digital Circuits and Systems",
       "filename": "2024_Mid_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9982,7 +9998,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_ECECC305_EIECC305_ICECC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_515",
+      "id": "EAEPC305_516",
       "title": "2024 Mid Semester EEECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2024_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -9998,7 +10014,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_516",
+      "id": "EAEPC305_517",
       "title": "2024 Mid Semester INECC01 Digital Circuits and Systems",
       "filename": "2024_Mid_Semester_INECC01_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -10014,7 +10030,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Mid_Semester_INECC01_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_517",
+      "id": "EAEPC305_518",
       "title": "2024 Summer Mid Semester EEECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2024_Summer_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -10030,7 +10046,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2024_Summer_Mid_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_518",
+      "id": "EAEPC305_519",
       "title": "2025 Mid Semester EAEPC08 Digital Circuits and Systems",
       "filename": "2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -10046,7 +10062,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_519",
+      "id": "EAEPC305_520",
       "title": "2025 Mid Semester EAEPC305 Digital Circuits and Systems",
       "filename": "2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -10062,7 +10078,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_520",
+      "id": "EAEPC305_521",
       "title": "2025 Mid Semester ECECC08 EIECC08 ICECC08 Digital Circuits and Systems",
       "filename": "2025_Mid_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -10078,7 +10094,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC08_EIECC08_ICECC08_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_521",
+      "id": "EAEPC305_522",
       "title": "2025 Mid Semester ECECC305 EIECC305 ICECC305 VTECC305 Digital Circuits and Systems",
       "filename": "2025_Mid_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf",
       "subject_code": "EAEPC305",
@@ -10094,7 +10110,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC305_EIECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.pdf"
     },
     {
-      "id": "EAEPC305_522",
+      "id": "EAEPC305_523",
       "title": "2025 Mid Semester ECECC305 ICECC305 VTECC305 Digital Circuits and Systems",
       "filename": "2025_Mid_Semester_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.jpeg",
       "subject_code": "EAEPC305",
@@ -10110,7 +10126,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ECECC305_ICECC305_VTECC305_Digital_Circuits_and_Systems.jpeg"
     },
     {
-      "id": "EAEPC305_523",
+      "id": "EAEPC305_524",
       "title": "ECECC08 EIECC08 2023",
       "filename": "ECECC08_EIECC08_2023.pdf",
       "subject_code": "EAEPC305",
@@ -10126,7 +10142,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf"
     },
     {
-      "id": "EAEPC305_524",
+      "id": "EAEPC305_525",
       "title": "EIECC08 ECECC08 INECC01 2024",
       "filename": "EIECC08_ECECC08_INECC01_2024.pdf",
       "subject_code": "EAEPC305",
@@ -10142,7 +10158,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/04_Digital_Circuits_and_Systems_EAEPC305/downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf"
     },
     {
-      "id": "EPMTC301_525",
+      "id": "EPMTC301_526",
       "title": "Linear Transformations Homework 5 Solutions",
       "filename": "Linear_Transformations_Homework_5_Solutions.pdf",
       "subject_code": "EPMTC301",
@@ -10158,7 +10174,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Assignments_and_Tutorials/Linear_Transformations_Homework_5_Solutions.pdf"
     },
     {
-      "id": "EPMTC301_526",
+      "id": "EPMTC301_527",
       "title": "Linear algebra schaum outlines problemsheet2 ques",
       "filename": "Linear_algebra_schaum_outlines_problemsheet2_ques.pdf",
       "subject_code": "EPMTC301",
@@ -10174,7 +10190,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Assignments_and_Tutorials/Linear_algebra_schaum_outlines_problemsheet2_ques.pdf"
     },
     {
-      "id": "EPMTC301_527",
+      "id": "EPMTC301_528",
       "title": "MML Class Test 1 Set A",
       "filename": "MML_Class_Test_1_Set_A.pdf",
       "subject_code": "EPMTC301",
@@ -10190,7 +10206,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Assignments_and_Tutorials/MML_Class_Test_1_Set_A.pdf"
     },
     {
-      "id": "EPMTC301_528",
+      "id": "EPMTC301_529",
       "title": "MML Class Test 1 Set B",
       "filename": "MML_Class_Test_1_Set_B.pdf",
       "subject_code": "EPMTC301",
@@ -10206,7 +10222,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Assignments_and_Tutorials/MML_Class_Test_1_Set_B.pdf"
     },
     {
-      "id": "EPMTC301_529",
+      "id": "EPMTC301_530",
       "title": "Linear Algebra Done Right (4th Ed) \u2014 Complete Solutions Manual (Axler)",
       "filename": "Linear_Algebra_Done_Right_4th_Edition_Complete_Solutions.pdf",
       "subject_code": "EPMTC301",
@@ -10222,7 +10238,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/Linear_Algebra_Done_Right_4th_Edition_Complete_Solutions.pdf"
     },
     {
-      "id": "EPMTC301_530",
+      "id": "EPMTC301_531",
       "title": "Chapter 1: Vector Spaces (LADR 4th Ed Solutions)",
       "filename": "01_Chapter_1_Vector_Spaces.pdf",
       "subject_code": "EPMTC301",
@@ -10238,7 +10254,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/01_Chapter_1_Vector_Spaces.pdf"
     },
     {
-      "id": "EPMTC301_531",
+      "id": "EPMTC301_532",
       "title": "Chapter 2: Finite Dimensional Vector Spaces (LADR 4th Ed Solutions)",
       "filename": "02_Chapter_2_Finite_Dimensional_Vector_Spaces.pdf",
       "subject_code": "EPMTC301",
@@ -10254,7 +10270,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/02_Chapter_2_Finite_Dimensional_Vector_Spaces.pdf"
     },
     {
-      "id": "EPMTC301_532",
+      "id": "EPMTC301_533",
       "title": "Chapter 3: Linear Maps (LADR 4th Ed Solutions)",
       "filename": "03_Chapter_3_Linear_Maps.pdf",
       "subject_code": "EPMTC301",
@@ -10270,7 +10286,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/03_Chapter_3_Linear_Maps.pdf"
     },
     {
-      "id": "EPMTC301_533",
+      "id": "EPMTC301_534",
       "title": "Chapter 4: Polynomials (LADR 4th Ed Solutions)",
       "filename": "04_Chapter_4_Polynomials.pdf",
       "subject_code": "EPMTC301",
@@ -10286,7 +10302,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/04_Chapter_4_Polynomials.pdf"
     },
     {
-      "id": "EPMTC301_534",
+      "id": "EPMTC301_535",
       "title": "Chapter 5: Eigenvalues and Eigenvectors (LADR 4th Ed Solutions)",
       "filename": "05_Chapter_5_Eigenvalues_and_Eigenvectors.pdf",
       "subject_code": "EPMTC301",
@@ -10302,7 +10318,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/05_Chapter_5_Eigenvalues_and_Eigenvectors.pdf"
     },
     {
-      "id": "EPMTC301_535",
+      "id": "EPMTC301_536",
       "title": "Chapter 6: Inner Product Spaces (LADR 4th Ed Solutions)",
       "filename": "06_Chapter_6_Inner_Product_Spaces.pdf",
       "subject_code": "EPMTC301",
@@ -10318,7 +10334,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/06_Chapter_6_Inner_Product_Spaces.pdf"
     },
     {
-      "id": "EPMTC301_536",
+      "id": "EPMTC301_537",
       "title": "Chapter 7: Operators on Inner Product Spaces (LADR 4th Ed Solutions)",
       "filename": "07_Chapter_7_Operators_on_Inner_Product_Spaces.pdf",
       "subject_code": "EPMTC301",
@@ -10334,7 +10350,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/07_Chapter_7_Operators_on_Inner_Product_Spaces.pdf"
     },
     {
-      "id": "EPMTC301_537",
+      "id": "EPMTC301_538",
       "title": "Chapter 8: Operators on Complex Vector Spaces (LADR 4th Ed Solutions)",
       "filename": "08_Chapter_8_Operators_on_Complex_Vector_Spaces.pdf",
       "subject_code": "EPMTC301",
@@ -10350,7 +10366,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/08_Chapter_8_Operators_on_Complex_Vector_Spaces.pdf"
     },
     {
-      "id": "EPMTC301_538",
+      "id": "EPMTC301_539",
       "title": "Chapter 9: Multilinear Algebra and Determinants (LADR 4th Ed Solutions)",
       "filename": "09_Chapter_9_Multilinear_Algebra_and_Determinants.pdf",
       "subject_code": "EPMTC301",
@@ -10366,7 +10382,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Linear_Algebra_Done_Right/PDFs/09_Chapter_9_Multilinear_Algebra_and_Determinants.pdf"
     },
     {
-      "id": "EPMTC301_539",
+      "id": "EPMTC301_540",
       "title": "Fourier Series Notes",
       "filename": "Fourier_Series_Notes.pdf",
       "subject_code": "EPMTC301",
@@ -10382,7 +10398,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Fourier_Series_Notes.pdf"
     },
     {
-      "id": "EPMTC301_540",
+      "id": "EPMTC301_541",
       "title": "Linear Algebra Problem Sheet 1",
       "filename": "Linear_Algebra_Problem_Sheet_1.pdf",
       "subject_code": "EPMTC301",
@@ -10398,7 +10414,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Linear_Algebra_Problem_Sheet_1.pdf"
     },
     {
-      "id": "EPMTC301_541",
+      "id": "EPMTC301_542",
       "title": "Linear Algebra Problem Sheet 2",
       "filename": "Linear_Algebra_Problem_Sheet_2.pdf",
       "subject_code": "EPMTC301",
@@ -10414,7 +10430,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Linear_Algebra_Problem_Sheet_2.pdf"
     },
     {
-      "id": "EPMTC301_542",
+      "id": "EPMTC301_543",
       "title": "Linear Algebra Problem Sheet 3",
       "filename": "Linear_Algebra_Problem_Sheet_3.pdf",
       "subject_code": "EPMTC301",
@@ -10430,7 +10446,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Linear_Algebra_Problem_Sheet_3.pdf"
     },
     {
-      "id": "EPMTC301_543",
+      "id": "EPMTC301_544",
       "title": "Linear Algebra Schaum Outlines Problem Sheet 2",
       "filename": "Linear_Algebra_Schaum_Outlines_Problem_Sheet_2.pdf",
       "subject_code": "EPMTC301",
@@ -10446,7 +10462,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Linear_Algebra_Schaum_Outlines_Problem_Sheet_2.pdf"
     },
     {
-      "id": "EPMTC301_544",
+      "id": "EPMTC301_545",
       "title": "Linear Algebra Short Notes",
       "filename": "Linear_Algebra_Short_Notes.pdf",
       "subject_code": "EPMTC301",
@@ -10462,7 +10478,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Linear_Algebra_Short_Notes.pdf"
     },
     {
-      "id": "EPMTC301_545",
+      "id": "EPMTC301_546",
       "title": "Linear Algebra University Question Paper P16MA22",
       "filename": "Linear_Algebra_University_Question_Paper_P16MA22.pdf",
       "subject_code": "EPMTC301",
@@ -10478,7 +10494,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Linear_Algebra_University_Question_Paper_P16MA22.pdf"
     },
     {
-      "id": "EPMTC301_546",
+      "id": "EPMTC301_547",
       "title": "Schaum's Outline: 3,000 Solved Problems in Calculus \u2014 Elliott Mendelson",
       "filename": "Schaums_Outline_3000_Solved_Problems_in_Calculus_Mendelson.pdf",
       "subject_code": "EPMTC301",
@@ -10494,7 +10510,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Schaums_Outline_3000_Solved_Problems_in_Calculus_Mendelson.pdf"
     },
     {
-      "id": "EPMTC301_547",
+      "id": "EPMTC301_548",
       "title": "Singular Value Decomposition Unit3 Notes",
       "filename": "Singular_Value_Decomposition_Unit3_Notes.pdf",
       "subject_code": "EPMTC301",
@@ -10510,7 +10526,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Singular_Value_Decomposition_Unit3_Notes.pdf"
     },
     {
-      "id": "EPMTC301_548",
+      "id": "EPMTC301_549",
       "title": "Vector Calculus Curl and Divergence",
       "filename": "Vector_Calculus_Curl_and_Divergence.pdf",
       "subject_code": "EPMTC301",
@@ -10526,7 +10542,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Vector_Calculus_Curl_and_Divergence.pdf"
     },
     {
-      "id": "EPMTC301_549",
+      "id": "EPMTC301_550",
       "title": "Vector Calculus Greens Stokes Divergence Theorems",
       "filename": "Vector_Calculus_Greens_Stokes_Divergence_Theorems.pdf",
       "subject_code": "EPMTC301",
@@ -10542,7 +10558,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Vector_Calculus_Greens_Stokes_Divergence_Theorems.pdf"
     },
     {
-      "id": "EPMTC301_550",
+      "id": "EPMTC301_551",
       "title": "Vector Calculus Line Surface Volume Integrals",
       "filename": "Vector_Calculus_Line_Surface_Volume_Integrals.pdf",
       "subject_code": "EPMTC301",
@@ -10558,7 +10574,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Vector_Calculus_Line_Surface_Volume_Integrals.pdf"
     },
     {
-      "id": "EPMTC301_551",
+      "id": "EPMTC301_552",
       "title": "Vector Calculus Part1 Notes",
       "filename": "Vector_Calculus_Part1_Notes.pdf",
       "subject_code": "EPMTC301",
@@ -10574,7 +10590,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Vector_Calculus_Part1_Notes.pdf"
     },
     {
-      "id": "EPMTC301_552",
+      "id": "EPMTC301_553",
       "title": "UTAustin M341 Axler Exam2 Review",
       "filename": "UTAustin_M341_Axler_Exam2_Review.pdf",
       "subject_code": "EPMTC301",
@@ -10590,7 +10606,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/04_Linear_Independence_Wronskian_Proofs/UTAustin_M341_Axler_Exam2_Review.pdf"
     },
     {
-      "id": "EPMTC301_553",
+      "id": "EPMTC301_554",
       "title": "Dartmouth Math225 Midterm1 Review 2014",
       "filename": "Dartmouth_Math225_Midterm1_Review_2014.pdf",
       "subject_code": "EPMTC301",
@@ -10606,7 +10622,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/02_Prove_or_Disprove_Subspaces/Dartmouth_Math225_Midterm1_Review_2014.pdf"
     },
     {
-      "id": "EPMTC301_554",
+      "id": "EPMTC301_555",
       "title": "Dartmouth Math225 Midterm Review 2017",
       "filename": "Dartmouth_Math225_Midterm_Review_2017.pdf",
       "subject_code": "EPMTC301",
@@ -10622,7 +10638,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/02_Prove_or_Disprove_Subspaces/Dartmouth_Math225_Midterm_Review_2017.pdf"
     },
     {
-      "id": "EPMTC301_555",
+      "id": "EPMTC301_556",
       "title": "Holy Cross Exam2 Subspaces and Direct Sums",
       "filename": "Holy_Cross_Exam2_Subspaces_and_Direct_Sums.md",
       "subject_code": "EPMTC301",
@@ -10638,7 +10654,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/02_Prove_or_Disprove_Subspaces/Holy_Cross_Exam2_Subspaces_and_Direct_Sums.md"
     },
     {
-      "id": "EPMTC301_556",
+      "id": "EPMTC301_557",
       "title": "UH Math4377 Advanced LA Chapter1 Review",
       "filename": "UH_Math4377_Advanced_LA_Chapter1_Review.pdf",
       "subject_code": "EPMTC301",
@@ -10654,7 +10670,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/02_Prove_or_Disprove_Subspaces/UH_Math4377_Advanced_LA_Chapter1_Review.pdf"
     },
     {
-      "id": "EPMTC301_557",
+      "id": "EPMTC301_558",
       "title": "Reed College HW2 Custom Operations oplus otimes",
       "filename": "Reed_College_HW2_Custom_Operations_oplus_otimes.pdf",
       "subject_code": "EPMTC301",
@@ -10670,7 +10686,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/01_Exotic_Vector_Spaces_Custom_Operations/Reed_College_HW2_Custom_Operations_oplus_otimes.pdf"
     },
     {
-      "id": "EPMTC301_558",
+      "id": "EPMTC301_559",
       "title": "Scribd Custom Operations Module2 Practice",
       "filename": "Scribd_Custom_Operations_Module2_Practice.md",
       "subject_code": "EPMTC301",
@@ -10686,7 +10702,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/01_Exotic_Vector_Spaces_Custom_Operations/Scribd_Custom_Operations_Module2_Practice.md"
     },
     {
-      "id": "EPMTC301_559",
+      "id": "EPMTC301_560",
       "title": "UH Strange Vector Space S2 Worksheet",
       "filename": "UH_Strange_Vector_Space_S2_Worksheet.pdf",
       "subject_code": "EPMTC301",
@@ -10702,7 +10718,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/01_Exotic_Vector_Spaces_Custom_Operations/UH_Strange_Vector_Space_S2_Worksheet.pdf"
     },
     {
-      "id": "EPMTC301_560",
+      "id": "EPMTC301_561",
       "title": "CUHK MATH2040C Abstract Linear Algebra Tutorial",
       "filename": "CUHK_MATH2040C_Abstract_Linear_Algebra_Tutorial.md",
       "subject_code": "EPMTC301",
@@ -10718,7 +10734,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/03_Linear_Maps_Kernel_Image_Rank/CUHK_MATH2040C_Abstract_Linear_Algebra_Tutorial.md"
     },
     {
-      "id": "EPMTC301_561",
+      "id": "EPMTC301_562",
       "title": "MIT 18 700 Axler Linear Maps Review",
       "filename": "MIT_18_700_Axler_Linear_Maps_Review.md",
       "subject_code": "EPMTC301",
@@ -10734,7 +10750,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/03_Linear_Maps_Kernel_Image_Rank/MIT_18_700_Axler_Linear_Maps_Review.md"
     },
     {
-      "id": "EPMTC301_562",
+      "id": "EPMTC301_563",
       "title": "Northeastern Sp22 Advanced LA Midterm Exam",
       "filename": "Northeastern_Sp22_Advanced_LA_Midterm_Exam.pdf",
       "subject_code": "EPMTC301",
@@ -10750,7 +10766,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/03_Linear_Maps_Kernel_Image_Rank/Northeastern_Sp22_Advanced_LA_Midterm_Exam.pdf"
     },
     {
-      "id": "EPMTC301_563",
+      "id": "EPMTC301_564",
       "title": "Northeastern Sp26 Advanced LA Midterm1 Review Answers",
       "filename": "Northeastern_Sp26_Advanced_LA_Midterm1_Review_Answers.pdf",
       "subject_code": "EPMTC301",
@@ -10766,7 +10782,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/03_Linear_Maps_Kernel_Image_Rank/Northeastern_Sp26_Advanced_LA_Midterm1_Review_Answers.pdf"
     },
     {
-      "id": "EPMTC301_564",
+      "id": "EPMTC301_565",
       "title": "Northeastern Sp26 Advanced LA Midterm1 Review Problems",
       "filename": "Northeastern_Sp26_Advanced_LA_Midterm1_Review_Problems.pdf",
       "subject_code": "EPMTC301",
@@ -10782,7 +10798,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/03_Linear_Maps_Kernel_Image_Rank/Northeastern_Sp26_Advanced_LA_Midterm1_Review_Problems.pdf"
     },
     {
-      "id": "EPMTC301_565",
+      "id": "EPMTC301_566",
       "title": "UCDavis MAT67 Abstract Linear Algebra Review",
       "filename": "UCDavis_MAT67_Abstract_Linear_Algebra_Review.md",
       "subject_code": "EPMTC301",
@@ -10798,7 +10814,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Abstract_Proof_Based_Linear_Algebra/03_Linear_Maps_Kernel_Image_Rank/UCDavis_MAT67_Abstract_Linear_Algebra_Review.md"
     },
     {
-      "id": "EPMTC301_566",
+      "id": "EPMTC301_567",
       "title": "NITK Bases and Dimension Problems",
       "filename": "01_NITK_Bases_and_Dimension_Problems.pdf",
       "subject_code": "EPMTC301",
@@ -10814,7 +10830,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/01_NITK_Bases_and_Dimension_Problems.pdf"
     },
     {
-      "id": "EPMTC301_567",
+      "id": "EPMTC301_568",
       "title": "Miami Midterm Practice Subspaces RankNullity",
       "filename": "02_Miami_Midterm_Practice_Subspaces_RankNullity.pdf",
       "subject_code": "EPMTC301",
@@ -10830,7 +10846,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/02_Miami_Midterm_Practice_Subspaces_RankNullity.pdf"
     },
     {
-      "id": "EPMTC301_568",
+      "id": "EPMTC301_569",
       "title": "MA102 Tutorial2 Subspaces Bases",
       "filename": "03_MA102_Tutorial2_Subspaces_Bases.md",
       "subject_code": "EPMTC301",
@@ -10846,7 +10862,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/03_MA102_Tutorial2_Subspaces_Bases.md"
     },
     {
-      "id": "EPMTC301_569",
+      "id": "EPMTC301_570",
       "title": "Linear Transformations Worked Solutions",
       "filename": "04_Linear_Transformations_Worked_Solutions.md",
       "subject_code": "EPMTC301",
@@ -10862,7 +10878,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/04_Linear_Transformations_Worked_Solutions.md"
     },
     {
-      "id": "EPMTC301_570",
+      "id": "EPMTC301_571",
       "title": "COEP Tutorial4 Basis Linear Independence",
       "filename": "05_COEP_Tutorial4_Basis_Linear_Independence.md",
       "subject_code": "EPMTC301",
@@ -10878,7 +10894,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/05_COEP_Tutorial4_Basis_Linear_Independence.md"
     },
     {
-      "id": "EPMTC301_571",
+      "id": "EPMTC301_572",
       "title": "Yutsumura Rank Nullity Problem Bank",
       "filename": "06_Yutsumura_Rank_Nullity_Problem_Bank.md",
       "subject_code": "EPMTC301",
@@ -10894,7 +10910,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/06_Yutsumura_Rank_Nullity_Problem_Bank.md"
     },
     {
-      "id": "EPMTC301_572",
+      "id": "EPMTC301_573",
       "title": "Kerala MSc Exam Linear Algebra 2025",
       "filename": "07_Kerala_MSc_Exam_Linear_Algebra_2025.pdf",
       "subject_code": "EPMTC301",
@@ -10910,7 +10926,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/07_Kerala_MSc_Exam_Linear_Algebra_2025.pdf"
     },
     {
-      "id": "EPMTC301_573",
+      "id": "EPMTC301_574",
       "title": "NPTEL Basic Linear Algebra IITB Syllabus",
       "filename": "08_NPTEL_Basic_Linear_Algebra_IITB_Syllabus.pdf",
       "subject_code": "EPMTC301",
@@ -10926,7 +10942,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_1_Linear_Algebra/08_NPTEL_Basic_Linear_Algebra_IITB_Syllabus.pdf"
     },
     {
-      "id": "EPMTC301_574",
+      "id": "EPMTC301_575",
       "title": "Homework 1 (Spring 2023)",
       "filename": "hw01.pdf",
       "subject_code": "EPMTC301",
@@ -10942,7 +10958,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw01.pdf"
     },
     {
-      "id": "EPMTC301_575",
+      "id": "EPMTC301_576",
       "title": "Homework 2 (Spring 2023)",
       "filename": "hw02.pdf",
       "subject_code": "EPMTC301",
@@ -10958,7 +10974,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw02.pdf"
     },
     {
-      "id": "EPMTC301_576",
+      "id": "EPMTC301_577",
       "title": "Homework 3 (Spring 2023)",
       "filename": "hw03.pdf",
       "subject_code": "EPMTC301",
@@ -10974,7 +10990,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw03.pdf"
     },
     {
-      "id": "EPMTC301_577",
+      "id": "EPMTC301_578",
       "title": "Homework 4 (Spring 2023)",
       "filename": "hw04.pdf",
       "subject_code": "EPMTC301",
@@ -10990,7 +11006,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw04.pdf"
     },
     {
-      "id": "EPMTC301_578",
+      "id": "EPMTC301_579",
       "title": "Homework 5 (Spring 2023)",
       "filename": "hw05.pdf",
       "subject_code": "EPMTC301",
@@ -11006,7 +11022,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw05.pdf"
     },
     {
-      "id": "EPMTC301_579",
+      "id": "EPMTC301_580",
       "title": "Homework 6 (Spring 2023)",
       "filename": "hw06.pdf",
       "subject_code": "EPMTC301",
@@ -11022,7 +11038,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw06.pdf"
     },
     {
-      "id": "EPMTC301_580",
+      "id": "EPMTC301_581",
       "title": "Homework 7 (Spring 2023)",
       "filename": "hw07.pdf",
       "subject_code": "EPMTC301",
@@ -11038,7 +11054,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw07.pdf"
     },
     {
-      "id": "EPMTC301_581",
+      "id": "EPMTC301_582",
       "title": "Homework 8 (Spring 2023)",
       "filename": "hw08.pdf",
       "subject_code": "EPMTC301",
@@ -11054,7 +11070,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Homeworks/hw08.pdf"
     },
     {
-      "id": "EPMTC301_582",
+      "id": "EPMTC301_583",
       "title": "Midterm 1 Actual Exam Solutions",
       "filename": "midterm1_actual_exam_solutions.pdf",
       "subject_code": "EPMTC301",
@@ -11070,7 +11086,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/midterm1_actual_exam_solutions.pdf"
     },
     {
-      "id": "EPMTC301_583",
+      "id": "EPMTC301_584",
       "title": "Midterm 2 Actual Exam Solutions",
       "filename": "midterm2_actual_exam_solutions.pdf",
       "subject_code": "EPMTC301",
@@ -11086,7 +11102,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/midterm2_actual_exam_solutions.pdf"
     },
     {
-      "id": "EPMTC301_584",
+      "id": "EPMTC301_585",
       "title": "Practice Final Exam",
       "filename": "practice_final_exam.pdf",
       "subject_code": "EPMTC301",
@@ -11102,7 +11118,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/practice_final_exam.pdf"
     },
     {
-      "id": "EPMTC301_585",
+      "id": "EPMTC301_586",
       "title": "Practice Final Exam Solutions",
       "filename": "practice_final_exam_solutions.pdf",
       "subject_code": "EPMTC301",
@@ -11118,7 +11134,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/practice_final_exam_solutions.pdf"
     },
     {
-      "id": "EPMTC301_586",
+      "id": "EPMTC301_587",
       "title": "Practice Midterm 1",
       "filename": "practice_midterm1.pdf",
       "subject_code": "EPMTC301",
@@ -11134,7 +11150,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/practice_midterm1.pdf"
     },
     {
-      "id": "EPMTC301_587",
+      "id": "EPMTC301_588",
       "title": "Practice Midterm 1 Solutions",
       "filename": "practice_midterm1_solutions.pdf",
       "subject_code": "EPMTC301",
@@ -11150,7 +11166,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/practice_midterm1_solutions.pdf"
     },
     {
-      "id": "EPMTC301_588",
+      "id": "EPMTC301_589",
       "title": "Practice Midterm 2",
       "filename": "practice_midterm2.pdf",
       "subject_code": "EPMTC301",
@@ -11166,7 +11182,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/practice_midterm2.pdf"
     },
     {
-      "id": "EPMTC301_589",
+      "id": "EPMTC301_590",
       "title": "Practice Midterm 2 Solutions",
       "filename": "practice_midterm2_solutions.pdf",
       "subject_code": "EPMTC301",
@@ -11182,7 +11198,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Miami_MTH210_Linear_Algebra/Spring_2023/Exams/practice_midterm2_solutions.pdf"
     },
     {
-      "id": "EPMTC301_590",
+      "id": "EPMTC301_591",
       "title": "TCD Dublin Past Exams GramSchmidt QuadForms",
       "filename": "01_TCD_Dublin_Past_Exams_GramSchmidt_QuadForms.pdf",
       "subject_code": "EPMTC301",
@@ -11198,7 +11214,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_2_Matrix_Theory/01_TCD_Dublin_Past_Exams_GramSchmidt_QuadForms.pdf"
     },
     {
-      "id": "EPMTC301_591",
+      "id": "EPMTC301_592",
       "title": "Millersville Positive Definite QuadForms",
       "filename": "02_Millersville_Positive_Definite_QuadForms.pdf",
       "subject_code": "EPMTC301",
@@ -11214,7 +11230,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_2_Matrix_Theory/02_Millersville_Positive_Definite_QuadForms.pdf"
     },
     {
-      "id": "EPMTC301_592",
+      "id": "EPMTC301_593",
       "title": "SJSU Symmetric Matrices GramSchmidt",
       "filename": "03_SJSU_Symmetric_Matrices_GramSchmidt.pdf",
       "subject_code": "EPMTC301",
@@ -11230,7 +11246,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_2_Matrix_Theory/03_SJSU_Symmetric_Matrices_GramSchmidt.pdf"
     },
     {
-      "id": "EPMTC301_593",
+      "id": "EPMTC301_594",
       "title": "PoliTO GramSchmidt QuadForms Exercises",
       "filename": "04_PoliTO_GramSchmidt_QuadForms_Exercises.md",
       "subject_code": "EPMTC301",
@@ -11246,7 +11262,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_2_Matrix_Theory/04_PoliTO_GramSchmidt_QuadForms_Exercises.md"
     },
     {
-      "id": "EPMTC301_594",
+      "id": "EPMTC301_595",
       "title": "IIT Madras MA2031 Inner Product Spaces",
       "filename": "05_IIT_Madras_MA2031_Inner_Product_Spaces.md",
       "subject_code": "EPMTC301",
@@ -11262,7 +11278,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_2_Matrix_Theory/05_IIT_Madras_MA2031_Inner_Product_Spaces.md"
     },
     {
-      "id": "EPMTC301_595",
+      "id": "EPMTC301_596",
       "title": "NPTEL Applied Linear Algebra IITM Notes",
       "filename": "06_NPTEL_Applied_Linear_Algebra_IITM_Notes.md",
       "subject_code": "EPMTC301",
@@ -11278,7 +11294,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/Unit_2_Matrix_Theory/06_NPTEL_Applied_Linear_Algebra_IITM_Notes.md"
     },
     {
-      "id": "EPMTC301_596",
+      "id": "EPMTC301_597",
       "title": "Problem Set 10 Solutions (Spring 2010)",
       "filename": "PSET10_S10_SOL.pdf",
       "subject_code": "EPMTC301",
@@ -11294,7 +11310,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET10_S10_SOL.pdf"
     },
     {
-      "id": "EPMTC301_597",
+      "id": "EPMTC301_598",
       "title": "Problem Set 1 Solutions (Spring 2010)",
       "filename": "PSET1_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11310,7 +11326,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET1_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_598",
+      "id": "EPMTC301_599",
       "title": "Problem Set 2 Solutions (Spring 2010)",
       "filename": "PSET2_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11326,7 +11342,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET2_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_599",
+      "id": "EPMTC301_600",
       "title": "Problem Set 3 Solutions (Spring 2010)",
       "filename": "PSET3_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11342,7 +11358,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET3_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_600",
+      "id": "EPMTC301_601",
       "title": "Problem Set 4 Solutions (Spring 2010)",
       "filename": "PSET4_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11358,7 +11374,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET4_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_601",
+      "id": "EPMTC301_602",
       "title": "Problem Set 5 Solutions (Spring 2010)",
       "filename": "PSET5_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11374,7 +11390,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET5_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_602",
+      "id": "EPMTC301_603",
       "title": "Problem Set 6 Solutions (Spring 2010)",
       "filename": "PSET6_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11390,7 +11406,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET6_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_603",
+      "id": "EPMTC301_604",
       "title": "Problem Set 7 Solutions (Spring 2010)",
       "filename": "PSET7_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11406,7 +11422,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET7_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_604",
+      "id": "EPMTC301_605",
       "title": "Problem Set 8 Solutions (Spring 2010)",
       "filename": "PSET8_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11422,7 +11438,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET8_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_605",
+      "id": "EPMTC301_606",
       "title": "Problem Set 9 Solutions (Spring 2010)",
       "filename": "PSET9_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11438,7 +11454,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Problem_Sets/PSET9_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_606",
+      "id": "EPMTC301_607",
       "title": "Exam 1 (Spring 2010)",
       "filename": "EXAM1_S10.pdf",
       "subject_code": "EPMTC301",
@@ -11454,7 +11470,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/EXAM1_S10.pdf"
     },
     {
-      "id": "EPMTC301_607",
+      "id": "EPMTC301_608",
       "title": "Exam 1 Solutions (Spring 2010)",
       "filename": "EXAM1_S10_SOL.pdf",
       "subject_code": "EPMTC301",
@@ -11470,7 +11486,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/EXAM1_S10_SOL.pdf"
     },
     {
-      "id": "EPMTC301_608",
+      "id": "EPMTC301_609",
       "title": "Exam 2 (Spring 2010)",
       "filename": "EXAM2_S10.pdf",
       "subject_code": "EPMTC301",
@@ -11486,7 +11502,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/EXAM2_S10.pdf"
     },
     {
-      "id": "EPMTC301_609",
+      "id": "EPMTC301_610",
       "title": "Exam 2 Solutions (Spring 2010)",
       "filename": "EXAM2_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11502,7 +11518,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/EXAM2_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_610",
+      "id": "EPMTC301_611",
       "title": "Exam 3 (Spring 2010)",
       "filename": "EXAM3_S10.pdf",
       "subject_code": "EPMTC301",
@@ -11518,7 +11534,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/EXAM3_S10.pdf"
     },
     {
-      "id": "EPMTC301_611",
+      "id": "EPMTC301_612",
       "title": "Exam 3 Solutions (Spring 2010)",
       "filename": "EXAM3_S10_SOLN.pdf",
       "subject_code": "EPMTC301",
@@ -11534,7 +11550,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/EXAM3_S10_SOLN.pdf"
     },
     {
-      "id": "EPMTC301_612",
+      "id": "EPMTC301_613",
       "title": "Final Exam Solutions (Spring 2010)",
       "filename": "FINAL_ANSWERS.pdf",
       "subject_code": "EPMTC301",
@@ -11550,7 +11566,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/FINAL_ANSWERS.pdf"
     },
     {
-      "id": "EPMTC301_613",
+      "id": "EPMTC301_614",
       "title": "Final Exam (Spring 2010)",
       "filename": "FINAL_EXAM.pdf",
       "subject_code": "EPMTC301",
@@ -11566,7 +11582,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/MIT_OCW_18.06_Linear_Algebra/Exams/FINAL_EXAM.pdf"
     },
     {
-      "id": "EPMTC301_614",
+      "id": "EPMTC301_615",
       "title": "Sheet3 Gram Schmidt Eigenvalues Companion",
       "filename": "Sheet3_Gram_Schmidt_Eigenvalues_Companion.md",
       "subject_code": "EPMTC301",
@@ -11582,7 +11598,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/03_Sheet3_Eigenvalues_Inner_Products_Gram_Schmidt/Sheet3_Gram_Schmidt_Eigenvalues_Companion.md"
     },
     {
-      "id": "EPMTC301_615",
+      "id": "EPMTC301_616",
       "title": "TCD Dublin MA1112 Past Exams Gram Schmidt Polynomials",
       "filename": "TCD_Dublin_MA1112_Past_Exams_Gram_Schmidt_Polynomials.pdf",
       "subject_code": "EPMTC301",
@@ -11598,7 +11614,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/03_Sheet3_Eigenvalues_Inner_Products_Gram_Schmidt/TCD_Dublin_MA1112_Past_Exams_Gram_Schmidt_Polynomials.pdf"
     },
     {
-      "id": "EPMTC301_616",
+      "id": "EPMTC301_617",
       "title": "Dartmouth Math225 Midterm1 Review",
       "filename": "Dartmouth_Math225_Midterm1_Review.pdf",
       "subject_code": "EPMTC301",
@@ -11614,7 +11630,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/01_Sheet1_Subspaces_Basis_Independence/Dartmouth_Math225_Midterm1_Review.pdf"
     },
     {
-      "id": "EPMTC301_617",
+      "id": "EPMTC301_618",
       "title": "HSC Math231 Linear Algebra Midterm2 Review",
       "filename": "HSC_Math231_Linear_Algebra_Midterm2_Review.pdf",
       "subject_code": "EPMTC301",
@@ -11630,7 +11646,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/01_Sheet1_Subspaces_Basis_Independence/HSC_Math231_Linear_Algebra_Midterm2_Review.pdf"
     },
     {
-      "id": "EPMTC301_618",
+      "id": "EPMTC301_619",
       "title": "Purdue Math353 F19 Midterm1 Practice",
       "filename": "Purdue_Math353_F19_Midterm1_Practice.pdf",
       "subject_code": "EPMTC301",
@@ -11646,7 +11662,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/01_Sheet1_Subspaces_Basis_Independence/Purdue_Math353_F19_Midterm1_Practice.pdf"
     },
     {
-      "id": "EPMTC301_619",
+      "id": "EPMTC301_620",
       "title": "Cologne LinAlg2019 Kernel and Image Exercise Sheet",
       "filename": "Cologne_LinAlg2019_Kernel_and_Image_Exercise_Sheet.pdf",
       "subject_code": "EPMTC301",
@@ -11662,7 +11678,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/02_Sheet2_Linear_Transformations_Kernel_Image/Cologne_LinAlg2019_Kernel_and_Image_Exercise_Sheet.pdf"
     },
     {
-      "id": "EPMTC301_620",
+      "id": "EPMTC301_621",
       "title": "Northeastern Sp26 Advanced LA Midterm1 Review Answers",
       "filename": "Northeastern_Sp26_Advanced_LA_Midterm1_Review_Answers.pdf",
       "subject_code": "EPMTC301",
@@ -11678,7 +11694,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/02_Sheet2_Linear_Transformations_Kernel_Image/Northeastern_Sp26_Advanced_LA_Midterm1_Review_Answers.pdf"
     },
     {
-      "id": "EPMTC301_621",
+      "id": "EPMTC301_622",
       "title": "Northeastern Sp26 Advanced LA Midterm1 Review Problems",
       "filename": "Northeastern_Sp26_Advanced_LA_Midterm1_Review_Problems.pdf",
       "subject_code": "EPMTC301",
@@ -11694,7 +11710,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Practice_Material/EPMTC301_Matching_Assignments/02_Sheet2_Linear_Transformations_Kernel_Image/Northeastern_Sp26_Advanced_LA_Midterm1_Review_Problems.pdf"
     },
     {
-      "id": "EPMTC301_622",
+      "id": "EPMTC301_623",
       "title": "Advanced Engineering Mathematics 9th Edition INSTRUCTOR MANUAL by ERWIN KREYSZIG",
       "filename": "Advanced Engineering Mathematics 9th Edition INSTRUCTOR MANUAL by ERWIN KREYSZIG.pdf",
       "subject_code": "EPMTC301",
@@ -11710,7 +11726,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Advanced%20Engineering%20Mathematics%209th%20Edition%20INSTRUCTOR%20MANUAL%20by%20ERWIN%20KREYSZIG.pdf"
     },
     {
-      "id": "EPMTC301_623",
+      "id": "EPMTC301_624",
       "title": "Advanced Engineering Mathematics 9th Edition by ERWIN KREYSZIG",
       "filename": "Advanced Engineering Mathematics 9th Edition by ERWIN KREYSZIG.pdf",
       "subject_code": "EPMTC301",
@@ -11726,7 +11742,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Advanced%20Engineering%20Mathematics%209th%20Edition%20by%20ERWIN%20KREYSZIG.pdf"
     },
     {
-      "id": "EPMTC301_624",
+      "id": "EPMTC301_625",
       "title": "Algebra",
       "filename": "Algebra.pdf",
       "subject_code": "EPMTC301",
@@ -11742,7 +11758,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Algebra.pdf"
     },
     {
-      "id": "EPMTC301_625",
+      "id": "EPMTC301_626",
       "title": "Calculus",
       "filename": "Calculus.pdf",
       "subject_code": "EPMTC301",
@@ -11758,7 +11774,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Calculus.pdf"
     },
     {
-      "id": "EPMTC301_626",
+      "id": "EPMTC301_627",
       "title": "Complex Analysis",
       "filename": "Complex-Analysis.pdf",
       "subject_code": "EPMTC301",
@@ -11774,7 +11790,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Complex-Analysis.pdf"
     },
     {
-      "id": "EPMTC301_627",
+      "id": "EPMTC301_628",
       "title": "Differential Equations & Boundary Value Problems (6th Ed) \u2014 Edwards, Penney & Calvis",
       "filename": "Differential_Equations_and_Boundary_Value_Problems_6th_Ed_Edwards.pdf",
       "subject_code": "EPMTC301",
@@ -11790,7 +11806,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Differential_Equations_and_Boundary_Value_Problems_6th_Ed_Edwards.pdf"
     },
     {
-      "id": "EPMTC301_628",
+      "id": "EPMTC301_629",
       "title": "Differential Equations with Applications & Historical Notes (3rd Ed) \u2014 George Simmons",
       "filename": "Differential_Equations_with_Applications_and_Historical_Notes_3rd_Ed_Simmons.pdf",
       "subject_code": "EPMTC301",
@@ -11806,7 +11822,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Differential_Equations_with_Applications_and_Historical_Notes_3rd_Ed_Simmons.pdf"
     },
     {
-      "id": "EPMTC301_629",
+      "id": "EPMTC301_630",
       "title": "Elementary Linear Algebra",
       "filename": "Elementary_Linear_Algebra.pdf",
       "subject_code": "EPMTC301",
@@ -11822,7 +11838,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Elementary_Linear_Algebra.pdf"
     },
     {
-      "id": "EPMTC301_630",
+      "id": "EPMTC301_631",
       "title": "Higher Engineering Mathematics 7th Edition John Bird",
       "filename": "Higher Engineering Mathematics - 7th Edition - John Bird.pdf",
       "subject_code": "EPMTC301",
@@ -11838,7 +11854,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Higher%20Engineering%20Mathematics%20-%207th%20Edition%20-%20John%20Bird.pdf"
     },
     {
-      "id": "EPMTC301_631",
+      "id": "EPMTC301_632",
       "title": "Introduction to Machine Learning with Python Mueller Guido",
       "filename": "Introduction_to_Machine_Learning_with_Python_Mueller_Guido.pdf",
       "subject_code": "EPMTC301",
@@ -11854,7 +11870,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Introduction_to_Machine_Learning_with_Python_Mueller_Guido.pdf"
     },
     {
-      "id": "EPMTC301_632",
+      "id": "EPMTC301_633",
       "title": "Learning OpenCV 3: Computer Vision in C++ \u2014 Adrian Kaehler & Gary Bradski",
       "filename": "Learning_OpenCV3_Computer_Vision_Kaehler_Bradski.pdf",
       "subject_code": "EPMTC301",
@@ -11870,7 +11886,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Learning_OpenCV3_Computer_Vision_Kaehler_Bradski.pdf"
     },
     {
-      "id": "EPMTC301_633",
+      "id": "EPMTC301_634",
       "title": "Linear Algebra",
       "filename": "Linear Algebra.pdf",
       "subject_code": "EPMTC301",
@@ -11886,7 +11902,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Linear%20Algebra.pdf"
     },
     {
-      "id": "EPMTC301_634",
+      "id": "EPMTC301_635",
       "title": "Linear programming",
       "filename": "Linear-programming.pdf",
       "subject_code": "EPMTC301",
@@ -11902,7 +11918,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Linear-programming.pdf"
     },
     {
-      "id": "EPMTC301_635",
+      "id": "EPMTC301_636",
       "title": "Linear Algebra M Thamban Nair",
       "filename": "Linear_Algebra_M_Thamban_Nair.pdf",
       "subject_code": "EPMTC301",
@@ -11918,7 +11934,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Linear_Algebra_M_Thamban_Nair.pdf"
     },
     {
-      "id": "EPMTC301_636",
+      "id": "EPMTC301_637",
       "title": "Linear Algebra and Its Applications 5th Ed David Lay",
       "filename": "Linear_Algebra_and_Its_Applications_5th_Ed_David_Lay.pdf",
       "subject_code": "EPMTC301",
@@ -11934,7 +11950,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Linear_Algebra_and_Its_Applications_5th_Ed_David_Lay.pdf"
     },
     {
-      "id": "EPMTC301_637",
+      "id": "EPMTC301_638",
       "title": "Mathematics for Machine Learning Deisenroth Faisal Ong",
       "filename": "Mathematics_for_Machine_Learning_Deisenroth_Faisal_Ong.pdf",
       "subject_code": "EPMTC301",
@@ -11950,7 +11966,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Mathematics_for_Machine_Learning_Deisenroth_Faisal_Ong.pdf"
     },
     {
-      "id": "EPMTC301_638",
+      "id": "EPMTC301_639",
       "title": "Multivariable Calculus (7th Ed) \u2014 James Stewart",
       "filename": "Multivariable_Calculus_7th_Ed_Stewart.pdf",
       "subject_code": "EPMTC301",
@@ -11966,7 +11982,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Multivariable_Calculus_7th_Ed_Stewart.pdf"
     },
     {
-      "id": "EPMTC301_639",
+      "id": "EPMTC301_640",
       "title": "Notes on Mathematics IITK Chandra Lal",
       "filename": "Notes_on_Mathematics_IITK_Chandra_Lal.pdf",
       "subject_code": "EPMTC301",
@@ -11982,7 +11998,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Notes_on_Mathematics_IITK_Chandra_Lal.pdf"
     },
     {
-      "id": "EPMTC301_640",
+      "id": "EPMTC301_641",
       "title": "Numerical Analysis",
       "filename": "Numerical-Analysis.pdf",
       "subject_code": "EPMTC301",
@@ -11998,7 +12014,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Numerical-Analysis.pdf"
     },
     {
-      "id": "EPMTC301_641",
+      "id": "EPMTC301_642",
       "title": "Numerical Methods for Engineers (7th Ed) \u2014 Steven Chapra & Raymond Canale",
       "filename": "Numerical_Methods_for_Engineers_7th_Ed_Chapra_Canale.pdf",
       "subject_code": "EPMTC301",
@@ -12014,7 +12030,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Numerical_Methods_for_Engineers_7th_Ed_Chapra_Canale.pdf"
     },
     {
-      "id": "EPMTC301_642",
+      "id": "EPMTC301_643",
       "title": "Numerical Methods for Engineers and Scientists (2nd Ed) \u2014 Joe D. Hoffman",
       "filename": "Numerical_Methods_for_Engineers_and_Scientists_2nd_Ed_Hoffman.pdf",
       "subject_code": "EPMTC301",
@@ -12030,7 +12046,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Numerical_Methods_for_Engineers_and_Scientists_2nd_Ed_Hoffman.pdf"
     },
     {
-      "id": "EPMTC301_643",
+      "id": "EPMTC301_644",
       "title": "Ordinary differential equation",
       "filename": "Ordinary-differential-equation.pdf",
       "subject_code": "EPMTC301",
@@ -12046,7 +12062,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Ordinary-differential-equation.pdf"
     },
     {
-      "id": "EPMTC301_644",
+      "id": "EPMTC301_645",
       "title": "Partial differential equations",
       "filename": "Partial-differential-equations.pdf",
       "subject_code": "EPMTC301",
@@ -12062,7 +12078,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Partial-differential-equations.pdf"
     },
     {
-      "id": "EPMTC301_645",
+      "id": "EPMTC301_646",
       "title": "Partial Differential Equations: An Introduction (2nd Ed) \u2014 Walter A. Strauss",
       "filename": "Partial_Differential_Equations_An_Introduction_2nd_Ed_Strauss.pdf",
       "subject_code": "EPMTC301",
@@ -12078,7 +12094,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Partial_Differential_Equations_An_Introduction_2nd_Ed_Strauss.pdf"
     },
     {
-      "id": "EPMTC301_646",
+      "id": "EPMTC301_647",
       "title": "Python Crash Course (2nd Ed) \u2014 Eric Matthes",
       "filename": "Python_Crash_Course_2nd_Ed_Eric_Matthes.pdf",
       "subject_code": "EPMTC301",
@@ -12094,7 +12110,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Python_Crash_Course_2nd_Ed_Eric_Matthes.pdf"
     },
     {
-      "id": "EPMTC301_647",
+      "id": "EPMTC301_648",
       "title": "Real Analysis",
       "filename": "Real-Analysis.pdf",
       "subject_code": "EPMTC301",
@@ -12110,7 +12126,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Real-Analysis.pdf"
     },
     {
-      "id": "EPMTC301_648",
+      "id": "EPMTC301_649",
       "title": "Schaum's Outline of Differential Equations (3rd Ed) \u2014 Bronson & Costa",
       "filename": "Schaums_Outline_Differential_Equations_3rd_Ed_Bronson.pdf",
       "subject_code": "EPMTC301",
@@ -12126,7 +12142,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Schaums_Outline_Differential_Equations_3rd_Ed_Bronson.pdf"
     },
     {
-      "id": "EPMTC301_649",
+      "id": "EPMTC301_650",
       "title": "Schaum's Outline: Mathematical Handbook of Formulas and Tables \u2014 Spiegel",
       "filename": "Schaums_Outline_Mathematical_Handbook_Formulas_Tables.pdf",
       "subject_code": "EPMTC301",
@@ -12142,7 +12158,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Schaums_Outline_Mathematical_Handbook_Formulas_Tables.pdf"
     },
     {
-      "id": "EPMTC301_650",
+      "id": "EPMTC301_651",
       "title": "Thomas' Calculus (13th Ed) Complete Solutions Manual",
       "filename": "Thomas_Calculus_13th_Ed_Solutions_Manual.pdf",
       "subject_code": "EPMTC301",
@@ -12158,7 +12174,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Thomas_Calculus_13th_Ed_Solutions_Manual.pdf"
     },
     {
-      "id": "EPMTC301_651",
+      "id": "EPMTC301_652",
       "title": "Thomas' Calculus: Early Transcendentals (13th Ed) \u2014 Thomas, Weir & Hass",
       "filename": "Thomas_Calculus_13th_Ed_Thomas_Weir_Hass.pdf",
       "subject_code": "EPMTC301",
@@ -12174,7 +12190,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/Thomas_Calculus_13th_Ed_Thomas_Weir_Hass.pdf"
     },
     {
-      "id": "EPMTC301_652",
+      "id": "EPMTC301_653",
       "title": "engineering mathematics qualifygate",
       "filename": "engineering-mathematics-qualifygate.pdf",
       "subject_code": "EPMTC301",
@@ -12190,7 +12206,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/engineering-mathematics-qualifygate.pdf"
     },
     {
-      "id": "EPMTC301_653",
+      "id": "EPMTC301_654",
       "title": "laplace transform",
       "filename": "laplace-transform.pdf",
       "subject_code": "EPMTC301",
@@ -12206,7 +12222,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/laplace-transform.pdf"
     },
     {
-      "id": "EPMTC301_654",
+      "id": "EPMTC301_655",
       "title": "vector calculus",
       "filename": "vector-calculus.pdf",
       "subject_code": "EPMTC301",
@@ -12222,7 +12238,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/Textbooks_and_References/vector-calculus.pdf"
     },
     {
-      "id": "EPMTC301_655",
+      "id": "EPMTC301_656",
       "title": "2024 End Semester EPMTC04 Mathematics for Machine Learning",
       "filename": "2024_End_Semester_EPMTC04_Mathematics_for_Machine_Learning.pdf",
       "subject_code": "EPMTC301",
@@ -12238,7 +12254,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2024_End_Semester_EPMTC04_Mathematics_for_Machine_Learning.pdf"
     },
     {
-      "id": "EPMTC301_656",
+      "id": "EPMTC301_657",
       "title": "2025 End Semester EPMTC301 Mathematics for Machine Learning",
       "filename": "2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "subject_code": "EPMTC301",
@@ -12254,7 +12270,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/2025_End_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf"
     },
     {
-      "id": "EPMTC301_657",
+      "id": "EPMTC301_658",
       "title": "CMMTC04 2023",
       "filename": "CMMTC04_2023.pdf",
       "subject_code": "EPMTC301",
@@ -12270,7 +12286,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_658",
+      "id": "EPMTC301_659",
       "title": "CMMTC04 2024",
       "filename": "CMMTC04_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12286,7 +12302,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_659",
+      "id": "EPMTC301_660",
       "title": "CMMTC13",
       "filename": "CMMTC13.pdf",
       "subject_code": "EPMTC301",
@@ -12302,7 +12318,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC13.pdf"
     },
     {
-      "id": "EPMTC301_660",
+      "id": "EPMTC301_661",
       "title": "CMMTC13 2024",
       "filename": "CMMTC13_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12318,7 +12334,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC13_2024.pdf"
     },
     {
-      "id": "EPMTC301_661",
+      "id": "EPMTC301_662",
       "title": "CMMTC303",
       "filename": "CMMTC303.pdf",
       "subject_code": "EPMTC301",
@@ -12334,7 +12350,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC303.pdf"
     },
     {
-      "id": "EPMTC301_662",
+      "id": "EPMTC301_663",
       "title": "CMMTC303 2024",
       "filename": "CMMTC303_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12350,7 +12366,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/CMMTC303_2024.pdf"
     },
     {
-      "id": "EPMTC301_663",
+      "id": "EPMTC301_664",
       "title": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CMMTC13",
       "filename": "COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf",
       "subject_code": "EPMTC301",
@@ -12366,7 +12382,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/COMTC13-CAMTC13-CBMTC13-CDMTC13-CMMTC13.pdf"
     },
     {
-      "id": "EPMTC301_664",
+      "id": "EPMTC301_665",
       "title": "COMTC13 CAMTC13 CMMTC13 CDMTC13",
       "filename": "COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf",
       "subject_code": "EPMTC301",
@@ -12382,7 +12398,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/COMTC13_CAMTC13_CMMTC13_CDMTC13.pdf"
     },
     {
-      "id": "EPMTC301_665",
+      "id": "EPMTC301_666",
       "title": "EAMTC04 2023",
       "filename": "EAMTC04_2023.pdf",
       "subject_code": "EPMTC301",
@@ -12398,7 +12414,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EAMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_666",
+      "id": "EPMTC301_667",
       "title": "EAMTC04 2024",
       "filename": "EAMTC04_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12414,7 +12430,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EAMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_667",
+      "id": "EPMTC301_668",
       "title": "ECMTC04",
       "filename": "ECMTC04.pdf",
       "subject_code": "EPMTC301",
@@ -12430,7 +12446,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04.pdf"
     },
     {
-      "id": "EPMTC301_668",
+      "id": "EPMTC301_669",
       "title": "ECMTC04 2023",
       "filename": "ECMTC04_2023.pdf",
       "subject_code": "EPMTC301",
@@ -12446,7 +12462,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_669",
+      "id": "EPMTC301_670",
       "title": "ECMTC04 2024",
       "filename": "ECMTC04_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12462,7 +12478,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_670",
+      "id": "EPMTC301_671",
       "title": "ECMTC301",
       "filename": "ECMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12478,7 +12494,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC301.pdf"
     },
     {
-      "id": "EPMTC301_671",
+      "id": "EPMTC301_672",
       "title": "ECMTC301 2024",
       "filename": "ECMTC301_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12494,7 +12510,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ECMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_672",
+      "id": "EPMTC301_673",
       "title": "EEMTC04 ICMTC04",
       "filename": "EEMTC04-ICMTC04.pdf",
       "subject_code": "EPMTC301",
@@ -12510,7 +12526,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EEMTC04-ICMTC04.pdf"
     },
     {
-      "id": "EPMTC301_673",
+      "id": "EPMTC301_674",
       "title": "EEMTC04 ICMTC04",
       "filename": "EEMTC04_ICMTC04.pdf",
       "subject_code": "EPMTC301",
@@ -12526,7 +12542,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/EEMTC04_ICMTC04.pdf"
     },
     {
-      "id": "EPMTC301_674",
+      "id": "EPMTC301_675",
       "title": "ICMTC04 EEMTC04 2023",
       "filename": "ICMTC04_EEMTC04_2023.pdf",
       "subject_code": "EPMTC301",
@@ -12542,7 +12558,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_675",
+      "id": "EPMTC301_676",
       "title": "ICMTC04 EEMTC04 2024",
       "filename": "ICMTC04_EEMTC04_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12558,7 +12574,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC04_EEMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_676",
+      "id": "EPMTC301_677",
       "title": "ICMTC301 EEMTC301 CMMTC301",
       "filename": "ICMTC301-EEMTC301-CMMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12574,7 +12590,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC301-EEMTC301-CMMTC301.pdf"
     },
     {
-      "id": "EPMTC301_677",
+      "id": "EPMTC301_678",
       "title": "ICMTC301 EEMTC301 CMMTC301",
       "filename": "ICMTC301_EEMTC301_CMMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12590,7 +12606,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301.pdf"
     },
     {
-      "id": "EPMTC301_678",
+      "id": "EPMTC301_679",
       "title": "ICMTC301 EEMTC301 CMMTC301 2024",
       "filename": "ICMTC301_EEMTC301_CMMTC301_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12606,7 +12622,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ICMTC301_EEMTC301_CMMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_679",
+      "id": "EPMTC301_680",
       "title": "ITMTC301 INMTC301 ITMTC301 EIMTC301",
       "filename": "ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12622,7 +12638,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_680",
+      "id": "EPMTC301_681",
       "title": "ITMTC301 INMTC301",
       "filename": "ITMTC301_INMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12638,7 +12654,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301_INMTC301.pdf"
     },
     {
-      "id": "EPMTC301_681",
+      "id": "EPMTC301_682",
       "title": "ITMTC301 INMTC301 EIMTC301",
       "filename": "ITMTC301_INMTC301_EIMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12654,7 +12670,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/End_Semester/ITMTC301_INMTC301_EIMTC301.pdf"
     },
     {
-      "id": "EPMTC301_683",
+      "id": "EPMTC301_684",
       "title": "2024 End Semester ITMTC04 EIMTC04 ITMTC301 EIMTC301 INMTC04 INMTC301",
       "filename": "2024_End_Semester_ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12670,7 +12686,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/2024_End_Semester_ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301.pdf"
     },
     {
-      "id": "EPMTC301_684",
+      "id": "EPMTC301_685",
       "title": "CMMTC13 Applied Linear Algebra",
       "filename": "26_CMMTC13_Applied_Linear_Algebra.pdf",
       "subject_code": "EPMTC301",
@@ -12686,7 +12702,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/26_CMMTC13_Applied_Linear_Algebra.pdf"
     },
     {
-      "id": "EPMTC301_685",
+      "id": "EPMTC301_686",
       "title": "CMMTC303 Applied Linear Algebra",
       "filename": "27_CMMTC303_Applied_Linear_Algebra.pdf",
       "subject_code": "EPMTC301",
@@ -12702,7 +12718,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/27_CMMTC303_Applied_Linear_Algebra.pdf"
     },
     {
-      "id": "EPMTC301_686",
+      "id": "EPMTC301_687",
       "title": "CMMTC04 Engineering Mathematics EndSem BTech Summer2026",
       "filename": "CMMTC04_Engineering-Mathematics_EndSem_BTech_Summer2026.pdf",
       "subject_code": "EPMTC301",
@@ -12718,7 +12734,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/CMMTC04_Engineering-Mathematics_EndSem_BTech_Summer2026.pdf"
     },
     {
-      "id": "EPMTC301_687",
+      "id": "EPMTC301_688",
       "title": "ECMTC04 Mathematics for Signal Processing and Communication",
       "filename": "ECMTC04_Mathematics_for_Signal_Processing_and_Communication.pdf",
       "subject_code": "EPMTC301",
@@ -12734,7 +12750,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ECMTC04_Mathematics_for_Signal_Processing_and_Communication.pdf"
     },
     {
-      "id": "EPMTC301_688",
+      "id": "EPMTC301_689",
       "title": "ECMTC301 Mathematics for Communication and Signal Processing",
       "filename": "ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf",
       "subject_code": "EPMTC301",
@@ -12750,7 +12766,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ECMTC301_Mathematics_for_Communication_and_Signal_Processing.pdf"
     },
     {
-      "id": "EPMTC301_689",
+      "id": "EPMTC301_690",
       "title": "ICMTC04 Mathematics III",
       "filename": "ICMTC04_Mathematics_III.pdf",
       "subject_code": "EPMTC301",
@@ -12766,7 +12782,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ICMTC04_Mathematics_III.pdf"
     },
     {
-      "id": "EPMTC301_690",
+      "id": "EPMTC301_691",
       "title": "ITMTC04 EIMTC04 ITMTC301 EIMTC301 INMTC04 INMTC301 2024",
       "filename": "ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12782,7 +12798,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ITMTC04_EIMTC04_ITMTC301_EIMTC301_INMTC04_INMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_691",
+      "id": "EPMTC301_692",
       "title": "ITMTC04 ITMTC301 Optimization Principles and Techniques",
       "filename": "ITMTC04_ITMTC301_Optimization_Principles_and_Techniques.pdf",
       "subject_code": "EPMTC301",
@@ -12798,7 +12814,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Summer_Semester/ITMTC04_ITMTC301_Optimization_Principles_and_Techniques.pdf"
     },
     {
-      "id": "EPMTC301_692",
+      "id": "EPMTC301_693",
       "title": "2025 Mid Semester EAMTC04 Mathematics for Machine Learning Backlog",
       "filename": "2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf",
       "subject_code": "EPMTC301",
@@ -12814,7 +12830,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAMTC04_Mathematics_for_Machine_Learning_Backlog.pdf"
     },
     {
-      "id": "EPMTC301_693",
+      "id": "EPMTC301_694",
       "title": "2025 Mid Semester EPMTC301 Mathematics for Machine Learning",
       "filename": "2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf",
       "subject_code": "EPMTC301",
@@ -12830,7 +12846,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EPMTC301_Mathematics_for_Machine_Learning.pdf"
     },
     {
-      "id": "EPMTC301_694",
+      "id": "EPMTC301_695",
       "title": "2025 Mid Semester ICMTC301 EEMTC301 CMMTC301",
       "filename": "2025_Mid_Semester_ICMTC301_EEMTC301_CMMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12846,7 +12862,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ICMTC301_EEMTC301_CMMTC301.pdf"
     },
     {
-      "id": "EPMTC301_695",
+      "id": "EPMTC301_696",
       "title": "2025 Mid Semester ITMTC301 INMTC301",
       "filename": "2025_Mid_Semester_ITMTC301_INMTC301.pdf",
       "subject_code": "EPMTC301",
@@ -12862,7 +12878,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ITMTC301_INMTC301.pdf"
     },
     {
-      "id": "EPMTC301_696",
+      "id": "EPMTC301_697",
       "title": "CMMTC04",
       "filename": "CMMTC04.pdf",
       "subject_code": "EPMTC301",
@@ -12878,7 +12894,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/CMMTC04.pdf"
     },
     {
-      "id": "EPMTC301_697",
+      "id": "EPMTC301_698",
       "title": "CMMTC13",
       "filename": "CMMTC13.pdf",
       "subject_code": "EPMTC301",
@@ -12894,7 +12910,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/CMMTC13.pdf"
     },
     {
-      "id": "EPMTC301_698",
+      "id": "EPMTC301_699",
       "title": "CMMTC13 2024",
       "filename": "CMMTC13_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12910,7 +12926,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/CMMTC13_2024.pdf"
     },
     {
-      "id": "EPMTC301_699",
+      "id": "EPMTC301_700",
       "title": "ECMTC04 2023",
       "filename": "ECMTC04_2023.pdf",
       "subject_code": "EPMTC301",
@@ -12926,7 +12942,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ECMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_700",
+      "id": "EPMTC301_701",
       "title": "EEMTC04 ICMTC04 2024",
       "filename": "EEMTC04_ICMTC04_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12942,7 +12958,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EEMTC04_ICMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_701",
+      "id": "EPMTC301_702",
       "title": "EIMTC04 ITMTC04 INMTC04 2023",
       "filename": "EIMTC04_ITMTC04_INMTC04_2023.pdf",
       "subject_code": "EPMTC301",
@@ -12958,7 +12974,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_702",
+      "id": "EPMTC301_703",
       "title": "EIMTC04 ITMTC04 INMTC04 2024",
       "filename": "EIMTC04_ITMTC04_INMTC04_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12974,7 +12990,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC04_ITMTC04_INMTC04_2024.pdf"
     },
     {
-      "id": "EPMTC301_703",
+      "id": "EPMTC301_704",
       "title": "EIMTC301 ITMTC301 INMTC301 2024",
       "filename": "EIMTC301_ITMTC301_INMTC301_2024.pdf",
       "subject_code": "EPMTC301",
@@ -12990,7 +13006,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EIMTC301_ITMTC301_INMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_704",
+      "id": "EPMTC301_705",
       "title": "EPMTC301 2024",
       "filename": "EPMTC301_2024.pdf",
       "subject_code": "EPMTC301",
@@ -13006,7 +13022,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/EPMTC301_2024.pdf"
     },
     {
-      "id": "EPMTC301_705",
+      "id": "EPMTC301_706",
       "title": "ICMTC04",
       "filename": "ICMTC04.pdf",
       "subject_code": "EPMTC301",
@@ -13022,7 +13038,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ICMTC04.pdf"
     },
     {
-      "id": "EPMTC301_706",
+      "id": "EPMTC301_707",
       "title": "ICMTC04 EEMTC04 2023",
       "filename": "ICMTC04_EEMTC04_2023.pdf",
       "subject_code": "EPMTC301",
@@ -13038,7 +13054,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ICMTC04_EEMTC04_2023.pdf"
     },
     {
-      "id": "EPMTC301_707",
+      "id": "EPMTC301_708",
       "title": "ITMTC04",
       "filename": "ITMTC04.pdf",
       "subject_code": "EPMTC301",
@@ -13054,7 +13070,7 @@
       "direct_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/05_Mathematics_For_Machine_Learning_EPMTC301/downloaded_pyqs/Mid_Semester/ITMTC04.pdf"
     },
     {
-      "id": "EPMTC301_708",
+      "id": "EPMTC301_709",
       "title": "ITMTC301",
       "filename": "ITMTC301.pdf",
       "subject_code": "EPMTC301",

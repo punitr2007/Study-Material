@@ -190,6 +190,7 @@ _No files currently._
 | [EAEPC304_2024.pdf](downloaded_pyqs/End_Semester/EAEPC304_2024.pdf) | `PDF` | 64.1 KB |
 | [ECECC07-EIECC07-.pdf](downloaded_pyqs/End_Semester/ECECC07-EIECC07-.pdf) | `PDF` | 197.5 KB |
 | [ECECC07.pdf](downloaded_pyqs/End_Semester/ECECC07.pdf) | `PDF` | 154.9 KB |
+| [ECECC07_2023.pdf](downloaded_pyqs/End_Semester/ECECC07_2023.pdf) | `PDF` | 52.6 KB |
 | [ECECC07_2024.pdf](downloaded_pyqs/End_Semester/ECECC07_2024.pdf) | `PDF` | 61.9 KB |
 | [ECECC07_VTECC304_Microelectronics.pdf](downloaded_pyqs/End_Semester/ECECC07_VTECC304_Microelectronics.pdf) | `PDF` | 150.2 KB |
 | [ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf](downloaded_pyqs/End_Semester/ECECC304-EIECC07_Microelectronics-Circuits-and-Application_EndSem_BTech-Sem3_July2026.pdf) | `PDF` | 154.5 KB |
