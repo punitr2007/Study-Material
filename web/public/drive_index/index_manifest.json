@@ -1,11 +1,11 @@
 {
   "version": "2.1.0",
-  "generated_at": "2026-09-28T20:55:03.972775",
-  "total_documents": 811,
+  "generated_at": "2026-09-29T03:04:07.828692",
+  "total_documents": 855,
   "semesters": {
     "sem1": 0,
     "sem2": 15,
-    "sem3": 794,
+    "sem3": 838,
     "sem4": 0,
     "sem5": 2,
     "sem6": 0,
@@ -18,8 +18,8 @@
       "code": "CAMTC13",
       "name": "CAMTC13,COMTC13",
       "aliases": [
-        "CAMTC13",
-        "COMTC13"
+        "COMTC13",
+        "CAMTC13"
       ],
       "branch": "General Engineering",
       "semester": "sem3",
@@ -29,11 +29,11 @@
       "code": "COMTC13",
       "name": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CMMTC13",
       "aliases": [
-        "CAMTC13",
         "COMTC13",
         "CMMTC13",
+        "CBMTC13",
         "CDMTC13",
-        "CBMTC13"
+        "CAMTC13"
       ],
       "branch": "CSE (Computer Science & Engineering)",
       "semester": "sem3",
@@ -43,9 +43,9 @@
       "code": "COMTC305",
       "name": "COMTC305 CAMTC305 CMMTC305 CDMTC305 Probability and Statistics EndSem BTech CourseWork June2026",
       "aliases": [
-        "COMTC305",
+        "CMMTC305",
         "CAMTC305",
-        "CMMTC305"
+        "COMTC305"
       ],
       "branch": "CSE (Computer Science & Engineering)",
       "semester": "sem3",
@@ -59,7 +59,7 @@
       ],
       "branch": "ECAM (Electronics & Communication with AI)",
       "semester": "sem3",
-      "document_count": 143
+      "document_count": 145
     },
     {
       "code": "EAEPC303",
@@ -69,7 +69,7 @@
       ],
       "branch": "ECAM (Electronics & Communication with AI)",
       "semester": "sem3",
-      "document_count": 121
+      "document_count": 125
     },
     {
       "code": "EAEPC304",
@@ -79,7 +79,7 @@
       ],
       "branch": "ECAM (Electronics & Communication with AI)",
       "semester": "sem3",
-      "document_count": 147
+      "document_count": 166
     },
     {
       "code": "EAEPC305",
@@ -89,14 +89,14 @@
       ],
       "branch": "ECAM (Electronics & Communication with AI)",
       "semester": "sem3",
-      "document_count": 88
+      "document_count": 100
     },
     {
       "code": "ECECC05",
       "name": "ECECC05,EIECC05",
       "aliases": [
-        "EIECC05",
-        "ECECC05"
+        "ECECC05",
+        "EIECC05"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -126,9 +126,9 @@
       "code": "ECECC08",
       "name": "ECECC08,EIECC08,ICECC08",
       "aliases": [
-        "ICECC08",
         "ECECC08",
-        "EIECC08"
+        "EIECC08",
+        "ICECC08"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -138,9 +138,9 @@
       "code": "ECECC302",
       "name": "ECECC302,VTECC302,EIECE302",
       "aliases": [
-        "VTECC302",
         "EIECE302",
-        "ECECC302"
+        "ECECC302",
+        "VTECC302"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -150,10 +150,10 @@
       "code": "ECECC303",
       "name": "ECECC303,EIECC303,ECECC06,EIECC06,VTECC303",
       "aliases": [
-        "VTECC303",
+        "ECECC06",
         "EIECC303",
         "EIECC06",
-        "ECECC06",
+        "VTECC303",
         "ECECC303"
       ],
       "branch": "ECE (Electronics & Communication)",
@@ -164,8 +164,8 @@
       "code": "ECECC304",
       "name": "ECECC304,EIECC304",
       "aliases": [
-        "ECECC304",
-        "EIECC304"
+        "EIECC304",
+        "ECECC304"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -176,9 +176,9 @@
       "name": "ECECC305,EIECC305,ICECC305,VTECC305",
       "aliases": [
         "VTECC305",
-        "ICECC305",
+        "ECECC305",
         "EIECC305",
-        "ECECC305"
+        "ICECC305"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -222,7 +222,7 @@
       ],
       "branch": "General Engineering",
       "semester": "sem3",
-      "document_count": 182
+      "document_count": 189
     },
     {
       "code": "GENERAL",
@@ -247,8 +247,8 @@
       "code": "ITMTC301",
       "name": "ITMTC301,INMTC301,EIMTC301",
       "aliases": [
-        "EIMTC301",
         "INMTC301",
+        "EIMTC301",
         "ITMTC301"
       ],
       "branch": "Information Technology",

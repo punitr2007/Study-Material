@@ -125,10 +125,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [Probability_Unit1_Practice_Questions.pdf](downloaded_notes/Probability_Unit1_Practice_Questions.pdf) | `PDF` | 4.59 MB |
 | [Probability_Unit2_Practice_Questions.pdf](downloaded_notes/Probability_Unit2_Practice_Questions.pdf) | `PDF` | 5.10 MB |
 
-### Unit 1
-
-_No files currently._
-
 ### Unit 2
 
 | File Name | Type | Size |
@@ -197,10 +193,13 @@ _No files currently._
 | [2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC303_Probability_Theory_and_Random_Process.pdf) | `PDF` | 499.5 KB |
 | [2025_Mid_Semester_PROBABILITYTHEORY_Pages_63_63.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_63_63.pdf) | `PDF` | 537.7 KB |
 | [2025_Mid_Semester_PROBABILITYTHEORY_Pages_9_9.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_PROBABILITYTHEORY_Pages_9_9.pdf) | `PDF` | 499.5 KB |
+| [2026_Mid_Semester_EAEPC303_Pages_39_39.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_EAEPC303_Pages_39_39.pdf) | `PDF` | 625.1 KB |
+| [2026_Mid_Semester_STOCHASTICPROCESSES_Pages_53_53.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_STOCHASTICPROCESSES_Pages_53_53.pdf) | `PDF` | 561.9 KB |
 | [2026_Mid_Semester_STOCHASTICPROCESSES_Pages_7_7.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_STOCHASTICPROCESSES_Pages_7_7.pdf) | `PDF` | 554.2 KB |
 | [CAMTC13-COMTC13.pdf](downloaded_pyqs/Mid_Semester/CAMTC13-COMTC13.pdf) | `PDF` | 64.5 KB |
 | [COMTC13_2024.pdf](downloaded_pyqs/Mid_Semester/COMTC13_2024.pdf) | `PDF` | 32.0 KB |
 | [EAEPC303__25_EAEPC06_2024.pdf](downloaded_pyqs/Mid_Semester/EAEPC303__25_EAEPC06_2024.pdf) | `PDF` | 29.9 KB |
+| [ECECC06_EIECC06_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2023.pdf) | `PDF` | 26.1 KB |
 | [ECECC06_EIECC06_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2024.pdf) | `PDF` | 29.2 KB |
 | [ECECC303-EIECC303-VTEC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTEC303.pdf) | `PDF` | 64.3 KB |
 | [ECECC303-EIECC303-VTECC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTECC303.pdf) | `PDF` | 70.3 KB |
@@ -215,6 +214,7 @@ _No files currently._
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [2026_End_Semester_EAEPC303_Pages_51_52.pdf](downloaded_pyqs/Summer_Semester/2026_End_Semester_EAEPC303_Pages_51_52.pdf) | `PDF` | 956.0 KB |
 | [COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf](downloaded_pyqs/Summer_Semester/COMTC305-CAMTC305-CMMTC305-CDMTC305_Probability-and-Statistics_EndSem_BTech-CourseWork_June2026.pdf) | `PDF` | 286.9 KB |
 | [ECECC06_EIECC06_2024.pdf](downloaded_pyqs/Summer_Semester/ECECC06_EIECC06_2024.pdf) | `PDF` | 44.4 KB |
 | [ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf](downloaded_pyqs/Summer_Semester/ECECC06_Probability-Theory-and-Random-Process_EndSem_BTech_Summer2026_copy1.pdf) | `PDF` | 256.9 KB |

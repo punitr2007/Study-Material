@@ -209,6 +209,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
 | [2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_EAEPC302_Signals_and_Systems.pdf) | `PDF` | 72.3 KB |
+| [2026_Mid_Semester_SIGNALANDSYSTEM_Pages_37_37.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_SIGNALANDSYSTEM_Pages_37_37.pdf) | `PDF` | 498.2 KB |
 | [EAEPC302_2024.pdf](downloaded_pyqs/Mid_Semester/EAEPC302_2024.pdf) | `PDF` | 25.7 KB |
 | [ECECC05.pdf](downloaded_pyqs/Mid_Semester/ECECC05.pdf) | `PDF` | 60.8 KB |
 | [ECECC05_EIECC05.pdf](downloaded_pyqs/Mid_Semester/ECECC05_EIECC05.pdf) | `PDF` | 78.9 KB |
@@ -230,6 +231,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 
 | File Name | Type | Size |
 | :--- | :---: | :---: |
+| [2026_End_Semester_EAEPC302_Pages_45_46.pdf](downloaded_pyqs/Summer_Semester/2026_End_Semester_EAEPC302_Pages_45_46.pdf) | `PDF` | 854.7 KB |
 | [EEEEC03_ICICC03_ECECC05_2023.pdf](downloaded_pyqs/Summer_Semester/EEEEC03_ICICC03_ECECC05_2023.pdf) | `PDF` | 42.1 KB |
 | [EEEEC03_Signal_and_Systems.pdf](downloaded_pyqs/Summer_Semester/EEEEC03_Signal_and_Systems.pdf) | `PDF` | 99.9 KB |
 
