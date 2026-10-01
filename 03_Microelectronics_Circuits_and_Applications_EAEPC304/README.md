@@ -219,6 +219,7 @@ _No files currently._
 | [2026_Mid_Semester_EAEPC304_Pages_42_43.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_EAEPC304_Pages_42_43.pdf) | `PDF` | 632.2 KB |
 | [2026_Mid_Semester_ECECC304_EIECC07_Microelectronics.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_ECECC304_EIECC07_Microelectronics.pdf) | `PDF` | 108.7 KB |
 | [ECECC07-VTECC304.pdf](downloaded_pyqs/Mid_Semester/ECECC07-VTECC304.pdf) | `PDF` | 103.8 KB |
+| [ECECC07_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC07_2023.pdf) | `PDF` | 36.3 KB |
 | [ECECC304-EIECC07.pdf](downloaded_pyqs/Mid_Semester/ECECC304-EIECC07.pdf) | `PDF` | 108.7 KB |
 
 ---
