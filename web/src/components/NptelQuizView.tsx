@@ -36,6 +36,8 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
   const [mode, setMode] = useState<QuizMode>('practice');
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [userAnswers, setUserAnswers] = useState<Record<string, number[]>>({});
+  const [checkedQuestions, setCheckedQuestions] = useState<Record<string, boolean>>({});
+  const [autoCheck, setAutoCheck] = useState<boolean>(false); // default false: require clicking "Check Answer" so practice isn't spoiled
   const [flaggedQuestions, setFlaggedQuestions] = useState<Record<string, boolean>>({});
   const [isExamSubmitted, setIsExamSubmitted] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -82,6 +84,11 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
   const handleSelectOption = (qId: string, optIdx: number, isMulti: boolean) => {
     if (mode === 'exam' && isExamSubmitted) return;
 
+    // If question was already checked in manual practice mode, reset the check state so user can choose again without spoilers
+    if (mode === 'practice' && !autoCheck && checkedQuestions[qId]) {
+      setCheckedQuestions(prev => ({ ...prev, [qId]: false }));
+    }
+
     setUserAnswers(prev => {
       const currentSelected = prev[qId] || [];
       if (isMulti) {
@@ -104,6 +111,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
   // Reset Quiz
   const handleReset = () => {
     setUserAnswers({});
+    setCheckedQuestions({});
     setFlaggedQuestions({});
     setIsExamSubmitted(false);
     setCurrentIndex(0);
@@ -241,10 +249,10 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
           <button 
             className={`mode-btn ${mode === 'practice' ? 'active' : ''}`}
             onClick={() => setMode('practice')}
-            title="Practice Mode: Instant feedback and explanations on click"
+            title="Practice Mode: Test options and check feedback on demand"
           >
             <Zap size={15} />
-            <span>Practice Mode (Instant Feedback)</span>
+            <span>Practice Mode</span>
           </button>
           <button 
             className={`mode-btn ${mode === 'exam' ? 'active' : ''}`}
@@ -255,6 +263,18 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
             <span>Exam Mode {mode === 'exam' && `(${formatTime(timeElapsed)})`}</span>
           </button>
         </div>
+
+        {/* Practice Mode Checking Preference Toggle */}
+        {mode === 'practice' && (
+          <button
+            className={`toggle-reveal-mode-btn ${autoCheck ? 'auto' : 'manual'}`}
+            onClick={() => setAutoCheck(prev => !prev)}
+            title={autoCheck ? "Currently in Instant Reveal. Click to require 'Check Answer' button." : "Currently requiring 'Check Answer' button. Click to toggle Instant Reveal."}
+          >
+            <span className={`reveal-indicator-dot ${autoCheck ? 'auto' : 'manual'}`} />
+            <span>{autoCheck ? '⚡ Instant Reveal: ON' : '🎯 Check Answers Mode: ON'}</span>
+          </button>
+        )}
 
         <div className="search-filter-box">
           <Search size={14} className="search-icon" />
@@ -363,53 +383,117 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
 
             {/* Options List */}
             <div className="options-container">
-              {currentQ?.options.map((opt, optIdx) => {
-                const isSelected = (userAnswers[currentQ.id] || []).includes(optIdx);
-                const isCorrect = currentQ.correctAnswers.includes(optIdx);
-                
-                let optionClass = 'quiz-option-card';
-                if (isSelected) optionClass += ' selected';
-
-                // Practice mode feedback OR exam submitted feedback
-                const showFeedback = mode === 'practice' 
-                  ? isSelected || (userAnswers[currentQ.id] && userAnswers[currentQ.id].length > 0 && isCorrect)
+              {(() => {
+                const isCurrentChecked = mode === 'practice'
+                  ? (autoCheck ? ((userAnswers[currentQ?.id] || []).length > 0) : !!checkedQuestions[currentQ?.id])
                   : isExamSubmitted;
 
-                if (showFeedback) {
-                  if (isCorrect) {
-                    optionClass += ' is-correct';
-                  } else if (isSelected && !isCorrect) {
-                    optionClass += ' is-wrong';
-                  }
-                }
+                return currentQ?.options.map((opt, optIdx) => {
+                  const isSelected = (userAnswers[currentQ.id] || []).includes(optIdx);
+                  const isCorrect = currentQ.correctAnswers.includes(optIdx);
+                  
+                  let optionClass = 'quiz-option-card';
+                  if (isSelected) optionClass += ' selected';
 
-                return (
-                  <div 
-                    key={optIdx} 
-                    className={optionClass}
-                    onClick={() => handleSelectOption(currentQ.id, optIdx, currentQ.isMultiple)}
-                  >
-                    <div className="option-indicator">
-                      {currentQ.isMultiple ? (
-                        isSelected ? <CheckSquare size={18} /> : <Square size={18} />
-                      ) : (
-                        <div className={`radio-circle ${isSelected ? 'checked' : ''}`} />
+                  if (isCurrentChecked) {
+                    if (isSelected && isCorrect) {
+                      optionClass += ' is-correct';
+                    } else if (isSelected && !isCorrect) {
+                      optionClass += ' is-wrong';
+                    } else if (!isSelected && isCorrect) {
+                      optionClass += ' missed-correct';
+                    }
+                  }
+
+                  return (
+                    <div 
+                      key={optIdx} 
+                      className={optionClass}
+                      onClick={() => handleSelectOption(currentQ.id, optIdx, currentQ.isMultiple)}
+                    >
+                      <div className="option-indicator">
+                        {currentQ.isMultiple ? (
+                          isSelected ? <CheckSquare size={18} /> : <Square size={18} />
+                        ) : (
+                          <div className={`radio-circle ${isSelected ? 'checked' : ''}`} />
+                        )}
+                      </div>
+                      <div className="option-text">{opt}</div>
+                      {isCurrentChecked && isSelected && isCorrect && (
+                        <div className="feedback-icon correct" title="Correct selection"><CheckCircle2 size={18} /></div>
+                      )}
+                      {isCurrentChecked && isSelected && !isCorrect && (
+                        <div className="feedback-icon wrong" title="Incorrect selection"><XCircle size={18} /></div>
+                      )}
+                      {isCurrentChecked && !isSelected && isCorrect && (
+                        <span className="missed-correct-badge">Correct Answer</span>
                       )}
                     </div>
-                    <div className="option-text">{opt}</div>
-                    {showFeedback && isCorrect && (
-                      <div className="feedback-icon correct"><CheckCircle2 size={18} /></div>
-                    )}
-                    {showFeedback && isSelected && !isCorrect && (
-                      <div className="feedback-icon wrong"><XCircle size={18} /></div>
-                    )}
-                  </div>
-                );
-              })}
+                  );
+                });
+              })()}
             </div>
 
+            {/* Check Answer Action Row in Practice Mode */}
+            {mode === 'practice' && !autoCheck && (
+              <div className="check-answer-control-row">
+                {!checkedQuestions[currentQ.id] ? (
+                  <button 
+                    className="btn-check-answer"
+                    disabled={!(userAnswers[currentQ.id]?.length > 0)}
+                    onClick={() => setCheckedQuestions(prev => ({ ...prev, [currentQ.id]: true }))}
+                  >
+                    <Check size={16} />
+                    <span>Check Answer</span>
+                  </button>
+                ) : (
+                  <div className="checked-verdict-container">
+                    {(() => {
+                      const userSel = userAnswers[currentQ.id] || [];
+                      const correctAns = currentQ.correctAnswers;
+                      const isExact = userSel.length === correctAns.length && userSel.every(i => correctAns.includes(i));
+                      const hasAnyCorrect = userSel.some(i => correctAns.includes(i));
+                      const hasWrong = userSel.some(i => !correctAns.includes(i));
+
+                      let verdictClass = 'wrong';
+                      let verdictText = '❌ Incorrect. Review the lecture concept below.';
+                      if (isExact) {
+                        verdictClass = 'correct';
+                        verdictText = '🎉 Completely Correct! Great job.';
+                      } else if (hasAnyCorrect && !hasWrong) {
+                        verdictClass = 'partial';
+                        verdictText = `⚠️ Partially Correct (${userSel.length} of ${correctAns.length} selected).`;
+                      } else if (hasAnyCorrect && hasWrong) {
+                        verdictClass = 'partial';
+                        verdictText = '⚠️ Partially Correct with some incorrect options chosen.';
+                      }
+
+                      return (
+                        <div className="verdict-banner-wrap">
+                          <div className={`verdict-pill ${verdictClass}`}>
+                            {verdictText}
+                          </div>
+                          <button 
+                            className="btn-try-again"
+                            onClick={() => {
+                              setCheckedQuestions(prev => ({ ...prev, [currentQ.id]: false }));
+                              setUserAnswers(prev => ({ ...prev, [currentQ.id]: [] }));
+                            }}
+                            title="Clear answer and try again"
+                          >
+                            <RotateCcw size={14} />
+                            <span>Try Again</span>
+                          </button>
+                        </div>
+                      );
+                    })()}
+                  </div>
+                )}
+              </div>
+            )}
+
             {/* Explanation Section */}
-            {((mode === 'practice' && (userAnswers[currentQ.id] || []).length > 0) || isExamSubmitted) && currentQ?.explanation && (
+            {((mode === 'practice' && (autoCheck ? ((userAnswers[currentQ.id] || []).length > 0) : checkedQuestions[currentQ.id])) || isExamSubmitted) && currentQ?.explanation && (
               <div className="explanation-card">
                 <div className="explanation-header">
                   <Sparkles size={16} />
