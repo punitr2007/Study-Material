@@ -1,7 +1,7 @@
 import React from 'react';
-import { BookOpen, Moon, Sun, RefreshCw, BarChart3, Sparkles, FolderArchive, Target, Globe } from 'lucide-react';
+import { BookOpen, Moon, Sun, RefreshCw, BarChart3, Sparkles, FolderArchive, Target, Globe, GraduationCap } from 'lucide-react';
 
-export type ActiveNavView = 'materials' | 'practice' | 'drive' | 'analytics' | 'solutions';
+export type ActiveNavView = 'materials' | 'quizzes' | 'practice' | 'drive' | 'analytics' | 'solutions';
 
 interface NavbarProps {
   theme: 'dark' | 'light';
@@ -91,6 +91,13 @@ export const Navbar: React.FC<NavbarProps> = ({
         >
           <FolderArchive size={15} className="inline-icon" />
           <span>Materials</span>
+        </button>
+        <button
+          className={`nav-tab-link ${activeView === 'quizzes' ? 'active' : ''}`}
+          onClick={() => setActiveView('quizzes')}
+        >
+          <GraduationCap size={15} className="inline-icon" />
+          <span>NPTEL Tests & MCQs</span>
         </button>
         <button
           className={`nav-tab-link ${activeView === 'practice' ? 'active' : ''}`}

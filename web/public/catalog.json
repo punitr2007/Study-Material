@@ -1,9 +1,9 @@
 {
   "repository": "punitr2007/Study-Material",
   "branch": "main",
-  "generated_at": "2026-10-02T21:26:00.775095",
+  "generated_at": "2026-10-02T21:34:28.266579",
   "total_subjects": 6,
-  "total_documents": 754,
+  "total_documents": 759,
   "subjects": [
     {
       "id": "01_Signals_and_Systems_EAEPC302",
@@ -51,7 +51,7 @@
       "code": "NPTEL109104107",
       "name": "NPTEL Developing Soft Skills and Personality",
       "title": "Developing Soft Skills and Personality (NPTEL 109104107)",
-      "document_count": 18
+      "document_count": 23
     }
   ],
   "documents": [
@@ -13305,6 +13305,96 @@
     },
     {
       "id": "NPTEL109104107_737",
+      "filename": "Week_04_Assignment_Questions_and_Answers.pdf",
+      "title": "Week 04 Assignment Questions and Answers",
+      "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
+      "subject_name": "NPTEL Developing Soft Skills and Personality",
+      "subject_code": "NPTEL109104107",
+      "category": "Assignments",
+      "category_label": "Assignments & Tutorials",
+      "sub_category": "Week_04_Assignment_Questions_and_Answers.pdf",
+      "relative_path": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_04_Assignment_Questions_and_Answers.pdf",
+      "size_bytes": 3106821,
+      "size_formatted": "2.96 MB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_04_Assignment_Questions_and_Answers.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_04_Assignment_Questions_and_Answers.pdf"
+    },
+    {
+      "id": "NPTEL109104107_738",
+      "filename": "Week_05_Assignment_Questions.pdf",
+      "title": "Week 05 Assignment Questions",
+      "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
+      "subject_name": "NPTEL Developing Soft Skills and Personality",
+      "subject_code": "NPTEL109104107",
+      "category": "Assignments",
+      "category_label": "Assignments & Tutorials",
+      "sub_category": "Week_05_Assignment_Questions.pdf",
+      "relative_path": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_05_Assignment_Questions.pdf",
+      "size_bytes": 2465872,
+      "size_formatted": "2.35 MB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_05_Assignment_Questions.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_05_Assignment_Questions.pdf"
+    },
+    {
+      "id": "NPTEL109104107_739",
+      "filename": "Week_07_Assignment_Questions.pdf",
+      "title": "Week 07 Assignment Questions",
+      "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
+      "subject_name": "NPTEL Developing Soft Skills and Personality",
+      "subject_code": "NPTEL109104107",
+      "category": "Assignments",
+      "category_label": "Assignments & Tutorials",
+      "sub_category": "Week_07_Assignment_Questions.pdf",
+      "relative_path": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_07_Assignment_Questions.pdf",
+      "size_bytes": 2598761,
+      "size_formatted": "2.48 MB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_07_Assignment_Questions.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_07_Assignment_Questions.pdf"
+    },
+    {
+      "id": "NPTEL109104107_740",
+      "filename": "Week_08_Assignment_Questions.pdf",
+      "title": "Week 08 Assignment Questions",
+      "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
+      "subject_name": "NPTEL Developing Soft Skills and Personality",
+      "subject_code": "NPTEL109104107",
+      "category": "Assignments",
+      "category_label": "Assignments & Tutorials",
+      "sub_category": "Week_08_Assignment_Questions.pdf",
+      "relative_path": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_08_Assignment_Questions.pdf",
+      "size_bytes": 3160066,
+      "size_formatted": "3.01 MB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_08_Assignment_Questions.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_08_Assignment_Questions.pdf"
+    },
+    {
+      "id": "NPTEL109104107_741",
+      "filename": "Week_08_Assignment_Questions_and_Answers.pdf",
+      "title": "Week 08 Assignment Questions and Answers",
+      "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
+      "subject_name": "NPTEL Developing Soft Skills and Personality",
+      "subject_code": "NPTEL109104107",
+      "category": "Assignments",
+      "category_label": "Assignments & Tutorials",
+      "sub_category": "Week_08_Assignment_Questions_and_Answers.pdf",
+      "relative_path": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_08_Assignment_Questions_and_Answers.pdf",
+      "size_bytes": 3189961,
+      "size_formatted": "3.04 MB",
+      "file_type": "PDF",
+      "year": "",
+      "preview_url": "https://cdn.jsdelivr.net/gh/punitr2007/Study-Material@main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_08_Assignment_Questions_and_Answers.pdf",
+      "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Assignments/Week_08_Assignment_Questions_and_Answers.pdf"
+    },
+    {
+      "id": "NPTEL109104107_742",
       "filename": "NPTEL_109104107_Developing_Soft_Skills_and_Personality_Complete_Guide.pdf",
       "title": "NPTEL 109104107: Developing Soft Skills & Personality (Complete 750+ Pg Master Guide)",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13322,7 +13412,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Complete_Course_Reference/NPTEL_109104107_Developing_Soft_Skills_and_Personality_Complete_Guide.pdf"
     },
     {
-      "id": "NPTEL109104107_738",
+      "id": "NPTEL109104107_743",
       "filename": "NPTEL_Soft_Skills_Complete_8_Weeks_Master_Summary_Notes.pdf",
       "title": "Complete 8-Week Master Summary Notes (All Modules 1\u20138)",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13340,7 +13430,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Complete_Course_Reference/NPTEL_Soft_Skills_Complete_8_Weeks_Master_Summary_Notes.pdf"
     },
     {
-      "id": "NPTEL109104107_739",
+      "id": "NPTEL109104107_744",
       "filename": "Week_01_Lecture_Slides_Learning_Planning_Self_Actualisation.pdf",
       "title": "Week 1 Lecture Slides: Learning Approach, Planning & Self-Actualisation",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13358,7 +13448,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_01_Lecture_Slides_Learning_Planning_Self_Actualisation.pdf"
     },
     {
-      "id": "NPTEL109104107_740",
+      "id": "NPTEL109104107_745",
       "filename": "Week_02_Lecture_Slides_Conflict_Resolution_and_Stress.pdf",
       "title": "Week 2 Lecture Slides: Conflict Resolution & Stress Management",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13376,7 +13466,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_02_Lecture_Slides_Conflict_Resolution_and_Stress.pdf"
     },
     {
-      "id": "NPTEL109104107_741",
+      "id": "NPTEL109104107_746",
       "filename": "Week_03_Lecture_Slides_Habit_Cycle_and_Productivity.pdf",
       "title": "Week 3 Lecture Slides: Habit Cycles, Breaking Bad Habits & Zeigarnik Effect",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13394,7 +13484,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_03_Lecture_Slides_Habit_Cycle_and_Productivity.pdf"
     },
     {
-      "id": "NPTEL109104107_742",
+      "id": "NPTEL109104107_747",
       "filename": "Week_04_Lecture_Slides_Listening_and_Telephone_Communication.pdf",
       "title": "Week 4 Lecture Slides: Active Listening & Telephone Communication Skills",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13412,7 +13502,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_04_Lecture_Slides_Listening_and_Telephone_Communication.pdf"
     },
     {
-      "id": "NPTEL109104107_743",
+      "id": "NPTEL109104107_748",
       "filename": "Week_05_Lecture_Slides_Digital_Personality_and_Netiquette.pdf",
       "title": "Week 5 Lecture Slides: Technology, Digital Personality & Netiquette",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13430,7 +13520,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_05_Lecture_Slides_Digital_Personality_and_Netiquette.pdf"
     },
     {
-      "id": "NPTEL109104107_744",
+      "id": "NPTEL109104107_749",
       "filename": "Week_06_Lecture_Slides_Communication_Barriers_and_Assessment.pdf",
       "title": "Week 6 Lecture Slides: Effective Communication & Interpersonal Barriers",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13448,7 +13538,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_06_Lecture_Slides_Communication_Barriers_and_Assessment.pdf"
     },
     {
-      "id": "NPTEL109104107_745",
+      "id": "NPTEL109104107_750",
       "filename": "Week_07_Lecture_Slides_NonVerbal_Cues_and_Interviews.pdf",
       "title": "Week 7 Lecture Slides: Non-Verbal Cues, Body Language & Interview Prep",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13466,7 +13556,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_07_Lecture_Slides_NonVerbal_Cues_and_Interviews.pdf"
     },
     {
-      "id": "NPTEL109104107_746",
+      "id": "NPTEL109104107_751",
       "filename": "Week_08_Lecture_Slides_Professional_Presentations_and_Group_Discussion.pdf",
       "title": "Week 8 Lecture Slides: Professional Presentations, Group Discussions & Integrity",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13484,7 +13574,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/Lecture_Slides/Week_08_Lecture_Slides_Professional_Presentations_and_Group_Discussion.pdf"
     },
     {
-      "id": "NPTEL109104107_747",
+      "id": "NPTEL109104107_752",
       "filename": "Week_01_Summary_Notes_Learning_and_Goal_Setting.pdf",
       "title": "Week 1 Summary Notes: Learning, Planning & Goal Setting",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13502,7 +13592,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/downloaded_notes/Week_01_Summary_Notes_Learning_and_Goal_Setting.pdf"
     },
     {
-      "id": "NPTEL109104107_748",
+      "id": "NPTEL109104107_753",
       "filename": "Week_02_Summary_Notes_Conflict_and_Stress_Regulation.pdf",
       "title": "Week 2 Summary Notes: Conflict Resolution & Stress Regulation",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13520,7 +13610,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/downloaded_notes/Week_02_Summary_Notes_Conflict_and_Stress_Regulation.pdf"
     },
     {
-      "id": "NPTEL109104107_749",
+      "id": "NPTEL109104107_754",
       "filename": "Week_03_Summary_Notes_Habits_and_Success_Patterns.pdf",
       "title": "Week 3 Summary Notes: Habits of Success & Personal Growth",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13538,7 +13628,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/downloaded_notes/Week_03_Summary_Notes_Habits_and_Success_Patterns.pdf"
     },
     {
-      "id": "NPTEL109104107_750",
+      "id": "NPTEL109104107_755",
       "filename": "Week_04_Summary_Notes_Listening_and_Telephone_Etiquette.pdf",
       "title": "Week 4 Summary Notes: Listening Barriers & Telephone Etiquette",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13556,7 +13646,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/downloaded_notes/Week_04_Summary_Notes_Listening_and_Telephone_Etiquette.pdf"
     },
     {
-      "id": "NPTEL109104107_751",
+      "id": "NPTEL109104107_756",
       "filename": "Week_05_Summary_Notes_Technology_and_Email_Etiquette.pdf",
       "title": "Week 5 Summary Notes: Email Principles & Netiquette",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13574,7 +13664,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/downloaded_notes/Week_05_Summary_Notes_Technology_and_Email_Etiquette.pdf"
     },
     {
-      "id": "NPTEL109104107_752",
+      "id": "NPTEL109104107_757",
       "filename": "Week_06_Summary_Notes_Effective_Communication_and_Barriers.pdf",
       "title": "Week 6 Summary Notes: Overcoming Communication Barriers",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13592,7 +13682,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/downloaded_notes/Week_06_Summary_Notes_Effective_Communication_and_Barriers.pdf"
     },
     {
-      "id": "NPTEL109104107_753",
+      "id": "NPTEL109104107_758",
       "filename": "Week_07_Summary_Notes_NonVerbal_Communication_and_Body_Language.pdf",
       "title": "Week 7 Summary Notes: Non-Verbal Communication & Body Language",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",
@@ -13610,7 +13700,7 @@
       "download_url": "https://raw.githubusercontent.com/punitr2007/Study-Material/main/06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/downloaded_notes/Week_07_Summary_Notes_NonVerbal_Communication_and_Body_Language.pdf"
     },
     {
-      "id": "NPTEL109104107_754",
+      "id": "NPTEL109104107_759",
       "filename": "Week_08_Summary_Notes_Presentation_Skills_and_Integrity.pdf",
       "title": "Week 8 Summary Notes: Presentation Skills, Reading Habits & Integrity",
       "subject_id": "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107",

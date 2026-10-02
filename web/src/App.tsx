@@ -17,7 +17,8 @@ import { SolutionsView } from './components/SolutionsView';
 import { PracticeVaultView } from './components/PracticeVaultView';
 import { DriveExplorer } from './components/DriveExplorer';
 import { SolutionViewerModal } from './components/SolutionViewerModal';
-import { Search, X, Loader2 } from 'lucide-react';
+import { NptelQuizView } from './components/NptelQuizView';
+import { Search, X, Loader2, ArrowRight } from 'lucide-react';
 import { Analytics } from '@vercel/analytics/react';
 
 export function App() {
@@ -397,6 +398,55 @@ export function App() {
                 totalDocuments={catalog.total_documents}
               />
 
+              {/* Interactive NPTEL Practice Banner */}
+              {selectedSubject === '06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107' && (
+                <div style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  flexWrap: 'wrap',
+                  gap: '12px',
+                  padding: '16px 20px',
+                  background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(139, 92, 246, 0.12) 100%)',
+                  border: '1px solid rgba(99, 102, 241, 0.35)',
+                  borderRadius: 'var(--radius-xl)',
+                  margin: '8px 0 16px 0',
+                  boxShadow: '0 4px 20px rgba(99, 102, 241, 0.08)'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <span style={{ fontSize: '1.6rem' }}>🎯</span>
+                    <div>
+                      <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '0.98rem' }}>
+                        Interactive NPTEL Practice Tests & Weekly MCQs Available!
+                      </div>
+                      <div style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
+                        Take 101 scenario-based assignment questions with instant feedback, option testing, and lecture explanations.
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => setActiveNavView('quizzes')}
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '9px 18px',
+                      background: 'var(--accent-primary)',
+                      color: '#ffffff',
+                      border: 'none',
+                      borderRadius: 'var(--radius-lg)',
+                      fontWeight: 700,
+                      fontSize: '0.86rem',
+                      cursor: 'pointer',
+                      boxShadow: '0 4px 14px var(--accent-glow)'
+                    }}
+                  >
+                    <span>Launch Interactive Quiz Engine</span>
+                    <ArrowRight size={15} />
+                  </button>
+                </div>
+              )}
+
               {/* Context-Aware Dynamic Category Filter Pills */}
               <CategoryFilterBar
                 activeCategory={activeCategory}
@@ -459,6 +509,24 @@ export function App() {
               <EmptyState onClearFilters={handleClearFilters} />
             )}
           </>
+        )}
+
+        {activeNavView === 'quizzes' && (
+          <NptelQuizView
+            onPreviewPdf={(url, title) => {
+              setActivePreviewDoc({
+                id: 'nptel-preview-' + Date.now(),
+                title: title,
+                filename: title + '.pdf',
+                subject_id: '06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107',
+                category: 'Assignments',
+                download_url: url,
+                view_url: url,
+                verified: true,
+                size_bytes: 0
+              } as any);
+            }}
+          />
         )}
 
         {activeNavView === 'practice' && (
