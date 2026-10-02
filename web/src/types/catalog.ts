@@ -49,4 +49,5 @@ export type CategoryFilter =
   | 'Assignments'
   | 'Lab_Manuals_and_Experiments'
   | 'Handwritten_Notes'
-  | 'Lecture_Slides';
+  | 'Lecture_Slides'
+  | 'Complete_Course_Reference';

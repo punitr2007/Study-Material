@@ -29,6 +29,7 @@ SUBJECT_TITLES = {
     "03_Microelectronics_Circuits_and_Applications_EAEPC304": "Microelectronics Circuits and Applications (EAEPC304 / ECECC304)",
     "04_Digital_Circuits_and_Systems_EAEPC305": "Digital Circuits and Systems (EAEPC305 / ECECC305)",
     "05_Mathematics_For_Machine_Learning_EPMTC301": "Mathematics for Machine Learning (EPMTC301)",
+    "06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107": "Developing Soft Skills and Personality (NPTEL 109104107)",
 }
 
 CATEGORY_LABELS = {
@@ -41,6 +42,8 @@ CATEGORY_LABELS = {
     "Linear_Algebra_Done_Right": "Linear Algebra Done Right (4th Ed)",
     "Textbooks": "Textbooks & References",
     "Textbooks_and_References": "Textbooks & References",
+    "Complete_Course_Reference": "Master Course Guides",
+    "NPTEL_Courses": "NPTEL Courses",
     "MIT_OCW_18.06_Linear_Algebra": "MIT OCW 18.06",
     "Miami_MTH210_Linear_Algebra": "Miami MTH 210",
     "Abstract_Proof_Based_Linear_Algebra": "Proof-Based Problem Bank",
@@ -213,6 +216,24 @@ def clean_display_title(filename: str, rel_path: str = "") -> str:
         "ECE321_Midterm_Exam_3_Questions": "ECE 321 Midterm Exam 3 Questions (Differential Pairs & Output Stages)",
         "ECE321_Final_Exam_Questions": "ECE 321 Comprehensive Final Exam Questions",
         "EEXAM": "Comprehensive Electronics Exam Practice Archive",
+        "NPTEL_109104107_Developing_Soft_Skills_and_Personality_Complete_Guide": "NPTEL 109104107: Developing Soft Skills & Personality (Complete 750+ Pg Master Guide)",
+        "NPTEL_Soft_Skills_Complete_8_Weeks_Master_Summary_Notes": "Complete 8-Week Master Summary Notes (All Modules 1–8)",
+        "Week_01_Lecture_Slides_Learning_Planning_Self_Actualisation": "Week 1 Lecture Slides: Learning Approach, Planning & Self-Actualisation",
+        "Week_01_Summary_Notes_Learning_and_Goal_Setting": "Week 1 Summary Notes: Learning, Planning & Goal Setting",
+        "Week_02_Lecture_Slides_Conflict_Resolution_and_Stress": "Week 2 Lecture Slides: Conflict Resolution & Stress Management",
+        "Week_02_Summary_Notes_Conflict_and_Stress_Regulation": "Week 2 Summary Notes: Conflict Resolution & Stress Regulation",
+        "Week_03_Lecture_Slides_Habit_Cycle_and_Productivity": "Week 3 Lecture Slides: Habit Cycles, Breaking Bad Habits & Zeigarnik Effect",
+        "Week_03_Summary_Notes_Habits_and_Success_Patterns": "Week 3 Summary Notes: Habits of Success & Personal Growth",
+        "Week_04_Lecture_Slides_Listening_and_Telephone_Communication": "Week 4 Lecture Slides: Active Listening & Telephone Communication Skills",
+        "Week_04_Summary_Notes_Listening_and_Telephone_Etiquette": "Week 4 Summary Notes: Listening Barriers & Telephone Etiquette",
+        "Week_05_Lecture_Slides_Digital_Personality_and_Netiquette": "Week 5 Lecture Slides: Technology, Digital Personality & Netiquette",
+        "Week_05_Summary_Notes_Technology_and_Email_Etiquette": "Week 5 Summary Notes: Email Principles & Netiquette",
+        "Week_06_Lecture_Slides_Communication_Barriers_and_Assessment": "Week 6 Lecture Slides: Effective Communication & Interpersonal Barriers",
+        "Week_06_Summary_Notes_Effective_Communication_and_Barriers": "Week 6 Summary Notes: Overcoming Communication Barriers",
+        "Week_07_Lecture_Slides_NonVerbal_Cues_and_Interviews": "Week 7 Lecture Slides: Non-Verbal Cues, Body Language & Interview Prep",
+        "Week_07_Summary_Notes_NonVerbal_Communication_and_Body_Language": "Week 7 Summary Notes: Non-Verbal Communication & Body Language",
+        "Week_08_Lecture_Slides_Professional_Presentations_and_Group_Discussion": "Week 8 Lecture Slides: Professional Presentations, Group Discussions & Integrity",
+        "Week_08_Summary_Notes_Presentation_Skills_and_Integrity": "Week 8 Summary Notes: Presentation Skills, Reading Habits & Integrity",
     }
     if name in title_overrides:
         return title_overrides[name]

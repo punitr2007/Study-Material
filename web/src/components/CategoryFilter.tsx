@@ -20,7 +20,8 @@ const CATEGORY_ITEMS: { key: CategoryFilter; label: string }[] = [
   { key: 'Summer_Semester', label: '☀️ Summer Exam' },
   { key: 'Lab_Manuals_and_Experiments', label: '🔬 Lab Manuals' },
   { key: 'Handwritten_Notes', label: '✍️ Handwritten Notes' },
-  { key: 'Lecture_Slides', label: '🖥️ Lecture Slides' }
+  { key: 'Lecture_Slides', label: '🖥️ Lecture Slides' },
+  { key: 'Complete_Course_Reference', label: '📘 Master Course Guides' }
 ];
 
 export const CategoryFilterBar: React.FC<CategoryFilterProps> = ({

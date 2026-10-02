@@ -156,6 +156,9 @@ export function App() {
     if (catFilter === 'Lecture_Slides') {
       return cat === 'Lecture_Slides' || cat === 'Lecture_Slides_Prof_Razavi' || path.includes('lecture_slides');
     }
+    if (catFilter === 'Complete_Course_Reference') {
+      return cat === 'Complete_Course_Reference' || path.includes('complete_course_reference') || label.includes('master');
+    }
     return cat === catFilter || doc.sub_category === catFilter;
   };
 
