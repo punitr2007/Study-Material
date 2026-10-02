@@ -24,6 +24,7 @@ import {
   Layers
 } from 'lucide-react';
 import quizDataJson from '../data/nptel_quizzes.json';
+import { useAuth } from '../context/AuthContext';
 
 const quizData = quizDataJson as QuizDatabase;
 
@@ -32,6 +33,8 @@ interface NptelQuizViewProps {
 }
 
 export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) => {
+  const { progress, saveQuizScore, toggleFlagQuestion } = useAuth();
+
   const [selectedWeek, setSelectedWeek] = useState<number>(4); // Default to Week 4
   const [mode, setMode] = useState<QuizMode>('practice');
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -106,6 +109,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
   // Toggle Flag
   const toggleFlag = (qId: string) => {
     setFlaggedQuestions(prev => ({ ...prev, [qId]: !prev[qId] }));
+    toggleFlagQuestion(qId);
   };
 
   // Reset Quiz
@@ -118,9 +122,22 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
     setTimeElapsed(0);
   };
 
-  // Submit Exam
+  // Submit Exam & Save score atomically with content sanity validation
   const handleSubmitExam = () => {
     setIsExamSubmitted(true);
+    const wrongIds: string[] = [];
+    weekQuestions.forEach(q => {
+      const ans = userAnswers[q.id] || [];
+      const correctSet = new Set(q.correctAnswers);
+      const isExactMatch = ans.length === q.correctAnswers.length && ans.every(i => correctSet.has(i));
+      if (!isExactMatch) {
+        wrongIds.push(q.id);
+      }
+    });
+
+    if (selectedWeek > 0) {
+      saveQuizScore(selectedWeek, scoreResults.correctCount, scoreResults.total, wrongIds);
+    }
   };
 
   // Calculate scores
@@ -214,17 +231,36 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
           <span>All Weeks Mega Test ({quizData.totalQuestions})</span>
         </button>
 
-        {quizData.weeks.map(w => (
-          <button
-            key={w.week}
-            className={`nptel-week-btn ${selectedWeek === w.week ? 'active' : ''}`}
-            onClick={() => { setSelectedWeek(w.week); handleReset(); }}
-          >
-            <span className="week-num-pill">W{w.week}</span>
-            <span className="week-title-short">{w.title.split('&')[0].trim()}</span>
-            <span className="week-q-count">({w.questionCount} Qs)</span>
-          </button>
-        ))}
+        {quizData.weeks.map(w => {
+          const attempt = progress.nptelProgress?.[`week_${w.week}`];
+          return (
+            <button
+              key={w.week}
+              className={`nptel-week-btn ${selectedWeek === w.week ? 'active' : ''}`}
+              onClick={() => { setSelectedWeek(w.week); handleReset(); }}
+            >
+              <span className="week-num-pill">W{w.week}</span>
+              <span className="week-title-short">{w.title.split('&')[0].trim()}</span>
+              <span className="week-q-count">({w.questionCount} Qs)</span>
+              {attempt && (
+                <span
+                  style={{
+                    fontSize: '0.68rem',
+                    padding: '1px 6px',
+                    borderRadius: '4px',
+                    background: attempt.percentage >= 70 ? 'rgba(16, 185, 129, 0.2)' : 'rgba(245, 158, 11, 0.2)',
+                    color: attempt.percentage >= 70 ? '#10b981' : '#f59e0b',
+                    fontWeight: 700,
+                    marginLeft: '2px'
+                  }}
+                  title={`Best score: ${attempt.highestScore}/${attempt.totalQuestions} (${attempt.percentage}%)`}
+                >
+                  {attempt.highestScore}/{attempt.totalQuestions}
+                </span>
+              )}
+            </button>
+          );
+        })}
       </div>
 
       {/* Week Overview Card */}

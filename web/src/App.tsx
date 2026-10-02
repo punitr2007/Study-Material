@@ -18,11 +18,17 @@ import { PracticeVaultView } from './components/PracticeVaultView';
 import { DriveExplorer } from './components/DriveExplorer';
 import { SolutionViewerModal } from './components/SolutionViewerModal';
 import { NptelQuizView } from './components/NptelQuizView';
+import { HomeView } from './components/HomeView';
+import { StudyHubView } from './components/StudyHubView';
+import { ToolsHubView } from './components/ToolsHubView';
+import { MobileBottomNav } from './components/MobileBottomNav';
+import { AuthModal } from './components/AuthModal';
+import { AuthProvider } from './context/AuthContext';
 import { Search, X, Loader2, ArrowRight } from 'lucide-react';
 import { Analytics } from '@vercel/analytics/react';
 
-export function App() {
-  const [activeNavView, setActiveNavView] = useState<ActiveNavView>('materials');
+function AppContent() {
+  const [activeNavView, setActiveNavView] = useState<ActiveNavView>('home');
   const [catalog, setCatalog] = useState<CatalogData | null>(null);
   const [analyticsData, setAnalyticsData] = useState<AnalyticsData | null>(null);
   const [solutionsData, setSolutionsData] = useState<SolutionsData | null>(null);
@@ -43,6 +49,7 @@ export function App() {
   const [activeSolutionModal, setActiveSolutionModal] = useState<QuestionSolution | null>(null);
 
   const [isSyncModalOpen, setIsSyncModalOpen] = useState(false);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -356,10 +363,35 @@ export function App() {
           activeView={activeNavView}
           setActiveView={setActiveNavView}
           onOpenSyncModal={() => setIsSyncModalOpen(true)}
+          onOpenAuthModal={() => setIsAuthModalOpen(true)}
           isRefreshing={isRefreshing}
         />
 
         {/* Dynamic View Rendering */}
+        {activeNavView === 'home' && (
+          <HomeView
+            catalog={catalog}
+            onNavigate={(view, search) => {
+              setActiveNavView(view);
+              if (search) setSearchQuery(search);
+            }}
+            onOpenAuthModal={() => setIsAuthModalOpen(true)}
+          />
+        )}
+
+        {activeNavView === 'study-hub' && (
+          <StudyHubView
+            onNavigate={setActiveNavView}
+            totalDocuments={catalog.total_documents}
+          />
+        )}
+
+        {activeNavView === 'tools-hub' && (
+          <ToolsHubView
+            onNavigate={setActiveNavView}
+          />
+        )}
+
         {activeNavView === 'materials' && (
           <>
             {/* Hero Section */}
@@ -578,6 +610,18 @@ export function App() {
           totalDocs={catalog.total_documents}
         />
 
+        {/* Mobile Bottom Navigation Bar (Touch-friendly 4-tab thumb zone) */}
+        <MobileBottomNav
+          activeView={activeNavView}
+          setActiveView={setActiveNavView}
+        />
+
+        {/* Google OAuth & Dual-Storage Modal */}
+        <AuthModal
+          isOpen={isAuthModalOpen}
+          onClose={() => setIsAuthModalOpen(false)}
+        />
+
         {/* Footer */}
         <footer className="app-footer">
           <p>
@@ -599,6 +643,14 @@ export function App() {
 
       <Analytics />
     </>
+  );
+}
+
+export function App() {
+  return (
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
   );
 }
 

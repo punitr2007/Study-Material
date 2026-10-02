@@ -1,0 +1,55 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Validate that academic progress payload contains valid bounds
+    function isValidProgressData(data, userId) {
+      return data.uid == userId
+        && (data.email == null || data.email == request.auth.token.email)
+        && (data.version is int && data.version >= 0)
+        && (data.flaggedQuestionIds is list)
+        && (data.bookmarkedDocIds is list);
+    }
+
+    // User Private Academic Progress Documents
+    match /users/{userId} {
+      // 1. Read: User can only read their own document
+      allow read: if isOwner(userId);
+
+      // 2. Create: User can only create their own record with their auth UID
+      allow create: if isOwner(userId)
+                    && isValidProgressData(request.resource.data, userId);
+
+      // 3. Update: User can only update their record with valid UID and sanity bounds
+      allow update: if isOwner(userId)
+                    && isValidProgressData(request.resource.data, userId);
+
+      // 4. Delete: Disallow direct client-side deletions to prevent accidental data loss.
+      // NOTE: Data erasure requests (complying with India DPDP Act 2023 / GDPR) 
+      // are processed via authenticated Firebase Admin Cloud Functions, not direct client SDK.
+      allow delete: if false;
+
+      // Granular subcollections (e.g. detailed exam attempt audit trails)
+      match /{allSubcollections=**} {
+        allow read: if isOwner(userId);
+        allow create, update: if isOwner(userId);
+        allow delete: if false;
+      }
+    }
+
+    // Public Course Content & Catalogs (Read-only for all clients, writes strictly blocked)
+    match /public_content/{document=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}
