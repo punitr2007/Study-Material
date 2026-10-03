@@ -27,6 +27,7 @@
 | 03 | `EAEPC304` | [Microelectronics Circuits and Applications](03_Microelectronics_Circuits_and_Applications_EAEPC304/README.md) | Textbooks, downloaded pyqs, Assignments, Lab Manuals and Experiments, Practice and Reference Material, downloaded notes, Lecture Slides Prof Razavi |
 | 04 | `EAEPC305` | [Digital Circuits and Systems](04_Digital_Circuits_and_Systems_EAEPC305/README.md) | Textbooks, downloaded pyqs, Syllabus, Assignments, downloaded notes, Handwritten Notes |
 | 05 | `EPMTC301` | [Mathematics For Machine Learning](05_Mathematics_For_Machine_Learning_EPMTC301/README.md) | Linear Algebra Done Right, downloaded pyqs, Textbooks and References, Assignments and Tutorials, Practice Material |
+| 06 | `NPTEL109104107` | [NPTEL Developing Soft Skills and Personality](06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/README.md) | Assignments, Complete Course Reference, Lecture Slides, downloaded notes |
 
 ---
 

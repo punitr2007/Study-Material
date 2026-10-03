@@ -1,72 +1,63 @@
-# NPTEL Course: Developing Soft Skills and Personality
+# 06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107
 
-* **Course Code:** `NPTEL 109104107`
-* **Instructor:** Prof. T. Ravichandran (Department of Humanities and Social Sciences, IIT Kanpur)
-* **Format:** 8-Week Comprehensive Course (48 Lectures)
+Comprehensive course archive containing lecture notes, problem sets, textbooks, lab manuals, and previous year university examination papers.
 
----
+## Table of Contents
 
-## 📚 Master References & Complete Course Materials
-
-| Directory & File | Type | Description |
-|---|---|---|
-| [`00_Complete_Course_Reference/NPTEL_109104107_Developing_Soft_Skills_and_Personality_Complete_Guide.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/00_Complete_Course_Reference/NPTEL_109104107_Developing_Soft_Skills_and_Personality_Complete_Guide.pdf) | Master Transcript & Handbook | Complete 750+ page lecture transcript, reading material, and exercises covering all 48 lectures. |
-| [`00_Complete_Course_Reference/NPTEL_Soft_Skills_Complete_8_Weeks_Master_Summary_Notes.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/00_Complete_Course_Reference/NPTEL_Soft_Skills_Complete_8_Weeks_Master_Summary_Notes.pdf) | 8-Week Master Summary | Consolidated 55-page high-yield revision summary covering all modules from Week 1 through Week 8. |
+- [Assignments](#assignments)
+- [Complete Course Reference](#complete-course-reference)
+- [Lecture Slides](#lecture-slides)
+- [downloaded notes](#downloaded-notes)
 
 ---
 
-## 📂 Weekly Modules & Study Material
+## Assignments
 
-### [Week 01 — Learning, Planning and Goal-Setting](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_01_Learning_Planning_and_Goal_Setting)
-* **Lectures 1–6:** A New Approach to Learning, Planning & Goal Setting, Human Perceptions, Self-Management Skills, Self-Actualisation, Need Achievement & Spiritual Intelligence.
-* 📄 **Lecture Slides:** [`Week_01_Lecture_Slides_Learning_Planning_Self_Actualisation.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_01_Learning_Planning_and_Goal_Setting/Week_01_Lecture_Slides_Learning_Planning_Self_Actualisation.pdf)
-* 📝 **Summary Notes:** [`Week_01_Summary_Notes_Learning_and_Goal_Setting.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_01_Learning_Planning_and_Goal_Setting/Week_01_Summary_Notes_Learning_and_Goal_Setting.pdf)
-
----
-
-### [Week 02 — Conflict Resolution and Stress Management](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_02_Conflict_Resolution_and_Stress_Management)
-* **Lectures 7–12:** Conflict Resolution (Win-Win Solutions), Interpersonal Conflicts & Solutions, Types of Conflicts, Self-Awareness of Stress, Regulating Stress.
-* 📄 **Lecture Slides:** [`Week_02_Lecture_Slides_Conflict_Resolution_and_Stress.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_02_Conflict_Resolution_and_Stress_Management/Week_02_Lecture_Slides_Conflict_Resolution_and_Stress.pdf)
-* 📝 **Summary Notes:** [`Week_02_Summary_Notes_Conflict_and_Stress_Regulation.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_02_Conflict_Resolution_and_Stress_Management/Week_02_Summary_Notes_Conflict_and_Stress_Regulation.pdf)
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Week_04_Assignment_Questions_and_Answers.pdf](Assignments/Week_04_Assignment_Questions_and_Answers.pdf) | `PDF` | 2.96 MB |
+| [Week_05_Assignment_Questions.pdf](Assignments/Week_05_Assignment_Questions.pdf) | `PDF` | 2.35 MB |
+| [Week_07_Assignment_Questions.pdf](Assignments/Week_07_Assignment_Questions.pdf) | `PDF` | 2.48 MB |
+| [Week_08_Assignment_Questions.pdf](Assignments/Week_08_Assignment_Questions.pdf) | `PDF` | 3.01 MB |
+| [Week_08_Assignment_Questions_and_Answers.pdf](Assignments/Week_08_Assignment_Questions_and_Answers.pdf) | `PDF` | 3.04 MB |
 
 ---
 
-### [Week 03 — Habits and Personal Growth](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_03_Habits_and_Personal_Growth)
-* **Lectures 13–18:** Guiding Principles of Habits, Habit Cycle, Breaking Bad Habits, The Zeigarnik Effect for Productivity, Forming Habits of Success.
-* 📄 **Lecture Slides:** [`Week_03_Lecture_Slides_Habit_Cycle_and_Productivity.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_03_Habits_and_Personal_Growth/Week_03_Lecture_Slides_Habit_Cycle_and_Productivity.pdf)
-* 📝 **Summary Notes:** [`Week_03_Summary_Notes_Habits_and_Success_Patterns.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_03_Habits_and_Personal_Growth/Week_03_Summary_Notes_Habits_and_Success_Patterns.pdf)
+## Complete Course Reference
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [NPTEL_109104107_Developing_Soft_Skills_and_Personality_Complete_Guide.pdf](Complete_Course_Reference/NPTEL_109104107_Developing_Soft_Skills_and_Personality_Complete_Guide.pdf) | `PDF` | 34.39 MB |
+| [NPTEL_Soft_Skills_Complete_8_Weeks_Master_Summary_Notes.pdf](Complete_Course_Reference/NPTEL_Soft_Skills_Complete_8_Weeks_Master_Summary_Notes.pdf) | `PDF` | 191.2 KB |
 
 ---
 
-### [Week 04 — Active Listening and Telephone Skills](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_04_Active_Listening_and_Telephone_Skills)
-* **Lectures 19–24:** Significance of Listening, Active Listening Techniques, Barriers to Listening, Basic, Advanced, and Essential Telephone Skills.
-* 📄 **Lecture Slides:** [`Week_04_Lecture_Slides_Listening_and_Telephone_Communication.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_04_Active_Listening_and_Telephone_Skills/Week_04_Lecture_Slides_Listening_and_Telephone_Communication.pdf)
-* 📝 **Summary Notes:** [`Week_04_Summary_Notes_Listening_and_Telephone_Etiquette.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_04_Active_Listening_and_Telephone_Skills/Week_04_Summary_Notes_Listening_and_Telephone_Etiquette.pdf)
+## Lecture Slides
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Week_01_Lecture_Slides_Learning_Planning_Self_Actualisation.pdf](Lecture_Slides/Week_01_Lecture_Slides_Learning_Planning_Self_Actualisation.pdf) | `PDF` | 6.76 MB |
+| [Week_02_Lecture_Slides_Conflict_Resolution_and_Stress.pdf](Lecture_Slides/Week_02_Lecture_Slides_Conflict_Resolution_and_Stress.pdf) | `PDF` | 3.54 MB |
+| [Week_03_Lecture_Slides_Habit_Cycle_and_Productivity.pdf](Lecture_Slides/Week_03_Lecture_Slides_Habit_Cycle_and_Productivity.pdf) | `PDF` | 4.30 MB |
+| [Week_04_Lecture_Slides_Listening_and_Telephone_Communication.pdf](Lecture_Slides/Week_04_Lecture_Slides_Listening_and_Telephone_Communication.pdf) | `PDF` | 4.46 MB |
+| [Week_05_Lecture_Slides_Digital_Personality_and_Netiquette.pdf](Lecture_Slides/Week_05_Lecture_Slides_Digital_Personality_and_Netiquette.pdf) | `PDF` | 12.40 MB |
+| [Week_06_Lecture_Slides_Communication_Barriers_and_Assessment.pdf](Lecture_Slides/Week_06_Lecture_Slides_Communication_Barriers_and_Assessment.pdf) | `PDF` | 14.51 MB |
+| [Week_07_Lecture_Slides_NonVerbal_Cues_and_Interviews.pdf](Lecture_Slides/Week_07_Lecture_Slides_NonVerbal_Cues_and_Interviews.pdf) | `PDF` | 14.59 MB |
+| [Week_08_Lecture_Slides_Professional_Presentations_and_Group_Discussion.pdf](Lecture_Slides/Week_08_Lecture_Slides_Professional_Presentations_and_Group_Discussion.pdf) | `PDF` | 7.46 MB |
 
 ---
 
-### [Week 05 — Technology, Digital Personality and Netiquette](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_05_Technology_Digital_Personality_and_Netiquette)
-* **Lectures 25–30:** Technological & Mobile Personality, Email Principles, Common Email Mistakes, Netiquette, Email Etiquette.
-* 📄 **Lecture Slides:** [`Week_05_Lecture_Slides_Digital_Personality_and_Netiquette.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_05_Technology_Digital_Personality_and_Netiquette/Week_05_Lecture_Slides_Digital_Personality_and_Netiquette.pdf)
-* 📝 **Summary Notes:** [`Week_05_Summary_Notes_Technology_and_Email_Etiquette.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_05_Technology_Digital_Personality_and_Netiquette/Week_05_Summary_Notes_Technology_and_Email_Etiquette.pdf)
+## downloaded notes
+
+| File Name | Type | Size |
+| :--- | :---: | :---: |
+| [Week_01_Summary_Notes_Learning_and_Goal_Setting.pdf](downloaded_notes/Week_01_Summary_Notes_Learning_and_Goal_Setting.pdf) | `PDF` | 42.7 KB |
+| [Week_02_Summary_Notes_Conflict_and_Stress_Regulation.pdf](downloaded_notes/Week_02_Summary_Notes_Conflict_and_Stress_Regulation.pdf) | `PDF` | 36.1 KB |
+| [Week_03_Summary_Notes_Habits_and_Success_Patterns.pdf](downloaded_notes/Week_03_Summary_Notes_Habits_and_Success_Patterns.pdf) | `PDF` | 35.1 KB |
+| [Week_04_Summary_Notes_Listening_and_Telephone_Etiquette.pdf](downloaded_notes/Week_04_Summary_Notes_Listening_and_Telephone_Etiquette.pdf) | `PDF` | 34.3 KB |
+| [Week_05_Summary_Notes_Technology_and_Email_Etiquette.pdf](downloaded_notes/Week_05_Summary_Notes_Technology_and_Email_Etiquette.pdf) | `PDF` | 40.7 KB |
+| [Week_06_Summary_Notes_Effective_Communication_and_Barriers.pdf](downloaded_notes/Week_06_Summary_Notes_Effective_Communication_and_Barriers.pdf) | `PDF` | 39.5 KB |
+| [Week_07_Summary_Notes_NonVerbal_Communication_and_Body_Language.pdf](downloaded_notes/Week_07_Summary_Notes_NonVerbal_Communication_and_Body_Language.pdf) | `PDF` | 44.3 KB |
+| [Week_08_Summary_Notes_Presentation_Skills_and_Integrity.pdf](downloaded_notes/Week_08_Summary_Notes_Presentation_Skills_and_Integrity.pdf) | `PDF` | 33.0 KB |
 
 ---
-
-### [Week 06 — Effective Communication and Interpersonal Barriers](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_06_Effective_Communication_and_Interpersonal_Barriers)
-* **Lectures 31–36:** Effective Communication Dynamics, Sender/Receiver Personality Barriers, Interpersonal Transactions, Miscommunication, Non-Verbal Assessments.
-* 📄 **Lecture Slides:** [`Week_06_Lecture_Slides_Communication_Barriers_and_Assessment.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_06_Effective_Communication_and_Interpersonal_Barriers/Week_06_Lecture_Slides_Communication_Barriers_and_Assessment.pdf)
-* 📝 **Summary Notes:** [`Week_06_Summary_Notes_Effective_Communication_and_Barriers.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_06_Effective_Communication_and_Interpersonal_Barriers/Week_06_Summary_Notes_Effective_Communication_and_Barriers.pdf)
-
----
-
-### [Week 07 — Non-Verbal Communication and Body Language](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_07_NonVerbal_Communication_and_Body_Language)
-* **Lectures 37–42:** Non-Verbal Communication Significance & Types, Universal Non-Verbal Cues, Interpreting Signals, Body Language for Job Interviews & Group Discussions.
-* 📄 **Lecture Slides:** [`Week_07_Lecture_Slides_NonVerbal_Cues_and_Interviews.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_07_NonVerbal_Communication_and_Body_Language/Week_07_Lecture_Slides_NonVerbal_Cues_and_Interviews.pdf)
-* 📝 **Summary Notes:** [`Week_07_Summary_Notes_NonVerbal_Communication_and_Body_Language.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_07_NonVerbal_Communication_and_Body_Language/Week_07_Summary_Notes_NonVerbal_Communication_and_Body_Language.pdf)
-
----
-
-### [Week 08 — Presentation Skills and Relationship Building](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_08_Presentation_Skills_and_Relationship_Building)
-* **Lectures 43–48:** Professional Presentation Skills, Effective Reading Habits, Building Trust & Integrity, Course Synthesis.
-* 📄 **Lecture Slides:** [`Week_08_Lecture_Slides_Professional_Presentations_and_Group_Discussion.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_08_Presentation_Skills_and_Relationship_Building/Week_08_Lecture_Slides_Professional_Presentations_and_Group_Discussion.pdf)
-* 📝 **Summary Notes:** [`Week_08_Summary_Notes_Presentation_Skills_and_Integrity.pdf`](file:///home/punit/Local_Codebase/Projects/Extracted_Contents/NPTEL_notes/Week_08_Presentation_Skills_and_Relationship_Building/Week_08_Summary_Notes_Presentation_Skills_and_Integrity.pdf)
