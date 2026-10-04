@@ -541,6 +541,16 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
                     <span>Reference: <strong>{currentQ.lectureRef}</strong> • NPTEL 109104107</span>
                   </div>
                 )}
+                {currentQ.disputeNotes && (
+                  <div className="suggested-answer-card" style={{ marginTop: '12px', padding: '12px 16px', borderRadius: 'var(--radius-md)', background: 'rgba(245, 158, 11, 0.08)', border: '1px solid rgba(245, 158, 11, 0.22)' }}>
+                    <div style={{ fontWeight: 700, fontSize: '0.84rem', color: '#fbbf24', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      💡 Suggested Alternative / Key Clarification
+                    </div>
+                    <div style={{ fontSize: '0.82rem', lineHeight: '1.45', color: 'var(--text-secondary)' }}>
+                      {currentQ.disputeNotes}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 

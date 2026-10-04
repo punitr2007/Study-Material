@@ -2907,93 +2907,9 @@ body {
 /* Mobile & Small Tablets (< 768px) */
 @media (max-width: 768px) {
   .app-container {
-    padding: 0 10px 50px;
+    padding: 0 12px 60px;
   }
 
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    border-radius: 14px;
-  }
-
-  .navbar-top-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .brand-group {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .brand-icon-box {
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-  }
-
-  .brand-title {
-    font-size: 0.98rem;
-  }
-
-  .brand-badge {
-    font-size: 0.65rem;
-    padding: 1px 6px;
-  }
-
-  .nav-actions {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .nav-actions .btn-nav-sync {
-    padding: 5px 9px;
-    font-size: 0.76rem;
-    height: 32px;
-  }
-
-  .nav-actions .btn-icon {
-    width: 32px;
-    height: 32px;
-  }
-
-  .nav-view-tabs {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    flex-wrap: nowrap;
-    background: var(--bg-tertiary);
-    padding: 3px;
-    border-radius: 12px;
-    border: 1px solid var(--border-subtle);
-    gap: 4px;
-  }
-
-  .nav-view-tabs::-webkit-scrollbar {
-    display: none;
-  }
-
-  .nav-tab-link {
-    flex: none;
-    flex-shrink: 0;
-    justify-content: center;
-    padding: 6px 11px;
-    font-size: 0.76rem;
-    white-space: nowrap;
-    border-radius: 8px;
-  }
 
   .hero-section {
     padding: 12px 4px 14px;
@@ -3585,7 +3501,7 @@ body {
 /* Quiz Layout */
 .nptel-quiz-layout {
   display: grid;
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: minmax(0, 1fr) 280px;
   gap: 20px;
   align-items: start;
 }
@@ -4704,14 +4620,14 @@ body {
   border-color: var(--border-medium);
 }
 
-/* Responsive Overrides (< 768px) */
+/* Responsive Overrides (<= 768px) */
 @media (max-width: 768px) {
   .app-container {
-    padding-bottom: 80px !important;
+    padding-bottom: 80px;
   }
 
   .nav-task-hierarchy {
-    display: none !important;
+    display: none;
   }
 
   .nav-mobile-title-pill {
@@ -4731,21 +4647,21 @@ body {
   }
 
   .nav-github-icon {
-    display: none !important;
+    display: none;
   }
 
   .btn-nav-sync .nav-sync-text {
-    display: none !important;
+    display: none;
   }
 
   .nav-auth-label {
-    display: none !important;
+    display: none;
   }
 
   .btn-nav-auth {
-    padding: 4px !important;
-    width: 34px !important;
-    height: 34px !important;
+    padding: 4px;
+    width: 34px;
+    height: 34px;
     justify-content: center;
   }
 

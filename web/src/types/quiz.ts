@@ -21,6 +21,9 @@ export interface QuizQuestion {
   explanation: string;
   lectureRef: string;
   tags?: string[];
+  suggestedAnswers?: number[];
+  suggestedExplanation?: string;
+  disputeNotes?: string;
 }
 
 export interface QuizDatabase {
