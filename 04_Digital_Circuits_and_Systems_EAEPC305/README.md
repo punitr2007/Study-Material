@@ -177,5 +177,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Summer_Semester/2024_End_Semester_ECECC08_EIECC08_INECC01_Digital_Circuits_and_Systems.pdf) | `PDF` | 47.7 KB |
 | [2024_Summer_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Summer_Semester/2024_Summer_End_Semester_EEECC08_ICECC08_Digital_Circuits_and_Systems.pdf) | `PDF` | 59.1 KB |
 | [2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Summer_Semester/2026_End_Semester_EAEPC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 129.3 KB |
+| [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Summer_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 47.7 KB |
 
 ---
