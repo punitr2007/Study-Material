@@ -9,19 +9,24 @@
   --bg-primary: #0b0f19;
   --bg-secondary: #111827;
   --bg-tertiary: #1f2937;
-  --bg-glass: rgba(17, 24, 39, 0.75);
-  --bg-glass-card: rgba(31, 41, 55, 0.45);
-  --bg-glass-hover: rgba(55, 65, 81, 0.6);
-  --bg-input: rgba(15, 23, 42, 0.8);
+  --bg-card: #111827;
+  --bg-card-subtle: #1e293b;
+  --bg-card-hover: #26354a;
+  --bg-glass: rgba(17, 24, 39, 0.92);
+  --bg-glass-card: rgba(31, 41, 55, 0.85);
+  --bg-glass-hover: rgba(55, 65, 81, 0.85);
+  --bg-input: rgba(15, 23, 42, 0.9);
 
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
   --text-inverse: #0f172a;
 
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-medium: rgba(255, 255, 255, 0.18);
   --border-subtle: rgba(255, 255, 255, 0.08);
   --border-focus: rgba(99, 102, 241, 0.6);
-  --border-card: rgba(255, 255, 255, 0.06);
+  --border-card: rgba(255, 255, 255, 0.08);
 
   --accent-primary: #6366f1;
   --accent-primary-hover: #4f46e5;
@@ -33,9 +38,9 @@
   --accent-rose: #f43f5e;
   --accent-violet: #8b5cf6;
 
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-  --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 12px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 28px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.35);
   --shadow-glow: 0 0 25px rgba(99, 102, 241, 0.2);
 
   --radius-sm: 6px;
@@ -52,12 +57,24 @@
   --bg-primary: #f8fafc;
   --bg-secondary: #ffffff;
   --bg-tertiary: #f1f5f9;
-  --bg-glass: rgba(255, 255, 255, 0.85);
-  --bg-glass-card: rgba(255, 255, 255, 0.7);
-  --bg-glass-hover: rgba(241, 245, 249, 0.9);
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --bg-card-hover: #f1f5f9;
+  --bg-glass: rgba(255, 255, 255, 0.95);
+  --bg-glass-card: rgba(255, 255, 255, 0.9);
+  --bg-glass-hover: rgba(241, 245, 249, 0.95);
   --bg-input: #ffffff;
 
   --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-inverse: #ffffff;
+
+  --border-color: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-subtle: #e2e8f0;
+  --border-focus: rgba(99, 102, 241, 0.6);
+  --border-card: #e2e8f0;
   --text-secondary: #475569;
   --text-muted: #94a3b8;
   --text-inverse: #f8fafc;
@@ -3313,7 +3330,14 @@ body {
   gap: 8px;
   overflow-x: auto;
   padding-bottom: 6px;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.nptel-week-selector-bar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .nptel-week-btn {
@@ -3472,8 +3496,16 @@ body {
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: 6px 14px;
-  min-width: 280px;
+  flex: 1 1 240px;
+  max-width: 360px;
+  min-width: 200px;
   position: relative;
+  transition: all var(--transition-fast);
+}
+
+.search-filter-box:focus-within {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
 .search-quiz-input {
@@ -4257,25 +4289,21 @@ body {
   transition: all var(--transition-fast);
 }
 
+.toggle-reveal-mode-btn.manual {
+  border-color: rgba(16, 185, 129, 0.3);
+  background: rgba(16, 185, 129, 0.08);
+  color: #34d399;
+}
+
+.toggle-reveal-mode-btn.auto {
+  border-color: rgba(245, 158, 11, 0.3);
+  background: rgba(245, 158, 11, 0.08);
+  color: #fbbf24;
+}
+
 .toggle-reveal-mode-btn:hover {
   background: var(--bg-tertiary);
-  color: var(--text-primary);
-  border-color: var(--border-medium);
-}
-
-.reveal-indicator-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-}
-
-.reveal-indicator-dot.manual {
-  background: #10b981;
-  box-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
-}
-
-.reveal-indicator-dot.auto {
-  background: #f59e0b;
+  transform: translateY(-1px);
 }
 
 /* ==========================================================================
@@ -4313,19 +4341,23 @@ body {
   position: absolute;
   top: calc(100% + 8px);
   left: 0;
-  min-width: 300px;
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
+  min-width: 310px;
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius-xl);
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28), 0 0 0 1px rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 20px 45px -4px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.08);
   padding: 8px;
   display: flex;
   flex-direction: column;
   gap: 4px;
-  z-index: 1200;
+  z-index: 2500;
   animation: dropdownFadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme='light'] .nav-dropdown-menu {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 45px -4px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.06);
 }
 
 @keyframes dropdownFadeIn {

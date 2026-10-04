@@ -307,8 +307,17 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({ onPreviewPdf }) =>
             onClick={() => setAutoCheck(prev => !prev)}
             title={autoCheck ? "Currently in Instant Reveal. Click to require 'Check Answer' button." : "Currently requiring 'Check Answer' button. Click to toggle Instant Reveal."}
           >
-            <span className={`reveal-indicator-dot ${autoCheck ? 'auto' : 'manual'}`} />
-            <span>{autoCheck ? '⚡ Instant Reveal: ON' : '🎯 Check Answers Mode: ON'}</span>
+            {autoCheck ? (
+              <>
+                <Zap size={13} style={{ color: '#f59e0b' }} />
+                <span>Instant Reveal Mode</span>
+              </>
+            ) : (
+              <>
+                <CheckSquare size={13} style={{ color: '#10b981' }} />
+                <span>Manual Check Mode</span>
+              </>
+            )}
           </button>
         )}
 

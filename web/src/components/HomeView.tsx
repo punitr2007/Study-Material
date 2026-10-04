@@ -100,7 +100,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
               maxWidth: '720px'
             }}
           >
-            Official university curriculum archives, 101 interactive NPTEL weekly MCQs, Sedra & Smith problem vaults, and AI-assisted KaTeX mathematical derivations in a unified high-performance interface.
+            Official university curriculum archives, 200 interactive NPTEL weekly MCQs, Sedra & Smith problem vaults, and AI-assisted KaTeX mathematical derivations in a unified high-performance interface.
           </p>
 
           {/* Quick-Launch Universal Search */}
@@ -190,7 +190,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
               }}
             >
               <GraduationCap size={15} style={{ color: '#10b981' }} />
-              <strong style={{ color: 'var(--text-primary)' }}>101</strong> NPTEL MCQs
+              <strong style={{ color: 'var(--text-primary)' }}>200</strong> NPTEL MCQs
             </div>
             <div
               style={{
@@ -455,7 +455,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
                 </span>
               </div>
               <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: '16px' }}>
-                Developing Soft Skills & Personality (NPTEL109104107). 8 weeks of official slide summaries and 101 interactive MCQs.
+                Developing Soft Skills & Personality (NPTEL109104107). 8 weeks of official slide summaries and 200 interactive MCQs.
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '20px' }}>
                 <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>• Practice Mode with instant option feedback</span>

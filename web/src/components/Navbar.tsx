@@ -333,7 +333,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <GraduationCap size={15} className="inline-icon" />
             <span>NPTEL Portal</span>
-            <span className="nav-badge-pill">101 MCQs</span>
+            <span className="nav-badge-pill">200 MCQs</span>
           </button>
 
           {/* 4. Tools Dropdown (Ecosystem & Data) */}
@@ -495,7 +495,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 }}
               >
                 <GraduationCap size={18} />
-                <span>NPTEL Portal (101 MCQs)</span>
+                <span>NPTEL Portal (200 MCQs)</span>
               </button>
 
               <button

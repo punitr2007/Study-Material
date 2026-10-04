@@ -452,7 +452,7 @@ function AppContent() {
                         Interactive NPTEL Practice Tests & Weekly MCQs Available!
                       </div>
                       <div style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
-                        Take 101 scenario-based assignment questions with instant feedback, option testing, and lecture explanations.
+                        Take 200 scenario-based assignment questions with instant feedback, option testing, and lecture explanations.
                       </div>
                     </div>
                   </div>
