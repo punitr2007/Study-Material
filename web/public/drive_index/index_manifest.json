@@ -1,11 +1,11 @@
 {
   "version": "2.1.0",
-  "generated_at": "2026-10-06T03:30:29.337813",
-  "total_documents": 882,
+  "generated_at": "2026-10-07T02:54:25.964269",
+  "total_documents": 883,
   "semesters": {
     "sem1": 0,
     "sem2": 15,
-    "sem3": 865,
+    "sem3": 866,
     "sem4": 0,
     "sem5": 2,
     "sem6": 0,
@@ -30,10 +30,10 @@
       "name": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CMMTC13",
       "aliases": [
         "CAMTC13",
-        "CBMTC13",
-        "CDMTC13",
         "COMTC13",
-        "CMMTC13"
+        "CDMTC13",
+        "CMMTC13",
+        "CBMTC13"
       ],
       "branch": "CSE (Computer Science & Engineering)",
       "semester": "sem3",
@@ -59,7 +59,7 @@
       ],
       "branch": "ECAM (Electronics & Communication with AI)",
       "semester": "sem3",
-      "document_count": 145
+      "document_count": 146
     },
     {
       "code": "EAEPC303",
@@ -95,8 +95,8 @@
       "code": "ECECC05",
       "name": "ECECC05,EIECC05",
       "aliases": [
-        "EIECC05",
-        "ECECC05"
+        "ECECC05",
+        "EIECC05"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -126,9 +126,9 @@
       "code": "ECECC08",
       "name": "ECECC08,EIECC08,ICECC08",
       "aliases": [
+        "EIECC08",
         "ICECC08",
-        "ECECC08",
-        "EIECC08"
+        "ECECC08"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -138,8 +138,8 @@
       "code": "ECECC302",
       "name": "ECECC302,VTECC302,EIECE302",
       "aliases": [
-        "EIECE302",
         "VTECC302",
+        "EIECE302",
         "ECECC302"
       ],
       "branch": "ECE (Electronics & Communication)",
@@ -150,11 +150,11 @@
       "code": "ECECC303",
       "name": "ECECC303,EIECC303,ECECC06,EIECC06,VTECC303",
       "aliases": [
-        "ECECC303",
         "EIECC303",
         "EIECC06",
-        "VTECC303",
-        "ECECC06"
+        "ECECC06",
+        "ECECC303",
+        "VTECC303"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -164,8 +164,8 @@
       "code": "ECECC304",
       "name": "ECECC304,EIECC304",
       "aliases": [
-        "EIECC304",
-        "ECECC304"
+        "ECECC304",
+        "EIECC304"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -175,8 +175,8 @@
       "code": "ECECC305",
       "name": "ECECC305,EIECC305,ICECC305,VTECC305",
       "aliases": [
-        "ECECC305",
         "VTECC305",
+        "ECECC305",
         "ICECC305",
         "EIECC305"
       ],
