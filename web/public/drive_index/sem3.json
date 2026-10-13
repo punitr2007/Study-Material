@@ -1,7 +1,7 @@
 {
   "semester": "sem3",
   "total_documents": 866,
-  "generated_at": "2026-10-12T02:53:50.795924",
+  "generated_at": "2026-10-13T04:07:37.450551",
   "documents": [
     {
       "id": "1EAfeFyb0ypi15Y-RHCrSa5Gxwz74R5b2",
@@ -99,8 +99,8 @@
       "filename": "ECECC05,EIECC05.pdf",
       "subject_code": "ECECC05",
       "code_aliases": [
-        "ECECC05",
-        "EIECC05"
+        "EIECC05",
+        "ECECC05"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -260,11 +260,11 @@
       "filename": "ECECC302-VTECC302-EIECC302-ECECC05-EIECC05.pdf",
       "subject_code": "ECECC302",
       "code_aliases": [
-        "EIECC302",
-        "ECECC302",
-        "VTECC302",
         "ECECC05",
-        "EIECC05"
+        "EIECC05",
+        "EIECC302",
+        "VTECC302",
+        "ECECC302"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -338,8 +338,8 @@
       "filename": "ECECC302-EIECC302-VTECC302.pdf",
       "subject_code": "ECECC302",
       "code_aliases": [
-        "EIECC302",
         "ECECC302",
+        "EIECC302",
         "VTECC302"
       ],
       "semester": "sem3",
@@ -460,9 +460,9 @@
       "subject_code": "COMTC13",
       "code_aliases": [
         "CMMTC13",
-        "COMTC13",
         "CAMTC13",
         "CBMTC13",
+        "COMTC13",
         "CDMTC13"
       ],
       "semester": "sem3",
@@ -496,10 +496,10 @@
       "filename": "COMTC13,CAMTC13,CMMTC13,CDMTC13.pdf",
       "subject_code": "COMTC13",
       "code_aliases": [
-        "CMMTC13",
+        "CDMTC13",
         "COMTC13",
-        "CAMTC13",
-        "CDMTC13"
+        "CMMTC13",
+        "CAMTC13"
       ],
       "semester": "sem3",
       "branch": "CSE (Computer Science & Engineering)",
@@ -518,8 +518,8 @@
         "VTECC303",
         "EIECC303",
         "EIECC06",
-        "ECECC06",
-        "ECECC303"
+        "ECECC303",
+        "ECECC06"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -535,10 +535,10 @@
       "filename": "ECECC303,EIECC303,ECECC06,EIECC06.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "ECECC06",
-        "EIECC303",
+        "EIECC06",
         "ECECC303",
-        "EIECC06"
+        "ECECC06",
+        "EIECC303"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -554,8 +554,8 @@
       "filename": "INECC305,ITECC305.pdf",
       "subject_code": "INECC305",
       "code_aliases": [
-        "INECC305",
-        "ITECC305"
+        "ITECC305",
+        "INECC305"
       ],
       "semester": "sem3",
       "branch": "Instrumentation & Control",
@@ -757,11 +757,11 @@
       "filename": "ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "EIECC303",
         "VTECC303",
+        "EIECC303",
         "EIECC06",
-        "ECECC06",
-        "ECECC303"
+        "ECECC303",
+        "ECECC06"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -777,9 +777,9 @@
       "filename": "INECC305-ITECC305-INECC06-ITECC06.pdf",
       "subject_code": "INECC305",
       "code_aliases": [
-        "INECC305",
         "ITECC06",
         "ITECC305",
+        "INECC305",
         "INECC06"
       ],
       "semester": "sem3",
@@ -813,8 +813,8 @@
       "subject_code": "COMTC305",
       "code_aliases": [
         "COMTC305",
-        "CMMTC305",
-        "CAMTC305"
+        "CAMTC305",
+        "CMMTC305"
       ],
       "semester": "sem3",
       "branch": "CSE (Computer Science & Engineering)",
@@ -923,9 +923,9 @@
       "filename": "ECECC303-EIECC303-VTEC303.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
-        "EIECC303",
+        "VTEC303",
         "ECECC303",
-        "VTEC303"
+        "EIECC303"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -941,9 +941,9 @@
       "filename": "ECECC303-EIECC303-VTECC303.pdf",
       "subject_code": "ECECC303",
       "code_aliases": [
+        "ECECC303",
         "VTECC303",
-        "EIECC303",
-        "ECECC303"
+        "EIECC303"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -959,8 +959,8 @@
       "filename": "INECC305-ITECC305.pdf",
       "subject_code": "INECC305",
       "code_aliases": [
-        "INECC305",
-        "ITECC305"
+        "ITECC305",
+        "INECC305"
       ],
       "semester": "sem3",
       "branch": "Instrumentation & Control",
@@ -1179,8 +1179,8 @@
       "filename": "ECECC07-EIECC07-.pdf",
       "subject_code": "ECECC07",
       "code_aliases": [
-        "EIECC07",
-        "ECECC07"
+        "ECECC07",
+        "EIECC07"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1259,8 +1259,8 @@
       "filename": "ECECC07-VTECC304.pdf",
       "subject_code": "ECECC07",
       "code_aliases": [
-        "VTECC304",
-        "ECECC07"
+        "ECECC07",
+        "VTECC304"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1311,10 +1311,10 @@
       "filename": "ECECC305,EIECC305,ICECC305,VTECC305.pdf",
       "subject_code": "ECECC305",
       "code_aliases": [
-        "ICECC305",
         "EIECC305",
-        "ECECC305",
-        "VTECC305"
+        "ICECC305",
+        "VTECC305",
+        "ECECC305"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1502,10 +1502,10 @@
       "filename": "ECECC305-EIECC305-ICECC305-VTECC305.pdf",
       "subject_code": "ECECC305",
       "code_aliases": [
-        "ICECC305",
         "EIECC305",
-        "ECECC305",
-        "VTECC305"
+        "ICECC305",
+        "VTECC305",
+        "ECECC305"
       ],
       "semester": "sem3",
       "branch": "ECE (Electronics & Communication)",
@@ -1761,9 +1761,9 @@
       "filename": "ITMTC301,INMTC301,EIMTC301.pdf",
       "subject_code": "ITMTC301",
       "code_aliases": [
+        "EIMTC301",
         "ITMTC301",
-        "INMTC301",
-        "EIMTC301"
+        "INMTC301"
       ],
       "semester": "sem3",
       "branch": "Information Technology",
@@ -1907,9 +1907,9 @@
       "filename": "ITMTC301-INMTC301-ITMTC301-EIMTC301.pdf",
       "subject_code": "ITMTC301",
       "code_aliases": [
+        "EIMTC301",
         "ITMTC301",
-        "INMTC301",
-        "EIMTC301"
+        "INMTC301"
       ],
       "semester": "sem3",
       "branch": "Information Technology",
