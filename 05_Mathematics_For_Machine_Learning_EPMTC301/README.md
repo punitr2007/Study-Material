@@ -207,7 +207,7 @@ _No files currently._
 | [2025_Mid_Semester_ITMTC301_INMTC301.pdf](downloaded_pyqs/Mid_Semester/2025_Mid_Semester_ITMTC301_INMTC301.pdf) | `PDF` | 115.4 KB |
 | [2026_Mid_Semester_EPMTC301_Pages_35_35.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_EPMTC301_Pages_35_35.pdf) | `PDF` | 488.4 KB |
 | [CMMTC04.pdf](downloaded_pyqs/Mid_Semester/CMMTC04.pdf) | `PDF` | 53.7 KB |
-| [CMMTC13.pdf](downloaded_pyqs/Mid_Semester/CMMTC13.pdf) | `PDF` | 63.3 KB |
+| [CMMTC13.pdf](downloaded_pyqs/Mid_Semester/CMMTC13.pdf) | `PDF` | 49.6 KB |
 | [CMMTC13_2024.pdf](downloaded_pyqs/Mid_Semester/CMMTC13_2024.pdf) | `PDF` | 26.3 KB |
 | [ECMTC04_2023.pdf](downloaded_pyqs/Mid_Semester/ECMTC04_2023.pdf) | `PDF` | 27.1 KB |
 | [EEMTC04_ICMTC04_2024.pdf](downloaded_pyqs/Mid_Semester/EEMTC04_ICMTC04_2024.pdf) | `PDF` | 25.9 KB |
