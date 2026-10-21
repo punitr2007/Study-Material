@@ -1,5 +1,5 @@
 import React from 'react';
-import { FolderArchive, Target, Sparkles, ArrowRight, Layers, CheckCircle2 } from 'lucide-react';
+import { FolderArchive, Target, Sparkles, ArrowRight, Layers, CheckCircle2, BookOpen } from 'lucide-react';
 import type { ActiveNavView } from './Navbar';
 
 interface StudyHubViewProps {
@@ -325,6 +325,103 @@ export const StudyHubView: React.FC<StudyHubViewProps> = ({ onNavigate, totalDoc
             }}
           >
             <span>Explore Solved Problems</span>
+            <ArrowRight size={16} />
+          </button>
+        </div>
+
+        {/* Card 4: NPTEL Lecture Revision Hub */}
+        <div
+          onClick={() => onNavigate('quizzes')}
+          className="study-hub-card"
+          style={{
+            background: 'var(--bg-card)',
+            border: '1px solid var(--border-color)',
+            borderRadius: 'var(--radius-xl)',
+            padding: '28px',
+            cursor: 'pointer',
+            transition: 'all 0.25s ease',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            boxShadow: 'var(--shadow-md)',
+            position: 'relative',
+            overflow: 'hidden'
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: '-30px',
+              right: '-30px',
+              width: '120px',
+              height: '120px',
+              borderRadius: '50%',
+              background: 'radial-gradient(circle, rgba(139, 92, 246, 0.18) 0%, transparent 70%)',
+              pointerEvents: 'none'
+            }}
+          />
+
+          <div>
+            <div
+              style={{
+                width: '52px',
+                height: '52px',
+                borderRadius: '14px',
+                background: 'rgba(139, 92, 246, 0.15)',
+                color: '#8b5cf6',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                marginBottom: '18px',
+                border: '1px solid rgba(139, 92, 246, 0.3)'
+              }}
+            >
+              <BookOpen size={26} />
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+              <h2 style={{ fontSize: '1.3rem', fontWeight: 800, margin: 0, color: 'var(--text-primary)' }}>
+                NPTEL Lecture Revision Hub
+              </h2>
+            </div>
+
+            <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: '18px' }}>
+              Comprehensive NPTEL Soft Skills portal covering all 48 lectures (IIT Kanpur). Features 300 practice questions (200 Master Bank + 100 Scenario Bank across MSQ, MCQ, True/False) with deep option breakdowns, 200 assignment questions, and complete lecture revision guides.
+            </p>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '24px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                <CheckCircle2 size={14} style={{ color: '#10b981' }} />
+                <span>300 Practice Questions (200-Q Master Bank + 100-Q Scenario Bank)</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                <CheckCircle2 size={14} style={{ color: '#10b981' }} />
+                <span>200 Weekly Assignment Questions with detailed explanations</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                <CheckCircle2 size={14} style={{ color: '#10b981' }} />
+                <span>All 48 lecture revision notes with ASCII diagrams & KaTeX</span>
+              </div>
+            </div>
+          </div>
+
+          <button
+            className="btn-preview"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '8px',
+              padding: '12px 18px',
+              borderRadius: 'var(--radius-lg)',
+              fontWeight: 700,
+              fontSize: '0.92rem',
+              background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%)',
+              borderColor: 'rgba(139, 92, 246, 0.4)',
+              color: 'var(--text-primary)'
+            }}
+          >
+            <span>Explore 48 Lecture Guides</span>
             <ArrowRight size={16} />
           </button>
         </div>

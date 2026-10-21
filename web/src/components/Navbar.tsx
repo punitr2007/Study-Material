@@ -322,6 +322,21 @@ export const Navbar: React.FC<NavbarProps> = ({
                     <span className="dropdown-item-desc">Step-by-step KaTeX mathematical breakdowns</span>
                   </div>
                 </button>
+
+                <button
+                  role="menuitem"
+                  className={`nav-dropdown-item ${activeView === 'quizzes' ? 'selected' : ''}`}
+                  onClick={() => {
+                    setActiveView('quizzes');
+                    setStudyDropdownOpen(false);
+                  }}
+                >
+                  <BookOpen size={16} className="dropdown-item-icon" />
+                  <div className="dropdown-item-content">
+                    <span className="dropdown-item-title">NPTEL Question Bank & Revision</span>
+                    <span className="dropdown-item-desc">100 Scenario Questions (MSQ/MCQ/TF) + 48 Lecture Notes</span>
+                  </div>
+                </button>
               </div>
             )}
           </div>
@@ -333,7 +348,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <GraduationCap size={15} className="inline-icon" />
             <span>NPTEL Portal</span>
-            <span className="nav-badge-pill">200 MCQs</span>
+            <span className="nav-badge-pill">500 Qs</span>
           </button>
 
           {/* 4. Tools Dropdown (Ecosystem & Data) */}
@@ -495,7 +510,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 }}
               >
                 <GraduationCap size={18} />
-                <span>NPTEL Portal (200 MCQs)</span>
+                <span>NPTEL Portal (500 Questions)</span>
               </button>
 
               <button

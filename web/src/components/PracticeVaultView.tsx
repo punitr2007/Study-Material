@@ -13,16 +13,19 @@ import {
   BookMarked,
   Library,
   Layers,
-  School
+  School,
+  Zap
 } from 'lucide-react';
 
 interface PracticeVaultViewProps {
   documents: CatalogDocument[];
   onPreview: (doc: CatalogDocument) => void;
+  onNavigate?: (view: any) => void;
 }
 
 type PracticeSubFilter = 
   | 'ALL' 
+  | 'NPTEL_QUESTION_BANK'
   | 'SEDRA_SMITH'
   | 'ECE321_ARCHIVE'
   | 'ANALOG_GUIDES'
@@ -51,6 +54,12 @@ const MODULES: ModuleBadge[] = [
     label: 'All Practice & References', 
     icon: <Layers size={16} />,
     description: 'Complete collection of practice sheets, standard textbooks, solution manuals, and university problem archives.'
+  },
+  { 
+    id: 'NPTEL_QUESTION_BANK', 
+    label: 'NPTEL 100 Scenario Question Bank', 
+    icon: <Sparkles size={16} />,
+    description: '100 scenario-based questions (40 MSQ, 44 MCQ, 16 True/False) with option-by-option breakdowns & lecture justifications.'
   },
   { 
     id: 'SEDRA_SMITH', 
@@ -141,6 +150,7 @@ const MODULES: ModuleBadge[] = [
 export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
   documents,
   onPreview,
+  onNavigate,
 }) => {
   const [selectedModule, setSelectedModule] = useState<PracticeSubFilter>('ALL');
   const [searchQuery, setSearchQuery] = useState('');
@@ -175,7 +185,9 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
 
       // Module match
       let matchesModule = true;
-      if (selectedModule === 'SEDRA_SMITH') {
+      if (selectedModule === 'NPTEL_QUESTION_BANK') {
+        matchesModule = path.includes('nptel') || subCat.includes('nptel') || title.includes('nptel') || filename.includes('nptel') || path.includes('soft_skills');
+      } else if (selectedModule === 'SEDRA_SMITH') {
         matchesModule = path.includes('sedra') || filename.includes('sedra') || subCat.includes('sedra');
       } else if (selectedModule === 'ECE321_ARCHIVE') {
         matchesModule = path.includes('ece321') || filename.includes('ece321') || subCat.includes('ece 321');
@@ -306,6 +318,77 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
             </div>
           </div>
         )}
+      </div>
+
+      {/* Featured NPTEL Scenario Question Bank Banner */}
+      <div style={{
+        background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(139, 92, 246, 0.1) 100%)',
+        border: '1px solid rgba(99, 102, 241, 0.3)',
+        borderRadius: 'var(--radius-xl)',
+        padding: '24px 28px',
+        marginBottom: '26px',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        flexWrap: 'wrap',
+        gap: '20px',
+        boxShadow: '0 4px 20px rgba(99, 102, 241, 0.08)'
+      }}>
+        <div style={{ flex: '1 1 500px' }}>
+          <div style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            padding: '4px 12px',
+            borderRadius: '9999px',
+            background: 'rgba(99, 102, 241, 0.18)',
+            color: 'var(--accent-primary)',
+            fontSize: '0.78rem',
+            fontWeight: 800,
+            marginBottom: '10px'
+          }}>
+            <Sparkles size={13} />
+            <span>Interactive Assessment Bank</span>
+          </div>
+          <h3 style={{ margin: '0 0 8px 0', fontSize: '1.35rem', fontWeight: 900, color: 'var(--text-primary)' }}>
+            NPTEL Soft Skills 300-Question Master Practice Vault
+          </h3>
+          <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
+            Comprehensive problem collection covering all 8 weeks: <strong>200 Master Practice Bank</strong> (80 MSQ, 80 MCQ, 40 True/False) and <strong>100 Scenario Bank</strong> (40 MSQ, 44 MCQ, 16 True/False) with in-depth conceptual justifications and option-by-option breakdowns.
+          </p>
+        </div>
+        <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+          {onNavigate && (
+            <button
+              onClick={() => onNavigate('quizzes')}
+              className="btn-primary"
+              style={{ padding: '10px 18px', fontWeight: 800, fontSize: '0.88rem', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+            >
+              <Zap size={16} />
+              <span>Launch 200-Q Master Bank</span>
+            </button>
+          )}
+          <a
+            href="/NPTEL-Master-Practice-Bank-200-Questions.md"
+            download="NPTEL-Master-Practice-Bank-200-Questions.md"
+            className="btn-download"
+            style={{ padding: '10px 16px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px', fontWeight: 700 }}
+            title="Download full 200-Question Master Practice Bank Markdown file"
+          >
+            <Download size={16} />
+            <span>200-Q Bank (.MD)</span>
+          </a>
+          <a
+            href="/NPTEL-Master-Scenario-Question-Bank-100-Questions.md"
+            download="NPTEL-Master-Scenario-Question-Bank-100-Questions.md"
+            className="btn-download"
+            style={{ padding: '10px 16px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px', fontWeight: 700 }}
+            title="Download 100-Question Scenario Bank Markdown file"
+          >
+            <Download size={16} />
+            <span>100-Q Bank (.MD)</span>
+          </a>
+        </div>
       </div>
 
       {/* Module Selector Pills */}

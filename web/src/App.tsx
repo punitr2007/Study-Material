@@ -565,6 +565,7 @@ function AppContent() {
           <PracticeVaultView
             documents={catalog.documents}
             onPreview={setActivePreviewDoc}
+            onNavigate={setActiveNavView}
           />
         )}
 
