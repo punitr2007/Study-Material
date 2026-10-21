@@ -22,7 +22,11 @@ import {
   Square, 
   GraduationCap,
   Layers,
-  CheckCheck
+  CheckCheck,
+  Grid,
+  X,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 import assignmentDataJson from '../data/nptel_quizzes.json';
 import masterBank200Json from '../data/nptel_master_bank_200.json';
@@ -36,6 +40,8 @@ const assignmentData = assignmentDataJson as QuizDatabase;
 const masterBank200Data = masterBank200Json as QuizDatabase;
 const scenarioBank100Data = scenarioBank100Json as QuizDatabase;
 const allPractice300Data = allPractice300Json as QuizDatabase;
+
+const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
 
 export type QuizSourceType = 'master_bank_200' | 'scenario_bank_100' | 'all_practice_300' | 'assignments' | 'question_bank';
 export type QuestionTypeFilter = 'ALL' | 'MSQ' | 'MCQ' | 'True/False';
@@ -66,6 +72,9 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
   const [subView, setSubView] = useState<'quizzes' | 'summaries'>('quizzes');
   const [summaryModalLecture, setSummaryModalLecture] = useState<string | null>(null);
   const [summaryActiveLecture, setSummaryActiveLecture] = useState<number>(1);
+  const [isPaletteOpen, setIsPaletteOpen] = useState<boolean>(false);
+  const [paletteFilter, setPaletteFilter] = useState<'ALL' | 'ANSWERED' | 'UNANSWERED' | 'FLAGGED'>('ALL');
+  const [expandedScenarios, setExpandedScenarios] = useState<Record<string, boolean>>({});
 
   // Active dataset
   const activeDataset: QuizDatabase = useMemo(() => {
@@ -583,13 +592,24 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
               </div>
             </div>
           ) : (
-            /* Question Card & Question Palette Layout */
+            /* NotebookLM Card Style Quiz Layout */
             <div className="nptel-quiz-layout">
-              {/* Active Question Box */}
-              <div className="nptel-question-main">
-                <div className="question-header-row">
-                  <div className="question-num-tag" style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-                    <span>Question {currentIndex + 1} of {filteredQuestions.length}</span>
+              {/* Active Question Box (NotebookLM Card) */}
+              <div className="nptel-question-main nlm-card">
+                {/* Slim Animated Progress Track at top of card */}
+                <div className="nlm-card-progress-bar-track">
+                  <div 
+                    className="nlm-card-progress-bar-fill" 
+                    style={{ width: `${filteredQuestions.length > 0 ? (scoreResults.attemptedCount / filteredQuestions.length) * 100 : 0}%` }}
+                  />
+                </div>
+
+                {/* Card Meta Row */}
+                <div className="question-header-row nlm-card-meta-row">
+                  <div className="question-num-tag nlm-meta-left">
+                    <span className="nlm-question-counter">
+                      Question <strong>{currentIndex + 1}</strong> <span className="nlm-counter-total">of {filteredQuestions.length}</span>
+                    </span>
                     
                     {/* Explicit Type Badge */}
                     {currentQ?.questionType === 'MSQ' ? (
@@ -608,80 +628,84 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                         <span>MCQ: Single Choice</span>
                       </span>
                     )}
+                  </div>
 
+                  <div className="nlm-meta-right">
                     {currentQ?.lectureRef && (
                       <button
                         type="button"
-                        className="lecture-pill"
+                        className="lecture-pill nlm-lecture-pill"
                         onClick={() => {
                           const m = currentQ.lectureRef.match(/(\d+)/);
                           if (m) setSummaryActiveLecture(parseInt(m[1]));
                           setSummaryModalLecture(currentQ.lectureRef);
                         }}
                         title={`Click to read lecture revision note for ${currentQ.lectureRef}`}
-                        style={{
-                          cursor: 'pointer',
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          gap: '5px',
-                          border: '1px solid rgba(99, 102, 241, 0.35)',
-                          background: 'rgba(99, 102, 241, 0.15)',
-                          color: 'var(--accent-primary)',
-                          transition: 'all 0.15s ease',
-                        }}
                       >
                         <BookOpen size={12} />
                         <span>{currentQ.lectureRef}</span>
                         <span style={{ fontSize: '0.68rem', opacity: 0.8, marginLeft: '2px' }}>Notes ↗</span>
                       </button>
                     )}
-                  </div>
 
-                  <button 
-                    className={`btn-flag-q ${flaggedQuestions[currentQ?.id] ? 'flagged' : ''}`}
-                    onClick={() => currentQ && toggleFlag(currentQ.id)}
-                    title="Flag for later review"
-                  >
-                    <Flag size={15} />
-                    <span>{flaggedQuestions[currentQ?.id] ? 'Flagged' : 'Flag'}</span>
-                  </button>
+                    <button 
+                      type="button"
+                      className="nlm-mobile-palette-btn"
+                      onClick={() => setIsPaletteOpen(true)}
+                      title="Open question jump palette"
+                    >
+                      <Grid size={15} />
+                      <span className="nlm-palette-btn-text">Grid</span>
+                    </button>
+
+                    <button 
+                      type="button"
+                      className={`btn-flag-q nlm-flag-btn ${flaggedQuestions[currentQ?.id] ? 'flagged' : ''}`}
+                      onClick={() => currentQ && toggleFlag(currentQ.id)}
+                      title="Flag for later review"
+                    >
+                      <Flag size={14} />
+                      <span className="nlm-flag-text">{flaggedQuestions[currentQ?.id] ? 'Flagged' : 'Flag'}</span>
+                    </button>
+                  </div>
                 </div>
 
-                {/* Scenario / Case Study Text */}
+                {/* Scenario / Case Study Text (NotebookLM Collapsible Context Card) */}
                 {currentQ?.scenario && (
-                  <div className="scenario-card">
-                    <div className="scenario-header">
-                      <BookOpen size={14} />
-                      <span>Case Study / Situation Scenario</span>
+                  <div className="scenario-card nlm-scenario-card">
+                    <div 
+                      className="scenario-header nlm-scenario-header"
+                      onClick={() => setExpandedScenarios(prev => ({ ...prev, [currentQ.id]: prev[currentQ.id] === undefined ? false : !prev[currentQ.id] }))}
+                      style={{ cursor: 'pointer' }}
+                    >
+                      <div className="nlm-scenario-title-left">
+                        <BookOpen size={14} />
+                        <span>Case Study Scenario</span>
+                      </div>
+                      <div className="nlm-scenario-toggle">
+                        <span>{expandedScenarios[currentQ.id] === false ? 'Expand' : 'Collapse'}</span>
+                        {expandedScenarios[currentQ.id] === false ? <ChevronDown size={14} /> : <ChevronUp size={14} />}
+                      </div>
                     </div>
-                    <p className="scenario-text">{currentQ.scenario}</p>
+                    {expandedScenarios[currentQ.id] !== false && (
+                      <p className="scenario-text nlm-scenario-text">{currentQ.scenario}</p>
+                    )}
                   </div>
                 )}
 
                 {/* Question Prompt */}
-                <h3 className="question-prompt-text">{currentQ?.prompt}</h3>
+                <h3 className="question-prompt-text nlm-prompt-text">{currentQ?.prompt}</h3>
 
                 {/* MSQ Notice banner */}
                 {currentQ?.questionType === 'MSQ' && (
-                  <div style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '8px',
-                    padding: '8px 14px',
-                    background: 'rgba(99, 102, 241, 0.1)',
-                    border: '1px solid rgba(99, 102, 241, 0.25)',
-                    borderRadius: 'var(--radius-md)',
-                    fontSize: '0.84rem',
-                    color: 'var(--accent-primary)',
-                    fontWeight: 600
-                  }}>
+                  <div className="nlm-msq-hint-banner">
                     <CheckCheck size={16} />
-                    <span>Multiple Select Question: Select all statements that are correct. Partial credit awarded.</span>
+                    <span>Multiple Select Question: Select all statements that apply. Partial credit awarded.</span>
                   </div>
                 )}
 
                 {/* Options List */}
-                <div className="options-container">
+                <div className="options-container nlm-options-container">
                   {(() => {
                     const isCurrentChecked = mode === 'practice'
                       ? (autoCheck ? ((userAnswers[currentQ?.id] || []).length > 0) : !!checkedQuestions[currentQ?.id])
@@ -690,12 +714,13 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                     // If True/False, render as distinctive large choices
                     if (currentQ?.questionType === 'True/False') {
                       return (
-                        <div className="tf-choices-grid">
+                        <div className="tf-choices-grid nlm-tf-grid">
                           {currentQ.options.map((opt, optIdx) => {
                             const isSelected = (userAnswers[currentQ.id] || []).includes(optIdx);
                             const isCorrect = currentQ.correctAnswers.includes(optIdx);
+                            const isTrue = opt.toLowerCase() === 'true';
 
-                            let btnClass = 'tf-choice-btn';
+                            let btnClass = 'tf-choice-btn nlm-tf-card';
                             if (isSelected) btnClass += ' selected';
                             if (isCurrentChecked) {
                               if (isSelected && isCorrect) btnClass += ' is-correct';
@@ -710,12 +735,26 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                                 className={btnClass}
                                 onClick={() => handleSelectOption(currentQ.id, optIdx, false)}
                               >
-                                {opt.toLowerCase() === 'true' ? (
-                                  <CheckCircle2 size={20} style={{ color: isSelected ? 'inherit' : '#10b981' }} />
-                                ) : (
-                                  <XCircle size={20} style={{ color: isSelected ? 'inherit' : '#ef4444' }} />
+                                <div className={`nlm-tf-letter-badge ${isSelected ? 'selected' : ''}`}>
+                                  {optIdx === 0 ? 'A' : 'B'}
+                                </div>
+                                <div className="nlm-tf-icon-wrap">
+                                  {isTrue ? (
+                                    <CheckCircle2 size={24} style={{ color: isSelected ? 'inherit' : '#10b981' }} />
+                                  ) : (
+                                    <XCircle size={24} style={{ color: isSelected ? 'inherit' : '#ef4444' }} />
+                                  )}
+                                </div>
+                                <div className="nlm-tf-text-wrap">
+                                  <span className="nlm-tf-label">{opt}</span>
+                                  <span className="nlm-tf-sublabel">{isTrue ? 'Statement is True' : 'Statement is False'}</span>
+                                </div>
+                                {isCurrentChecked && isSelected && isCorrect && (
+                                  <div className="feedback-icon correct" title="Correct"><CheckCircle2 size={18} /></div>
                                 )}
-                                <span>{opt}</span>
+                                {isCurrentChecked && isSelected && !isCorrect && (
+                                  <div className="feedback-icon wrong" title="Incorrect"><XCircle size={18} /></div>
+                                )}
                               </button>
                             );
                           })}
@@ -727,8 +766,9 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                     return currentQ?.options.map((opt, optIdx) => {
                       const isSelected = (userAnswers[currentQ.id] || []).includes(optIdx);
                       const isCorrect = currentQ.correctAnswers.includes(optIdx);
+                      const letter = OPTION_LETTERS[optIdx] || String(optIdx + 1);
                       
-                      let optionClass = 'quiz-option-card';
+                      let optionClass = 'quiz-option-card nlm-option-card';
                       if (isSelected) optionClass += ' selected';
 
                       if (isCurrentChecked) {
@@ -747,23 +787,32 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                           className={optionClass}
                           onClick={() => handleSelectOption(currentQ.id, optIdx, currentQ.isMultiple)}
                         >
-                          <div className="option-indicator">
-                            {currentQ.isMultiple ? (
-                              isSelected ? <CheckSquare size={18} /> : <Square size={18} />
-                            ) : (
-                              <div className={`radio-circle ${isSelected ? 'checked' : ''}`} />
+                          {/* NotebookLM Letter Badge */}
+                          <div className={`nlm-letter-badge ${isSelected ? 'selected' : ''}`}>
+                            {letter}
+                          </div>
+
+                          <div className="option-text nlm-option-text">{opt}</div>
+
+                          <div className="nlm-option-status-wrap">
+                            <div className="option-indicator">
+                              {currentQ.isMultiple ? (
+                                isSelected ? <CheckSquare size={18} /> : <Square size={18} />
+                              ) : (
+                                <div className={`radio-circle ${isSelected ? 'checked' : ''}`} />
+                              )}
+                            </div>
+
+                            {isCurrentChecked && isSelected && isCorrect && (
+                              <div className="feedback-icon correct" title="Correct selection"><CheckCircle2 size={18} /></div>
+                            )}
+                            {isCurrentChecked && isSelected && !isCorrect && (
+                              <div className="feedback-icon wrong" title="Incorrect selection"><XCircle size={18} /></div>
+                            )}
+                            {isCurrentChecked && !isSelected && isCorrect && (
+                              <span className="missed-correct-badge nlm-missed-pill">Correct Answer</span>
                             )}
                           </div>
-                          <div className="option-text">{opt}</div>
-                          {isCurrentChecked && isSelected && isCorrect && (
-                            <div className="feedback-icon correct" title="Correct selection"><CheckCircle2 size={18} /></div>
-                          )}
-                          {isCurrentChecked && isSelected && !isCorrect && (
-                            <div className="feedback-icon wrong" title="Incorrect selection"><XCircle size={18} /></div>
-                          )}
-                          {isCurrentChecked && !isSelected && isCorrect && (
-                            <span className="missed-correct-badge">Correct Answer</span>
-                          )}
                         </div>
                       );
                     });
@@ -772,18 +821,19 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
 
                 {/* Check Answer Action Row in Practice Mode */}
                 {mode === 'practice' && !autoCheck && (
-                  <div className="check-answer-control-row">
+                  <div className="check-answer-control-row nlm-check-row">
                     {!checkedQuestions[currentQ.id] ? (
                       <button 
-                        className="btn-check-answer"
+                        type="button"
+                        className="btn-check-answer nlm-btn-check-main"
                         disabled={!(userAnswers[currentQ.id]?.length > 0)}
                         onClick={() => setCheckedQuestions(prev => ({ ...prev, [currentQ.id]: true }))}
                       >
-                        <Check size={16} />
+                        <Check size={18} />
                         <span>Check Answer</span>
                       </button>
                     ) : (
-                      <div className="checked-verdict-container">
+                      <div className="checked-verdict-container nlm-verdict-container">
                         {(() => {
                           const userSel = userAnswers[currentQ.id] || [];
                           const correctAns = currentQ.correctAnswers;
@@ -805,12 +855,13 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                           }
 
                           return (
-                            <div className="verdict-banner-wrap">
-                              <div className={`verdict-pill ${verdictClass}`}>
+                            <div className="verdict-banner-wrap nlm-verdict-banner-wrap">
+                              <div className={`verdict-pill nlm-verdict-pill ${verdictClass}`}>
                                 {verdictText}
                               </div>
                               <button 
-                                className="btn-try-again"
+                                type="button"
+                                className="btn-try-again nlm-btn-retry"
                                 onClick={() => {
                                   setCheckedQuestions(prev => ({ ...prev, [currentQ.id]: false }));
                                   setUserAnswers(prev => ({ ...prev, [currentQ.id]: [] }));
@@ -830,15 +881,15 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
 
                 {/* Detailed Explanation & Breakdown Section */}
                 {((mode === 'practice' && (autoCheck ? ((userAnswers[currentQ.id] || []).length > 0) : checkedQuestions[currentQ.id])) || isExamSubmitted) && (
-                  <div className="explanation-card">
-                    <div className="explanation-header">
+                  <div className="explanation-card nlm-explanation-card">
+                    <div className="explanation-header nlm-explanation-header">
                       <Sparkles size={16} />
                       <span>Lecture Analysis & Deep Explanation</span>
                     </div>
 
                     {/* Conceptual Justification */}
                     {currentQ.conceptualJustification ? (
-                      <div className="conceptual-justification-card">
+                      <div className="conceptual-justification-card nlm-justification-card">
                         <div className="conceptual-justification-title">
                           <BookOpen size={14} />
                           <span>Conceptual Justification</span>
@@ -853,7 +904,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
 
                     {/* Option-by-Option Breakdown */}
                     {currentQ.optionBreakdown && currentQ.optionBreakdown.length > 0 && (
-                      <div className="option-breakdown-section">
+                      <div className="option-breakdown-section nlm-breakdown-section">
                         <div className="option-breakdown-title">
                           <CheckCheck size={14} />
                           <span>Option-by-Option Breakdown</span>
@@ -861,7 +912,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                         {currentQ.optionBreakdown.map((item, bIdx) => (
                           <div 
                             key={bIdx} 
-                            className={`breakdown-row-item ${item.isCorrect ? 'correct' : 'incorrect'}`}
+                            className={`breakdown-row-item nlm-breakdown-row ${item.isCorrect ? 'correct' : 'incorrect'}`}
                           >
                             <div className="breakdown-option-name">
                               <span className={`breakdown-tag ${item.isCorrect ? 'correct' : 'incorrect'}`}>
@@ -896,9 +947,10 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                   </div>
                 )}
 
-                {/* Navigation Bottom Row */}
-                <div className="question-nav-bottom">
+                {/* Navigation Bottom Row (Desktop / In-Card) */}
+                <div className="question-nav-bottom nlm-question-nav-bottom">
                   <button 
+                    type="button"
                     className="btn-nav-prev"
                     disabled={currentIndex === 0}
                     onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
@@ -913,6 +965,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
 
                   {currentIndex < filteredQuestions.length - 1 ? (
                     <button 
+                      type="button"
                       className="btn-nav-next"
                       onClick={() => setCurrentIndex(prev => Math.min(filteredQuestions.length - 1, prev + 1))}
                     >
@@ -921,6 +974,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                     </button>
                   ) : (
                     <button 
+                      type="button"
                       className="btn-nav-submit"
                       onClick={handleSubmitExam}
                     >
@@ -931,7 +985,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                 </div>
               </div>
 
-              {/* Question Palette Sidebar */}
+              {/* Question Palette Sidebar (Visible on Desktop) */}
               <div className="nptel-palette-sidebar">
                 <div className="palette-header">
                   <BarChart2 size={16} />
@@ -952,6 +1006,7 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                     return (
                       <button
                         key={q.id}
+                        type="button"
                         className={btnClass}
                         onClick={() => setCurrentIndex(idx)}
                         title={`Jump to Q${idx + 1} (${q.questionType}): ${isAnswered ? 'Answered' : 'Unanswered'}`}
@@ -963,6 +1018,153 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                 </div>
 
                 <div className="palette-legend">
+                  <div className="legend-item"><span className="legend-dot current"></span> Current</div>
+                  <div className="legend-item"><span className="legend-dot answered"></span> Answered</div>
+                  <div className="legend-item"><span className="legend-dot flagged"></span> Flagged</div>
+                  <div className="legend-item"><span className="legend-dot unvisited"></span> Unvisited</div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Mobile Fixed Bottom Quiz Dock (Pinned on mobile screens for thumb accessibility) */}
+          {filteredQuestions.length > 0 && !isExamSubmitted && (
+            <div className="nlm-mobile-bottom-dock">
+              <button 
+                type="button"
+                className="nlm-dock-btn prev"
+                disabled={currentIndex === 0}
+                onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
+                title="Previous Question"
+              >
+                <ChevronLeft size={18} />
+                <span>Prev</span>
+              </button>
+
+              <button 
+                type="button"
+                className="nlm-dock-palette-trigger"
+                onClick={() => setIsPaletteOpen(true)}
+                title="Open Question Palette Grid"
+              >
+                <Grid size={15} />
+                <span className="nlm-dock-q-num">Q {currentIndex + 1} / {filteredQuestions.length}</span>
+              </button>
+
+              {currentIndex < filteredQuestions.length - 1 ? (
+                <button 
+                  type="button"
+                  className="nlm-dock-btn next"
+                  onClick={() => setCurrentIndex(prev => Math.min(filteredQuestions.length - 1, prev + 1))}
+                  title="Next Question"
+                >
+                  <span>Next</span>
+                  <ChevronRight size={18} />
+                </button>
+              ) : (
+                <button 
+                  type="button"
+                  className="nlm-dock-btn submit"
+                  onClick={handleSubmitExam}
+                  title="Submit Examination"
+                >
+                  <span>Submit</span>
+                  <Check size={18} />
+                </button>
+              )}
+            </div>
+          )}
+
+          {/* Slide-Up Mobile Question Palette Bottom Sheet */}
+          {isPaletteOpen && (
+            <div className="nlm-palette-modal-backdrop" onClick={() => setIsPaletteOpen(false)}>
+              <div className="nlm-palette-bottom-sheet" onClick={(e) => e.stopPropagation()}>
+                <div className="nlm-sheet-drag-handle" />
+                
+                <div className="nlm-sheet-header">
+                  <div className="nlm-sheet-title-wrap">
+                    <BarChart2 size={18} className="text-accent" />
+                    <h4>Question Palette</h4>
+                    <span className="nlm-sheet-progress-tag">
+                      {scoreResults.attemptedCount}/{filteredQuestions.length} answered
+                    </span>
+                  </div>
+                  <button 
+                    type="button"
+                    className="nlm-sheet-close-btn" 
+                    onClick={() => setIsPaletteOpen(false)}
+                    title="Close Question Palette"
+                  >
+                    <X size={18} />
+                  </button>
+                </div>
+
+                {/* Filter Chips inside bottom sheet */}
+                <div className="nlm-sheet-filter-chips">
+                  <button 
+                    type="button"
+                    className={`nlm-sheet-chip ${paletteFilter === 'ALL' ? 'active' : ''}`}
+                    onClick={() => setPaletteFilter('ALL')}
+                  >
+                    All ({filteredQuestions.length})
+                  </button>
+                  <button 
+                    type="button"
+                    className={`nlm-sheet-chip ${paletteFilter === 'ANSWERED' ? 'active' : ''}`}
+                    onClick={() => setPaletteFilter('ANSWERED')}
+                  >
+                    Answered ({scoreResults.attemptedCount})
+                  </button>
+                  <button 
+                    type="button"
+                    className={`nlm-sheet-chip ${paletteFilter === 'UNANSWERED' ? 'active' : ''}`}
+                    onClick={() => setPaletteFilter('UNANSWERED')}
+                  >
+                    Unanswered ({scoreResults.unattempted})
+                  </button>
+                  <button 
+                    type="button"
+                    className={`nlm-sheet-chip ${paletteFilter === 'FLAGGED' ? 'active' : ''}`}
+                    onClick={() => setPaletteFilter('FLAGGED')}
+                  >
+                    Flagged ({Object.values(flaggedQuestions).filter(Boolean).length})
+                  </button>
+                </div>
+
+                {/* 5-Column Touch Grid */}
+                <div className="nlm-sheet-grid">
+                  {filteredQuestions.map((q, idx) => {
+                    const isAnswered = (userAnswers[q.id] || []).length > 0;
+                    const isFlagged = !!flaggedQuestions[q.id];
+                    const isCurrent = idx === currentIndex;
+
+                    if (paletteFilter === 'ANSWERED' && !isAnswered) return null;
+                    if (paletteFilter === 'UNANSWERED' && isAnswered) return null;
+                    if (paletteFilter === 'FLAGGED' && !isFlagged) return null;
+
+                    let btnClass = 'palette-q-btn nlm-sheet-q-btn';
+                    if (isCurrent) btnClass += ' active';
+                    if (isAnswered) btnClass += ' answered';
+                    if (isFlagged) btnClass += ' flagged';
+
+                    return (
+                      <button
+                        key={q.id}
+                        type="button"
+                        className={btnClass}
+                        onClick={() => {
+                          setCurrentIndex(idx);
+                          setIsPaletteOpen(false);
+                        }}
+                      >
+                        <span className="nlm-q-num">{idx + 1}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Legend */}
+                <div className="palette-legend nlm-sheet-legend">
                   <div className="legend-item"><span className="legend-dot current"></span> Current</div>
                   <div className="legend-item"><span className="legend-dot answered"></span> Answered</div>
                   <div className="legend-item"><span className="legend-dot flagged"></span> Flagged</div>
