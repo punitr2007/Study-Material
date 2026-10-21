@@ -3,6 +3,7 @@ import type { QuizDatabase, QuizMode, QuizQuestion } from '../types/quiz';
 import { 
   CheckCircle2, 
   XCircle, 
+  AlertCircle,
   HelpCircle, 
   RotateCcw, 
   Flag, 
@@ -850,22 +851,27 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                           const hasWrong = userSel.some(i => !correctAns.includes(i));
 
                           let verdictClass = 'wrong';
-                          let verdictText = '❌ Incorrect. Review the lecture concept below.';
+                          let verdictText = 'Incorrect. Review the lecture concept below.';
+                          let VerdictIcon = XCircle;
                           if (isExact) {
                             verdictClass = 'correct';
-                            verdictText = '🎉 Completely Correct! Great job.';
+                            verdictText = 'Completely Correct! Well done.';
+                            VerdictIcon = CheckCircle2;
                           } else if (hasAnyCorrect && !hasWrong) {
                             verdictClass = 'partial';
-                            verdictText = `⚠️ Partially Correct (${userSel.length} of ${correctAns.length} correct options selected).`;
+                            verdictText = `Partially Correct (${userSel.length} of ${correctAns.length} correct options selected).`;
+                            VerdictIcon = AlertCircle;
                           } else if (hasAnyCorrect && hasWrong) {
                             verdictClass = 'partial';
-                            verdictText = '⚠️ Partially Correct with some incorrect options chosen.';
+                            verdictText = 'Partially Correct with some incorrect options chosen.';
+                            VerdictIcon = AlertCircle;
                           }
 
                           return (
                             <div className="verdict-banner-wrap nlm-verdict-banner-wrap">
-                              <div className={`verdict-pill nlm-verdict-pill ${verdictClass}`}>
-                                {verdictText}
+                              <div className={`verdict-pill nlm-verdict-pill ${verdictClass}`} style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                                <VerdictIcon size={16} />
+                                <span>{verdictText}</span>
                               </div>
                               <button 
                                 type="button"
@@ -947,7 +953,8 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                     {currentQ.disputeNotes && (
                       <div className="suggested-answer-card" style={{ marginTop: '12px', padding: '12px 16px', borderRadius: 'var(--radius-md)', background: 'rgba(245, 158, 11, 0.08)', border: '1px solid rgba(245, 158, 11, 0.22)' }}>
                         <div style={{ fontWeight: 700, fontSize: '0.84rem', color: '#fbbf24', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                          💡 Suggested Alternative / Key Clarification
+                          <Sparkles size={14} style={{ color: '#fbbf24' }} />
+                          <span>Suggested Alternative / Key Clarification</span>
                         </div>
                         <div style={{ fontSize: '0.82rem', lineHeight: '1.45', color: 'var(--text-secondary)' }}>
                           {currentQ.disputeNotes}

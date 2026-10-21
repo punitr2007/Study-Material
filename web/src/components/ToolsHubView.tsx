@@ -65,18 +65,7 @@ export const ToolsHubView: React.FC<ToolsHubViewProps> = ({ onNavigate }) => {
             overflow: 'hidden'
           }}
         >
-          <div
-            style={{
-              position: 'absolute',
-              top: '-30px',
-              right: '-30px',
-              width: '120px',
-              height: '120px',
-              borderRadius: '50%',
-              background: 'radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%)',
-              pointerEvents: 'none'
-            }}
-          />
+
 
           <div>
             <div
@@ -157,32 +146,19 @@ export const ToolsHubView: React.FC<ToolsHubViewProps> = ({ onNavigate }) => {
             overflow: 'hidden'
           }}
         >
-          <div
-            style={{
-              position: 'absolute',
-              top: '-30px',
-              right: '-30px',
-              width: '120px',
-              height: '120px',
-              borderRadius: '50%',
-              background: 'radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, transparent 70%)',
-              pointerEvents: 'none'
-            }}
-          />
-
           <div>
             <div
               style={{
                 width: '52px',
                 height: '52px',
                 borderRadius: '14px',
-                background: 'rgba(168, 85, 247, 0.15)',
-                color: '#a855f7',
+                background: 'var(--bg-tertiary)',
+                color: 'var(--accent-primary)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 marginBottom: '18px',
-                border: '1px solid rgba(168, 85, 247, 0.3)'
+                border: '1px solid var(--border-subtle)'
               }}
             >
               <BarChart3 size={26} />

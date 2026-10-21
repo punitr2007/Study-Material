@@ -48,12 +48,11 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
       <section
         className="home-hero"
         style={{
-          background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(168, 85, 247, 0.08) 50%, rgba(236, 72, 153, 0.05) 100%)',
+          background: 'var(--bg-card)',
           border: '1px solid var(--border-subtle)',
           borderRadius: 'var(--radius-2xl)',
           padding: '40px 32px',
           marginBottom: '32px',
-          boxShadow: 'var(--shadow-md)',
           position: 'relative',
           overflow: 'hidden'
         }}
@@ -235,8 +234,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
               flexWrap: 'wrap',
               gap: '16px',
               padding: '18px 24px',
-              background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.12) 0%, rgba(99, 102, 241, 0.08) 100%)',
-              border: '1px solid rgba(16, 185, 129, 0.3)',
+              background: 'var(--bg-card)',
+              border: '1px solid var(--border-subtle)',
               borderRadius: 'var(--radius-xl)'
             }}
           >
@@ -603,8 +602,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
                   width: '42px',
                   height: '42px',
                   borderRadius: '10px',
-                  background: 'rgba(168, 85, 247, 0.15)',
-                  color: '#a855f7',
+                  background: 'var(--bg-tertiary)',
+                  color: 'var(--accent-primary)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',

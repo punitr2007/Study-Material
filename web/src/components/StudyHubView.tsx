@@ -66,18 +66,7 @@ export const StudyHubView: React.FC<StudyHubViewProps> = ({ onNavigate, totalDoc
             overflow: 'hidden'
           }}
         >
-          <div
-            style={{
-              position: 'absolute',
-              top: '-30px',
-              right: '-30px',
-              width: '120px',
-              height: '120px',
-              borderRadius: '50%',
-              background: 'radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%)',
-              pointerEvents: 'none'
-            }}
-          />
+
 
           <div>
             <div
@@ -160,18 +149,7 @@ export const StudyHubView: React.FC<StudyHubViewProps> = ({ onNavigate, totalDoc
             overflow: 'hidden'
           }}
         >
-          <div
-            style={{
-              position: 'absolute',
-              top: '-30px',
-              right: '-30px',
-              width: '120px',
-              height: '120px',
-              borderRadius: '50%',
-              background: 'radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, transparent 70%)',
-              pointerEvents: 'none'
-            }}
-          />
+
 
           <div>
             <div
@@ -254,18 +232,7 @@ export const StudyHubView: React.FC<StudyHubViewProps> = ({ onNavigate, totalDoc
             overflow: 'hidden'
           }}
         >
-          <div
-            style={{
-              position: 'absolute',
-              top: '-30px',
-              right: '-30px',
-              width: '120px',
-              height: '120px',
-              borderRadius: '50%',
-              background: 'radial-gradient(circle, rgba(236, 72, 153, 0.15) 0%, transparent 70%)',
-              pointerEvents: 'none'
-            }}
-          />
+
 
           <div>
             <div
@@ -348,32 +315,19 @@ export const StudyHubView: React.FC<StudyHubViewProps> = ({ onNavigate, totalDoc
             overflow: 'hidden'
           }}
         >
-          <div
-            style={{
-              position: 'absolute',
-              top: '-30px',
-              right: '-30px',
-              width: '120px',
-              height: '120px',
-              borderRadius: '50%',
-              background: 'radial-gradient(circle, rgba(139, 92, 246, 0.18) 0%, transparent 70%)',
-              pointerEvents: 'none'
-            }}
-          />
-
           <div>
             <div
               style={{
                 width: '52px',
                 height: '52px',
                 borderRadius: '14px',
-                background: 'rgba(139, 92, 246, 0.15)',
-                color: '#8b5cf6',
+                background: 'var(--bg-tertiary)',
+                color: 'var(--accent-primary)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 marginBottom: '18px',
-                border: '1px solid rgba(139, 92, 246, 0.3)'
+                border: '1px solid var(--border-subtle)'
               }}
             >
               <BookOpen size={26} />
@@ -416,9 +370,9 @@ export const StudyHubView: React.FC<StudyHubViewProps> = ({ onNavigate, totalDoc
               borderRadius: 'var(--radius-lg)',
               fontWeight: 700,
               fontSize: '0.92rem',
-              background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%)',
-              borderColor: 'rgba(139, 92, 246, 0.4)',
-              color: 'var(--text-primary)'
+              background: 'var(--accent-primary)',
+              border: 'none',
+              color: '#ffffff'
             }}
           >
             <span>Explore 48 Lecture Guides</span>

@@ -14,7 +14,8 @@ import {
   Library,
   Layers,
   School,
-  Zap
+  Zap,
+  X
 } from 'lucide-react';
 
 interface PracticeVaultViewProps {
@@ -322,8 +323,8 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
 
       {/* Featured NPTEL Scenario Question Bank Banner */}
       <div style={{
-        background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(139, 92, 246, 0.1) 100%)',
-        border: '1px solid rgba(99, 102, 241, 0.3)',
+        background: 'var(--bg-card)',
+        border: '1px solid var(--border-subtle)',
         borderRadius: 'var(--radius-xl)',
         padding: '24px 28px',
         marginBottom: '26px',
@@ -331,8 +332,7 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
         justifyContent: 'space-between',
         alignItems: 'center',
         flexWrap: 'wrap',
-        gap: '20px',
-        boxShadow: '0 4px 20px rgba(99, 102, 241, 0.08)'
+        gap: '20px'
       }}>
         <div style={{ flex: '1 1 500px' }}>
           <div style={{
@@ -428,7 +428,7 @@ export const PracticeVaultView: React.FC<PracticeVaultViewProps> = ({
               className="clear-search-btn"
               title="Clear search"
             >
-              ✕
+              <X size={14} />
             </button>
           )}
         </div>

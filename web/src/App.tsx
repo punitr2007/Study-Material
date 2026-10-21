@@ -24,7 +24,7 @@ import { ToolsHubView } from './components/ToolsHubView';
 import { MobileBottomNav } from './components/MobileBottomNav';
 import { AuthModal } from './components/AuthModal';
 import { AuthProvider } from './context/AuthContext';
-import { Search, X, Loader2, ArrowRight } from 'lucide-react';
+import { Search, X, Loader2, ArrowRight, GraduationCap } from 'lucide-react';
 import { Analytics } from '@vercel/analytics/react';
 
 function AppContent() {
@@ -439,17 +439,28 @@ function AppContent() {
                   flexWrap: 'wrap',
                   gap: '12px',
                   padding: '16px 20px',
-                  background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(139, 92, 246, 0.12) 100%)',
-                  border: '1px solid rgba(99, 102, 241, 0.35)',
+                  background: 'var(--bg-card)',
+                  border: '1px solid var(--border-subtle)',
                   borderRadius: 'var(--radius-xl)',
-                  margin: '8px 0 16px 0',
-                  boxShadow: '0 4px 20px rgba(99, 102, 241, 0.08)'
+                  margin: '8px 0 16px 0'
                 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ fontSize: '1.6rem' }}>🎯</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                    <div style={{
+                      width: '42px',
+                      height: '42px',
+                      borderRadius: 'var(--radius-md)',
+                      background: 'var(--bg-tertiary)',
+                      color: 'var(--accent-primary)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexShrink: 0
+                    }}>
+                      <GraduationCap size={22} />
+                    </div>
                     <div>
-                      <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '0.98rem' }}>
-                        Interactive NPTEL Practice Tests & Weekly MCQs Available!
+                      <div style={{ fontWeight: 700, color: 'var(--text-primary)', fontSize: '0.98rem' }}>
+                        Interactive NPTEL Practice Tests & Weekly MCQs Available
                       </div>
                       <div style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
                         Take 200 scenario-based assignment questions with instant feedback, option testing, and lecture explanations.

@@ -70,11 +70,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                 width: '38px',
                 height: '38px',
                 borderRadius: '12px',
-                background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2))',
+                background: 'var(--bg-tertiary)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                border: '1px solid rgba(99, 102, 241, 0.4)'
+                border: '1px solid var(--border-subtle)'
               }}
             >
               <ShieldCheck size={20} style={{ color: 'var(--accent-primary)' }} />
@@ -84,7 +84,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                 {user ? 'Account & Academic Cloud' : 'Sign in to NSUT Hub'}
               </h3>
               <p style={{ margin: 0, fontSize: '0.82rem', color: 'var(--text-muted)' }}>
-                {user ? 'Cross-device persistent state' : 'Seamless dual-storage sync & progress saving'}
+                {user ? 'Cross-device persistent state' : 'Dual-storage sync and progress saving'}
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                   <div>
                     <div style={{ fontWeight: 700, fontSize: '0.9rem' }}>Deterministic Multi-Device Sync</div>
                     <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-                      Merge offline guest quizzes and bookmarked materials seamlessly with your Google Account without data loss.
+                      Merge offline guest quizzes and bookmarked materials directly with your Google Account without data loss.
                     </div>
                   </div>
                 </div>
