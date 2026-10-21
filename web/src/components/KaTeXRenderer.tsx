@@ -36,10 +36,14 @@ export const KaTeXRenderer: React.FC<KaTeXRendererProps> = ({ content, className
       }
     });
 
+    // Clean citation markers
+    processed = processed.replace(/\[cite:\s*\d+\]/gi, '');
+
     // Step 3: Process Markdown Elements
-    // Convert headings
-    processed = processed.replace(/^### (.*$)/gim, '<h3 class="md-h3">$1</h3>');
+    // Convert headings (h5 down to h1)
+    processed = processed.replace(/^##### (.*$)/gim, '<h5 class="md-h5">$1</h5>');
     processed = processed.replace(/^#### (.*$)/gim, '<h4 class="md-h4">$1</h4>');
+    processed = processed.replace(/^### (.*$)/gim, '<h3 class="md-h3">$1</h3>');
     processed = processed.replace(/^## (.*$)/gim, '<h2 class="md-h2">$1</h2>');
     processed = processed.replace(/^# (.*$)/gim, '<h1 class="md-h1">$1</h1>');
 
@@ -55,54 +59,114 @@ export const KaTeXRenderer: React.FC<KaTeXRendererProps> = ({ content, className
     processed = processed.replace(/```([a-z]*)\n([\s\S]*?)```/g, '<pre class="md-code-block"><code>$2</code></pre>');
     processed = processed.replace(/`([^`]+)`/g, '<code class="md-inline-code">$1</code>');
 
-    // Convert unordered lists (- item or * item)
-    processed = processed.replace(/^\s*[-*]\s+(.*)$/gim, '<li class="md-li">$1</li>');
+    // Convert blockquotes
+    processed = processed.replace(/^>\s*(.*)$/gim, '<blockquote class="md-blockquote"><p>$1</p></blockquote>');
+
+    // Convert unordered lists (- item or * item or unicode bullets)
+    processed = processed.replace(/^\s*[-*•≡]\s+(.*)$/gim, '<li class="md-li">$1</li>');
 
     // Convert numbered lists (1. item)
     processed = processed.replace(/^\s*(\d+)\.\s+(.*)$/gim, '<li class="md-li md-ordered"><span class="md-list-num">$1.</span> $2</li>');
 
-    // Convert line breaks and paragraph spacing (excluding inside pre and tags)
-    const lines = processed.split('\n');
+    // Convert lines, tables, and paragraphs
+    const rawLines = processed.split('\n');
     const resultLines: string[] = [];
     let inList = false;
+    let textBuffer: string[] = [];
 
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
-      if (!line) {
-        if (inList) {
-          resultLines.push('</ul>');
-          inList = false;
+    const flushTextBuffer = () => {
+      if (textBuffer.length > 0) {
+        resultLines.push(`<p class="md-p">${textBuffer.join(' ')}</p>`);
+        textBuffer = [];
+      }
+    };
+
+    const flushList = () => {
+      if (inList) {
+        resultLines.push('</ul>');
+        inList = false;
+      }
+    };
+
+    let idx = 0;
+    while (idx < rawLines.length) {
+      const line = rawLines[idx].trim();
+
+      // Check for Markdown table: starts and ends with |
+      if (line.startsWith('|') && line.endsWith('|') && idx + 1 < rawLines.length) {
+        const nextLine = rawLines[idx + 1].trim();
+        if (/^\|(\s*:?-+:?\s*\|)+\s*$/.test(nextLine)) {
+          flushTextBuffer();
+          flushList();
+
+          const headers = line.split('|').slice(1, -1).map(h => h.trim());
+          const aligns = nextLine.split('|').slice(1, -1).map(d => {
+            const dt = d.trim();
+            if (dt.startsWith(':') && dt.endsWith(':')) return 'center';
+            if (dt.endsWith(':')) return 'right';
+            return 'left';
+          });
+
+          let tableHtml = '<div class="md-table-wrapper"><table class="md-table"><thead><tr>';
+          headers.forEach((h, i) => {
+            const align = aligns[i] || 'left';
+            tableHtml += `<th class="md-th" style="text-align: ${align}">${h}</th>`;
+          });
+          tableHtml += '</tr></thead><tbody>';
+
+          idx += 2;
+          while (idx < rawLines.length && rawLines[idx].trim().startsWith('|') && rawLines[idx].trim().endsWith('|')) {
+            const cells = rawLines[idx].trim().split('|').slice(1, -1).map(c => c.trim());
+            tableHtml += '<tr>';
+            cells.forEach((c, i) => {
+              const align = aligns[i] || 'left';
+              tableHtml += `<td class="md-td" style="text-align: ${align}">${c}</td>`;
+            });
+            tableHtml += '</tr>';
+            idx++;
+          }
+          tableHtml += '</tbody></table></div>';
+          resultLines.push(tableHtml);
+          continue;
         }
+      }
+
+      if (!line) {
+        flushTextBuffer();
+        flushList();
         resultLines.push('<div class="md-spacer"></div>');
+        idx++;
         continue;
       }
 
       if (line.startsWith('<li')) {
+        flushTextBuffer();
         if (!inList) {
           resultLines.push('<ul class="md-ul">');
           inList = true;
         }
         resultLines.push(line);
       } else {
-        if (inList) {
-          resultLines.push('</ul>');
-          inList = false;
-        }
+        flushList();
         if (
           line.startsWith('<h') ||
           line.startsWith('<div') ||
           line.startsWith('<pre') ||
-          line.startsWith('<hr')
+          line.startsWith('<hr') ||
+          line.startsWith('<blockquote')
         ) {
+          flushTextBuffer();
           resultLines.push(line);
         } else {
-          resultLines.push(`<p class="md-p">${line}</p>`);
+          // Accumulate paragraph text
+          textBuffer.push(line);
         }
       }
+      idx++;
     }
-    if (inList) {
-      resultLines.push('</ul>');
-    }
+
+    flushTextBuffer();
+    flushList();
 
     return resultLines.join('\n');
   }, [content]);

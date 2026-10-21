@@ -35,6 +35,7 @@ import allPractice300Json from '../data/nptel_question_bank.json';
 import { useAuth } from '../context/AuthContext';
 import { NptelLectureSummariesView } from './NptelLectureSummariesView';
 import { LectureSummaryModal } from './LectureSummaryModal';
+import { KaTeXRenderer } from './KaTeXRenderer';
 
 const assignmentData = assignmentDataJson as QuizDatabase;
 const masterBank200Data = masterBank200Json as QuizDatabase;
@@ -95,16 +96,23 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
   // Normalize questions with explicit questionType
   const normalizedQuestions: QuizQuestion[] = useMemo(() => {
     return activeDataset.questions.map((q) => {
-      let qType: 'MSQ' | 'MCQ' | 'True/False' = q.questionType || (q.isMultiple ? 'MSQ' : 'MCQ');
-      if (!q.questionType) {
+      let qType: 'MSQ' | 'MCQ' | 'True/False' | undefined = q.questionType;
+      if (!qType) {
         if (q.options.length === 2 && (q.options[0].toLowerCase() === 'true' || q.options[0].toLowerCase() === 'false')) {
           qType = 'True/False';
+        } else if (q.id.startsWith('nptel_w') && q.questionNumber <= 10) {
+          qType = 'MSQ';
+        } else if (q.id.startsWith('nptel_w') && q.questionNumber <= 20) {
+          qType = 'MCQ';
+        } else {
+          qType = q.isMultiple ? 'MSQ' : 'MCQ';
         }
       }
+      const finalType: 'MSQ' | 'MCQ' | 'True/False' = qType || 'MCQ';
       return {
         ...q,
-        questionType: qType,
-        isMultiple: qType === 'MSQ'
+        questionType: finalType,
+        isMultiple: finalType === 'MSQ'
       };
     });
   }, [activeDataset]);
@@ -895,11 +903,13 @@ export const NptelQuizView: React.FC<NptelQuizViewProps> = ({
                           <span>Conceptual Justification</span>
                         </div>
                         <div className="conceptual-justification-text">
-                          {currentQ.conceptualJustification}
+                          <KaTeXRenderer content={currentQ.conceptualJustification} />
                         </div>
                       </div>
                     ) : (
-                      <p className="explanation-body">{currentQ.explanation}</p>
+                      <div className="explanation-body nlm-markdown-explanation">
+                        <KaTeXRenderer content={currentQ.explanation} />
+                      </div>
                     )}
 
                     {/* Option-by-Option Breakdown */}

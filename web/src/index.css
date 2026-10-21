@@ -2185,6 +2185,85 @@ body {
   margin-bottom: 10px;
 }
 
+.md-h5 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.md-blockquote {
+  margin: 14px 0;
+  padding: 10px 16px;
+  background: rgba(99, 102, 241, 0.08);
+  border-left: 3px solid var(--accent-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.md-blockquote p {
+  margin: 0;
+}
+
+.md-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 16px 0;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.md-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  text-align: left;
+}
+
+.md-th {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-weight: 700;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-color);
+  font-family: var(--font-display);
+}
+
+.md-td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.md-table tr:last-child .md-td {
+  border-bottom: none;
+}
+
+.md-table tr:hover .md-td {
+  background: var(--bg-card-hover);
+}
+
+.nlm-markdown-explanation {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.nlm-markdown-explanation .md-h3 {
+  font-size: 1.05rem;
+  color: var(--accent-primary);
+  margin-top: 16px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 4px;
+}
+
 /* ==========================================================================
    NEW: Solution Viewer Modal & Review Disclaimer
    ========================================================================== */
