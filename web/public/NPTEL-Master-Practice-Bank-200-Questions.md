@@ -12,10 +12,10 @@
 #### Question 1 [MSQ]
 
 **Scenario:**
-> Aarav, a software engineer at a firm in Hyderabad, attempted to break his habit of compulsively checking social media notifications late at night,
+> Aarav, a software engineer at a firm in Hyderabad, attempted to break his habit of compulsively checking social media notifications late at night, which left him exhausted during morning stand-up meetings. Upon analyzing his daily schedule, Aarav identified that feeling mentally drained around 10:00 PM served as the trigger, unlocking his phone provided a brief distraction, and the temporary feeling of relaxation functioned as the outcome. To modify this pattern, Aarav decided to put his phone in another room at 10:00 PM and read a physical novel for fifteen minutes instead whenever he felt drained.
 
 **Question:**
-which left him exhausted during morning stand-up meetings. Upon analyzing his daily schedule, Aarav identified that feeling mentally drained around 10:00 PM served as the trigger, unlocking his phone provided a brief distraction, and the temporary feeling of relaxation functioned as the outcome. To modify this pattern, Aarav decided to put his phone in another room at 10:00 PM and read a physical novel for fifteen minutes instead whenever he felt drained. According to course principles regarding habit cycle mechanics and self-management, which of the following statements accurately describe Aarav’s intervention? (Select all that apply)
+According to course principles regarding habit cycle mechanics and self-management, which of the following statements accurately describe Aarav’s intervention? (Select all that apply)
 
 **Options:**
 - **(A)** The habit loop consists of three core components: a cue (trigger), a routine (action), and a reward (outcome)
@@ -300,10 +300,10 @@ Moral integrity requires absolute alignment between a leader's public directives
 #### Question 9 [MSQ]
 
 **Scenario:**
-> Riya proposed an unconventional, digital-first supply chain framework during a regional strategy meeting. Her senior peers dismissed the proposal with sarcasm, labeling it "naive and impractical." Convinced of the empirical data supporting her model, Riya spent her evenings refining the statistical simulation, verifying cost structures, and quietly building a working prototype,
+> Riya proposed an unconventional, digital-first supply chain framework during a regional strategy meeting. Her senior peers dismissed the proposal with sarcasm, labeling it "naive and impractical." Convinced of the empirical data supporting her model, Riya spent her evenings refining the statistical simulation, verifying cost structures, and quietly building a working prototype, which ultimately demonstrated a 30% cost reduction when tested.
 
 **Question:**
-which ultimately demonstrated a 30% cost reduction when tested. Which self-development concepts are demonstrated in Riya’s scenario? (Select all that apply)
+Which self-development concepts are demonstrated in Riya’s scenario? (Select all that apply)
 
 **Options:**
 - **(A)** Personal conviction backed by logical analysis can sustain progress despite external peer skepticism
@@ -664,10 +664,10 @@ Moral integrity requires absolute consistency between stated rules and actions. 
 #### Question 19 [MSQ]
 
 **Scenario:**
-> In analyzing habit formation, a university student identified that feeling stressed during late-night study sessions (trigger) led to excessive online browsing for two hours (routine),
+> In analyzing habit formation, a university student identified that feeling stressed during late-night study sessions (trigger) led to excessive online browsing for two hours (routine), which provided temporary mental distraction (outcome). To re-engineer this habit loop without compromising study productivity, the student decided to leave his phone in a desk drawer and replace the browsing routine with a ten-minute mindfulness breathing session whenever study stress occurred.
 
 **Question:**
-which provided temporary mental distraction (outcome). To re-engineer this habit loop without compromising study productivity, the student decided to leave his phone in a desk drawer and replace the browsing routine with a ten-minute mindfulness breathing session whenever study stress occurred. Which statements correctly describe this habit modification process based on course principles? (Select all that apply)
+Which statements correctly describe this habit modification process based on course principles? (Select all that apply)
 
 **Options:**
 - **(A)** The habit loop consists of a cue (trigger), a routine (action), and a reward (outcome)
@@ -700,10 +700,10 @@ The habit cycle comprises cue, routine, and reward. Substituting a healthy routi
 #### Question 20 [MSQ]
 
 **Scenario:**
-> A senior software engineer faced a difficult dilemma thirty minutes before a major client product launch: deploy the software on schedule with a known, hidden database glitch that would cause minor sporadic crashes later, or report the flaw immediately,
+> A senior software engineer faced a difficult dilemma thirty minutes before a major client product launch: deploy the software on schedule with a known, hidden database glitch that would cause minor sporadic crashes later, or report the flaw immediately, which would force a embarrassing public delay but allow a complete code patch. The engineer chose to report the flaw, prioritizing product integrity and honesty over short-term convenience.
 
 **Question:**
-which would force a embarrassing public delay but allow a complete code patch. The engineer chose to report the flaw, prioritizing product integrity and honesty over short-term convenience. Which ethical and soft skill attributes are demonstrated in this decision? (Select all that apply)
+Which ethical and soft skill attributes are demonstrated in this decision? (Select all that apply)
 
 **Options:**
 - **(A)** Moral integrity involves upholding professional and ethical standards even under high-pressure conditions
@@ -2491,10 +2491,10 @@ Explanations: Greeting politely (A), upright front-of-chair posture (B), turning
 #### Question 69 [MSQ]
 
 **Scenario:**
-> Aditi presented research to an international audience. A delegate gave a "thumbs-up" sign,
+> Aditi presented research to an international audience. A delegate gave a "thumbs-up" sign, which Aditi assumed meant praise, though another participant noted it carries offensive connotations in certain regions. Aditi also assumed a delegate with a serious facial expression was angry, though he was merely exhausted from travel.
 
 **Question:**
-which Aditi assumed meant praise, though another participant noted it carries offensive connotations in certain regions. Aditi also assumed a delegate with a serious facial expression was angry, though he was merely exhausted from travel. Which principles from Lecture 40 are illustrated? (Select all that apply)
+Which principles from Lecture 40 are illustrated? (Select all that apply)
 
 **Options:**
 - **(A)** A single body language cue should never be used as the sole basis for final judgment
@@ -3046,10 +3046,10 @@ Correcting financial ledger errors at personal cost demonstrates moral integrity
 #### Question 84 [MCQ]
 
 **Scenario:**
-> A student attempting to break an addiction to late-night smartphone scrolling identified that boredom at 11 PM (cue) triggered scrolling (routine) for temporary entertainment (reward). She replaced scrolling with reading a novel at 11 PM. This behavioral adjustment directly modifies
+> A student attempting to break an addiction to late-night smartphone scrolling identified that boredom at 11 PM (cue) triggered scrolling (routine) for temporary entertainment (reward). She replaced scrolling with reading a novel at 11 PM.
 
 **Question:**
-which component of the habit cycle?
+This behavioral adjustment directly modifies which component of the habit cycle?
 
 **Options:**
 - **(A)** The underlying cue
@@ -3081,8 +3081,11 @@ Substituting novel reading for smartphone scrolling at 11 PM directly alters the
 
 #### Question 85 [MCQ]
 
+**Scenario:**
+> A junior scientist faced severe criticism from senior colleagues for proposing an unconventional energy hypothesis. Rather than abandoning the work or reacting aggressively, she objectively reviewed their technical objections, refined her math, and persevered.
+
 **Question:**
-A junior scientist faced severe criticism from senior colleagues for proposing an unconventional energy hypothesis. Rather than abandoning the work or reacting aggressively, she objectively reviewed their technical objections, refined her math, and persevered. This response illustrates:
+This response illustrates:
 
 **Options:**
 - **(A)** Emotional interference distorting scientific evaluation
@@ -3114,8 +3117,11 @@ Evaluating technical feedback while maintaining research conviction illustrates 
 
 #### Question 86 [MCQ]
 
+**Scenario:**
+> An individual setting a long-term goal to master professional public speaking creates a detailed weekly schedule involving vocal exercises, recording mock speeches, and seeking peer feedback.
+
 **Question:**
-An individual setting a long-term goal to master professional public speaking creates a detailed weekly schedule involving vocal exercises, recording mock speeches, and seeking peer feedback. This structured approach exemplifies:
+This structured approach exemplifies:
 
 **Options:**
 - **(A)** Aligning stated goals with actionable, disciplined habit routines
@@ -3147,8 +3153,11 @@ Creating weekly rehearsal schedules aligns stated public speaking goals with act
 
 #### Question 87 [MCQ]
 
+**Scenario:**
+> A project lead promised her team that safety protocols would be strictly enforced without exception. When a senior manager breached safety rules to save time, the project lead issued a formal non-compliance warning to the senior manager.
+
 **Question:**
-A project lead promised her team that safety protocols would be strictly enforced without exception. When a senior manager breached safety rules to save time, the project lead issued a formal non-compliance warning to the senior manager. This action demonstrates:
+This action demonstrates:
 
 **Options:**
 - **(A)** Severe diffidence and fear of authority
@@ -3180,8 +3189,11 @@ Citing a senior manager for safety violations enforces rules consistently, demon
 
 #### Question 88 [MCQ]
 
+**Scenario:**
+> A student struggling with severe diffidence avoided raising her hand in class despite knowing the correct answers. She began practicing short verbal contributions in small study groups to build confidence gradually.
+
 **Question:**
-A student struggling with severe diffidence avoided raising her hand in class despite knowing the correct answers. She began practicing short verbal contributions in small study groups to build confidence gradually. This self-development strategy focuses on:
+This self-development strategy focuses on:
 
 **Options:**
 - **(A)** Overcoming psychological diffidence through step-by-step behavioral practice
@@ -3249,8 +3261,11 @@ Blaming luck for failures while taking sole credit for successes reflects a defi
 
 #### Question 90 [MCQ]
 
+**Scenario:**
+> A designer received negative feedback on a campaign proposal from a client. Instead of taking the criticism personally or feeling defeated, he asked specific questions to pinpoint the client's preferences and revised the design accordingly.
+
 **Question:**
-A designer received negative feedback on a campaign proposal from a client. Instead of taking the criticism personally or feeling defeated, he asked specific questions to pinpoint the client's preferences and revised the design accordingly. This behavior reflects:
+This behavior reflects:
 
 **Options:**
 - **(A)** Professional resilience and constructive evaluation of criticism
@@ -3286,8 +3301,11 @@ Asking specific clarifying questions to improve design work reflects professiona
 
 #### Question 91 [MCQ]
 
+**Scenario:**
+> An executive set a personal goal to improve workplace relationships. However, during daily interactions, she routinely interrupted colleagues, checked emails while they spoke, and dismissed their input.
+
 **Question:**
-An executive set a personal goal to improve workplace relationships. However, during daily interactions, she routinely interrupted colleagues, checked emails while they spoke, and dismissed their input. This disconnect demonstrates a failure in:
+This disconnect demonstrates a failure in:
 
 **Options:**
 - **(A)** Aligning stated interpersonal goals with daily communication habits
@@ -3319,8 +3337,11 @@ Interrupting colleagues and checking emails while they speak contradicts stated 
 
 #### Question 92 [MCQ]
 
+**Scenario:**
+> A researcher faced pressure from a project sponsor to alter data findings to match the sponsor's commercial interests. The researcher refused, citing professional scientific ethics, despite risking project funding.
+
 **Question:**
-A researcher faced pressure from a project sponsor to alter data findings to match the sponsor's commercial interests. The researcher refused, citing professional scientific ethics, despite risking project funding. This choice is a prime example of:
+This choice is a prime example of:
 
 **Options:**
 - **(A)** Moral integrity and ethical conviction under external pressure
@@ -3352,8 +3373,11 @@ Refusing to alter empirical research findings despite financial threats demonstr
 
 #### Question 93 [MCQ]
 
+**Scenario:**
+> A student identified that every evening after dinner (cue), he felt an urge to check social media (routine) to feel connected (reward). He decided that after dinner, he would call a close friend for five minutes instead.
+
 **Question:**
-A student identified that every evening after dinner (cue), he felt an urge to check social media (routine) to feel connected (reward). He decided that after dinner, he would call a close friend for five minutes instead. This strategy successfully alters the habit loop by:
+This strategy successfully alters the habit loop by:
 
 **Options:**
 - **(A)** Eliminating the cue entirely from the environment
@@ -3385,8 +3409,11 @@ Calling a friend substitutes a healthy social routine that satisfies the urge fo
 
 #### Question 94 [MCQ]
 
+**Scenario:**
+> An entry-level employee felt intimidated when presenting ideas during cross-departmental meetings. She prepared detailed outline notes, practiced her delivery in front of a mirror, and focused on clear vocal projection.
+
 **Question:**
-An entry-level employee felt intimidated when presenting ideas during cross-departmental meetings. She prepared detailed outline notes, practiced her delivery in front of a mirror, and focused on clear vocal projection. This effort represents:
+This effort represents:
 
 **Options:**
 - **(A)** Active self-management to overcome communication diffidence
@@ -3454,8 +3481,11 @@ Demanding immediate midnight responses while preaching work-life balance creates
 
 #### Question 96 [MCQ]
 
+**Scenario:**
+> A software lead realized his tendency to react defensively whenever code reviews contained errors. To fix this, he adopted a rule: take three deep breaths and thank the reviewer before responding.
+
 **Question:**
-A software lead realized his tendency to react defensively whenever code reviews contained errors. To fix this, he adopted a rule: take three deep breaths and thank the reviewer before responding. This intervention relies on:
+This intervention relies on:
 
 **Options:**
 - **(A)** Emotional self-regulation and impulse control in professional interactions
@@ -3487,8 +3517,11 @@ Taking deep breaths and thanking reviewers enforces emotional self-regulation an
 
 #### Question 97 [MCQ]
 
+**Scenario:**
+> An intern promised to organize project files by Tuesday. On Monday, he spent six hours organizing his personal desktop wallpapers and music playlists, leaving project files untouched.
+
 **Question:**
-An intern promised to organize project files by Tuesday. On Monday, he spent six hours organizing his personal desktop wallpapers and music playlists, leaving project files untouched. This behavior illustrates:
+This behavior illustrates:
 
 **Options:**
 - **(A)** Misalignment of immediate actions with stated professional commitments
@@ -3520,8 +3553,11 @@ Customizing desktop wallpapers instead of organizing client files illustrates se
 
 #### Question 98 [MCQ]
 
+**Scenario:**
+> A team member received harsh, sarcastic feedback from a colleague regarding a presentation error. Instead of escalating the argument, the team member responded, "I agree the slide format was confusing; I will fix it now, but please discuss formatting issues with me privately next time."
+
 **Question:**
-A team member received harsh, sarcastic feedback from a colleague regarding a presentation error. Instead of escalating the argument, the team member responded, "I agree the slide format was confusing; I will fix it now, but please discuss formatting issues with me privately next time." This response showcases:
+This response showcases:
 
 **Options:**
 - **(A)** High emotional intelligence, self-possession, and constructive boundary setting
@@ -3553,8 +3589,11 @@ Acknowledging technical errors while requesting private feedback showcases high 
 
 #### Question 99 [MCQ]
 
+**Scenario:**
+> A professional committed to maintaining high work quality discovered a minor flaw in a client report minutes before submission. Fixing it required staying late and missing a social event. He chose to stay and correct the report.
+
 **Question:**
-A professional committed to maintaining high work quality discovered a minor flaw in a client report minutes before submission. Fixing it required staying late and missing a social event. He chose to stay and correct the report. This choice reflects:
+This choice reflects:
 
 **Options:**
 - **(A)** Moral integrity and personal dedication to professional standards
@@ -3586,8 +3625,11 @@ Staying late to fix a client report flaw reflects moral integrity and dedication
 
 #### Question 100 [MCQ]
 
+**Scenario:**
+> A manager recognized that his habit of checking emails immediately upon waking up led to morning stress and reactive decision-making. He changed his routine to exercising for thirty minutes before opening his inbox.
+
 **Question:**
-A manager recognized that his habit of checking emails immediately upon waking up led to morning stress and reactive decision-making. He changed his routine to exercising for thirty minutes before opening his inbox. This self-development success illustrates:
+This self-development success illustrates:
 
 **Options:**
 - **(A)** Proactive modification of personal habit loops to enhance daily well-being and focus
@@ -3626,10 +3668,10 @@ Replacing morning inbox scrolling with exercise modifies habit routines to enhan
 #### Question 101 [MCQ]
 
 **Scenario:**
-> Ankita, a customer service executive in Pune, received a telephone call from a customer reporting that his internet connection failed after a recent software update. Without waiting for him to finish his explanation, Ankita assumed unpaid bills caused the failure
+> Ankita, a customer service executive in Pune, received a telephone call from a customer reporting that his internet connection failed after a recent software update. Without waiting for him to finish his explanation, Ankita assumed unpaid bills caused the failure based on three prior cases she handled that morning. She interrupted him, insisted payment was overdue, and demanded clearance. Later, technical support verified the account was fully paid and a server glitch caused the outage.
 
 **Question:**
-based on three prior cases she handled that morning. She interrupted him, insisted payment was overdue, and demanded clearance. Later, technical support verified the account was fully paid and a server glitch caused the outage. According to Lecture 21 & 32 principles applied to customer phone interactions, what primary barrier caused this communication failure?
+According to Lecture 21 & 32 principles applied to customer phone interactions, what primary barrier caused this communication failure?
 
 **Options:**
 - **(A)** Physical environmental noise blocking the phone signal
@@ -4356,10 +4398,10 @@ Failing to research buyer details or outline objectives demonstrates a complete 
 #### Question 121 [MCQ]
 
 **Scenario:**
-> Abhishek wished to discuss a highly sensitive, confidential salary grievance with his department head. Instead of requesting a private face-to-face meeting, he posted the detailed grievance in the company’s public
+> Abhishek wished to discuss a highly sensitive, confidential salary grievance with his department head. Instead of requesting a private face-to-face meeting, he posted the detailed grievance in the company’s public WhatsApp group.
 
 **Question:**
-WhatsApp group. According to Lecture 33, what primary communication error did Abhishek commit?
+According to Lecture 33, what primary communication error did Abhishek commit?
 
 **Options:**
 - **(A)** Using excessively formal, complex vocabulary
@@ -5122,10 +5164,10 @@ Vikram's nonverbal body language contradicted his confident speech, leading the 
 #### Question 142 [MCQ]
 
 **Scenario:**
-> Pulkit visited his aunt Meera for lunch. When offered another serving of biryani, he verbally replied, "No, thank you. I'm already full." However, Pulkit kept staring at the dish, smiled warmly, inhaled the aroma, and unconsciously slid his plate closer to the serving bowl. Meera served him more,
+> Pulkit visited his aunt Meera for lunch. When offered another serving of biryani, he verbally replied, "No, thank you. I'm already full." However, Pulkit kept staring at the dish, smiled warmly, inhaled the aroma, and unconsciously slid his plate closer to the serving bowl. Meera served him more, which he ate immediately.
 
 **Question:**
-which he ate immediately. According to Lecture 37, which nonverbal function is illustrated?
+According to Lecture 37, which nonverbal function is illustrated?
 
 **Options:**
 - **(A)** Nonverbal communication repeating verbal meaning
@@ -5666,10 +5708,10 @@ Rapidly touching the nose, rubbing the neck, and avoiding eye contact form a non
 #### Question 157 [MCQ]
 
 **Scenario:**
-> An attendee at an international conference bowed slightly when greeting delegates from East Asia, but offered a firm handshake to delegates from North America, adjusting his greeting
+> An attendee at an international conference bowed slightly when greeting delegates from East Asia, but offered a firm handshake to delegates from North America, adjusting his greeting based on origin.
 
 **Question:**
-based on origin. According to Lecture 38–40, this adaptability demonstrates:
+According to Lecture 38–40, this adaptability demonstrates:
 
 **Options:**
 - **(A)** Cultural competence and flexibility in nonverbal interpersonal communication
