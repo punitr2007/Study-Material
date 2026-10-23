@@ -199,11 +199,14 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [CAMTC13-COMTC13.pdf](downloaded_pyqs/Mid_Semester/CAMTC13-COMTC13.pdf) | `PDF` | 64.5 KB |
 | [COMTC13_2024.pdf](downloaded_pyqs/Mid_Semester/COMTC13_2024.pdf) | `PDF` | 32.0 KB |
 | [EAEPC303__25_EAEPC06_2024.pdf](downloaded_pyqs/Mid_Semester/EAEPC303__25_EAEPC06_2024.pdf) | `PDF` | 29.9 KB |
+| [ECECC06.pdf](downloaded_pyqs/Mid_Semester/ECECC06.pdf) | `PDF` | 138.7 KB |
 | [ECECC06_EIECC06_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2023.pdf) | `PDF` | 26.1 KB |
 | [ECECC06_EIECC06_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC06_EIECC06_2024.pdf) | `PDF` | 29.2 KB |
 | [ECECC303-EIECC303-VTEC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTEC303.pdf) | `PDF` | 64.3 KB |
 | [ECECC303-EIECC303-VTECC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTECC303.pdf) | `PDF` | 70.3 KB |
 | [ECECC303_EIECC303_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_2024.pdf) | `PDF` | 29.1 KB |
+| [ECECC303_VTECC303_1.pdf](downloaded_pyqs/Mid_Semester/ECECC303_VTECC303_1.pdf) | `PDF` | 133.3 KB |
+| [ECECC303_VTECC303_2.pdf](downloaded_pyqs/Mid_Semester/ECECC303_VTECC303_2.pdf) | `PDF` | 153.2 KB |
 | [INECC305-ITECC305.pdf](downloaded_pyqs/Mid_Semester/INECC305-ITECC305.pdf) | `PDF` | 62.3 KB |
 | [INECC305_ITECC305_2024.pdf](downloaded_pyqs/Mid_Semester/INECC305_ITECC305_2024.pdf) | `PDF` | 34.4 KB |
 | [INECC305_ITECC305_INECC06_ITECC06_2024.pdf](downloaded_pyqs/Mid_Semester/INECC305_ITECC305_INECC06_ITECC06_2024.pdf) | `PDF` | 37.9 KB |

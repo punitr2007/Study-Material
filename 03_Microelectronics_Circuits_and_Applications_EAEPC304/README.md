@@ -222,5 +222,6 @@ _No files currently._
 | [ECECC07-VTECC304.pdf](downloaded_pyqs/Mid_Semester/ECECC07-VTECC304.pdf) | `PDF` | 103.8 KB |
 | [ECECC07_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC07_2023.pdf) | `PDF` | 36.3 KB |
 | [ECECC304-EIECC07.pdf](downloaded_pyqs/Mid_Semester/ECECC304-EIECC07.pdf) | `PDF` | 108.7 KB |
+| [ECECC304.pdf](downloaded_pyqs/Mid_Semester/ECECC304.pdf) | `PDF` | 122.1 KB |
 
 ---

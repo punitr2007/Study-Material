@@ -169,7 +169,9 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_3_3.pdf](downloaded_pyqs/Mid_Semester/2026_Mid_Semester_DIGITALLOGICDESIGN_Pages_3_3.pdf) | `PDF` | 429.3 KB |
 | [ECECC08_EIECC08_2023.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2023.pdf) | `PDF` | 18.4 KB |
 | [ECECC08_EIECC08_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC08_EIECC08_2024.pdf) | `PDF` | 21.1 KB |
+| [ECECC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/ECECC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 123.1 KB |
 | [EIECC08_ECECC08_INECC01_2024.pdf](downloaded_pyqs/Mid_Semester/EIECC08_ECECC08_INECC01_2024.pdf) | `PDF` | 22.2 KB |
+| [VTECC305_Digital_Circuits_and_Systems.pdf](downloaded_pyqs/Mid_Semester/VTECC305_Digital_Circuits_and_Systems.pdf) | `PDF` | 73.5 KB |
 
 ### Summer Semester
 
