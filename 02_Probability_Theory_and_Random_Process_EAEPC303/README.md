@@ -178,6 +178,7 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf](downloaded_pyqs/End_Semester/ECECC303-VTECC303-ECECC06-EIECC06-EIECC303.pdf) | `PDF` | 115.9 KB |
 | [ECECC303_EIECC303_ECECC06_EIECC06.pdf](downloaded_pyqs/End_Semester/ECECC303_EIECC303_ECECC06_EIECC06.pdf) | `PDF` | 76.8 KB |
 | [ECECC303_EIECC303_ECECC06_EIECC06_VTECC303.pdf](downloaded_pyqs/End_Semester/ECECC303_EIECC303_ECECC06_EIECC06_VTECC303.pdf) | `PDF` | 85.0 KB |
+| [ECECC303_VTECC303_2.pdf](downloaded_pyqs/End_Semester/ECECC303_VTECC303_2.pdf) | `PDF` | 153.2 KB |
 | [INECC305-ITECC305-INECC06-ITECC06.pdf](downloaded_pyqs/End_Semester/INECC305-ITECC305-INECC06-ITECC06.pdf) | `PDF` | 140.3 KB |
 | [INECC305-ITECC305_Probability-and-Stochastic-Process_EndSem_BTech-Sem3_June2026_copy4.pdf](downloaded_pyqs/End_Semester/INECC305-ITECC305_Probability-and-Stochastic-Process_EndSem_BTech-Sem3_June2026_copy4.pdf) | `PDF` | 296.6 KB |
 | [INECC305_ITECC305.pdf](downloaded_pyqs/End_Semester/INECC305_ITECC305.pdf) | `PDF` | 117.5 KB |
@@ -206,7 +207,6 @@ Comprehensive course archive containing lecture notes, problem sets, textbooks, 
 | [ECECC303-EIECC303-VTECC303.pdf](downloaded_pyqs/Mid_Semester/ECECC303-EIECC303-VTECC303.pdf) | `PDF` | 70.3 KB |
 | [ECECC303_EIECC303_2024.pdf](downloaded_pyqs/Mid_Semester/ECECC303_EIECC303_2024.pdf) | `PDF` | 29.1 KB |
 | [ECECC303_VTECC303_1.pdf](downloaded_pyqs/Mid_Semester/ECECC303_VTECC303_1.pdf) | `PDF` | 133.3 KB |
-| [ECECC303_VTECC303_2.pdf](downloaded_pyqs/Mid_Semester/ECECC303_VTECC303_2.pdf) | `PDF` | 153.2 KB |
 | [INECC305-ITECC305.pdf](downloaded_pyqs/Mid_Semester/INECC305-ITECC305.pdf) | `PDF` | 62.3 KB |
 | [INECC305_ITECC305_2024.pdf](downloaded_pyqs/Mid_Semester/INECC305_ITECC305_2024.pdf) | `PDF` | 34.4 KB |
 | [INECC305_ITECC305_INECC06_ITECC06_2024.pdf](downloaded_pyqs/Mid_Semester/INECC305_ITECC305_INECC06_ITECC06_2024.pdf) | `PDF` | 37.9 KB |
