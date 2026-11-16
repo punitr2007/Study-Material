@@ -14,7 +14,8 @@ import {
   ChevronDown,
   Menu,
   X,
-  User as UserIcon
+  User as UserIcon,
+  Zap
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -25,6 +26,7 @@ export type ActiveNavView =
   | 'practice'
   | 'solutions'
   | 'quizzes'
+  | 'gate-ece'
   | 'tools-hub'
   | 'drive'
   | 'analytics';
@@ -98,6 +100,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       case 'practice': return 'Practice Vault';
       case 'solutions': return 'AI Solutions';
       case 'quizzes': return 'NPTEL Portal';
+      case 'gate-ece': return 'GATE ECE';
       case 'tools-hub': return 'Tools Hub';
       case 'drive': return 'Drive Explorer';
       case 'analytics': return 'Analytics';
@@ -334,14 +337,39 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <BookOpen size={16} className="dropdown-item-icon" />
                   <div className="dropdown-item-content">
                     <span className="dropdown-item-title">NPTEL Question Bank & Revision</span>
-                    <span className="dropdown-item-desc">100 Scenario Questions (MSQ/MCQ/TF) + 48 Lecture Notes</span>
+                    <span className="dropdown-item-desc">300 Practice Questions + 48 Lecture Notes</span>
+                  </div>
+                </button>
+
+                <button
+                  role="menuitem"
+                  className={`nav-dropdown-item ${activeView === 'gate-ece' ? 'selected' : ''}`}
+                  onClick={() => {
+                    setActiveView('gate-ece');
+                    setStudyDropdownOpen(false);
+                  }}
+                >
+                  <Zap size={16} className="dropdown-item-icon" />
+                  <div className="dropdown-item-content">
+                    <span className="dropdown-item-title">GATE — ECE Master Vault</span>
+                    <span className="dropdown-item-desc">2,028 PYQs across 10 subjects, Booklets & Formula Sheets</span>
                   </div>
                 </button>
               </div>
             )}
           </div>
 
-          {/* 3. NPTEL Portal (First-Class Destination) */}
+          {/* 3. GATE — ECE Portal (First-Class Destination) */}
+          <button
+            className={`nav-tab-link ${activeView === 'gate-ece' ? 'active' : ''}`}
+            onClick={() => setActiveView('gate-ece')}
+          >
+            <Zap size={15} className="inline-icon" />
+            <span>GATE — ECE</span>
+            <span className="nav-badge-pill" style={{ background: 'var(--bg-tertiary)' }}>2,028 Qs</span>
+          </button>
+
+          {/* 4. NPTEL Portal (First-Class Destination) */}
           <button
             className={`nav-tab-link ${activeView === 'quizzes' ? 'active' : ''}`}
             onClick={() => setActiveView('quizzes')}
@@ -500,6 +528,17 @@ export const Navbar: React.FC<NavbarProps> = ({
               >
                 <FolderArchive size={18} />
                 <span>University Materials & PYQs</span>
+              </button>
+
+              <button
+                className={`drawer-link ${activeView === 'gate-ece' ? 'active' : ''}`}
+                onClick={() => {
+                  setActiveView('gate-ece');
+                  setMobileDrawerOpen(false);
+                }}
+              >
+                <Zap size={18} />
+                <span>GATE — ECE (2,028 Questions)</span>
               </button>
 
               <button

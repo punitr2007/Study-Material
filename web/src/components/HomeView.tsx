@@ -192,6 +192,22 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
               <strong style={{ color: 'var(--text-primary)' }}>200</strong> NPTEL MCQs
             </div>
             <div
+              onClick={() => onNavigate('gate-ece')}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                background: 'var(--bg-card)',
+                padding: '6px 14px',
+                borderRadius: '8px',
+                border: '1px solid var(--border-subtle)',
+                cursor: 'pointer'
+              }}
+            >
+              <Zap size={15} style={{ color: 'var(--accent-primary)' }} />
+              <strong style={{ color: 'var(--text-primary)' }}>2,028</strong> GATE PYQs
+            </div>
+            <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -333,6 +349,86 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog, onNavigate, onOpenA
             </button>
           </div>
         )}
+      </section>
+
+      {/* GATE ECE Feature Banner */}
+      <section style={{ marginBottom: '32px' }}>
+        <div
+          onClick={() => onNavigate('gate-ece')}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '16px',
+            padding: '20px 24px',
+            background: 'var(--bg-card)',
+            border: '1px solid var(--border-subtle)',
+            borderRadius: 'var(--radius-xl)',
+            cursor: 'pointer',
+            transition: 'border-color 0.2s ease',
+            boxShadow: 'var(--shadow-sm)'
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <div
+              style={{
+                width: '46px',
+                height: '46px',
+                borderRadius: '12px',
+                background: 'var(--bg-tertiary)',
+                color: 'var(--accent-primary)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexShrink: 0
+              }}
+            >
+              <Zap size={24} />
+            </div>
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '2px' }}>
+                <div style={{ fontWeight: 800, fontSize: '1.05rem', color: 'var(--text-primary)' }}>
+                  GATE — ECE Master Study & Practice Vault
+                </div>
+                <span
+                  style={{
+                    padding: '2px 8px',
+                    borderRadius: 'var(--radius-sm)',
+                    background: 'var(--bg-tertiary)',
+                    color: 'var(--accent-primary)',
+                    fontSize: '0.74rem',
+                    fontWeight: 800
+                  }}
+                >
+                  2,028 PYQs
+                </span>
+              </div>
+              <div style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', maxWidth: '680px' }}>
+                Comprehensive 10-subject question bank with interactive MCQ, MSQ, and NAT solvers, step-by-step mathematical derivations, 64 topic booklets, and formula sheets.
+              </div>
+            </div>
+          </div>
+
+          <button
+            className="btn-preview"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '10px 18px',
+              borderRadius: 'var(--radius-md)',
+              fontWeight: 700,
+              fontSize: '0.88rem',
+              background: 'var(--accent-primary)',
+              color: '#ffffff',
+              border: 'none'
+            }}
+          >
+            <span>Launch GATE Vault</span>
+            <ArrowRight size={15} />
+          </button>
+        </div>
       </section>
 
       {/* 3 Core Academic Pillars */}

@@ -5832,3 +5832,36 @@ body {
 }
 
 
+
+
+/* ==========================================================================
+   GATE ECE Master Vault & Interactive PYQ Styles
+   ========================================================================== */
+.gate-img-wrapper {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.gate-diagram-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  background: #ffffff;
+  padding: 8px;
+  border: 1px solid var(--border-subtle);
+  display: block;
+}
+
+.gate-quiz-card {
+  transition: border-color 0.2s ease;
+}
+
+@media (max-width: 640px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}

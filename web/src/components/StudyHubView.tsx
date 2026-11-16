@@ -1,5 +1,5 @@
 import React from 'react';
-import { FolderArchive, Target, Sparkles, ArrowRight, Layers, CheckCircle2, BookOpen } from 'lucide-react';
+import { FolderArchive, Target, Sparkles, ArrowRight, Layers, CheckCircle2, BookOpen, Zap } from 'lucide-react';
 import type { ActiveNavView } from './Navbar';
 
 interface StudyHubViewProps {
@@ -369,13 +369,94 @@ export const StudyHubView: React.FC<StudyHubViewProps> = ({ onNavigate, totalDoc
               padding: '12px 18px',
               borderRadius: 'var(--radius-lg)',
               fontWeight: 700,
+              fontSize: '0.92rem'
+            }}
+          >
+            <span>Explore 48 Lecture Guides</span>
+            <ArrowRight size={16} />
+          </button>
+        </div>
+
+        {/* Card 5: GATE ECE Master Vault */}
+        <div
+          onClick={() => onNavigate('gate-ece')}
+          className="study-hub-card"
+          style={{
+            background: 'var(--bg-card)',
+            border: '1px solid var(--border-color)',
+            borderRadius: 'var(--radius-xl)',
+            padding: '28px',
+            cursor: 'pointer',
+            transition: 'border-color 0.2s ease',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            boxShadow: 'var(--shadow-md)',
+            position: 'relative',
+            overflow: 'hidden'
+          }}
+        >
+          <div>
+            <div
+              style={{
+                width: '52px',
+                height: '52px',
+                borderRadius: '14px',
+                background: 'var(--bg-tertiary)',
+                color: 'var(--accent-primary)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                marginBottom: '18px',
+                border: '1px solid var(--border-subtle)'
+              }}
+            >
+              <Zap size={26} />
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+              <h2 style={{ fontSize: '1.3rem', fontWeight: 800, margin: 0, color: 'var(--text-primary)' }}>
+                GATE — ECE Master Vault
+              </h2>
+            </div>
+
+            <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: '18px' }}>
+              Complete GATE EC examination portal covering all 10 core subjects and 64 topics. Features 2,028 solved PYQs (MCQ, MSQ, NAT with tolerance checking), step-by-step mathematical derivations, downloadable booklets, and high-density formula cheat sheets.
+            </p>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '24px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                <CheckCircle2 size={14} style={{ color: '#10b981' }} />
+                <span>2,028 Interactive PYQs (1,490 MCQ • 495 NAT • 43 MSQ)</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                <CheckCircle2 size={14} style={{ color: '#10b981' }} />
+                <span>64 Topic Question Papers & Detailed Solutions Manuals</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                <CheckCircle2 size={14} style={{ color: '#10b981' }} />
+                <span>Calculus, Fourier, Nyquist & 8085 Formula Cheat Sheets</span>
+              </div>
+            </div>
+          </div>
+
+          <button
+            className="btn-preview"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '8px',
+              padding: '12px 18px',
+              borderRadius: 'var(--radius-lg)',
+              fontWeight: 700,
               fontSize: '0.92rem',
               background: 'var(--accent-primary)',
               border: 'none',
               color: '#ffffff'
             }}
           >
-            <span>Explore 48 Lecture Guides</span>
+            <span>Enter GATE ECE Vault</span>
             <ArrowRight size={16} />
           </button>
         </div>

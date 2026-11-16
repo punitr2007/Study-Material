@@ -11,8 +11,25 @@ export const KaTeXRenderer: React.FC<KaTeXRendererProps> = ({ content, className
   const renderedHtml = useMemo(() => {
     if (!content) return '';
 
+    // Step 0: Extract and render [latex]...[/latex] tags
+    let processed = content.replace(/\[latex\]([\s\S]*?)\[\/latex\]/gi, (_, math) => {
+      const trimmed = math.trim();
+      const isDisplay = trimmed.includes('\\begin') || trimmed.includes('\n') || trimmed.includes('\\\\') || trimmed.length > 60;
+      try {
+        const rendered = katex.renderToString(trimmed, {
+          displayMode: isDisplay,
+          throwOnError: false,
+        });
+        return isDisplay
+          ? `<div class="katex-display-wrapper"><div class="katex-display-scroll">${rendered}</div></div>`
+          : rendered;
+      } catch (err) {
+        return `<code>${trimmed}</code>`;
+      }
+    });
+
     // Step 1: Extract and render display math ($$...$$)
-    let processed = content.replace(/\$\$([\s\S]*?)\$\$/g, (_, math) => {
+    processed = processed.replace(/\$\$([\s\S]*?)\$\$/g, (_, math) => {
       try {
         const rendered = katex.renderToString(math.trim(), {
           displayMode: true,
@@ -153,7 +170,9 @@ export const KaTeXRenderer: React.FC<KaTeXRendererProps> = ({ content, className
           line.startsWith('<div') ||
           line.startsWith('<pre') ||
           line.startsWith('<hr') ||
-          line.startsWith('<blockquote')
+          line.startsWith('<blockquote') ||
+          line.startsWith('<img') ||
+          line.startsWith('<table')
         ) {
           flushTextBuffer();
           resultLines.push(line);

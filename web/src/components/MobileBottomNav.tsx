@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, BookOpen, GraduationCap, Wrench } from 'lucide-react';
+import { Home, BookOpen, GraduationCap, Wrench, Zap } from 'lucide-react';
 import type { ActiveNavView } from './Navbar';
 
 interface MobileBottomNavProps {
@@ -25,16 +25,11 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ activeView, se
         <span className="mobile-nav-label">Home</span>
       </button>
 
-      {/* 2. Study (routes to Study Hub landing cards on touch) */}
+      {/* 2. Study */}
       <button
         className={`mobile-nav-item ${isStudyActive ? 'active' : ''}`}
         onClick={() => {
-          // If already in a study subview, tap goes to Study Hub cards overview
-          if (activeView === 'materials' || activeView === 'practice' || activeView === 'solutions') {
-            setActiveView('study-hub');
-          } else {
-            setActiveView('study-hub');
-          }
+          setActiveView('study-hub');
         }}
         aria-label="Study & Curriculum Hub"
       >
@@ -44,7 +39,19 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ activeView, se
         <span className="mobile-nav-label">Study</span>
       </button>
 
-      {/* 3. NPTEL Portal */}
+      {/* 3. GATE ECE */}
+      <button
+        className={`mobile-nav-item ${activeView === 'gate-ece' ? 'active' : ''}`}
+        onClick={() => setActiveView('gate-ece')}
+        aria-label="GATE ECE Master Vault"
+      >
+        <div className="mobile-nav-icon-wrap">
+          <Zap size={19} />
+        </div>
+        <span className="mobile-nav-label">GATE EC</span>
+      </button>
+
+      {/* 4. NPTEL Portal */}
       <button
         className={`mobile-nav-item ${activeView === 'quizzes' ? 'active' : ''}`}
         onClick={() => setActiveView('quizzes')}
@@ -56,7 +63,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ activeView, se
         <span className="mobile-nav-label">NPTEL</span>
       </button>
 
-      {/* 4. Tools (routes to Tools Hub landing cards on touch) */}
+      {/* 5. Tools */}
       <button
         className={`mobile-nav-item ${isToolsActive ? 'active' : ''}`}
         onClick={() => {

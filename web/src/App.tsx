@@ -18,6 +18,7 @@ import { PracticeVaultView } from './components/PracticeVaultView';
 import { DriveExplorer } from './components/DriveExplorer';
 import { SolutionViewerModal } from './components/SolutionViewerModal';
 import { NptelQuizView } from './components/NptelQuizView';
+import { GateEceView } from './components/GateEceView';
 import { HomeView } from './components/HomeView';
 import { StudyHubView } from './components/StudyHubView';
 import { ToolsHubView } from './components/ToolsHubView';
@@ -569,6 +570,26 @@ function AppContent() {
                 size_bytes: 0
               } as any);
             }}
+          />
+        )}
+
+        {activeNavView === 'gate-ece' && (
+          <GateEceView
+            onPreviewPdf={(url, title) => {
+              setActivePreviewDoc({
+                id: 'gate-preview-' + Date.now(),
+                title: title,
+                filename: title.endsWith('.pdf') ? title : title + '.pdf',
+                subject_id: 'GATE_ECE_Vault',
+                category: 'Practice_Material',
+                download_url: url,
+                preview_url: url,
+                view_url: url,
+                verified: true,
+                size_bytes: 0
+              } as any);
+            }}
+            onNavigateHome={() => setActiveNavView('home')}
           />
         )}
 
