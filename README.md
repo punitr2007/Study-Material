@@ -22,12 +22,12 @@
 
 | # | Subject Code | Subject Name | Key Resources Available |
 | :-: | :--- | :--- | :--- |
-| 01 | `EAEPC302` | [Signals and Systems](01_Signals_and_Systems_EAEPC302/README.md) | downloaded pyqs, downloaded notes, Textbooks, Handwritten Notes, Assignments, Lecture Slides |
-| 02 | `EAEPC303` | [Probability Theory and Random Process](02_Probability_Theory_and_Random_Process_EAEPC303/README.md) | Practice Material, downloaded pyqs, downloaded notes, Textbooks, Assignments and Tutorials |
-| 03 | `EAEPC304` | [Microelectronics Circuits and Applications](03_Microelectronics_Circuits_and_Applications_EAEPC304/README.md) | Lecture Slides Prof Razavi, downloaded pyqs, downloaded notes, Textbooks, Assignments, Lab Manuals and Experiments, Practice and Reference Material |
-| 04 | `EAEPC305` | [Digital Circuits and Systems](04_Digital_Circuits_and_Systems_EAEPC305/README.md) | downloaded pyqs, downloaded notes, Textbooks, Syllabus, Handwritten Notes, Assignments |
-| 05 | `EPMTC301` | [Mathematics For Machine Learning](05_Mathematics_For_Machine_Learning_EPMTC301/README.md) | Practice Material, downloaded pyqs, Assignments and Tutorials, Textbooks and References, Linear Algebra Done Right |
-| 06 | `NPTEL109104107` | [NPTEL Developing Soft Skills and Personality](06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/README.md) | downloaded notes, Complete Course Reference, Assignments, Lecture Slides |
+| 01 | `EAEPC302` | [Signals and Systems](01_Signals_and_Systems_EAEPC302/README.md) | Lecture Slides, Textbooks, Handwritten Notes, downloaded pyqs, downloaded notes, Assignments |
+| 02 | `EAEPC303` | [Probability Theory and Random Process](02_Probability_Theory_and_Random_Process_EAEPC303/README.md) | Textbooks, Practice Material, downloaded pyqs, downloaded notes, Assignments and Tutorials |
+| 03 | `EAEPC304` | [Microelectronics Circuits and Applications](03_Microelectronics_Circuits_and_Applications_EAEPC304/README.md) | Textbooks, downloaded pyqs, Lecture Slides Prof Razavi, downloaded notes, Practice and Reference Material, Lab Manuals and Experiments, Assignments |
+| 04 | `EAEPC305` | [Digital Circuits and Systems](04_Digital_Circuits_and_Systems_EAEPC305/README.md) | Textbooks, Handwritten Notes, Syllabus, downloaded pyqs, downloaded notes, Assignments |
+| 05 | `EPMTC301` | [Mathematics For Machine Learning](05_Mathematics_For_Machine_Learning_EPMTC301/README.md) | Practice Material, downloaded pyqs, Linear Algebra Done Right, Assignments and Tutorials, Textbooks and References |
+| 06 | `NPTEL109104107` | [NPTEL Developing Soft Skills and Personality](06_NPTEL_Developing_Soft_Skills_and_Personality_NPTEL109104107/README.md) | Lecture Slides, downloaded notes, Complete Course Reference, Assignments |
 
 ---
 
