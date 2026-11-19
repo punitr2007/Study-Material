@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "generated_at": "2026-11-18T04:58:00.985099",
+  "generated_at": "2026-11-19T04:48:46.716854",
   "total_documents": 902,
   "semesters": {
     "sem1": 0,
@@ -18,8 +18,8 @@
       "code": "CAMTC13",
       "name": "CAMTC13,COMTC13",
       "aliases": [
-        "CAMTC13",
-        "COMTC13"
+        "COMTC13",
+        "CAMTC13"
       ],
       "branch": "General Engineering",
       "semester": "sem3",
@@ -29,11 +29,11 @@
       "code": "COMTC13",
       "name": "COMTC13 CAMTC13 CBMTC13 CDMTC13 CMMTC13",
       "aliases": [
-        "CDMTC13",
         "CBMTC13",
-        "CAMTC13",
+        "CMMTC13",
         "COMTC13",
-        "CMMTC13"
+        "CDMTC13",
+        "CAMTC13"
       ],
       "branch": "CSE (Computer Science & Engineering)",
       "semester": "sem3",
@@ -44,8 +44,8 @@
       "name": "COMTC305 CAMTC305 CMMTC305 CDMTC305 Probability and Statistics EndSem BTech CourseWork June2026",
       "aliases": [
         "CAMTC305",
-        "COMTC305",
-        "CMMTC305"
+        "CMMTC305",
+        "COMTC305"
       ],
       "branch": "CSE (Computer Science & Engineering)",
       "semester": "sem3",
@@ -95,8 +95,8 @@
       "code": "ECECC05",
       "name": "ECECC05,EIECC05",
       "aliases": [
-        "EIECC05",
-        "ECECC05"
+        "ECECC05",
+        "EIECC05"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -126,9 +126,9 @@
       "code": "ECECC08",
       "name": "ECECC08,EIECC08,ICECC08",
       "aliases": [
+        "ECECC08",
         "EIECC08",
-        "ICECC08",
-        "ECECC08"
+        "ICECC08"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -138,9 +138,9 @@
       "code": "ECECC302",
       "name": "ECECC302,VTECC302,EIECE302",
       "aliases": [
-        "EIECE302",
         "ECECC302",
-        "VTECC302"
+        "VTECC302",
+        "EIECE302"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -151,9 +151,9 @@
       "name": "ECECC303,EIECC303,ECECC06,EIECC06,VTECC303",
       "aliases": [
         "ECECC303",
-        "ECECC06",
         "VTECC303",
         "EIECC06",
+        "ECECC06",
         "EIECC303"
       ],
       "branch": "ECE (Electronics & Communication)",
@@ -175,10 +175,10 @@
       "code": "ECECC305",
       "name": "ECECC305,EIECC305,ICECC305,VTECC305",
       "aliases": [
-        "VTECC305",
-        "ICECC305",
         "ECECC305",
-        "EIECC305"
+        "ICECC305",
+        "EIECC305",
+        "VTECC305"
       ],
       "branch": "ECE (Electronics & Communication)",
       "semester": "sem3",
@@ -236,8 +236,8 @@
       "code": "INECC305",
       "name": "INECC305,ITECC305",
       "aliases": [
-        "ITECC305",
-        "INECC305"
+        "INECC305",
+        "ITECC305"
       ],
       "branch": "Instrumentation & Control",
       "semester": "sem3",
